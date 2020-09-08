@@ -1,0 +1,229 @@
+,Age,CalculatedBirthYear,Cannot Read,Cannot Write,Cause of Death,Census Year Match,Census.Year,Color..Race.or.Ethnicity,County_x,Date Mustered Out,Date of Death,Enlistment Date,Enlistment Place,First Name Match,First.Name,Household Joint ID,ID,Joint ID for Matched Records,LIVING W FEMALE FAMILY?,LIVING W FEMALE NONFAMILY?,LIVING W MALE FAMILY?,LIVING W MALE NONFAMILY?,Last Name MATCH,Last.Name,MARITAL,NOTE these only apply to narrative answers,Notable_x,PLACEOFBIRTH_x,PROFESSION_x,Place_x,RELIGION_x,ROLL or Sheet#,Rank (Military),Relation to Head of Household,STREET,Sex_x,Sick,State/Province_x,Total of Matches,WARD,Year of Immigration to Canada if an Immigrant,Year of this Record,address,lat_x,long_x,unique_id,dup_pair
+0,26.0,1835.0,,,,,1861.0,M,Hamilton,,,,,,Maria,,,,,,,,,Alexander,,450.0,,SCO,,St. George's Ward,Episcopal Methodist,105.0,,,,M,,Ontario,,,,,,,,796.0,0
+1,26.0,1835.0,,,,100.0,1861.0,M,Hamilton,,,,,#REF!,Maria,,,,450.0,,105.0,,0.0,Alexander,,,,SCO,,St. George's Ward,Episcopal Methodist,,,,,M,,Ontario,#REF!,,,,,,,827.0,0
+2,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Atkinson,,447.0,,KY,porter,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,1687.0,1
+3,27.0,1834.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,H,,,,447.0,,134.0,,0.0,Atkinson,,,,KY,porter,St. George's Ward,Baptist,,,,,M,,Ontario,#REF!,,,,,,,1695.0,1
+4,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,,,,,,Baden,,445.0,,UC,,St. Andrew's Ward,Wesleyan Methodist,307.0,,,,F,,Ontario,,,,,,,,1828.0,2
+5,24.0,1837.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,E,,,,445.0,,307.0,,0.0,Baden,,,,UC,,St. Andrew's Ward,Wesleyan Methodist,,,,,F,,Ontario,#REF!,,,,,,,1829.0,2
+6,31.0,1830.0,,,,,1861.0,B,Hamilton,,,,,,A E,,,,,,,,,Ballard,,447.0,,WIN,,St. George's Ward,Church of England,8.0,,,,F,,Ontario,,,,,,,,2082.0,3
+7,31.0,1830.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,A E,,,,447.0,,8.0,,0.0,Ballard,,,,WIN,,St. George's Ward,Church of England,,,,,F,,Ontario,#REF!,,,,,,,2084.0,3
+8,41.0,1820.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Ballard,,447.0,,PA,shoemaker,St. George's Ward,Church of England,8.0,,,,M,,Ontario,,,,,,,,2083.0,4
+9,41.0,1820.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,J,,,,447.0,,8.0,,0.0,Ballard,,,,PA,shoemaker,St. George's Ward,Church of England,,,,,M,,Ontario,#REF!,,,,,,,2085.0,4
+10,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,W E,,,,,,,,,Barnum,,445.0,,MD,laborer,St. Andrew's Ward,Wesleyan Methodist,373.0,,,,M,,Ontario,,,,,,,,2388.0,5
+11,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,W E,,,,445.0,,373.0,,,Barnum,,,,MD,laborer,St. Andrew's Ward,Wesleyan Methodist,,,,,M,,Ontario,,,,,,,,2390.0,5
+12,6.0,1855.0,,,,,1861.0,B,Hamilton,,,,,,S,,,,,,,,,Bernard,,445.0,,UC,,St. Andrew's Ward,Wesleyan Methodist,307.0,,,,M,,Ontario,,,,,,,,3275.0,6
+13,6.0,1855.0,,,,,1861.0,B,Hamilton,,,,,,S,,,,445.0,,307.0,,,Bernard,,,,UC,,St. Andrew's Ward,Wesleyan Methodist,,,,,M,,Ontario,,,,,,,,3281.0,6
+14,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,ALBERTJ,,17290.0,,,,,,,BISHOP,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,3651.0,7
+15,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,ALBERTJ,,17352.0,,,,,,,BISHOP,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,3652.0,7
+16,24.0,1896.0,,,,,1920.0,B,CUMBERLAND,,,,,,MORLEY,,20206.0,,,,,,,BOWLAS,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.659099299999994,-70.2568189,4405.0,8
+17,24.0,1896.0,,,,,1920.0,B,CUMBERLAND,,,,,,MORLEY,,20219.0,,,,,,,BOWLAS,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.661471,-70.2553259,4406.0,8
+18,35.0,1826.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,,,,,,Brown,,445.0,,USA,,St. Andrew's Ward,Baptist,306.0,,,,F,,Ontario,,,,,,,,5784.0,9
+19,35.0,1826.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,445.0,,306.0,,,Brown,,,,USA,,St. Andrew's Ward,Baptist,,,,,F,,Ontario,,,,,,,,5900.0,9
+20,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,LULU,,17298.0,,,,,,,BROWN,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,6056.0,10
+21,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,LULU,,17360.0,,,,,,,BROWN,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,6057.0,10
+22,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Burk,,447.0,,KY,waiter,St. George's Ward,Baptist,27.0,,,,M,,Ontario,,,,,,,,6599.0,11
+23,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,447.0,,27.0,,,Burk,,,,KY,waiter,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,6602.0,11
+24,10.0,1851.0,,,,,1861.0,B,Hamilton,,,,,,J A,,,,,,,,,Burnell,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,6654.0,12
+25,10.0,1851.0,,,,,1861.0,B,Hamilton,,,,,,J A,,,,445.0,,374.0,,,Burnell,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,6656.0,12
+26,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,JOSEPH,,17291.0,,,,,,,BUTLER,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,7145.0,13
+27,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,JOSEPH,,17353.0,,,,,,,BUTLER,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,7146.0,13
+28,20.0,1880.0,0.0,0.0,5.0,,1900.0,Black,WAYNE,,2.0,1211.0,,,Minnie,,1900 IPUMS 5% sample,,3.0,1.0,1.0,20.0,,Cambell,19.0,1.0,65113001.0,Canada,Servant,DETROIT,1,1.0,5210.0,99.0,20.0,F,99.0,MI,,0.0,0.0,,3,42.331427000000005,-83.0457538,7378.0,14
+29,20.0,1880.0,,,,,1900.0,B,WAYNE,,,,,,MINNIE,,6025,,,,,,,CAMBELL,,,,,,DETROIT,,,,,,F,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,7382.0,14
+30,27.0,1893.0,,,,,1920.0,B,ALAMEDA,,,,,,JAMES,,15853,,,,,,,CLAXTON,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,8864.0,15
+31,27.0,1893.0,,,,,1920.0,B,ALAMEDA,,,,,,JAMES,,15878,,,,,,,CLAXTON,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,8865.0,15
+32,46.0,1815.0,,,,,1861.0,B,Hamilton,,,,,,P A,,,,,,,,,Colbert,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,9162.0,16
+33,46.0,1815.0,,,,,1861.0,B,Hamilton,,,,,,P A,,,,445.0,,374.0,,,Colbert,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,9167.0,16
+34,21.0,1899.0,,,,,1920.0,B,KINGS,,,,,,MELVIEL,,16556,,,,,,,COLDER,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999999,9186.0,17
+35,21.0,1899.0,,,,,1920.0,B,KINGS,,,,,,MELVIEL,,16587,,,,,,,COLDER,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000001,9187.0,17
+36,14.0,1906.0,,,,,1920.0,B,LUCAS,,,,,,MARGARET,,17286,,,,,,,COOK,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,9732.0,18
+37,14.0,1906.0,,,,,1920.0,B,LUCAS,,,,,,MARGARET,,17348,,,,,,,COOK,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,9733.0,18
+38,28.0,1833.0,,,,,1861.0,B,Hamilton,,,,,,C,,,,,,,,,Cooper,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,9832.0,19
+39,28.0,1833.0,,,,,1861.0,B,Hamilton,,,,,,C,,,,445.0,,374.0,,,Cooper,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,9860.0,19
+40,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,ARTHUR,,15864,,,,,,,COSTELLO,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,10084.0,20
+41,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,ARTHUR,,15889,,,,,,,COSTELLO,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,10085.0,20
+42,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAROLD,,20307,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,10524.0,21
+43,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAROLD,,20355,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,10525.0,21
+44,19.0,1901.0,,,,,1920.0,B,PENOBSCOT,,,,,,MARRY,,20266,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,10536.0,22
+45,19.0,1901.0,,,,,1920.0,B,PENOBSCOT,,,,,,MARRY,,20314,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,10537.0,22
+46,29.0,1851.0,,,,,1880.0,Mulatto,Wayne,,,,,,Dora,,Matson,41.0,,,,,,Crosby,M,,YY WDSR,Mexico,Keeping House,Detroit,-,,,,-,F,,Michigan,,,,,,,,10569.0,23
+47,29.0,1851.0,2.0,2.0,2.0,,1880.0,Mulatto(BlackandWhite),WAYNE,,,201.0,,,DORA,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,CROSBY,1,1.0,4432900000,22060,KEEPINGHOUSE,DETROIT,1,1.0,2100.0,1.0,10,F,3.0,MI,,0.0,0.0,,5,42.331427000000005,-83.0457538,10585.0,23
+48,32.0,1878.0,1.0,1.0,5.0,,1910.0,Black,WAYNE,,2.0,1203.0,,,WILLIAM,,1910 IPUMS 1% sample,,3.0,3.0,1.0,100.0,,CURTISS,100,1.0,87323000,Canada,LAB,DETROIT,1,3.0,5320.0,3.0,40,M,3.0,MI,,0.0,0.0,,5,42.331427000000005,-83.0457538,10980.0,24
+49,32.0,1878.0,,,,,1910.0,B,WAYNE,,,,,,WILLIAM,,12509,,,,,,,CURTISS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,10983.0,24
+50,20.0,1850.0,,,,,1870.0,B,WAYNE,,,,,,MACK,,,,,,,,,DALLAS,,,YCHECK,,,1-WDDETROIT,,,,,,M,,MI,,,,,,,,11094.0,25
+51,20.0,1850.0,,,,,1870.0,B,WAYNE,,,,,,MACK,,,,,,,,,DALLAS,,,YCHECK,,,3-WDDETROIT,,,,,,M,,MI,,,,,,,,11095.0,25
+52,9.0,1852.0,,,,,1861.0,B,Hamilton,,,,,,Eliza E,,,,,,,,,Davis,,449.0,,MD,,St. George's Ward,Wesleyan Methodist,552.0,,,,F,,Ontario,,,,,,,,11448.0,26
+53,9.0,1852.0,,,,,1861.0,B,Hamilton,,,,,,Eliza E,,,,449.0,,552.0,,,Davis,,,,MD,,St. George's Ward,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,11523.0,26
+54,6.0,1904.0,,,,,1910.0,B,HENNEPIN,,,,,,JENNIE,,13530,,,,,,,DAVIS,,,,,,MINNEAPOLIS,,,,,,F,,MN,,,,,"MINNEAPOLIS,HENNEPIN,MN",44.977753,-93.2650108,11554.0,27
+55,6.0,1904.0,,,,,1910.0,B,HENNEPIN,,,,,,JENNIE,,13531,,,,,,,DAVIS,,,,,,MINNEAPOLIS,,,,,,F,,MN,,,,,"MINNEAPOLIS,HENNEPIN,MN",44.977753,-93.2650108,11555.0,27
+56,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,F,,Ontario,,,,,,,,12690.0,28
+57,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,F,,Ontario,,,,,,,,12705.0,28
+58,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,F,,Ontario,,,,,,,,12691.0,29
+59,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,F,,Ontario,,,,,,,,12708.0,29
+60,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Dorsey,,445.0,,MD,stone mason,St. Andrew's Ward,Methodist,308.0,,,,M,,Ontario,,,,,,,,12692.0,30
+61,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,445.0,,308.0,,,Dorsey,,,,MD,stone mason,St. Andrew's Ward,Methodist,,,,,M,,Ontario,,,,,,,,12712.0,30
+62,4.0,1857.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,M,,Ontario,,,,,,,,12693.0,31
+63,4.0,1857.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,M,,Ontario,,,,,,,,12713.0,31
+64,24.0,1896.0,,,,,1920.0,M,PENOBSCOT,,,,,,M,,20270,,,,,,,DRISCOLL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,12984.0,32
+65,24.0,1896.0,,,,,1920.0,M,PENOBSCOT,,,,,,M,,20318,,,,,,,DRISCOLL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,12985.0,32
+66,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Eatress,,448.0,,UC,,St. George's Ward,Episcopal Methodist,273.0,,,,F,,Ontario,,,,,,,,13505.0,33
+67,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,448.0,,273.0,,,Eatress,,,,UC,,St. George's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,13506.0,33
+68,58.0,1803.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Emery,,447.0,,WIN,cook,St. George's Ward,Christian Church,26.0,,,,M,,Ontario,,,,,,,,14003.0,34
+69,58.0,1803.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,447.0,,26.0,,,Emery,,,,WIN,cook,St. George's Ward,Christian Church,,,,,M,,Ontario,,,,,,,,14007.0,34
+70,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,GERTRUDE,,20633,,,,,,,FASSETT,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,14476.0,35
+71,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,GERTRUDE,,20634,,,,,,,FASSETT,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,14477.0,35
+72,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,A,,,,,,,,,Gault,,447.0,,USA,,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,16442.0,36
+73,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,A,,,,447.0,,134.0,,,Gault,,,,USA,,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,16443.0,36
+74,35.0,1835.0,,,,,1870.0,M,CLINTON,,,,,,ALEXANDER,,1134,,,,,,,GORDON,,,,,,CHAMPLAIN,,,,,,M,,NY,,,,,"CHAMPLAIN,CLINTON,NY",44.986427299999995,-73.4465251,17322.0,37
+75,35.0,1835.0,,,,,1870.0,M,CLINTON,,,,,,ALEXANDER,,,,,,,,,GORDON,,,,,,CHAMPLAIN,,,,,,M,,NY,,,,,,,,17323.0,37
+76,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,W R,,,,,,,,,Gordon,,447.0,,MD,waiter,St. George's Ward,Roman Catholic,25.0,,,,M,,Ontario,,,,,,,,17317.0,38
+77,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,W R,,,,447.0,,25.0,,,Gordon,,,,MD,waiter,St. George's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,17360.0,38
+78,20.0,1900.0,,,,,1920.0,M,KINGS,,,,,,RUBY,,16574,,,,,,,GORDON,,,,,,BROOKLYN,,,,,,F,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999999,17354.0,39
+79,20.0,1900.0,,,,,1920.0,M,KINGS,,,,,,RUBY,,16605,,,,,,,GORDON,,,,,,BROOKLYN,,,,,,F,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000001,17355.0,39
+80,26.0,1894.0,,,,,1920.0,B,MONROE,,,,,,RUPBERT,,20095,,,,,,,GRAY,,,,,,ROCHESTER,,,,,,M,,NY,,,,,"ROCHESTER,MONROE,NY",43.156577899999995,-77.6088465,17810.0,40
+81,26.0,1894.0,,,,,1920.0,B,MONROE,,,,,,RUPBERT,,20118,,,,,,,GRAY,,,,,,ROCHESTER,,,,,,M,,NY,,,,,"ROCHESTER,MONROE,NY",43.16103,-77.61092190000001,17811.0,40
+82,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,ELIJAH,,17308,,,,,,,HALLEY,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,18961.0,41
+83,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,ELIJAH,,17370,,,,,,,HALLEY,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,18962.0,41
+84,28.0,1892.0,,,,,1920.0,B,ESSEX,,,,,,ESTHER,,19812,,,,,,,HAMILTON,,,,,,HAVERHILL,,,,,,F,,MA,,,,,"HAVERHILL,ESSEX,MA",42.7762015,-71.0772796,19066.0,42
+85,28.0,1892.0,,,,,1920.0,B,ESSEX,,,,,,ESTHER,,19813,,,,,,,HAMILTON,,,,,,HAVERHILL,,,,,,F,,MA,,,,,"HAVERHILL,ESSEX,MA",42.7762015,-71.0772796,19067.0,42
+86,22.0,1839.0,,,,,1861.0,M,Hamilton,,,,,,S,,,,,,,,,Harrison,,454.0,,USA,,St. Mary's Ward,Episcopal Methodist,79.0,,,,F,,Ontario,,,,,,,,20038.0,43
+87,22.0,1839.0,,,,,1861.0,M,Hamilton,,,,,,S,,,,454.0,,79.0,,,Harrison,,,,USA,,St. Mary's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,20091.0,43
+88,40.0,1821.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Harrison,,454.0,,USA,,St. Mary's Ward,none,79.0,,,,M,,Ontario,,,,,,,,20039.0,44
+89,40.0,1821.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,454.0,,79.0,,,Harrison,,,,USA,,St. Mary's Ward,none,,,,,M,,Ontario,,,,,,,,20100.0,44
+90,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,CHARLIE,,17289,,,,,,,HOBBS,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,21517.0,45
+91,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,CHARLIE,,17351,,,,,,,HOBBS,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,21518.0,45
+92,32.0,1829.0,,,,,1861.0,M,Hamilton,,,,,,W H,,,,,,,,,Howard,,444.0,,USA,tailor,St. Andrew's Ward,Roman Catholic,155.0,,,,M,,Ontario,,,,,,,,22151.0,46
+93,32.0,1829.0,,,,,1861.0,M,Hamilton,,,,,,W H,,,,444.0,,155.0,,,Howard,,,,USA,tailor,St. Andrew's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,22207.0,46
+94,39.0,1822.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Howard,,446.0,,MO,engineer,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22152.0,47
+95,39.0,1822.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,375.0,,,Howard,,,,MO,engineer,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22175.0,47
+96,5.0,1856.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22153.0,48
+97,5.0,1856.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22178.0,48
+98,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,22154.0,49
+99,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,22196.0,49
+100,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,V,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal Methodist,375.0,,,,F,,Ontario,,,,,,,,22155.0,50
+101,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,V,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,22205.0,50
+102,1.0,1860.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22156.0,51
+103,1.0,1860.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22206.0,51
+104,19.0,1842.0,,,,,1861.0,M,Hamilton,,,,,,J,,,,,,,,,Jackson,,454.0,,UC,,St. Mary's Ward,Baptist,264.0,,,,F,,Ontario,,,,,,,,23157.0,52
+105,19.0,1842.0,,,,,1861.0,M,Hamilton,,,,,,J,,,,454.0,,264.0,,,Jackson,,,,UC,,St. Mary's Ward,Baptist,,,,,F,,Ontario,,,,,,,,23316.0,52
+106,26.0,1894.0,,,,,1920.0,B,POLK,,,,,,GLADYS,,17256,,,,,,,JOHNSON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.5868353,-93.6249593,24875.0,53
+107,26.0,1894.0,,,,,1920.0,B,POLK,,,,,,GLADYS,,17263,,,,,,,JOHNSON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.600544799999994,-93.6091064,24876.0,53
+108,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,WILLIAM,,17293,,,,,,,JONES,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,26052.0,54
+109,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,WILLIAM,,17355,,,,,,,JONES,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,26053.0,54
+110,26.0,1835.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Jones,,447.0,,VA,butcher,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,25758.0,55
+111,26.0,1835.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,447.0,,134.0,,,Jones,,,,VA,butcher,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,25830.0,55
+112,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,ANABELLE,,17292,,,,,,,JONES,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,25814.0,56
+113,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,ANABELLE,,17354,,,,,,,JONES,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,25815.0,56
+114,71.0,1849.0,,,,,1920.0,B,ALAMEDA,,,,,,JW,,15857,,,,,,,JONES,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,25956.0,57
+115,71.0,1849.0,,,,,1920.0,B,ALAMEDA,,,,,,JW,,15882,,,,,,,JONES,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,25957.0,57
+116,5.0,1856.0,,,,,1861.0,M,Hamilton,,,,,,Beverly,,,,,,,,,Jordon,,450.0,,UC,,St. George's Ward,Church of England,81.0,,,,M,,Ontario,,,,,,,,26126.0,58
+117,5.0,1856.0,,,,,1861.0,M,Hamilton,,,,,,Beverly,,,,450.0,,81.0,,,Jordon,,,,UC,,St. George's Ward,Church of England,,,,,M,,Ontario,,,,,,,,26132.0,58
+118,25.0,1895.0,,,,,1920.0,B,POLK,,,,,,LAURA,,17258,,,,,,,JORDON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.5868353,-93.6249593,26136.0,59
+119,25.0,1895.0,,,,,1920.0,B,POLK,,,,,,LAURA,,17265,,,,,,,JORDON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.600544799999994,-93.6091064,26137.0,59
+120,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHND,,20287,,,,,,,LAWRENCE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,27501.0,60
+121,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHND,,20335,,,,,,,LAWRENCE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,27502.0,60
+122,21.0,1909.0,,,,,1930.0,B,NEWCASTLE,,,,,,THOMAS,,20596,,,,,,,LAWSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,27592.0,61
+123,21.0,1909.0,,,,,1930.0,B,NEWCASTLE,,,,,,THOMAS,,20597,,,,,,,LAWSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,27593.0,61
+124,,1910.0,,,,,1910.0,B,FRANKLIN,,,,,,MANUEL,,12861,,,,,,,LEITCHFIELD,,,,,,FRANKFORT,,,,,,M,,KY,,,,,"FRANKFORT,FRANKLIN,KY",38.2009055,-84.8732835,27874.0,62
+125,,1910.0,,,,,1910.0,B,FRANKLIN,,,,,,MANUEL,,12862,,,,,,,LEITCHFIELD,,,,,,FRANKFORT,,,,,,M,,KY,,,,,"FRANKFORT,FRANKLIN,KY",38.2009055,-84.8732835,27875.0,62
+126,50.0,1860.0,,,,,1910.0,M,WAYNE,,,,,,LOUISA,,12447,616.0,,,,,,LUCAS,,,YY,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,28855.0,63
+127,50.0,1860.0,1.0,0.0,1.0,,1910.0,Mulatto(BlackandWhite),WAYNE,,0.0,101.0,,,LOUISA,,1910 IPUMS 1% sample,,1.0,3.0,0.0,101.0,,LUCAS,102,1.0,87222000,Canada,PACKER,DETROIT,1,0.0,1000.0,15.0,40,M,15.0,MI,,0.0,0.0,,3,42.331427000000005,-83.0457538,28874.0,63
+128,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,GEORGER,,20288,,,,,,,LUK,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,28986.0,64
+129,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,GEORGER,,20336,,,,,,,LUK,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,28987.0,64
+130,32.0,1838.0,,,,,1870.0,M,FRANKLIN,,,,,,JOHNJR,,1301,,,,,,,MATEVIA,,,,,,CHATEAUGAY,,,,,,M,,NY,,,,,"CHATEAUGAY,FRANKLIN,NY",44.9264336,-74.0796081,29918.0,65
+131,32.0,1838.0,,,,,1870.0,M,FRANKLIN,,,,,,JOHNJR,,,,,,,,,MATEVIA,,,,,,CHATEAUGAY,,,,,,M,,NY,,,,,,,,29919.0,65
+132,9.0,1911.0,,,,,1920.0,B,PENOBSCOT,,,,,,ARVILLA,,20290,,,,,,,MCINTIRE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,30633.0,66
+133,9.0,1911.0,,,,,1920.0,B,PENOBSCOT,,,,,,ARVILLA,,20338,,,,,,,MCINTIRE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,30634.0,66
+134,53.0,1808.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Meads,,446.0,,USA,,St. Andrew's Ward,Baptist,396.0,,,,F,,Ontario,,,,,,,,30954.0,67
+135,53.0,1808.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,396.0,,,Meads,,,,USA,,St. Andrew's Ward,Baptist,,,,,F,,Ontario,,,,,,,,30960.0,67
+136,2.0,1859.0,,,,,1861.0,M,Hamilton,,,,,,J G,,,,,,,,,Meads,,449.0,,UC,,St. George's Ward,Roman Catholic,570.0,,,,F,,Ontario,,,,,,,,30957.0,68
+137,2.0,1859.0,,,,,1861.0,M,Hamilton,,,,,,J G,,,,449.0,,570.0,,,Meads,,,,UC,,St. George's Ward,Roman Catholic,,,,,F,,Ontario,,,,,,,,30961.0,68
+138,21.0,1840.0,,,,,1861.0,B,Hamilton,,,,,,John H,,,,,,,,,Meads,,449.0,,USA,cook,St. George's Ward,Roman Catholic,570.0,,,,M,,Ontario,,,,,,,,30958.0,69
+139,21.0,1840.0,,,,,1861.0,B,Hamilton,,,,,,John H,,,,449.0,,570.0,,,Meads,,,,USA,cook,St. George's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,30962.0,69
+140,38.0,1862.0,2.0,0.0,1.0,,1900.0,Black,WAYNE,,0.0,101.0,,,John,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Melody,20,1.0,65197004,Canada,Laborer,DETROIT,1,0.0,1000.0,11.0,20,M,15.0,MI,,0.0,0.0,,4,42.331427000000005,-83.0457538,31013.0,70
+141,38.0,1862.0,,,,,1900.0,B,WAYNE,,,,,,JOHN,,6896,,,,,,,MELODY,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,31015.0,70
+142,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,AGNESS,,17335,,,,,,,MILLER,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,31425.0,71
+143,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,AGNESS,,17397,,,,,,,MILLER,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,31426.0,71
+144,17.0,1903.0,,,,,1920.0,M,PENOBSCOT,,,,,,JAMES,,20303,,,,,,,MILLS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,31562.0,72
+145,17.0,1903.0,,,,,1920.0,M,PENOBSCOT,,,,,,JAMES,,20351,,,,,,,MILLS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,31563.0,72
+146,15.0,1905.0,,,,,1920.0,B,PENOBSCOT,,,,,,ANNAE,,20310,,,,,,,MILLS,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,31555.0,73
+147,15.0,1905.0,,,,,1920.0,B,PENOBSCOT,,,,,,ANNAE,,20358,,,,,,,MILLS,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,31556.0,73
+148,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,CHARLES,,15866,,,,,,,MITCHEL,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,31718.0,74
+149,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,CHARLES,,15891,,,,,,,MITCHEL,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,31719.0,74
+150,22.0,1858.0,0.0,0.0,3.0,,1880.0,Black,WAYNE,,,301.0,,,RICHARD,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,MOORE,1,1.0,4417560000,Canada,COOKONBOAT,DETROIT,1,0.0,3100.0,99.0,10,M,99.0,MI,,0.0,3.0,,5,42.331427000000005,-83.0457538,32060.0,75
+151,22.0,1858.0,0.0,0.0,1.0,,1880.0,Black,WAYNE,,,101.0,,,RICHARD,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,MOORE,1,1.0,4422719000,Canada,COOK,DETROIT,1,0.0,1000.0,99.0,10,M,99.0,MI,,0.0,0.0,,2,42.331427000000005,-83.0457538,32067.0,75
+152,21.0,1899.0,,,,,1920.0,B,LUCAS,,,,,,ETHEL,,17314,,,,,,,MORRIS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,32474.0,76
+153,21.0,1899.0,,,,,1920.0,B,LUCAS,,,,,,ETHEL,,17376,,,,,,,MORRIS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,32475.0,76
+154,11.0,1850.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Munro,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,32899.0,77
+155,11.0,1850.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,446.0,,375.0,,,Munro,,,,CW,,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,32905.0,77
+156,20.0,1841.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Munro,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,32900.0,78
+157,20.0,1841.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,375.0,,,Munro,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,32906.0,78
+158,18.0,1843.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Munro,,446.0,,CW,laborer,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,32901.0,79
+159,18.0,1843.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,446.0,,375.0,,,Munro,,,,CW,laborer,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,32908.0,79
+160,24.0,1896.0,,,,,1920.0,M,CUMBERLAND,,,,,,ARTHURJ,,20210,,,,,,,MURDOCK,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.659099299999994,-70.2568189,32939.0,80
+161,24.0,1896.0,,,,,1920.0,M,CUMBERLAND,,,,,,ARTHURJ,,20223,,,,,,,MURDOCK,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.661471,-70.2553259,32940.0,80
+162,19.0,1851.0,,,,,1870.0,B,NIAGARA,,,,,,JOHNA,,1629,,,,,,,MURPHY,,,,,,NIAGARAFALLS,,,,,,M,,NY,,,,,"NIAGARAFALLS,NIAGARA,NY",43.0962143,-79.03773879999999,33001.0,81
+163,19.0,1851.0,,,,,1870.0,B,NIAGARA,,,,,,JOHNA.,,1638,,,,,,,MURPHY,,,,,,NIAGARAFALLS,,,,,,M,,NY,,,,,"NIAGARAFALLS,NIAGARA,NY",43.0962143,-79.03773879999999,33002.0,81
+164,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,Mary Ann,,,,,,,,,Myers,,450.0,,ENG,dressmaker,St. George's Ward,Church of England,81.0,,,,M,,Ontario,,,,,,,,33129.0,82
+165,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,Mary Ann,,,,450.0,,81.0,,,Myers,,,,ENG,dressmaker,St. George's Ward,Church of England,,,,,M,,Ontario,,,,,,,,33139.0,82
+166,35.0,1865.0,0.0,0.0,5.0,,1900.0,Black,WAYNE,,5.0,1202.0,,,George,,1900 IPUMS 5% sample,,5.0,1.0,0.0,20.0,,Newton,20,1.0,65185012,Canada,Molder,DETROIT,1,2.0,5310.0,99.0,20,M,99.0,MI,,0.0,0.0,,6,42.331427000000005,-83.0457538,33483.0,83
+167,35.0,1865.0,,,,,1900.0,B,WAYNE,,,,,,GEORGE,,6122,,,,,,,NEWTON,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,33507.0,83
+168,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,Sarah,,,,,,,,,Page,,448.0,,CAN,,St. George's Ward,Baptist,483.0,,,,M,,Ontario,,,,,,,,34228.0,84
+169,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,Sarah,,,,448.0,,483.0,,,Page,,,,CAN,,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,34241.0,84
+170,33.0,1867.0,2.0,0.0,1.0,,1900.0,Black,WAYNE,,2.0,101.0,,,Lizzie,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Parker,20,1.0,65185012,Canada,officecleaning,DETROIT,1,2.0,1000.0,17.0,20,F,18.0,MI,,0.0,0.0,,6,42.331427000000005,-83.0457538,34434.0,85
+171,33.0,1867.0,,,,,1900.0,B,WAYNE,,,,,,LIZZIE,,6127,,,,,,,PARKER,,,,,,DETROIT,,,,,,F,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,34539.0,85
+172,22.0,1898.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAZEL,,20304,,,,,,,PAYNE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,34876.0,86
+173,22.0,1898.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAZEL,,20352,,,,,,,PAYNE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,34877.0,86
+174,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,GLADYS,,17310,,,,,,,PERKINS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,35076.0,87
+175,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,GLADYS,,17372,,,,,,,PERKINS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,35077.0,87
+176,26.0,1874.0,0.0,0.0,1.0,,1900.0,Black,WAYNE,,2.0,101.0,,,Joshua,,1900 IPUMS 5% sample,,1.0,2.0,1.0,20.0,,Peters,20,1.0,65176001,Canada,Teamster,DETROIT,1,2.0,1000.0,99.0,20,M,99.0,MI,,0.0,0.0,,4,42.331427000000005,-83.0457538,35233.0,88
+177,26.0,1874.0,,,,,1900.0,B,WAYNE,,,,,,JOSHUA,,6131,,,,,,,PETERS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,35273.0,88
+178,28.0,1892.0,,,,,1920.0,M,PENOBSCOT,,,,,,SHENTONH,,20313,,,,,,,PETERS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,35288.0,89
+179,28.0,1892.0,,,,,1920.0,M,PENOBSCOT,,,,,,SHENTONH,,20361,,,,,,,PETERS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,35289.0,89
+180,15.0,1846.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Phillips,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,35520.0,90
+181,15.0,1846.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,445.0,,374.0,,,Phillips,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,35551.0,90
+182,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,WILLIAM,,17303,,,,,,,RHODE,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,37132.0,91
+183,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,WILLIAM,,17365,,,,,,,RHODE,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,37133.0,91
+184,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,MOSES,,20624,,,,,,,ROBINSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,38192.0,92
+185,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,MOSES,,20625,,,,,,,ROBINSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,38193.0,92
+186,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,T,,,,,,,,,Robison,,445.0,,CW,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,38239.0,93
+187,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,T,,,,445.0,,374.0,,,Robison,,,,CW,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,38258.0,93
+188,27.0,1873.0,0.0,0.0,1.0,,1900.0,Black,WAYNE,,0.0,101.0,,,John,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Roy,20,1.0,65144002,Canada,DayLaborer,DETROIT,1,0.0,1000.0,99.0,20,M,99.0,MI,,0.0,0.0,,2,42.331427000000005,-83.0457538,38647.0,94
+189,27.0,1873.0,,,,,1900.0,B,WAYNE,,,,,,JOHN,,6148,,,,,,,ROY,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,38654.0,94
+190,31.0,1899.0,,,,,1930.0,B,NEWCASTLE,,,,,,ERVIN,,20635,,,,,,,RUSSEL,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,38751.0,95
+191,31.0,1899.0,,,,,1930.0,B,NEWCASTLE,,,,,,ERVIN,,20636,,,,,,,RUSSEL,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,38752.0,95
+192,23.0,1897.0,,,,,1920.0,B,LUCAS,,,,,,DAN,,17336,,,,,,,SCOTT,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,39447.0,96
+193,23.0,1897.0,,,,,1920.0,B,LUCAS,,,,,,DAN,,17398,,,,,,,SCOTT,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,39448.0,96
+194,3.0,1861.0,,,,,1864.0,C,Essex,,,,,,Abigail,,,,,,,,,Smith,S,,,Windsor,(SamuelHamilton),Windsor,Baptist,766.0,,,BruceW,F,,CanadaWest,,1.0,,,,42.031490000000005,-83.0364,41508.0,97
+195,3.0,1861.0,,,,,1864.0,C,Essex,,,,,,Abigail,,,,,,,,,Smith,S,,,CanadaW,[Blank],Windsor,Baptist,1981.0,,,MercerE,F,,CanadaWest,,2.0,,,,42.031490000000005,-83.0364,41509.0,97
+196,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,RAYMOND,,20297,,,,,,,SMITH,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,41886.0,98
+197,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,RAYMOND,,20345,,,,,,,SMITH,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,41887.0,98
+198,24.0,1896.0,,,,,1920.0,B,KINGS,,,,,,CJ,,16579,,,,,,,SPRUNKLE,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999999,42321.0,99
+199,24.0,1896.0,,,,,1920.0,B,KINGS,,,,,,CJ,,16610,,,,,,,SPRUNKLE,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000001,42322.0,99
+200,25.0,1836.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Stockton,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,43071.0,100
+201,25.0,1836.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,445.0,,374.0,,,Stockton,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,43073.0,100
+202,48.0,1872.0,,,,,1920.0,B,KINGS,,,,,,ALBERT,,16562,769.0,,,,,,TAYLOR,,,YY,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.959494,43782.0,101
+203,48.0,1872.0,,,,,1920.0,B,KINGS,,,,,,ALBERT,,16593,769.0,,,,,,TAYLOR,,,YY,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.9441579,43783.0,101
+204,36.0,1825.0,,,,,1861.0,B,Hamilton,,,,,,B W,,,,,,,,,Terman,,448.0,,UC,stonecutter,St. George's Ward,Baptist,505.0,,,,F,,Ontario,,,,,,,,44247.0,102
+205,36.0,1825.0,,,,,1861.0,B,Hamilton,,,,,,B W,,,,448.0,,505.0,,,Terman,,,,UC,stonecutter,St. George's Ward,Baptist,,,,,F,,Ontario,,,,,,,,44249.0,102
+206,28.0,1892.0,,,,,1920.0,B,LUCAS,,,,,,JOHN,,17320,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,44956.0,103
+207,28.0,1892.0,,,,,1920.0,B,LUCAS,,,,,,JOHN,,17382,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,44957.0,103
+208,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,MARYE,,17342,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,44990.0,104
+209,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,MARYE,,17404,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,44991.0,104
+210,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ROY,,20637,,,,,,,UNDERWOOD,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,45949.0,105
+211,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ROY,,20638,,,,,,,UNDERWOOD,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,45950.0,105
+212,54.0,1846.0,0.0,0.0,3.0,,1900.0,Black,WAYNE,,2.0,302.0,,,Proctor,,1900 IPUMS 5% sample,,7.0,5.0,0.0,20.0,,Watson,19,1.0,65199002,Canada,Laborer,DETROIT,1,2.0,3200.0,99.0,20,M,99.0,MI,,0.0,0.0,,7,42.331427000000005,-83.0457538,47425.0,106
+213,54.0,1846.0,,,,,1900.0,B,WAYNE,,,,,,PROCTOR,,6899,,,,,,,WATSON,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,47493.0,106
+214,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),WAYNE,,,1211.0,,,EDWARD,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,WATSON,1,1.0,4415705000,Canada,HOTELBELLBOY,DETROIT,1,1.0,5210.0,99.0,10,M,99.0,MI,,801.0,0.0,,1,42.331427000000005,-83.0457538,47426.0,107
+215,19.0,1861.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),WAYNE,,,1001.0,,,EDWARD,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,WATSON,1,1.0,4417621000,Canada,WAITERINHOTEL,DETROIT,1,0.0,4900.0,99.0,10,M,99.0,MI,,0.0,0.0,,5,42.331427000000005,-83.0457538,47427.0,107
+216,21.0,1840.0,,,,,1861.0,M,Hamilton,,,,,,E,,,,,,,,,Webb,,444.0,,USA,servant,St. Andrew's Ward,Baptist,201.0,,,,M,,Ontario,,,,,,,,47589.0,108
+217,21.0,1840.0,,,,,1861.0,M,Hamilton,,,,,,E,,,,444.0,,201.0,,,Webb,,,,USA,servant,St. Andrew's Ward,Baptist,,,,,M,,Ontario,,,,,,,,47600.0,108
+218,38.0,1823.0,,,,,1861.0,W,Hamilton,,,,,,Sarah J,,,,,,,,,Wells,,450.0,,USA,,St. George's Ward,Baptist,109.0,,,,F,,Ontario,,,,,,,,47764.0,109
+219,38.0,1823.0,,,,,1861.0,W,Hamilton,,,,,,Sarah J,,,,450.0,,109.0,,,Wells,,,,USA,,St. George's Ward,Baptist,,,,,F,,Ontario,,,,,,,,47782.0,109
+220,43.0,1818.0,,,,,1861.0,M,Hamilton,,,,,,W,,,,,,,,,Wells,,450.0,,USA,carpenter,St. George's Ward,Baptist,109.0,,,,M,,Ontario,,,,,,,,47765.0,110
+221,43.0,1818.0,,,,,1861.0,M,Hamilton,,,,,,W,,,,450.0,,109.0,,,Wells,,,,USA,carpenter,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,47783.0,110
+222,23.0,1897.0,,,,,1920.0,B,KINGS,,,,,,JAMES,,16569,,,,,,,WILLIAMS,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999999,49251.0,111
+223,23.0,1897.0,,,,,1920.0,B,KINGS,,,,,,JAMES,,16600,,,,,,,WILLIAMS,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000001,49252.0,111
+224,28.0,1892.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHNS,,20300,,,,,,,WISE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,50037.0,112
+225,28.0,1892.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHNS,,20348,,,,,,,WISE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.801612799999994,-68.7712257,50038.0,112
+226,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ALICE,,20564,,,,,,,YOUNG,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,50750.0,113
+227,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ALICE,,20565,,,,,,,YOUNG,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,50751.0,113

@@ -1,0 +1,1039 @@
+,Age,CalculatedBirthYear,Cannot Read,Cannot Write,Cause of Death,Census Year Match,Census.Year,Color..Race.or.Ethnicity,County_x,Date Mustered Out,Date of Death,Enlistment Date,Enlistment Place,First Name Match,First.Name,Household Joint ID,ID,Joint ID for Matched Records,LIVING W FEMALE FAMILY?,LIVING W FEMALE NONFAMILY?,LIVING W MALE FAMILY?,LIVING W MALE NONFAMILY?,Last Name MATCH,Last.Name,MARITAL,NOTE these only apply to narrative answers,Notable_x,PLACEOFBIRTH_x,PROFESSION_x,Place_x,RELIGION_x,ROLL or Sheet#,Rank (Military),Relation to Head of Household,STREET,Sex_x,Sick,State/Province_x,Total of Matches,WARD,Year of Immigration to Canada if an Immigrant,Year of this Record,address,lat_x,long_x,unique_id,dup_pair
+0,26.0,1835.0,,,,,1861.0,M,Hamilton,,,,,,Maria,,,,,,,,,Alexander,,450.0,,SCO,,St. George's Ward,Episcopal Methodist,105.0,,,,M,,Ontario,,,,,,,,796.0,0
+1,26.0,1835.0,,,,100.0,1861.0,M,Hamilton,,,,,#REF!,Maria,,,,450.0,,105.0,,0.0,Alexander,,,,SCO,,St. George's Ward,Episcopal Methodist,,,,,M,,Ontario,#REF!,,,,,,,827.0,0
+2,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Atkinson,,447.0,,KY,porter,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,1687.0,1
+3,27.0,1834.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,H,,,,447.0,,134.0,,0.0,Atkinson,,,,KY,porter,St. George's Ward,Baptist,,,,,M,,Ontario,#REF!,,,,,,,1695.0,1
+4,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,,,,,,Baden,,445.0,,UC,,St. Andrew's Ward,Wesleyan Methodist,307.0,,,,F,,Ontario,,,,,,,,1828.0,2
+5,24.0,1837.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,E,,,,445.0,,307.0,,0.0,Baden,,,,UC,,St. Andrew's Ward,Wesleyan Methodist,,,,,F,,Ontario,#REF!,,,,,,,1829.0,2
+6,31.0,1830.0,,,,,1861.0,B,Hamilton,,,,,,A E,,,,,,,,,Ballard,,447.0,,WIN,,St. George's Ward,Church of England,8.0,,,,F,,Ontario,,,,,,,,2082.0,3
+7,31.0,1830.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,A E,,,,447.0,,8.0,,0.0,Ballard,,,,WIN,,St. George's Ward,Church of England,,,,,F,,Ontario,#REF!,,,,,,,2084.0,3
+8,41.0,1820.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Ballard,,447.0,,PA,shoemaker,St. George's Ward,Church of England,8.0,,,,M,,Ontario,,,,,,,,2083.0,4
+9,41.0,1820.0,,,,0.0,1861.0,B,Hamilton,,,,,#REF!,J,,,,447.0,,8.0,,0.0,Ballard,,,,PA,shoemaker,St. George's Ward,Church of England,,,,,M,,Ontario,#REF!,,,,,,,2085.0,4
+10,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,W E,,,,,,,,,Barnum,,445.0,,MD,laborer,St. Andrew's Ward,Wesleyan Methodist,373.0,,,,M,,Ontario,,,,,,,,2388.0,5
+11,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,W E,,,,445.0,,373.0,,,Barnum,,,,MD,laborer,St. Andrew's Ward,Wesleyan Methodist,,,,,M,,Ontario,,,,,,,,2390.0,5
+12,6.0,1855.0,,,,,1861.0,B,Hamilton,,,,,,S,,,,,,,,,Bernard,,445.0,,UC,,St. Andrew's Ward,Wesleyan Methodist,307.0,,,,M,,Ontario,,,,,,,,3275.0,6
+13,6.0,1855.0,,,,,1861.0,B,Hamilton,,,,,,S,,,,445.0,,307.0,,,Bernard,,,,UC,,St. Andrew's Ward,Wesleyan Methodist,,,,,M,,Ontario,,,,,,,,3281.0,6
+14,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,ALBERTJ,,17290.0,,,,,,,BISHOP,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,3651.0,7
+15,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,ALBERTJ,,17352.0,,,,,,,BISHOP,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,3652.0,7
+16,24.0,1896.0,,,,,1920.0,B,CUMBERLAND,,,,,,MORLEY,,20206.0,,,,,,,BOWLAS,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.6590993,-70.2568189,4405.0,8
+17,24.0,1896.0,,,,,1920.0,B,CUMBERLAND,,,,,,MORLEY,,20219.0,,,,,,,BOWLAS,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.661471,-70.2553259,4406.0,8
+18,35.0,1826.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,,,,,,Brown,,445.0,,USA,,St. Andrew's Ward,Baptist,306.0,,,,F,,Ontario,,,,,,,,5784.0,9
+19,35.0,1826.0,,,,,1861.0,B,Hamilton,,,,,,E,,,,445.0,,306.0,,,Brown,,,,USA,,St. Andrew's Ward,Baptist,,,,,F,,Ontario,,,,,,,,5900.0,9
+20,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,LULU,,17298.0,,,,,,,BROWN,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,6056.0,10
+21,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,LULU,,17360.0,,,,,,,BROWN,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,6057.0,10
+22,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Burk,,447.0,,KY,waiter,St. George's Ward,Baptist,27.0,,,,M,,Ontario,,,,,,,,6599.0,11
+23,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,447.0,,27.0,,,Burk,,,,KY,waiter,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,6602.0,11
+24,10.0,1851.0,,,,,1861.0,B,Hamilton,,,,,,J A,,,,,,,,,Burnell,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,6654.0,12
+25,10.0,1851.0,,,,,1861.0,B,Hamilton,,,,,,J A,,,,445.0,,374.0,,,Burnell,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,6656.0,12
+26,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,JOSEPH,,17291.0,,,,,,,BUTLER,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,7145.0,13
+27,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,JOSEPH,,17353.0,,,,,,,BUTLER,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,7146.0,13
+28,20.0,1880.0,0.0,0.0,5.0,,1900.0,Black,WAYNE,,2.0,1211.0,,,Minnie,,1900 IPUMS 5% sample,,3.0,1.0,1.0,20.0,,Cambell,19.0,1.0,65113001.0,Canada,Servant,DETROIT,1,1.0,5210.0,99.0,20.0,F,99.0,MI,,0.0,0.0,,3,42.33142700000001,-83.0457538,7378.0,14
+29,20.0,1880.0,,,,,1900.0,B,WAYNE,,,,,,MINNIE,,6025,,,,,,,CAMBELL,,,,,,DETROIT,,,,,,F,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,7382.0,14
+30,27.0,1893.0,,,,,1920.0,B,ALAMEDA,,,,,,JAMES,,15853,,,,,,,CLAXTON,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,8864.0,15
+31,27.0,1893.0,,,,,1920.0,B,ALAMEDA,,,,,,JAMES,,15878,,,,,,,CLAXTON,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,8865.0,15
+32,46.0,1815.0,,,,,1861.0,B,Hamilton,,,,,,P A,,,,,,,,,Colbert,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,9162.0,16
+33,46.0,1815.0,,,,,1861.0,B,Hamilton,,,,,,P A,,,,445.0,,374.0,,,Colbert,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,9167.0,16
+34,21.0,1899.0,,,,,1920.0,B,KINGS,,,,,,MELVIEL,,16556,,,,,,,COLDER,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999998,9186.0,17
+35,21.0,1899.0,,,,,1920.0,B,KINGS,,,,,,MELVIEL,,16587,,,,,,,COLDER,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000002,9187.0,17
+36,14.0,1906.0,,,,,1920.0,B,LUCAS,,,,,,MARGARET,,17286,,,,,,,COOK,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,9732.0,18
+37,14.0,1906.0,,,,,1920.0,B,LUCAS,,,,,,MARGARET,,17348,,,,,,,COOK,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,9733.0,18
+38,28.0,1833.0,,,,,1861.0,B,Hamilton,,,,,,C,,,,,,,,,Cooper,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,9832.0,19
+39,28.0,1833.0,,,,,1861.0,B,Hamilton,,,,,,C,,,,445.0,,374.0,,,Cooper,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,9860.0,19
+40,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,ARTHUR,,15864,,,,,,,COSTELLO,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,10084.0,20
+41,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,ARTHUR,,15889,,,,,,,COSTELLO,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,10085.0,20
+42,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAROLD,,20307,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,10524.0,21
+43,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAROLD,,20355,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,10525.0,21
+44,19.0,1901.0,,,,,1920.0,B,PENOBSCOT,,,,,,MARRY,,20266,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,10536.0,22
+45,19.0,1901.0,,,,,1920.0,B,PENOBSCOT,,,,,,MARRY,,20314,,,,,,,CROMWELL,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,10537.0,22
+48,32.0,1878.0,1.0,1.0,5.0,,1910.0,Black,WAYNE,,2.0,1203.0,,,WILLIAM,,1910 IPUMS 1% sample,,3.0,3.0,1.0,100.0,,CURTISS,100,1.0,87323000,Canada,LAB,DETROIT,1,3.0,5320.0,3.0,40,M,3.0,MI,,0.0,0.0,,5,42.33142700000001,-83.0457538,10980.0,24
+49,32.0,1878.0,,,,,1910.0,B,WAYNE,,,,,,WILLIAM,,12509,,,,,,,CURTISS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,10983.0,24
+50,20.0,1850.0,,,,,1870.0,B,WAYNE,,,,,,MACK,,,,,,,,,DALLAS,,,YCHECK,,,1-WDDETROIT,,,,,,M,,MI,,,,,,,,11094.0,25
+51,20.0,1850.0,,,,,1870.0,B,WAYNE,,,,,,MACK,,,,,,,,,DALLAS,,,YCHECK,,,3-WDDETROIT,,,,,,M,,MI,,,,,,,,11095.0,25
+52,9.0,1852.0,,,,,1861.0,B,Hamilton,,,,,,Eliza E,,,,,,,,,Davis,,449.0,,MD,,St. George's Ward,Wesleyan Methodist,552.0,,,,F,,Ontario,,,,,,,,11448.0,26
+53,9.0,1852.0,,,,,1861.0,B,Hamilton,,,,,,Eliza E,,,,449.0,,552.0,,,Davis,,,,MD,,St. George's Ward,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,11523.0,26
+54,6.0,1904.0,,,,,1910.0,B,HENNEPIN,,,,,,JENNIE,,13530,,,,,,,DAVIS,,,,,,MINNEAPOLIS,,,,,,F,,MN,,,,,"MINNEAPOLIS,HENNEPIN,MN",44.977753,-93.2650108,11554.0,27
+55,6.0,1904.0,,,,,1910.0,B,HENNEPIN,,,,,,JENNIE,,13531,,,,,,,DAVIS,,,,,,MINNEAPOLIS,,,,,,F,,MN,,,,,"MINNEAPOLIS,HENNEPIN,MN",44.977753,-93.2650108,11555.0,27
+56,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,F,,Ontario,,,,,,,,12690.0,28
+57,24.0,1837.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,F,,Ontario,,,,,,,,12705.0,28
+58,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,F,,Ontario,,,,,,,,12691.0,29
+59,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,F,,Ontario,,,,,,,,12708.0,29
+60,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Dorsey,,445.0,,MD,stone mason,St. Andrew's Ward,Methodist,308.0,,,,M,,Ontario,,,,,,,,12692.0,30
+61,30.0,1831.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,445.0,,308.0,,,Dorsey,,,,MD,stone mason,St. Andrew's Ward,Methodist,,,,,M,,Ontario,,,,,,,,12712.0,30
+62,4.0,1857.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Dorsey,,445.0,,MD,,St. Andrew's Ward,Methodist,308.0,,,,M,,Ontario,,,,,,,,12693.0,31
+63,4.0,1857.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,445.0,,308.0,,,Dorsey,,,,MD,,St. Andrew's Ward,Methodist,,,,,M,,Ontario,,,,,,,,12713.0,31
+64,24.0,1896.0,,,,,1920.0,M,PENOBSCOT,,,,,,M,,20270,,,,,,,DRISCOLL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,12984.0,32
+65,24.0,1896.0,,,,,1920.0,M,PENOBSCOT,,,,,,M,,20318,,,,,,,DRISCOLL,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,12985.0,32
+66,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Eatress,,448.0,,UC,,St. George's Ward,Episcopal Methodist,273.0,,,,F,,Ontario,,,,,,,,13505.0,33
+67,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,448.0,,273.0,,,Eatress,,,,UC,,St. George's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,13506.0,33
+68,58.0,1803.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Emery,,447.0,,WIN,cook,St. George's Ward,Christian Church,26.0,,,,M,,Ontario,,,,,,,,14003.0,34
+69,58.0,1803.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,447.0,,26.0,,,Emery,,,,WIN,cook,St. George's Ward,Christian Church,,,,,M,,Ontario,,,,,,,,14007.0,34
+70,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,GERTRUDE,,20633,,,,,,,FASSETT,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,14476.0,35
+71,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,GERTRUDE,,20634,,,,,,,FASSETT,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,14477.0,35
+72,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,A,,,,,,,,,Gault,,447.0,,USA,,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,16442.0,36
+73,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,A,,,,447.0,,134.0,,,Gault,,,,USA,,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,16443.0,36
+74,35.0,1835.0,,,,,1870.0,M,CLINTON,,,,,,ALEXANDER,,1134,,,,,,,GORDON,,,,,,CHAMPLAIN,,,,,,M,,NY,,,,,"CHAMPLAIN,CLINTON,NY",44.9864273,-73.44652509999999,17322.0,37
+75,35.0,1835.0,,,,,1870.0,M,CLINTON,,,,,,ALEXANDER,,,,,,,,,GORDON,,,,,,CHAMPLAIN,,,,,,M,,NY,,,,,,,,17323.0,37
+76,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,W R,,,,,,,,,Gordon,,447.0,,MD,waiter,St. George's Ward,Roman Catholic,25.0,,,,M,,Ontario,,,,,,,,17317.0,38
+77,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,W R,,,,447.0,,25.0,,,Gordon,,,,MD,waiter,St. George's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,17360.0,38
+78,20.0,1900.0,,,,,1920.0,M,KINGS,,,,,,RUBY,,16574,,,,,,,GORDON,,,,,,BROOKLYN,,,,,,F,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999998,17354.0,39
+79,20.0,1900.0,,,,,1920.0,M,KINGS,,,,,,RUBY,,16605,,,,,,,GORDON,,,,,,BROOKLYN,,,,,,F,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000002,17355.0,39
+80,26.0,1894.0,,,,,1920.0,B,MONROE,,,,,,RUPBERT,,20095,,,,,,,GRAY,,,,,,ROCHESTER,,,,,,M,,NY,,,,,"ROCHESTER,MONROE,NY",43.1565779,-77.6088465,17810.0,40
+81,26.0,1894.0,,,,,1920.0,B,MONROE,,,,,,RUPBERT,,20118,,,,,,,GRAY,,,,,,ROCHESTER,,,,,,M,,NY,,,,,"ROCHESTER,MONROE,NY",43.16103,-77.61092190000002,17811.0,40
+82,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,ELIJAH,,17308,,,,,,,HALLEY,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,18961.0,41
+83,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,ELIJAH,,17370,,,,,,,HALLEY,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,18962.0,41
+84,28.0,1892.0,,,,,1920.0,B,ESSEX,,,,,,ESTHER,,19812,,,,,,,HAMILTON,,,,,,HAVERHILL,,,,,,F,,MA,,,,,"HAVERHILL,ESSEX,MA",42.7762015,-71.0772796,19066.0,42
+85,28.0,1892.0,,,,,1920.0,B,ESSEX,,,,,,ESTHER,,19813,,,,,,,HAMILTON,,,,,,HAVERHILL,,,,,,F,,MA,,,,,"HAVERHILL,ESSEX,MA",42.7762015,-71.0772796,19067.0,42
+86,22.0,1839.0,,,,,1861.0,M,Hamilton,,,,,,S,,,,,,,,,Harrison,,454.0,,USA,,St. Mary's Ward,Episcopal Methodist,79.0,,,,F,,Ontario,,,,,,,,20038.0,43
+87,22.0,1839.0,,,,,1861.0,M,Hamilton,,,,,,S,,,,454.0,,79.0,,,Harrison,,,,USA,,St. Mary's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,20091.0,43
+88,40.0,1821.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Harrison,,454.0,,USA,,St. Mary's Ward,none,79.0,,,,M,,Ontario,,,,,,,,20039.0,44
+89,40.0,1821.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,454.0,,79.0,,,Harrison,,,,USA,,St. Mary's Ward,none,,,,,M,,Ontario,,,,,,,,20100.0,44
+90,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,CHARLIE,,17289,,,,,,,HOBBS,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,21517.0,45
+91,25.0,1895.0,,,,,1920.0,B,LUCAS,,,,,,CHARLIE,,17351,,,,,,,HOBBS,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,21518.0,45
+92,32.0,1829.0,,,,,1861.0,M,Hamilton,,,,,,W H,,,,,,,,,Howard,,444.0,,USA,tailor,St. Andrew's Ward,Roman Catholic,155.0,,,,M,,Ontario,,,,,,,,22151.0,46
+93,32.0,1829.0,,,,,1861.0,M,Hamilton,,,,,,W H,,,,444.0,,155.0,,,Howard,,,,USA,tailor,St. Andrew's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,22207.0,46
+94,39.0,1822.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Howard,,446.0,,MO,engineer,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22152.0,47
+95,39.0,1822.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,375.0,,,Howard,,,,MO,engineer,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22175.0,47
+96,5.0,1856.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22153.0,48
+97,5.0,1856.0,,,,,1861.0,B,Hamilton,,,,,,J,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22178.0,48
+98,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,22154.0,49
+99,3.0,1858.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,22196.0,49
+100,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,V,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal Methodist,375.0,,,,F,,Ontario,,,,,,,,22155.0,50
+101,27.0,1834.0,,,,,1861.0,B,Hamilton,,,,,,V,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,22205.0,50
+102,1.0,1860.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Howard,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,22156.0,51
+103,1.0,1860.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,446.0,,375.0,,,Howard,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,22206.0,51
+104,19.0,1842.0,,,,,1861.0,M,Hamilton,,,,,,J,,,,,,,,,Jackson,,454.0,,UC,,St. Mary's Ward,Baptist,264.0,,,,F,,Ontario,,,,,,,,23157.0,52
+105,19.0,1842.0,,,,,1861.0,M,Hamilton,,,,,,J,,,,454.0,,264.0,,,Jackson,,,,UC,,St. Mary's Ward,Baptist,,,,,F,,Ontario,,,,,,,,23316.0,52
+106,26.0,1894.0,,,,,1920.0,B,POLK,,,,,,GLADYS,,17256,,,,,,,JOHNSON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.5868353,-93.6249593,24875.0,53
+107,26.0,1894.0,,,,,1920.0,B,POLK,,,,,,GLADYS,,17263,,,,,,,JOHNSON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.6005448,-93.6091064,24876.0,53
+108,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,WILLIAM,,17293,,,,,,,JONES,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,26052.0,54
+109,27.0,1893.0,,,,,1920.0,B,LUCAS,,,,,,WILLIAM,,17355,,,,,,,JONES,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,26053.0,54
+110,26.0,1835.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Jones,,447.0,,VA,butcher,St. George's Ward,Baptist,134.0,,,,M,,Ontario,,,,,,,,25758.0,55
+111,26.0,1835.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,447.0,,134.0,,,Jones,,,,VA,butcher,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,25830.0,55
+112,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,ANABELLE,,17292,,,,,,,JONES,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,25814.0,56
+113,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,ANABELLE,,17354,,,,,,,JONES,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,25815.0,56
+114,71.0,1849.0,,,,,1920.0,B,ALAMEDA,,,,,,JW,,15857,,,,,,,JONES,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,25956.0,57
+115,71.0,1849.0,,,,,1920.0,B,ALAMEDA,,,,,,JW,,15882,,,,,,,JONES,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,25957.0,57
+116,5.0,1856.0,,,,,1861.0,M,Hamilton,,,,,,Beverly,,,,,,,,,Jordon,,450.0,,UC,,St. George's Ward,Church of England,81.0,,,,M,,Ontario,,,,,,,,26126.0,58
+117,5.0,1856.0,,,,,1861.0,M,Hamilton,,,,,,Beverly,,,,450.0,,81.0,,,Jordon,,,,UC,,St. George's Ward,Church of England,,,,,M,,Ontario,,,,,,,,26132.0,58
+118,25.0,1895.0,,,,,1920.0,B,POLK,,,,,,LAURA,,17258,,,,,,,JORDON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.5868353,-93.6249593,26136.0,59
+119,25.0,1895.0,,,,,1920.0,B,POLK,,,,,,LAURA,,17265,,,,,,,JORDON,,,,,,DESMOINES,,,,,,F,,IA,,,,,"DESMOINES,POLK,IA",41.6005448,-93.6091064,26137.0,59
+120,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHND,,20287,,,,,,,LAWRENCE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,27501.0,60
+121,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHND,,20335,,,,,,,LAWRENCE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,27502.0,60
+122,21.0,1909.0,,,,,1930.0,B,NEWCASTLE,,,,,,THOMAS,,20596,,,,,,,LAWSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,27592.0,61
+123,21.0,1909.0,,,,,1930.0,B,NEWCASTLE,,,,,,THOMAS,,20597,,,,,,,LAWSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,27593.0,61
+124,,1910.0,,,,,1910.0,B,FRANKLIN,,,,,,MANUEL,,12861,,,,,,,LEITCHFIELD,,,,,,FRANKFORT,,,,,,M,,KY,,,,,"FRANKFORT,FRANKLIN,KY",38.2009055,-84.8732835,27874.0,62
+125,,1910.0,,,,,1910.0,B,FRANKLIN,,,,,,MANUEL,,12862,,,,,,,LEITCHFIELD,,,,,,FRANKFORT,,,,,,M,,KY,,,,,"FRANKFORT,FRANKLIN,KY",38.2009055,-84.8732835,27875.0,62
+128,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,GEORGER,,20288,,,,,,,LUK,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,28986.0,64
+129,25.0,1895.0,,,,,1920.0,B,PENOBSCOT,,,,,,GEORGER,,20336,,,,,,,LUK,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,28987.0,64
+130,32.0,1838.0,,,,,1870.0,M,FRANKLIN,,,,,,JOHNJR,,1301,,,,,,,MATEVIA,,,,,,CHATEAUGAY,,,,,,M,,NY,,,,,"CHATEAUGAY,FRANKLIN,NY",44.9264336,-74.07960809999999,29918.0,65
+131,32.0,1838.0,,,,,1870.0,M,FRANKLIN,,,,,,JOHNJR,,,,,,,,,MATEVIA,,,,,,CHATEAUGAY,,,,,,M,,NY,,,,,,,,29919.0,65
+132,9.0,1911.0,,,,,1920.0,B,PENOBSCOT,,,,,,ARVILLA,,20290,,,,,,,MCINTIRE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,30633.0,66
+133,9.0,1911.0,,,,,1920.0,B,PENOBSCOT,,,,,,ARVILLA,,20338,,,,,,,MCINTIRE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,30634.0,66
+134,53.0,1808.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Meads,,446.0,,USA,,St. Andrew's Ward,Baptist,396.0,,,,F,,Ontario,,,,,,,,30954.0,67
+135,53.0,1808.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,396.0,,,Meads,,,,USA,,St. Andrew's Ward,Baptist,,,,,F,,Ontario,,,,,,,,30960.0,67
+136,2.0,1859.0,,,,,1861.0,M,Hamilton,,,,,,J G,,,,,,,,,Meads,,449.0,,UC,,St. George's Ward,Roman Catholic,570.0,,,,F,,Ontario,,,,,,,,30957.0,68
+137,2.0,1859.0,,,,,1861.0,M,Hamilton,,,,,,J G,,,,449.0,,570.0,,,Meads,,,,UC,,St. George's Ward,Roman Catholic,,,,,F,,Ontario,,,,,,,,30961.0,68
+138,21.0,1840.0,,,,,1861.0,B,Hamilton,,,,,,John H,,,,,,,,,Meads,,449.0,,USA,cook,St. George's Ward,Roman Catholic,570.0,,,,M,,Ontario,,,,,,,,30958.0,69
+139,21.0,1840.0,,,,,1861.0,B,Hamilton,,,,,,John H,,,,449.0,,570.0,,,Meads,,,,USA,cook,St. George's Ward,Roman Catholic,,,,,M,,Ontario,,,,,,,,30962.0,69
+140,38.0,1862.0,2.0,0.0,1.0,,1900.0,Black,WAYNE,,0.0,101.0,,,John,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Melody,20,1.0,65197004,Canada,Laborer,DETROIT,1,0.0,1000.0,11.0,20,M,15.0,MI,,0.0,0.0,,4,42.33142700000001,-83.0457538,31013.0,70
+141,38.0,1862.0,,,,,1900.0,B,WAYNE,,,,,,JOHN,,6896,,,,,,,MELODY,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,31015.0,70
+142,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,AGNESS,,17335,,,,,,,MILLER,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,31425.0,71
+143,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,AGNESS,,17397,,,,,,,MILLER,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,31426.0,71
+144,17.0,1903.0,,,,,1920.0,M,PENOBSCOT,,,,,,JAMES,,20303,,,,,,,MILLS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,31562.0,72
+145,17.0,1903.0,,,,,1920.0,M,PENOBSCOT,,,,,,JAMES,,20351,,,,,,,MILLS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,31563.0,72
+146,15.0,1905.0,,,,,1920.0,B,PENOBSCOT,,,,,,ANNAE,,20310,,,,,,,MILLS,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,31555.0,73
+147,15.0,1905.0,,,,,1920.0,B,PENOBSCOT,,,,,,ANNAE,,20358,,,,,,,MILLS,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,31556.0,73
+148,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,CHARLES,,15866,,,,,,,MITCHEL,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.7652065,-122.2416355,31718.0,74
+149,28.0,1892.0,,,,,1920.0,M,ALAMEDA,,,,,,CHARLES,,15891,,,,,,,MITCHEL,,,,,,OAKLAND,,,,,,M,,CA,,,,,"OAKLAND,ALAMEDA,CA",37.8043637,-122.27111370000002,31719.0,74
+150,22.0,1858.0,0.0,0.0,3.0,,1880.0,Black,WAYNE,,,301.0,,,RICHARD,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,MOORE,1,1.0,4417560000,Canada,COOKONBOAT,DETROIT,1,0.0,3100.0,99.0,10,M,99.0,MI,,0.0,3.0,,5,42.33142700000001,-83.0457538,32060.0,75
+151,22.0,1858.0,0.0,0.0,1.0,,1880.0,Black,WAYNE,,,101.0,,,RICHARD,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,MOORE,1,1.0,4422719000,Canada,COOK,DETROIT,1,0.0,1000.0,99.0,10,M,99.0,MI,,0.0,0.0,,2,42.33142700000001,-83.0457538,32067.0,75
+152,21.0,1899.0,,,,,1920.0,B,LUCAS,,,,,,ETHEL,,17314,,,,,,,MORRIS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,32474.0,76
+153,21.0,1899.0,,,,,1920.0,B,LUCAS,,,,,,ETHEL,,17376,,,,,,,MORRIS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,32475.0,76
+154,11.0,1850.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,,,,,,Munro,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,32899.0,77
+155,11.0,1850.0,,,,,1861.0,B,Hamilton,,,,,,B,,,,446.0,,375.0,,,Munro,,,,CW,,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,32905.0,77
+156,20.0,1841.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,,,,,,Munro,,446.0,,CW,,St. Andrew's Ward,Episcopal,375.0,,,,M,,Ontario,,,,,,,,32900.0,78
+157,20.0,1841.0,,,,,1861.0,B,Hamilton,,,,,,H,,,,446.0,,375.0,,,Munro,,,,CW,,St. Andrew's Ward,Episcopal,,,,,M,,Ontario,,,,,,,,32906.0,78
+158,18.0,1843.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,,,,,,Munro,,446.0,,CW,laborer,St. Andrew's Ward,Episcopal,375.0,,,,F,,Ontario,,,,,,,,32901.0,79
+159,18.0,1843.0,,,,,1861.0,B,Hamilton,,,,,,R,,,,446.0,,375.0,,,Munro,,,,CW,laborer,St. Andrew's Ward,Episcopal,,,,,F,,Ontario,,,,,,,,32908.0,79
+160,24.0,1896.0,,,,,1920.0,M,CUMBERLAND,,,,,,ARTHURJ,,20210,,,,,,,MURDOCK,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.6590993,-70.2568189,32939.0,80
+161,24.0,1896.0,,,,,1920.0,M,CUMBERLAND,,,,,,ARTHURJ,,20223,,,,,,,MURDOCK,,,,,,PORTLAND,,,,,,M,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.661471,-70.2553259,32940.0,80
+162,19.0,1851.0,,,,,1870.0,B,NIAGARA,,,,,,JOHNA,,1629,,,,,,,MURPHY,,,,,,NIAGARAFALLS,,,,,,M,,NY,,,,,"NIAGARAFALLS,NIAGARA,NY",43.0962143,-79.03773879999999,33001.0,81
+163,19.0,1851.0,,,,,1870.0,B,NIAGARA,,,,,,JOHNA.,,1638,,,,,,,MURPHY,,,,,,NIAGARAFALLS,,,,,,M,,NY,,,,,"NIAGARAFALLS,NIAGARA,NY",43.0962143,-79.03773879999999,33002.0,81
+164,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,Mary Ann,,,,,,,,,Myers,,450.0,,ENG,dressmaker,St. George's Ward,Church of England,81.0,,,,M,,Ontario,,,,,,,,33129.0,82
+165,22.0,1839.0,,,,,1861.0,B,Hamilton,,,,,,Mary Ann,,,,450.0,,81.0,,,Myers,,,,ENG,dressmaker,St. George's Ward,Church of England,,,,,M,,Ontario,,,,,,,,33139.0,82
+166,35.0,1865.0,0.0,0.0,5.0,,1900.0,Black,WAYNE,,5.0,1202.0,,,George,,1900 IPUMS 5% sample,,5.0,1.0,0.0,20.0,,Newton,20,1.0,65185012,Canada,Molder,DETROIT,1,2.0,5310.0,99.0,20,M,99.0,MI,,0.0,0.0,,6,42.33142700000001,-83.0457538,33483.0,83
+167,35.0,1865.0,,,,,1900.0,B,WAYNE,,,,,,GEORGE,,6122,,,,,,,NEWTON,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,33507.0,83
+168,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,Sarah,,,,,,,,,Page,,448.0,,CAN,,St. George's Ward,Baptist,483.0,,,,M,,Ontario,,,,,,,,34228.0,84
+169,32.0,1829.0,,,,,1861.0,B,Hamilton,,,,,,Sarah,,,,448.0,,483.0,,,Page,,,,CAN,,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,34241.0,84
+170,33.0,1867.0,2.0,0.0,1.0,,1900.0,Black,WAYNE,,2.0,101.0,,,Lizzie,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Parker,20,1.0,65185012,Canada,officecleaning,DETROIT,1,2.0,1000.0,17.0,20,F,18.0,MI,,0.0,0.0,,6,42.33142700000001,-83.0457538,34434.0,85
+171,33.0,1867.0,,,,,1900.0,B,WAYNE,,,,,,LIZZIE,,6127,,,,,,,PARKER,,,,,,DETROIT,,,,,,F,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,34539.0,85
+172,22.0,1898.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAZEL,,20304,,,,,,,PAYNE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,34876.0,86
+173,22.0,1898.0,,,,,1920.0,B,PENOBSCOT,,,,,,HAZEL,,20352,,,,,,,PAYNE,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,34877.0,86
+174,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,GLADYS,,17310,,,,,,,PERKINS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,35076.0,87
+175,26.0,1894.0,,,,,1920.0,B,LUCAS,,,,,,GLADYS,,17372,,,,,,,PERKINS,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,35077.0,87
+176,26.0,1874.0,0.0,0.0,1.0,,1900.0,Black,WAYNE,,2.0,101.0,,,Joshua,,1900 IPUMS 5% sample,,1.0,2.0,1.0,20.0,,Peters,20,1.0,65176001,Canada,Teamster,DETROIT,1,2.0,1000.0,99.0,20,M,99.0,MI,,0.0,0.0,,4,42.33142700000001,-83.0457538,35233.0,88
+177,26.0,1874.0,,,,,1900.0,B,WAYNE,,,,,,JOSHUA,,6131,,,,,,,PETERS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,35273.0,88
+178,28.0,1892.0,,,,,1920.0,M,PENOBSCOT,,,,,,SHENTONH,,20313,,,,,,,PETERS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,35288.0,89
+179,28.0,1892.0,,,,,1920.0,M,PENOBSCOT,,,,,,SHENTONH,,20361,,,,,,,PETERS,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,35289.0,89
+180,15.0,1846.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,,,,,,Phillips,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,F,,Ontario,,,,,,,,35520.0,90
+181,15.0,1846.0,,,,,1861.0,B,Hamilton,,,,,,M,,,,445.0,,374.0,,,Phillips,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,F,,Ontario,,,,,,,,35551.0,90
+182,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,WILLIAM,,17303,,,,,,,RHODE,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,37132.0,91
+183,27.0,1893.0,,,,,1920.0,M,LUCAS,,,,,,WILLIAM,,17365,,,,,,,RHODE,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,37133.0,91
+184,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,MOSES,,20624,,,,,,,ROBINSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,38192.0,92
+185,37.0,1893.0,,,,,1930.0,B,NEWCASTLE,,,,,,MOSES,,20625,,,,,,,ROBINSON,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,38193.0,92
+186,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,T,,,,,,,,,Robison,,445.0,,CW,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,38239.0,93
+187,23.0,1838.0,,,,,1861.0,B,Hamilton,,,,,,T,,,,445.0,,374.0,,,Robison,,,,CW,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,38258.0,93
+188,27.0,1873.0,0.0,0.0,1.0,,1900.0,Black,WAYNE,,0.0,101.0,,,John,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Roy,20,1.0,65144002,Canada,DayLaborer,DETROIT,1,0.0,1000.0,99.0,20,M,99.0,MI,,0.0,0.0,,2,42.33142700000001,-83.0457538,38647.0,94
+189,27.0,1873.0,,,,,1900.0,B,WAYNE,,,,,,JOHN,,6148,,,,,,,ROY,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,38654.0,94
+190,31.0,1899.0,,,,,1930.0,B,NEWCASTLE,,,,,,ERVIN,,20635,,,,,,,RUSSEL,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,38751.0,95
+191,31.0,1899.0,,,,,1930.0,B,NEWCASTLE,,,,,,ERVIN,,20636,,,,,,,RUSSEL,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,38752.0,95
+192,23.0,1897.0,,,,,1920.0,B,LUCAS,,,,,,DAN,,17336,,,,,,,SCOTT,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,39447.0,96
+193,23.0,1897.0,,,,,1920.0,B,LUCAS,,,,,,DAN,,17398,,,,,,,SCOTT,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,39448.0,96
+194,3.0,1861.0,,,,,1864.0,C,Essex,,,,,,Abigail,,,,,,,,,Smith,S,,,Windsor,(SamuelHamilton),Windsor,Baptist,766.0,,,BruceW,F,,CanadaWest,,1.0,,,,42.03149000000001,-83.0364,41508.0,97
+195,3.0,1861.0,,,,,1864.0,C,Essex,,,,,,Abigail,,,,,,,,,Smith,S,,,CanadaW,[Blank],Windsor,Baptist,1981.0,,,MercerE,F,,CanadaWest,,2.0,,,,42.03149000000001,-83.0364,41509.0,97
+196,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,RAYMOND,,20297,,,,,,,SMITH,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,41886.0,98
+197,24.0,1896.0,,,,,1920.0,B,PENOBSCOT,,,,,,RAYMOND,,20345,,,,,,,SMITH,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,41887.0,98
+198,24.0,1896.0,,,,,1920.0,B,KINGS,,,,,,CJ,,16579,,,,,,,SPRUNKLE,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999998,42321.0,99
+199,24.0,1896.0,,,,,1920.0,B,KINGS,,,,,,CJ,,16610,,,,,,,SPRUNKLE,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000002,42322.0,99
+200,25.0,1836.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,,,,,,Stockton,,445.0,,MD,,St. Andrew's Ward,Episcopal Methodist,374.0,,,,M,,Ontario,,,,,,,,43071.0,100
+201,25.0,1836.0,,,,,1861.0,B,Hamilton,,,,,,W,,,,445.0,,374.0,,,Stockton,,,,MD,,St. Andrew's Ward,Episcopal Methodist,,,,,M,,Ontario,,,,,,,,43073.0,100
+204,36.0,1825.0,,,,,1861.0,B,Hamilton,,,,,,B W,,,,,,,,,Terman,,448.0,,UC,stonecutter,St. George's Ward,Baptist,505.0,,,,F,,Ontario,,,,,,,,44247.0,102
+205,36.0,1825.0,,,,,1861.0,B,Hamilton,,,,,,B W,,,,448.0,,505.0,,,Terman,,,,UC,stonecutter,St. George's Ward,Baptist,,,,,F,,Ontario,,,,,,,,44249.0,102
+206,28.0,1892.0,,,,,1920.0,B,LUCAS,,,,,,JOHN,,17320,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,44956.0,103
+207,28.0,1892.0,,,,,1920.0,B,LUCAS,,,,,,JOHN,,17382,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,44957.0,103
+208,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,MARYE,,17342,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000002,44990.0,104
+209,22.0,1898.0,,,,,1920.0,B,LUCAS,,,,,,MARYE,,17404,,,,,,,THOMPSON,,,,,,TOLEDO,,,,,,F,,OH,,,,,"TOLEDO,LUCAS,OH",41.6639383,-83.555212,44991.0,104
+210,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ROY,,20637,,,,,,,UNDERWOOD,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,45949.0,105
+211,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ROY,,20638,,,,,,,UNDERWOOD,,,,,,WILMINGTON,,,,,,M,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,45950.0,105
+212,54.0,1846.0,0.0,0.0,3.0,,1900.0,Black,WAYNE,,2.0,302.0,,,Proctor,,1900 IPUMS 5% sample,,7.0,5.0,0.0,20.0,,Watson,19,1.0,65199002,Canada,Laborer,DETROIT,1,2.0,3200.0,99.0,20,M,99.0,MI,,0.0,0.0,,7,42.33142700000001,-83.0457538,47425.0,106
+213,54.0,1846.0,,,,,1900.0,B,WAYNE,,,,,,PROCTOR,,6899,,,,,,,WATSON,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,47493.0,106
+214,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),WAYNE,,,1211.0,,,EDWARD,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,WATSON,1,1.0,4415705000,Canada,HOTELBELLBOY,DETROIT,1,1.0,5210.0,99.0,10,M,99.0,MI,,801.0,0.0,,1,42.33142700000001,-83.0457538,47426.0,107
+215,19.0,1861.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),WAYNE,,,1001.0,,,EDWARD,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,WATSON,1,1.0,4417621000,Canada,WAITERINHOTEL,DETROIT,1,0.0,4900.0,99.0,10,M,99.0,MI,,0.0,0.0,,5,42.33142700000001,-83.0457538,47427.0,107
+216,21.0,1840.0,,,,,1861.0,M,Hamilton,,,,,,E,,,,,,,,,Webb,,444.0,,USA,servant,St. Andrew's Ward,Baptist,201.0,,,,M,,Ontario,,,,,,,,47589.0,108
+217,21.0,1840.0,,,,,1861.0,M,Hamilton,,,,,,E,,,,444.0,,201.0,,,Webb,,,,USA,servant,St. Andrew's Ward,Baptist,,,,,M,,Ontario,,,,,,,,47600.0,108
+218,38.0,1823.0,,,,,1861.0,W,Hamilton,,,,,,Sarah J,,,,,,,,,Wells,,450.0,,USA,,St. George's Ward,Baptist,109.0,,,,F,,Ontario,,,,,,,,47764.0,109
+219,38.0,1823.0,,,,,1861.0,W,Hamilton,,,,,,Sarah J,,,,450.0,,109.0,,,Wells,,,,USA,,St. George's Ward,Baptist,,,,,F,,Ontario,,,,,,,,47782.0,109
+220,43.0,1818.0,,,,,1861.0,M,Hamilton,,,,,,W,,,,,,,,,Wells,,450.0,,USA,carpenter,St. George's Ward,Baptist,109.0,,,,M,,Ontario,,,,,,,,47765.0,110
+221,43.0,1818.0,,,,,1861.0,M,Hamilton,,,,,,W,,,,450.0,,109.0,,,Wells,,,,USA,carpenter,St. George's Ward,Baptist,,,,,M,,Ontario,,,,,,,,47783.0,110
+222,23.0,1897.0,,,,,1920.0,B,KINGS,,,,,,JAMES,,16569,,,,,,,WILLIAMS,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6528762,-73.95949399999998,49251.0,111
+223,23.0,1897.0,,,,,1920.0,B,KINGS,,,,,,JAMES,,16600,,,,,,,WILLIAMS,,,,,,BROOKLYN,,,,,,M,,NY,,,,,"BROOKLYN,KINGS,NY",40.6781784,-73.94415790000002,49252.0,111
+224,28.0,1892.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHNS,,20300,,,,,,,WISE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8011821,-68.77781379999999,50037.0,112
+225,28.0,1892.0,,,,,1920.0,B,PENOBSCOT,,,,,,JOHNS,,20348,,,,,,,WISE,,,,,,BANGOR,,,,,,M,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,50038.0,112
+226,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ALICE,,20564,,,,,,,YOUNG,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.66203970000001,-75.5668166,50750.0,113
+227,35.0,1895.0,,,,,1930.0,B,NEWCASTLE,,,,,,ALICE,,20565,,,,,,,YOUNG,,,,,,WILMINGTON,,,,,,F,,DE,,,,,"WILMINGTON,NEWCASTLE,DE",39.7390721,-75.5397878,50751.0,113
+228,48.0,1832.0,,,,,1880.0,B,ERIE,,,,,,MARYANN,3.0,3686.0,,,,,,,FIELDS,,,YYQUIRK,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,5.0,114
+229,48.0,1832.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,MARYANN,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,FIELDS,1.0,9.0,890,Canada,JAILORESS,Buffalo,1.0,0.0,1000.0,17.0,10.0,F,17.0,NY,,0.0,3.0,,6,,5909746000.0,14663.0,114
+230,46.0,1834.0,0.0,0.0,4.0,,1880.0,Black,,,,701.0,,,WILLIAM,,1880 IPUMS 100% sample,,2.0,6.0,,1.0,,FIELDS,1.0,9.0,890,Canada,COOKONLAKE,Buffalo,1.0,0.0,4410.0,99.0,10.0,M,99.0,NY,,0.0,1.0,,6,,5909746000.0,14664.0,115
+231,46.0,1834.0,,,,,1880.0,B,ERIE,,,,,,WILLIAM,,3687,,,,,,,FIELDS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,14695.0,115
+232,11.0,1869.0,0.0,0.0,4.0,,1880.0,Black,,,,901.0,,,GEORGE,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,HALL,1.0,1.0,,USA,GOESTOSCHOOL,Chicago,1.0,5.0,4100.0,99.0,50.0,M,99.0,IL,,0.0,0.0,,9,,1370685000.0,18797.0,116
+233,11.0,1869.0,0.0,0.0,4.0,,1880.0,Black,,,,901.0,,,GEORGE,,1880 IPUMS 100% sample,,6.0,6.0,,1.0,,HALL,1.0,1.0,,USA,GOESTOSCHOOL,Chicago,1.0,2.0,4100.0,99.0,50.0,M,99.0,IL,,0.0,0.0,,8,,1370772000.0,18798.0,116
+234,5.0,1905.0,,,,,1910.0,B,WASHTENAW,,,,,,WILLIAM,,14528,,,,,,,JACKSON,,,,,,YPSILANTI,,,,,,M,,MI,,,,,"YPSILANTI,WASHTENAW,MI",42.2411499,-83.6129939,23467.0,117
+235,5.0,1905.0,,,,,1910.0,B,INGHAM,,,,,,WILLIAM,,13099,,,,,,,JACKSON,,,,,,LANSING,,,,,,M,,MI,,,,,"LANSING,INGHAM,MI",42.732535,-84.55553470000002,23468.0,117
+236,57.0,1823.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ELLEN,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WRIGHT,1.0,1.0,,Canada,KEEPSHOUSE,Cleveland,1.0,2.0,2100.0,99.0,10.0,F,99.0,OH,,0.0,0.0,,4,,7272242000.0,50396.0,118
+237,57.0,1823.0,,,,,1880.0,M,CUYAHOGA,,,,,,ELLEN,,2824,,,,,,,WRIGHT,,,,,,6-WD;CLEVELAND,,,,,,F,,OH,,,,,"6-WD;CLEVELAND,CUYAHOGA,OH",41.398634,-81.441787,50480.0,118
+238,51.0,1829.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,WILLIAM,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,JOHNSON,1.0,1.0,,Canada,LABOR,Philadephia,1.0,1.0,5900.0,99.0,70.0,M,99.0,PA,,0.0,0.0,,6,,8461655000.0,24512.0,119
+239,51.0,1829.0,,,,,1880.0,M,PHILADELPHIA,,,,,,WILLIAM,,2582,,,,,,,JOHNSON,,,,,,4-WDPHILADELPHIA,,,,,,M,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.96128510000001,-75.1410126,25177.0,119
+240,40.0,1860.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,William,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Johnson,20.0,1.0,,Canada,LaborDay,Trenton,1.0,0.0,1000.0,99.0,8.0,M,99.0,NJ,,0.0,0.0,,3,,85942021.0,24519.0,120
+241,40.0,1860.0,,,,,1900.0,B,MERCER,,,,,,WILLIAM,,5601,,,,,,,JOHNSON,,,,,,TRENTON,,,,,,M,,NJ,,,,,"TRENTON,MERCER,NJ",40.2205824,-74.75971700000002,25182.0,120
+242,50.0,1811.0,,,,,1861.0,black,London,,,,,,A,78.0,,,,,,,,Gray,,Noonan 463,Y CHECK,USA,barber,London District 1,Baptist,9.0,,,,M,,Ontario,,,,,,,,297.0,121
+243,50.0,1811.0,,,,,1861.0,B,London,,,,,,A,,,,,,,,,Gray,,463,,USA,barber,District Five,Baptist,9.0,,,,M,,Ontario,,,,,,,,17741.0,121
+244,40.0,1840.0,3.0,1.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,MARY,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,FRENCH,1.0,1,,Canada,WASHING,Chicago,1,0.0,1000.0,1.0,50.0,F,10.0,IL,,0.0,0.0,,4,,1371788000.0,15902.0,122
+245,40.0,1840.0,,,,,1880.0,M,COOK,,,,,,MARY,,3542,,,,,,,FRENCH,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,15922.0,122
+246,22.0,1858.0,,,,,1880.0,Mulatto,Clark,,,,,,Retta,6?,Matson,,,,,,,Ford,S,,YY WDSR,Canada,At Home,Springfield,-,,,,-,F,,Ohio,,,,,,,,393.0,123
+247,22.0,1858.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,RETTA,,1880 IPUMS 100% sample,,3.0,4.0,,1.0,,FORD,1,1,,Canada,ATHOME,Springfield,1,0.0,3100.0,99.0,6,F,99.0,OH,,0.0,1.0,,4,,7222746000.0,15163.0,123
+248,21.0,1859.0,0.0,0.0,5.0,0.0,1880.0,Mulatto(BlackandWhite),,,,1230.0,,0.0,SUSANE.,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,0.0,ADLEY,1,1,,Canada,,Philadephia,1,1.0,5900.0,99.0,70,F,99.0,PA,False,0.0,0.0,,5,,8477421000.0,692.0,124
+249,21.0,1859.0,,,,100.0,1880.0,M,PHILADELPHIA,,,,,0.0,SUSANE,,3745,,,,,,100.0,ADLEY,,,,,,8-WDPHILADELPHIA,,,,,,F,,PA,False,,,,"8-WDPHILADELPHIA,PHILADELPHIA,PA",39.917507,-75.1463333,697.0,124
+250,19.0,1861.0,0.0,0.0,4.0,100.0,1880.0,Mulatto(BlackandWhite),,,,1001.0,,0.0,H.S.,,1880 IPUMS 100% sample,,6.0,6.0,,1.0,100.0,BABTISTE,1,1,,Canada,BLACKSMITH,New Orleans,1,0.0,4900.0,99.0,20,M,99.0,LA,False,0.0,0.0,,6,,3236964000.0,1809.0,125
+251,19.0,1861.0,,,,0.0,1880.0,M,NEWORLEANS,,,,,0.0,HS,,2022,,,,,,0.0,BABTISTE,,,,,,1-WD;NEWORLEANS,,,,,,M,,LA,False,,,,"1-WD;NEWORLEANS,NEWORLEANS,LA",29.9593636,-90.0714433,1812.0,125
+252,40.0,1840.0,0.0,0.0,5.0,0.0,1880.0,Mulatto(BlackandWhite),,,,1230.0,,0.0,LEWIS,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,100.0,BANKS,1,1,,Canada,WAITER,Albany,1,9.0,5900.0,99.0,9,M,99.0,NY,False,801.0,0.0,,14,,5720047000.0,2142.0,126
+253,40.0,1840.0,,,,100.0,1880.0,M,ALBANY,,,,,100.0,LEWIS,,2790,,,,,,100.0,BANKS,,,,,,6-WD;ALBANY,,,,,,M,,NY,True,,,,"6-WD;ALBANY,ALBANY,NY",42.679279,-73.783171,2192.0,126
+254,32.0,1848.0,0.0,0.0,5.0,0.0,1880.0,Black,,,,1230.0,,0.0,DAVID,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,0.0,BARKER,1,1,890,Canada,WAITER,Buffalo,1,1.0,5900.0,99.0,10,M,99.0,NY,False,0.0,0.0,,3,,5911676000.0,2283.0,127
+255,32.0,1848.0,,,,100.0,1880.0,B,ERIE,,,,,100.0,DAVID,,3680,,,,,,100.0,BARKER,,,,,,4-WD;BUFFALO,,,,,,M,,NY,True,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,2291.0,127
+256,57.0,1823.0,0.0,0.0,5.0,,1880.0,Black,,,,1112.0,,,JOS.H,,1880 IPUMS 100% sample,,3.0,2.0,,1.0,,BARON,1,1,,Canada,BARBER,New York,1,2.0,5112.0,99.0,80,M,99.0,NY,,0.0,0.0,,4,,6246840000.0,2394.0,128
+257,57.0,1823.0,,,,,1880.0,B,NEWYORK,,,,,,JOSH,,2918,,,,,,,BARON,,,,,,8-WD;NEWYORK,,,,,,M,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,2396.0,128
+260,33.0,1847.0,3.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,SARAH,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,BASEETT,1,1,,Canada,KEEPINGHOUSE,Rome,1,1.0,2100.0,10.0,6,F,15.0,NY,,0.0,0.0,,6,,6500126000.0,2542.0,130
+261,33.0,1847.0,,,,,1880.0,M,ONEIDA,,,,,,SARAH,,2522,,,,,,,BASEETT,,,,,,3-WD;ROME,,,,,,F,,NY,,,,,"3-WD;ROME,ONEIDA,NY",43.2847659,-75.4781512,2545.0,130
+262,27.0,1853.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JAMES,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,BASS,1,1,,Canada,PHYSICIAN,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6314055000.0,2561.0,131
+263,27.0,1853.0,,,,,1880.0,B,NEWYORK,,,,,,JAMES,,2343,,,,,,,BASS,,,,,,20-WD;NEWYORK,,,,,,M,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,2575.0,131
+264,17.0,1863.0,0.0,0.0,4.0,,1880.0,Black,,,,1001.0,,,JAMES,,1880 IPUMS 100% sample,,3.0,4.0,,1.0,,BATTEN,1,1,,Canada,WAITER,New York,1,1.0,4900.0,99.0,80,M,99.0,NY,,0.0,0.0,,5,,6261113000.0,2613.0,132
+265,17.0,1863.0,,,,,1880.0,B,NEWYORK,,,,,,JAMES,,2171,,,,,,,BATTEN,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,2617.0,132
+266,30.0,1850.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,SARAH,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,BEALES,1,1,,Canada,KEEPINGHOUSE,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,2,,8471986000.0,2744.0,133
+267,30.0,1850.0,,,,,1880.0,B,PHILADELPHIA,,,,,,SARAH,,2854,,,,,,,BEALES,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,2746.0,133
+268,39.0,1841.0,0.0,0.0,4.0,,1880.0,Black,,,,401.0,,,JOHNW.,,1880 IPUMS 100% sample,,9.0,9.0,,1.0,,BELL,1,1,,Canada,BOOKKEEPER,New York,1,0.0,4300.0,99.0,80,M,99.0,NY,,0.0,0.0,,9,,6315883000.0,2967.0,134
+269,39.0,1841.0,,,,,1880.0,B,NEWYORK,,,,,,JOHNW.,,2344,,,,,,,BELL,,,,,,20-WD;NEWYORK,,,,,,M,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,3026.0,134
+270,42.0,1838.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JULIA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,BELL,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,2,,5787027000.0,2969.0,135
+271,42.0,1838.0,,,,,1880.0,B,CAYUGA,,,,,,JULIA,,2903,,,,,,,BELL,,,,,,8-WD;AUBURN,,,,,,F,,NY,,,,,"8-WD;AUBURN,CAYUGA,NY",42.931001,-76.57279799999999,3028.0,135
+272,22.0,1858.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,AMANDA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,BELT,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,2,,5787688000.0,3074.0,136
+273,22.0,1858.0,,,,,1880.0,B,CAYUGA,,,,,,AMANDA,,2942,,,,,,,BELT,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,3079.0,136
+274,27.0,1853.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,ISAAC,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,BELT,1,1,,Canada,LABORER,Auburn,1,0.0,1000.0,99.0,6,M,99.0,NY,,0.0,0.0,,2,,5787688000.0,3075.0,137
+275,27.0,1853.0,,,,,1880.0,B,CAYUGA,,,,,,ISAAC,,2943,,,,,,,BELT,,,,,,9-WD;AUBURN,,,,,,M,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,3080.0,137
+276,29.0,1851.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,W.H.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,BENSON,1,9,,Canada,TRAINOR,New York,1,1.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6476722000.0,3204.0,138
+277,29.0,1851.0,,,,,1880.0,B,NEWYORK,,,,,,WH,,2377,,,,,,,BENSON,,,,,,24-WD;KINGSBRIDGE,,,,,,M,,NY,,,,,"24-WD;KINGSBRIDGE,NEWYORK,NY",40.8806878,-73.907845,3217.0,138
+278,36.0,1844.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ELIZA,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,BERNARD,1,1,,Canada,SEAMSTRESS,New York,1,1.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,5,,6312600000.0,3262.0,139
+279,36.0,1844.0,,,,,1880.0,B,NEWYORK,,,,,,ELIZA,,3597,,,,,,,BERNARD,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,3278.0,139
+280,16.0,1864.0,0.0,0.0,5.0,,1880.0,Black,,,,1211.0,,,KATY,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,BERRY,1,1,,Canada,SERVANT,New York,1,1.0,5210.0,99.0,80,F,99.0,NY,,0.0,0.0,,3,,6434101000.0,3312.0,140
+281,16.0,1864.0,,,,,1880.0,B,NEWYORK,,,,,,KATY,,2215,,,,,,,BERRY,,,,,,19-WD;NEWYORK,,,,,,F,,NY,,,,,"19-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,3361.0,140
+282,37.0,1843.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,RIDA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,BILL,1,1,,Canada,WASH-WOMAN,Auburn,1,0.0,2100.0,7.0,6,F,7.0,NY,,0.0,0.0,,3,,5787653000.0,3500.0,141
+283,37.0,1843.0,,,,,1880.0,B,CAYUGA,,,,,,RIDA,,2944,,,,,,,BILL,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,3503.0,141
+284,36.0,1844.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ANNIEN.,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,BLAIR,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,17.0,80,F,17.0,NY,,0.0,0.0,,3,,6470887000.0,3807.0,142
+285,36.0,1844.0,,,,,1880.0,B,NEWYORK,,,,,,ANNIEN.,,2371,,,,,,,BLAIR,,,,,,23-WD;NEWYORK,,,,,,F,,NY,,,,,"23-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,3815.0,142
+286,29.0,1851.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,REBBECCA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,BLOXSOM,1,1,,Canada,KEEPINGHOUSE,Rochester,1,1.0,2100.0,99.0,9,F,99.0,NY,,0.0,0.0,,4,,6180144000.0,3949.0,143
+287,29.0,1851.0,,,,,1880.0,M,MONROE,,,,,,REBBECCA,,2957,,,,,,,BLOXSOM,,,,,,9-WD;ROCHESTER,,,,,,F,,NY,,,,,"9-WD;ROCHESTER,MONROE,NY",43.1014083,-77.5410667,3950.0,143
+292,43.0,1837.0,1.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,ELIZA,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,BOCK,1,1,,Canada,HOUSECLEANER,Philadephia,1,5.0,1000.0,11.0,70,F,11.0,PA,,0.0,0.0,,7,,8476200000.0,3989.0,146
+293,43.0,1837.0,,,,,1880.0,M,PHILADELPHIA,,,,,,ELIZA,,3747,,,,,,,BOCK,,,,,,8-WDPHILADELPHIA,,,,,,F,,PA,,,,,"8-WDPHILADELPHIA,PHILADELPHIA,PA",39.917507,-75.1463333,3990.0,146
+294,30.0,1850.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,HENRY,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,BOWER,1,1,,Canada,LABORER,Philadephia,1,0.0,1000.0,99.0,70,M,99.0,PA,,0.0,0.0,,1,,8505208000.0,4379.0,147
+295,30.0,1850.0,,,,,1880.0,B,PHILADELPHIA,,,,,,HENRY,,2165,,,,,,,BOWER,,,,,,15-WDPHILADELPHIA,,,,,,M,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,4382.0,147
+296,22.0,1858.0,1.0,1.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLOTTE,,1880 IPUMS 100% sample,,6.0,2.0,,1.0,,BOYD,1,9,,Canada,SERVANT,Philadephia,1,2.0,5900.0,0.0,70,F,0.0,PA,,0.0,0.0,,7,,8563311000.0,4485.0,148
+297,22.0,1858.0,,,,,1880.0,B,PHILADELPHIA,,,,,,CHARLOTTE,,2373,,,,,,,BOYD,,,,,,24-WDPHILADELPHIA,,,,,,F,,PA,,,,,"24-WDPHILADELPHIA,PHILADELPHIA,PA",39.9515211,-75.1798731,4505.0,148
+298,50.0,1830.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JOHN,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,BRANT,1,1,,Canada,CORNDOCTOR,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6225745000.0,4715.0,149
+299,50.0,1830.0,,,,,1880.0,B,NEWYORK,,,,,,JOHN,,2155,,,,,,,BRANT,,,,,,14-WD;NEWYORK,,,,,,M,,NY,,,,,"14-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,4717.0,149
+300,51.0,1829.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,AUGUSTUS,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,BRISCOE,1,1,,Canada,PORTERINHOTEL,New York,1,1.0,1000.0,7.0,80,M,7.0,NY,,0.0,0.0,,4,,6261530000.0,4939.0,150
+301,51.0,1829.0,,,,,1880.0,B,NEWYORK,,,,,,AUGUSTUS,,2172,,,,,,,BRISCOE,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,4947.0,150
+302,13.0,1867.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ELLEN,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,BROWN,1,1,,Canada,ATSCHOOL,New York,1,1.0,3100.0,99.0,80,F,99.0,NY,,0.0,0.0,,4,,6294712000.0,5529.0,151
+303,13.0,1867.0,,,,,1880.0,B,NEWYORK,,,,,,ELLEN,,2186,,,,,,,BROWN,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,5924.0,151
+304,36.0,1844.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ANNIE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,BROWN,1,1,,Canada,KEEPINGHOUSE,New York,1,1.0,2100.0,13.0,80,F,13.0,NY,,0.0,0.0,,4,,6294712000.0,5486.0,152
+305,36.0,1844.0,,,,,1880.0,B,NEWYORK,,,,,,ANNIE,,2185,,,,,,,BROWN,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,5850.0,152
+306,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,BROWN,1,1,,USA,LAUNDRESS,Cambridge,1,1.0,5900.0,99.0,8,F,99.0,MA,,0.0,0.0,,3,,3876809000.0,5621.0,153
+307,30.0,1850.0,3.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,BROWN,1,9,,USA,KEEPINGHOUSE,Cambridge,1,1.0,2100.0,6.0,8,F,14.0,MA,,0.0,0.0,,6,,3882569000.0,5750.0,153
+308,38.0,1842.0,2.0,1.0,2.0,,1880.0,Black,,,,201.0,,,ALMIDA,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,BROWN,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,2.0,10,F,6.0,NY,,0.0,0.0,,4,,5918614000.0,5425.0,154
+309,38.0,1842.0,,,,,1880.0,B,ERIE,,,,,,ALMIDA,,2802,,,,,,,BROWN,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,5835.0,154
+310,25.0,1855.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ELISABETH,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,BROWN,1,1,890,Canada,SERVANT,Buffalo,1,3.0,5900.0,99.0,10,F,99.0,NY,,0.0,0.0,,6,,5911487000.0,5429.0,155
+311,25.0,1855.0,,,,,1880.0,M,ERIE,,,,,,ELISABETH,,2630,,,,,,,BROWN,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,5911.0,155
+312,67.0,1813.0,3.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JERAMIAH,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,BROWN,1,1,,Canada,COACHMAN,New York,1,1.0,2100.0,12.0,80,M,34.0,NY,,0.0,0.0,,6,,6397741000.0,5585.0,156
+313,67.0,1813.0,,,,,1880.0,B,NEWYORK,,,,,,JERAMIAH,,2361,,,,,,,BROWN,,,,,,22-WD;NEWYORK,,,,,,M,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,6005.0,156
+314,32.0,1848.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,W.THOMAS,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,BROWN,1,1,,Canada,WAITER,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6261551000.0,5664.0,157
+315,32.0,1848.0,,,,,1880.0,B,NEWYORK,,,,,,WTHOMAS,,2173,,,,,,,BROWN,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,6188.0,157
+316,35.0,1826.0,,,,,1861.0,,London,,,,,,N,,,,,,,,,Brown,,464,,USA,,District Five,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,5794.0,158
+317,35.0,1826.0,,,,,1861.0,,London,,,,,,N,,,,464.0,,,,,Brown,,,,USA,,District Five,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,6103.0,158
+318,26.0,1854.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,SARAH,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,BRYAN,1,9,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6342430000.0,6270.0,159
+319,26.0,1854.0,,,,,1880.0,B,NEWYORK,,,,,,SARAH,,2202,,,,,,,BRYAN,,,,,,17-WD;NEWYORK,,,,,,F,,NY,,,,,"17-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,6275.0,159
+320,23.0,1857.0,0.0,0.0,5.0,,1880.0,Black,,,,1211.0,,,CHARLES,,1880 IPUMS 100% sample,,21.0,1.0,,1.0,,BRYCE,1,1,,Canada,SERVANT,New York,1,9.0,5210.0,99.0,80,M,99.0,NY,,10.0,0.0,,23,,6314968000.0,6307.0,160
+321,23.0,1857.0,,,,,1880.0,B,NEWYORK,,,,,,CHARLES,,2354,,,,,,,BRYCE,,,,,,21-WD;NEWYORK,,,,,,M,,NY,,,,,"21-WD;NEWYORK,NEWYORK,NY",41.0296644,-73.75807809999999,6310.0,160
+322,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,WILLIAM,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,BURNS,1,1,,Canada,LABORER,Philadephia,1,3.0,5900.0,99.0,70,M,99.0,PA,,0.0,0.0,,6,,8465345000.0,6710.0,161
+323,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,WILLIAM,,2744,,,,,,,BURNS,,,,,,5-WDPHILADELPHIA,,,,,,M,,PA,,,,,"5-WDPHILADELPHIA,PHILADELPHIA,PA",39.9467208,-75.1455708,6737.0,161
+324,47.0,1833.0,3.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,WM.B.,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,BURRELL,1,1,,Canada,LABORER,New York,1,0.0,1000.0,6.0,80,M,13.0,NY,,0.0,0.0,,5,,6262480000.0,6774.0,162
+325,47.0,1833.0,,,,,1880.0,M,NEWYORK,,,,,,WMB,,2181,,,,,,,BURRELL,,,YCHECK,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,6777.0,162
+326,36.0,1864.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Samuel,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Burrows,20,1,,Canada,Teamster,Springfield,1,0.0,1000.0,99.0,8,M,99.0,MA,,0.0,0.0,,2,,52252002.0,6811.0,163
+327,36.0,1864.0,,,,,1900.0,B,HAMPDEN,,,,,,SAMUEL,,6547,,,,,,,BURROWS,,,,,,SPRINGFIELD,,,,,,M,,MA,,,,,"SPRINGFIELD,HAMPDEN,MA",42.1014831,-72.589811,6814.0,163
+328,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ISABELLA,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,BUSCHILL,1,9,,Canada,ATHOUSEWORK,Philadephia,1,2.0,5900.0,99.0,70,F,99.0,PA,,0.0,0.0,,6,,8476933000.0,6882.0,164
+329,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,ISABELLA,,3743,,,,,,,BUSCHILL,,,,,,8-WDPHILADELPHIA,,,,,,F,,PA,,,,,"8-WDPHILADELPHIA,PHILADELPHIA,PA",39.917507,-75.1463333,6883.0,164
+330,14.0,1886.0,0.0,0.0,5.0,,1900.0,Black,,,2.0,1202.0,,,Mary,,1900 IPUMS 5% sample,,3.0,1.0,1.0,20.0,,Butler,20,1,,Canada,AtSchool,Lynn,1,2.0,5310.0,99.0,8,F,99.0,MA,,0.0,0.0,,3,,50747002.0,7042.0,165
+331,14.0,1886.0,,,,,1900.0,B,ESSEX,,,,,,MARY,,6324,,,,,,,BUTLER,,,,,,LYNN,,,,,,F,,MA,,,,,"LYNN,ESSEX,MA",42.466763,-70.9494938,7155.0,165
+332,48.0,1852.0,0.0,0.0,5.0,,1900.0,Black,,,2.0,1202.0,,,Fannie,,1900 IPUMS 5% sample,,2.0,1.0,1.0,20.0,,Butler,19,1,,Canada,Laundress,Lynn,1,2.0,5310.0,99.0,8,F,99.0,MA,,0.0,0.0,,3,,50753008.0,7025.0,166
+333,48.0,1852.0,,,,,1900.0,B,ESSEX,,,,,,FANNIE,,6322,,,,,,,BUTLER,,,,,,LYNN,,,,,,F,,MA,,,,,"LYNN,ESSEX,MA",42.466763,-70.9494938,7113.0,166
+334,11.0,1869.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JOHN,,1880 IPUMS 100% sample,,4.0,7.0,,1.0,,CANNON,1,1,,Canada,ATSCHOOL,Auburn,1,0.0,3100.0,99.0,6,M,99.0,NY,,0.0,4.0,,7,,5787699000.0,7569.0,167
+335,11.0,1869.0,,,,,1880.0,B,CAYUGA,,,,,,JOHN,,2945,,,,,,,CANNON,,,,,,9-WD;AUBURN,,,,,,M,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,7584.0,167
+336,16.0,1864.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ALICE,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,CANON,1,9,,Canada,SERVANT,Auburn,1,1.0,5900.0,99.0,6,F,99.0,NY,,0.0,0.0,,5,,5783922000.0,7591.0,168
+337,16.0,1864.0,,,,,1880.0,B,CAYUGA,,,,,,ALICE,,2425,,,,,,,CANON,,,,,,3-WD;AUBURN,,,,,,F,,NY,,,,,"3-WD;AUBURN,CAYUGA,NY",42.923568,-76.580812,7592.0,168
+338,18.0,1882.0,0.0,0.0,5.0,,1900.0,Black,,,5.0,1204.0,,,George,,1900 IPUMS 5% sample,,6.0,1.0,0.0,20.0,,Carter,19,1,,Canada,Waiter,Indianapolis,1,3.0,5500.0,99.0,10,M,99.0,IN,,0.0,0.0,,6,,34807001.0,7824.0,169
+339,18.0,1882.0,,,,,1900.0,B,MARION,,,,,,GEORGE,,7599,,,,,,,CARTER,,,,,,INDIANAPOLIS,,,,,,M,,IN,,,,,"INDIANAPOLIS,MARION,IN",39.768403,-86.158068,7896.0,169
+340,40.0,1840.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARGARET,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,CARTER,1,9,,Canada,KEEPSHOUSE,New York,1,0.0,2100.0,20.0,80,F,20.0,NY,,0.0,0.0,,4,,6383000000.0,7858.0,170
+341,40.0,1840.0,,,,,1880.0,B,NEWYORK,,,,,,MARGARET,,2362,,,,,,,CARTER,,,,,,22-WD;NEWYORK,,,,,,F,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,7915.0,170
+342,27.0,1853.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,MARYE.,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,CARY,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,2.0,80,F,2.0,NY,,0.0,0.0,,3,,6268642000.0,7973.0,171
+343,27.0,1853.0,,,,,1880.0,B,NEWYORK,,,,,,MARYE.,,2187,,,,,,,CARY,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,7978.0,171
+344,37.0,1863.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1211.0,,,Enos,,1900 IPUMS 5% sample,,4.0,2.0,2.0,20.0,,Chandler,20,1,,Canada,Servant,Cambridge,1,2.0,5210.0,99.0,9,M,99.0,MA,,0.0,0.0,,5,,52894005.0,8242.0,172
+345,37.0,1863.0,,,,,1900.0,M,MIDDLESEX,,,,,,ENOS,,3933,,,,,,,CHANDLER,,,,,,CAMBRIDGE,,,,,,M,,MA,,,,,"CAMBRIDGE,MIDDLESEX,MA",42.3736158,-71.10973349999999,8275.0,172
+346,23.0,1857.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JAS.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,CHAROTY,1,1,,Canada,CO.I25THINFTRY-SOLDIER,San Antonio,1,1.0,5900.0,99.0,6,M,99.0,TX,,600.0,0.0,,1,,9334872000.0,8364.0,173
+347,23.0,1857.0,,,,,1880.0,B,BEXAR,,,,,,JAS,,2524,,,,,,,CHAROTY,,,,,,3-WD;SANANTONIO,,,,,,M,,TX,,,,,"3-WD;SANANTONIO,BEXAR,TX",29.4263622,-98.4869728,8365.0,173
+350,24.0,1856.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,DUDLEY,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,CLARK,1,1,,USA,WAITER,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7418331000.0,8662.0,175
+351,24.0,1856.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,DUDLEY,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,CLARK,1,1,,USA,WAITER,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7461126000.0,8663.0,175
+352,19.0,1891.0,0.0,0.0,4.0,,1910.0,Black,,,0.0,901.0,,,MANDY,,1910 IPUMS 1% sample,,6.0,7.0,0.0,101.0,,CLARK,102,1,,Canada,MUSICTCH,Cleveland,1,0.0,4100.0,99.0,50,F,99.0,OH,,0.0,0.0,,7,,147092000.0,8684.0,176
+353,19.0,1891.0,,,,,1910.0,B,CUYAHOGA,,,,,,MANDY,,11735,,,,,,,CLARK,,,,,,CLEVELAND,,,,,,F,,OH,,,,,"CLEVELAND,CUYAHOGA,OH",41.49932,-81.6943605,8765.0,176
+354,28.0,1892.0,,,,,1920.0,B,NORFOLK,,,,,,NELLIE,,18824,,,,,,,CLARK,,,,,,BROOKLINE,,,,,,F,,MA,,,,,"BROOKLINE,NORFOLK,MA",42.3317642,-71.1211635,8776.0,177
+355,28.0,1892.0,,,,,1920.0,M,SUFFOLK,,,,,,NELLIE,,18950,,,,,,,CLARK,,,,,,BOSTON,,,,,,F,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,8777.0,177
+356,22.0,1858.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,EMMA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,CLARKE,1,1,,Canada,KEEPINGHOUSE,Albany,1,0.0,2100.0,99.0,9,F,99.0,NY,,0.0,0.0,,2,,5718970000.0,8800.0,178
+357,22.0,1858.0,,,,,1880.0,B,ALBANY,,,,,,EMMA,,2752,,,,,,,CLARKE,,,,,,5-WD;ALBANY,,,,,,F,,NY,,,,,"5-WD;ALBANY,ALBANY,NY",42.6908974,-73.8528803,8810.0,178
+358,23.0,1857.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,SARAH,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,CLARKSON,1,3,,Canada,DRESSMAKER,New York,1,6.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,8,,6262336000.0,8839.0,179
+359,23.0,1857.0,,,,,1880.0,M,NEWYORK,,,,,,SARAH,,2182,,,,,,,CLARKSON,,,,,,15-WD;NEWYORK,,,,,,F,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,8845.0,179
+360,23.0,1857.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,701.0,,,JOSEPHINE,,1880 IPUMS 100% sample,,5.0,5.0,,1.0,,CLAVIER,1,1,,Canada,ATHOME,New Orleans,1,0.0,4410.0,99.0,20,F,99.0,LA,,0.0,4.0,,5,,3261005000.0,8858.0,180
+361,23.0,1857.0,,,,,1880.0,M,NEWORLEANS,,,,,,JOSEPHINE,,2891,,,,,,,CLAVIER,,,,,,7-WD;NEWORLEANS,,,,,,F,,LA,,,,,"7-WD;NEWORLEANS,NEWORLEANS,LA",29.9769268,-90.0676696,8859.0,180
+362,8.0,1872.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,HENRIETTA,,1880 IPUMS 100% sample,,5.0,7.0,,1.0,,CLEMENS,1,1,,Canada,,Philadephia,1,0.0,3100.0,99.0,70,F,99.0,PA,,0.0,2.0,,7,,8469079000.0,8934.0,181
+363,8.0,1872.0,,,,,1880.0,M,PHILADELPHIA,,,,,,HENRIETTA,,2858,,,,,,,CLEMENS,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,8944.0,181
+364,13.0,1867.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,MINNIEM.,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,CLEMENS,1,1,,Canada,,Philadephia,1,0.0,3100.0,99.0,70,F,99.0,PA,,0.0,2.0,,7,,8469079000.0,8937.0,182
+365,13.0,1867.0,,,,,1880.0,M,PHILADELPHIA,,,,,,MINNIEM,,2859,,,,,,,CLEMENS,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,8945.0,182
+366,26.0,1854.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ANGELINE,,1880 IPUMS 100% sample,,3.0,4.0,,1.0,,COLBOURN,1,1,,Canada,HOUSEWORK,Brooklyn New York,1,0.0,3100.0,99.0,50,F,99.0,NY,,0.0,1.0,,4,,6116174000.0,9170.0,183
+367,26.0,1854.0,,,,,1880.0,B,KINGS,,,,,,ANGELINE,,2368,,,,,,,COLBOURN,,,,,,23-WD;BROOKLYN,,,,,,F,,NY,,,,,"23-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,9174.0,183
+368,30.0,1850.0,2.0,0.0,2.0,,1880.0,Black,,,,201.0,,,SUSAN,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,COLEMAN,1,1,,Canada,,Philadephia,1,4.0,2100.0,6.0,70,F,6.0,PA,,0.0,0.0,,8,,8476164000.0,9301.0,184
+369,30.0,1850.0,,,,,1880.0,B,PHILADELPHIA,,,,,,SUSAN,,3744,,,,,,,COLEMAN,,,,,,8-WDPHILADELPHIA,,,,,,F,,PA,,,,,"8-WDPHILADELPHIA,PHILADELPHIA,PA",39.917507,-75.1463333,9337.0,184
+370,28.0,1852.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,CHARLES,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,COLEMAN,1,1,,Canada,TABLEWAITER,Rochester,1,0.0,1000.0,9.0,9,M,9.0,NY,,0.0,0.0,,3,,6170204000.0,9285.0,185
+371,28.0,1852.0,,,,,1880.0,B,MONROE,,,,,,CHARLES,,2045,,,,,,,COLEMAN,,,,,,1-WD;ROCHESTER,,,,,,M,,NY,,,,,"1-WD;ROCHESTER,MONROE,NY",43.1554284,-77.6127132,9317.0,185
+372,28.0,1852.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ELIZEBETH,,1880 IPUMS 100% sample,,11.0,1.0,,1.0,,COLEMAN,1,9,890,Canada,HOME,Buffalo,1,9.0,5900.0,99.0,10,F,99.0,NY,,800.0,0.0,,13,,5907196000.0,9306.0,186
+373,28.0,1852.0,,,,,1880.0,M,ERIE,,,,,,ELIZEBETH,,2284,,,,,,,COLEMAN,,,,,,2-WD;BUFFALO,,,,,,F,,NY,,,,,"2-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,9325.0,186
+374,25.0,1855.0,3.0,1.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,CONKLIN,1,1,,Canada,WASHERWOMAN,Brooklyn New York,1,0.0,2100.0,2.0,50,F,8.0,NY,,0.0,0.0,,5,,6055096000.0,9586.0,187
+375,25.0,1855.0,,,,,1880.0,B,KINGS,,,,,,MARY,,2147,,,,,,,CONKLIN,,,,,,13-WD;BROOKLYN,,,,,,F,,NY,,,,,"13-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,9590.0,187
+376,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,KATE,,1880 IPUMS 100% sample,,8.0,1.0,,1.0,,CONNELLY,1,1,,Ireland,DISHWASHER,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7418331000.0,9609.0,188
+377,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,KATE,,1880 IPUMS 100% sample,,8.0,1.0,,1.0,,CONNELLY,1,1,,Ireland,DISHWASHER,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7461126000.0,9610.0,188
+380,14.0,1866.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ARAMINTA,,1880 IPUMS 100% sample,,4.0,5.0,,1.0,,COOPER,1,1,,Canada,ATSCHOOL,Auburn,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,2.0,,5,,5787611000.0,9806.0,190
+381,14.0,1866.0,,,,,1880.0,B,CAYUGA,,,,,,ARAMINTA,,3753,,,,,,,COOPER,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,9857.0,190
+382,8.0,1892.0,0.0,0.0,4.0,,1900.0,Black,,,0.0,1031.0,,,AliceM,,1900 IPUMS 5% sample,,5.0,5.0,0.0,20.0,,Cromwell,20,1,,Canada,,Boston,1,0.0,4810.0,99.0,50,F,99.0,MA,,0.0,0.0,,5,,60300002.0,10509.0,191
+383,8.0,1892.0,,,,,1900.0,B,SUFFOLK,,,,,,ALICEM,,5720,,,,,,,CROMWELL,,,,,,BOSTON,,,,,,F,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,10513.0,191
+384,36.0,1864.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1203.0,,,William,,1900 IPUMS 5% sample,,2.0,2.0,0.0,20.0,,Crosby,20,1,,Canada,laborerallkinds,Toledo,1,4.0,5320.0,99.0,10,M,99.0,OH,,0.0,0.0,,5,,141615003.0,10591.0,192
+385,36.0,1864.0,,,,,1900.0,B,LUCAS,,,,,,WILLIAM,,7149,,,,,,,CROSBY,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,10641.0,192
+388,32.0,1848.0,2.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,MARY,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,CURRIE,1,1,890,Canada,WASHWOMEN,Buffalo,1,3.0,1000.0,13.0,10,F,16.0,NY,,0.0,0.0,,6,,5911487000.0,10886.0,194
+389,32.0,1848.0,,,,,1880.0,M,ERIE,,,,,,MARY,,2632,,,,,,,CURRIE,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,10893.0,194
+390,18.0,1862.0,0.0,0.0,5.0,,1880.0,Black,,,,1211.0,,,PETER,,1880 IPUMS 100% sample,,22.0,1.0,,1.0,,DAIGO,1,1,,Canada,SERVANT,New York,1,9.0,5210.0,99.0,80,M,99.0,NY,,800.0,0.0,,22,,6311284000.0,11047.0,195
+391,18.0,1862.0,,,,,1880.0,B,NEWYORK,,,,,,PETER,,2355,,,,,,,DAIGO,,,,,,21-WD;NEWYORK,,,,,,M,,NY,,,,,"21-WD;NEWYORK,NEWYORK,NY",41.0296644,-73.75807809999999,11048.0,195
+392,32.0,1848.0,0.0,0.0,4.0,,1880.0,Black,,,,401.0,,,SARAH,,1880 IPUMS 100% sample,,4.0,5.0,,1.0,,DALE,1,1,,Canada,WASHWOMAN,Auburn,1,0.0,4300.0,99.0,6,F,99.0,NY,,0.0,0.0,,5,,5787736000.0,11073.0,196
+393,32.0,1848.0,,,,,1880.0,B,CAYUGA,,,,,,SARAH,,3754,,,,,,,DALE,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,11074.0,196
+396,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,21.0,1.0,,1.0,,DALY,1,1,,Ireland,LAUNDRESS,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7418331000.0,11107.0,198
+397,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,21.0,1.0,,1.0,,DALY,1,1,,Ireland,LAUNDRESS,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7461126000.0,11108.0,198
+400,38.0,1842.0,3.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ELIZABETH,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,DAVIS,1,1,,Canada,KEEPINGHOUSE,New York,1,3.0,2100.0,16.0,80,F,20.0,NY,,0.0,0.0,,8,,6334412000.0,11357.0,200
+401,38.0,1842.0,,,,,1880.0,B,NEWYORK,,,,,,ELIZABETH,,2189,,,,,,,DAVIS,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,11524.0,200
+402,31.0,1869.0,0.0,0.0,1.0,,1900.0,Black,,,2.0,101.0,,,Lilian,,1900 IPUMS 5% sample,,1.0,1.0,0.0,20.0,,Davis,20,1,,Canada,Laundress,New York,1,2.0,1000.0,99.0,90,F,99.0,NY,,0.0,0.0,,3,,117997001.0,11381.0,201
+403,31.0,1869.0,,,,,1900.0,B,NEWYORK,,,,,,LILIAN,,4767,,,,,,,DAVIS,,,,,,MANHATTAN,,,,,,F,,NY,,,,,"MANHATTAN,NEWYORK,NY",40.7830603,-73.9712488,11578.0,201
+404,43.0,1837.0,3.0,0.0,1.0,,1880.0,Black,,,,101.0,,,THOMASA.,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,DAVIS,1,1,,Canada,MINISTER,New York,1,3.0,1000.0,16.0,80,M,20.0,NY,,0.0,0.0,,8,,6334412000.0,11397.0,202
+405,43.0,1837.0,,,,,1880.0,B,NEWYORK,,,,,,THOMASA.,,2190,,,,,,,DAVIS,,,,,,16-WD;NEWYORK,,,,,,M,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,11610.0,202
+406,50.0,1830.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,OWEN,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,DAVIS,1,9,890,Canada,LABORER,Buffalo,1,2.0,5310.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,5911942000.0,11430.0,203
+407,50.0,1830.0,,,,,1880.0,B,ERIE,,,,,,OWEN,,3684,,,,,,,DAVIS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,11600.0,203
+408,25.0,1855.0,6.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JULIA,,1880 IPUMS 100% sample,,2.0,8.0,,1.0,,DEDRICK,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,6.0,10,F,18.0,NY,,0.0,0.0,,8,,5925977000.0,11889.0,204
+409,25.0,1855.0,,,,,1880.0,B,ERIE,,,,,,JULIA,,2905,,,,,,,DEDRICK,,,,,,8-WD;BUFFALO,,,,,,F,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,11894.0,204
+410,20.0,1860.0,0.0,0.0,4.0,,1880.0,Black,,,,701.0,,,CATHERIN,,1880 IPUMS 100% sample,,4.0,4.0,,1.0,,DEMUNN,1,1,,Canada,,Philadephia,1,1.0,4410.0,99.0,70,F,99.0,PA,,0.0,1.0,,5,,8469381000.0,12020.0,205
+411,20.0,1860.0,,,,,1880.0,B,PHILADELPHIA,,,,,,CATHERIN,,2855,,,,,,,DEMUNN,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,12022.0,205
+416,37.0,1873.0,0.0,0.0,1.0,,1910.0,Black,,,0.0,101.0,,,ALBERTA,,1910 IPUMS 1% sample,,1.0,1.0,0.0,101.0,,DIXON,102,1,,Canada,COOK,Chicago,1,0.0,1000.0,99.0,90,F,99.0,IL,,0.0,0.0,,1,,31671000.0,12460.0,208
+417,37.0,1873.0,,,,,1910.0,B,COOK,,,,,,ALBERTA,,11440,,,,,,,DIXON,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,12482.0,208
+418,55.0,1825.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ELIZABETH,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,DORREY,1,1,,Canada,KEEPINGHOUSE,Elmira,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,2,,5818459000.0,12650.0,209
+419,55.0,1825.0,,,,,1880.0,M,CHEMUNG,,,,,,ELIZABETH,,3630,,,,,,,DORREY,,,,,,3-WD;ELMIRA,,,,,,F,,NY,,,,,"3-WD;ELMIRA,CHEMUNG,NY",42.090974,-76.80613000000001,12652.0,209
+420,30.0,1850.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,MARYJ.,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,DOUGLAS,1,1,,Canada,KEEPINGHOUSE,Auburn,1,1.0,2100.0,3.0,6,F,3.0,NY,,0.0,1.0,,5,,5783451000.0,12764.0,210
+421,30.0,1850.0,,,,,1880.0,B,CAYUGA,,,,,,MARYJ.,,2266,,,,,,,DOUGLAS,,,,,,2-WD;AUBURN,,,,,,F,,NY,,,,,"2-WD;AUBURN,CAYUGA,NY",42.9315049,-76.5679421,12792.0,210
+422,19.0,1861.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,LOUISA,,1880 IPUMS 100% sample,,3.0,4.0,,1.0,,EDWARDS,1,1,890,Canada,ATHOME,Buffalo,1,9.0,3100.0,99.0,10,F,99.0,NY,,800.0,1.0,,15,,5909892000.0,13634.0,211
+423,19.0,1861.0,,,,,1880.0,B,ERIE,,,,,,LOUISA,,3685,,,,,,,EDWARDS,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,13711.0,211
+424,21.0,1859.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,303.0,,,CORNELIUS,,1880 IPUMS 100% sample,,4.0,4.0,,1.0,,EDWOODS,1,1,,Canada,PRINTER,Bay City,1,0.0,3300.0,99.0,6,M,99.0,MI,,0.0,1.0,,4,,4106131000.0,13733.0,212
+425,21.0,1859.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1202.0,,,CORNELIUS,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,,EDWOODS,1,3,,Canada,PRINTER,Bay City,1,7.0,5310.0,99.0,6,M,99.0,MI,,0.0,0.0,,9,,4105675000.0,13734.0,212
+426,21.0,1859.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,SARAH,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,ELLICK,1,1,,Canada,KEEPINGHOUSE,Troy,1,0.0,2100.0,0.0,8,F,0.0,NY,,0.0,0.0,,3,,6642241000.0,13815.0,213
+427,21.0,1859.0,,,,,1880.0,B,RENSSELAER,,,,,,SARAH,,2930,,,,,,,ELLICK,,,,,,8-WD;TROY,,,,,,F,,NY,,,,,"8-WD;TROY,RENSSELAER,NY",42.640145,-73.701352,13816.0,213
+428,35.0,1845.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,DAVID,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,ELMS,1,1,,Canada,WAITER,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6262171000.0,13925.0,214
+429,35.0,1845.0,,,,,1880.0,B,NEWYORK,,,,,,DAVID,,2174,,,,,,,ELMS,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,13929.0,214
+430,46.0,1815.0,,,,,1861.0,,London,,,,,,E,,,,,,,,,Epperson,,464,,USA,laborer,District Five,Roman Catholic,,,,,M,,Ontario,,,,,,,,14105.0,215
+431,46.0,1815.0,,,,,1861.0,,London,,,,,,E,,,,464.0,,,,,Epperson,,,,USA,laborer,District Five,Roman Catholic,,,,,M,,Ontario,,,,,,,,14108.0,215
+432,18.0,1862.0,1.0,1.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,CLARAE.,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,FALEY,1,1,,Canada,LAUNDRESS,New York,1,0.0,2100.0,0.0,80,F,0.0,NY,,0.0,0.0,,3,,6360969000.0,14378.0,216
+433,18.0,1862.0,,,,,1880.0,M,NEWYORK,,,,,,CLARAE.,,2352,,,,,,,FALEY,,,,,,20-WD;NEWYORK,,,,,,F,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,14381.0,216
+434,16.0,1864.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,REBECCA,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,FASSETT,1,1,,Canada,SERVANT,Philadephia,1,3.0,5900.0,99.0,70,F,99.0,PA,,0.0,0.0,,7,,8599169000.0,14475.0,217
+435,16.0,1864.0,,,,,1880.0,B,PHILADELPHIA,,,,,,REBECCA,,2382,,,,,,,FASSETT,,,,,,29-WDPHILADELPHIA,,,,,,F,,PA,,,,,"29-WDPHILADELPHIA,PHILADELPHIA,PA",39.9501938,-75.1471512,14481.0,217
+436,31.0,1849.0,2.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,VICTORIA,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,FIELDS,1,1,,Canada,KEEPINGHOUSE,Albany,1,9.0,1000.0,9.0,9,F,10.0,NY,,801.0,0.0,,14,,5720047000.0,14660.0,218
+437,31.0,1849.0,,,,,1880.0,M,ALBANY,,,,,,VICTORIA,,2791,,,,,,,FIELDS,,,,,,6-WD;ALBANY,,,,,,F,,NY,,,,,"6-WD;ALBANY,ALBANY,NY",42.679279,-73.783171,14694.0,218
+438,20.0,1860.0,1.0,1.0,2.0,,1880.0,Black,Westchester,,,201.0,,,SUSIE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,FIRLY,1,3,,Canada,KEEPSHOUSE,Yonkers,1,2.0,2100.0,1.0,6,F,1.0,NY,,0.0,0.0,,5,,6857901000.0,14739.0,219
+439,20.0,1860.0,,,,,1880.0,B,WESTCHESTER,,,,,,SUSIE,,2557,,,,,,,FIRLY,,,,,,3-WD;YONKERS,,,,,,F,,NY,,,,,"3-WD;YONKERS,WESTCHESTER,NY",40.94146729999999,-73.8974407,14741.0,219
+440,23.0,1857.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ANDREW,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,FLOYED,1,1,,Canada,WAITER,Albany,1,1.0,5900.0,99.0,9,M,99.0,NY,,801.0,0.0,,1,,5721272000.0,15035.0,220
+441,23.0,1857.0,,,,,1880.0,M,ALBANY,,,,,,ANDREW,,2867,,,,,,,FLOYED,,,,,,7-WD;ALBANY,,,,,,M,,NY,,,,,"7-WD;ALBANY,ALBANY,NY",42.7529459,-73.7714054,15036.0,220
+442,23.0,1857.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,WILLIAM,,1880 IPUMS 100% sample,,14.0,1.0,,1.0,,FOMAN,1,1,,Canada,WAITER,Albany,1,9.0,5900.0,99.0,9,M,99.0,NY,,801.0,0.0,,14,,5720047000.0,15081.0,221
+443,23.0,1857.0,,,,,1880.0,M,ALBANY,,,,,,WILLIAM,,2792,,,,,,,FOMAN,,,YCHECK,,,6-WD;ALBANY,,,,,,M,,NY,,,,,"6-WD;ALBANY,ALBANY,NY",42.679279,-73.783171,15082.0,221
+444,15.0,1865.0,0.0,0.0,4.0,,1880.0,Black,,,,901.0,,,LUCYBROWN,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,FRANCES,1,1,,Canada,SERVANT,Brooklyn New York,1,0.0,4100.0,99.0,50,F,99.0,NY,,0.0,0.0,,3,,6069014000.0,15526.0,222
+445,15.0,1865.0,,,,,1880.0,B,KINGS,,,,,,LUCYBROWN,,3587,,,,,,,FRANCES,,,,,,16-WD;BROOKLYN,,,,,,F,,NY,,,,,"16-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,15534.0,222
+446,30.0,1870.0,1.0,0.0,1.0,,1900.0,Black,,,2.0,101.0,,,Kate,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Freeman,20,1,,Canada,Servant,New York,1,2.0,1000.0,5.0,90,F,5.0,NY,,0.0,0.0,,4,,114464001.0,15784.0,223
+447,30.0,1870.0,,,,,1900.0,B,NEWYORK,,,,,,KATE,,9279,,,,,,,FREEMAN,,,,,,MANHATTAN,,,,,,F,,NY,,,,,"MANHATTAN,NEWYORK,NY",40.7830603,-73.9712488,15860.0,223
+448,24.0,1856.0,0.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,R.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,FREEMAN,1,1,,Canada,LA,Dallas,1,0.0,1000.0,99.0,6,M,99.0,TX,,0.0,0.0,,1,,9386475000.0,15793.0,224
+449,24.0,1856.0,,,,,1880.0,M,DALLAS,,,,,,R,,3568,,,,,,,FREEMAN,,,,,,1-WD;DALLAS,,,,,,M,,TX,,,,,"1-WD;DALLAS,DALLAS,TX",32.8085903,-96.8416678,15872.0,224
+450,46.0,1854.0,0.0,0.0,5.0,,1900.0,Black,,,5.0,1203.0,,,George,,1900 IPUMS 5% sample,,6.0,1.0,0.0,20.0,,Garfield,19,1,,Canada,Cook,Austin,1,3.0,5320.0,99.0,6,M,99.0,TX,,0.0,0.0,,6,,163394062.0,16317.0,225
+451,46.0,1854.0,,,,,1900.0,B,TRAVIS,,,,,,GEORGE,,5832,,,,,,,GARFIELD,,,,,,AUSTIN,,,,,,M,,TX,,,,,"AUSTIN,TRAVIS,TX",30.267153000000004,-97.7430608,16318.0,225
+452,28.0,1852.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ALICE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,GIBSON,1,1,,Canada,KEEPINGHOUSE,Brooklyn New York,1,0.0,2100.0,99.0,50,F,99.0,NY,,0.0,0.0,,2,,6033295000.0,16645.0,226
+453,28.0,1852.0,,,,,1880.0,B,KINGS,,,,,,ALICE,,3762,,,,,,,GIBSON,,,,,,9-WD;BROOKLYN,,,,,,F,,NY,,,,,"9-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999998,16669.0,226
+454,41.0,1839.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,SADIE,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,GIBSON,1,1,,Canada,LAUNDRESS,Brooklyn New York,1,2.0,5900.0,99.0,50,F,99.0,NY,,0.0,0.0,,6,,6089982000.0,16658.0,227
+455,41.0,1839.0,,,,,1880.0,B,KINGS,,,,,,SADIE,,2209,,,,,,,GIBSON,,,,,,19-WD;BROOKLYN,,,,,,F,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,16693.0,227
+456,30.0,1870.0,1.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Alice,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Gooden,20,1,,Canada,,St Paul,1,0.0,1000.0,6.0,10,F,6.0,MN,,0.0,0.0,,2,,68486029.0,17143.0,228
+457,30.0,1870.0,,,,,1900.0,B,RAMSEY,,,,,,ALICE,,8148,,,,,,,GOODEN,,,,,,STPAUL,,,,,,F,,MN,,,,,"STPAUL,RAMSEY,MN",44.9537029,-93.0899578,17145.0,228
+460,28.0,1852.0,3.0,3.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAMW.,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,GORDEN,1,1,890,Canada,WHITEWASHER,Buffalo,1,0.0,1000.0,0.0,10,M,4.0,NY,,0.0,0.0,,5,,5911665000.0,17269.0,230
+461,28.0,1852.0,,,,,1880.0,B,ERIE,,,,,,WILLIAMW.,,3688,,,,,,,GORDEN,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,17284.0,230
+462,35.0,1845.0,0.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,SIMON,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,GRAHAM,1,1,,Canada,DOCKLABORER,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,2,,6245223000.0,17495.0,231
+463,35.0,1845.0,,,,,1880.0,M,NEWYORK,,,,,,SIMON,,2926,,,,,,,GRAHAM,,,,,,8-WD;NEWYORK,,,,,,M,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,17531.0,231
+464,35.0,1845.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,LIZZIE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,GRANT,1,1,,Canada,,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,3,,8465851000.0,17598.0,232
+465,35.0,1845.0,,,,,1880.0,M,PHILADELPHIA,,,,,,LIZZIE,,2746,,,,,,,GRANT,,,,,,5-WDPHILADELPHIA,,,,,,F,,PA,,,,,"5-WDPHILADELPHIA,PHILADELPHIA,PA",39.9467208,-75.1455708,17637.0,232
+466,18.0,1882.0,1.0,1.0,1.0,,1900.0,Black,,,0.0,101.0,,,Theo,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Grayson,20,1,,Canada,DayLaborer,Chicago,1,0.0,1000.0,0.0,80,M,0.0,IL,,0.0,0.0,,3,,17765001.0,17827.0,233
+467,18.0,1882.0,,,,,1900.0,B,COOK,,,,,,THEO,,5933,,,,,,,GRAYSON,,,,,,CHICAGO,,,,,,M,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,17838.0,233
+468,21.0,1859.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,WILLIAMT.,,1880 IPUMS 100% sample,,24.0,1.0,,1.0,,GREEN,1,1,890,Canada,TABLEWAITER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,801.0,0.0,,35,,5906201000.0,17914.0,234
+469,21.0,1859.0,,,,,1880.0,B,ERIE,,,,,,WILLIAMT.,,2282,,,,,,,GREEN,,,,,,2-WD;BUFFALO,,,,,,M,,NY,,,,,"2-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,18141.0,234
+470,56.0,1824.0,5.0,0.0,1.0,,1880.0,Black,,,,101.0,,,CHAS.,,1880 IPUMS 100% sample,,1.0,7.0,,1.0,,GREEN,1,1,,Canada,BRICKLAYER,New Orleans,1,0.0,1000.0,10.0,20,M,29.0,LA,,0.0,0.0,,7,,3241909000.0,17948.0,235
+471,56.0,1824.0,,,,,1880.0,B,NEWORLEANS,,,,,,CHAS,,2319,,,,,,,GREEN,,,,,,2-WD;NEWORLEANS,,,,,,M,,LA,,,,,"2-WD;NEWORLEANS,NEWORLEANS,LA",29.9426564,-90.070389,18047.0,235
+472,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,FRANCES,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,GREEN,1,1,,Canada,SERVANT,New York,1,3.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,5,,6317239000.0,17957.0,236
+473,22.0,1858.0,,,,,1880.0,B,NEWYORK,,,,,,FRANCES,,2356,,,,,,,GREEN,,,YCHECK,,,21-WD;NEWYORK,,,,,,F,,NY,,,,,"21-WD;NEWYORK,NEWYORK,NY",41.0296644,-73.75807809999998,18026.0,236
+474,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,FRANCIS,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,GREEN,1,1,,Canada,WAITRESSINFAMILY,New York,1,5.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,7,,6315557000.0,17958.0,237
+475,22.0,1858.0,,,,,1880.0,B,NEWYORK,,,,,,FRANCIS,,2345,,,,,,,GREEN,,,YCHECK,,,20-WD;NEWYORK,,,,,,F,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999998,18027.0,237
+476,58.0,1862.0,,,,,1920.0,B,SCIOTO,,,,,,THOMASA,,16172,,,,,,,GREEN,,,YQUIRK,,,WAYNE,,,,,,M,,OH,,,,,"WAYNE,SCIOTO,OH",39.5561598,-83.025396,18030.0,238
+477,58.0,1862.0,,,,,1920.0,B,CLARK,,,,,,THOMASA,,16279,,,,,,,GREEN,,,YQUIRK,,,SPRINGFIELD,,,,,,M,,OH,,,,,"SPRINGFIELD,CLARK,OH",39.9242266,-83.8088171,18031.0,238
+478,30.0,1850.0,5.0,1.0,2.0,,1880.0,Black,,,,201.0,,,SUSIE,,1880 IPUMS 100% sample,,2.0,7.0,,1.0,,GREENE,1,1,,Canada,KEEPINGHOUSE,Lockport,1,1.0,2100.0,0.0,6,F,16.0,NY,,0.0,0.0,,8,,6487370000.0,18158.0,239
+479,30.0,1850.0,,,,,1880.0,B,NIAGARA,,,,,,SUSIE,,2492,,,,,,,GREENE,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,18169.0,239
+480,27.0,1873.0,0.0,0.0,5.0,,1900.0,Black,,,6.0,1204.0,,,WilliamH,,1900 IPUMS 5% sample,,7.0,2.0,0.0,20.0,,Griffin,20,1,,Canada,Waiter,Omaha,1,2.0,5500.0,99.0,10,M,99.0,NE,,0.0,0.0,,8,,78020007.0,18289.0,240
+481,27.0,1873.0,,,,,1900.0,B,DOUGLAS,,,,,,WILLIAMH,,5540,,,,,,,GRIFFIN,,,,,,OMAHA,,,,,,M,,NE,,,,,"OMAHA,DOUGLAS,NE",41.2565369,-95.93450340000001,18337.0,240
+482,22.0,1858.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,GUNTHER,1,1,,Canada,KEEPHOUSE,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,4,,8490986000.0,18537.0,241
+483,22.0,1858.0,,,,,1880.0,B,PHILADELPHIA,,,,,,MARY,,2126,,,,,,,GUNTHER,,,,,,12-WDPHILADELPHIA,,,,,,F,,PA,,,,,"12-WDPHILADELPHIA,PHILADELPHIA,PA",39.9497749,-75.1606697,18539.0,241
+484,26.0,1854.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLES,,1880 IPUMS 100% sample,,17.0,1.0,,1.0,,HALESTOCK,1,1,,Canada,SERVANT,New York,1,9.0,5900.0,99.0,80,M,99.0,NY,,800.0,0.0,,17,,6333631000.0,18706.0,242
+485,26.0,1854.0,,,,,1880.0,B,NEWYORK,,,,,,CHARLES,,2191,,,,,,,HALESTOCK,,,,,,16-WD;NEWYORK,,,,,,M,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,18707.0,242
+486,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,22.0,1.0,,1.0,,HALEY,1,1,,Ireland,LAUNDRESS,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7418331000.0,18711.0,243
+487,40.0,1840.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,22.0,1.0,,1.0,,HALEY,1,1,,Ireland,LAUNDRESS,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7461126000.0,18712.0,243
+490,13.0,1867.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ALICE,,1880 IPUMS 100% sample,,3.0,6.0,,1.0,,HALL,1,1,,Canada,ATSCHOOL,Lockport,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,6,,6487335000.0,18776.0,245
+491,13.0,1867.0,,,,,1880.0,B,NIAGARA,,,,,,ALICE,,2493,,,,,,,HALL,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,18876.0,245
+492,35.0,1845.0,3.0,1.0,1.0,,1880.0,Black,,,,101.0,,,ANN,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,HALL,1,1,,Canada,WASHWOMAN,New York,1,2.0,1000.0,4.0,80,F,21.0,NY,,0.0,0.0,,6,,6224478000.0,18779.0,246
+493,35.0,1845.0,,,,,1880.0,B,NEWYORK,,,,,,ANN,,2156,,,,,,,HALL,,,,,,14-WD;NEWYORK,,,,,,F,,NY,,,,,"14-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,18878.0,246
+494,10.0,1870.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,EVERHALL,,1880 IPUMS 100% sample,,4.0,6.0,,1.0,,HALL,1,1,,Canada,ATSCHOOL,Lockport,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,6,,6487335000.0,18790.0,247
+495,10.0,1870.0,,,,,1880.0,B,NIAGARA,,,,,,EVERHALL,,2494,,,,,,,HALL,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,18893.0,247
+496,25.0,1885.0,0.0,0.0,5.0,,1910.0,Mulatto(BlackandWhite),,,3.0,1203.0,,,MARY,,1910 IPUMS 1% sample,,3.0,1.0,0.0,101.0,,HALL,102,1,,Canada,SERV,Columbus,1,2.0,5320.0,99.0,10,F,99.0,OH,,0.0,0.0,,4,,148377000.0,18815.0,248
+497,25.0,1885.0,,,,,1910.0,M,FRANKLIN,,,,,,MARY,,11915,,,,,,,HALL,,,,,,COLUMBUS,,,,,,F,,OH,,,,,"COLUMBUS,FRANKLIN,OH",39.9611755,-82.9987942,18930.0,248
+498,25.0,1855.0,4.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MAY,,1880 IPUMS 100% sample,,2.0,6.0,,1.0,,HALL,1,1,,Canada,KEEPINGHOUSE,Lockport,1,0.0,2100.0,6.0,6,F,13.0,NY,,0.0,0.0,,6,,6487335000.0,18817.0,249
+499,25.0,1855.0,,,,,1880.0,B,NIAGARA,,,,,,MAY,,2495,,,,,,,HALL,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,18933.0,249
+500,39.0,1841.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,DANIEL,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,HALL,1,9,,Canada,,Auburn,1,1.0,5900.0,99.0,6,M,99.0,NY,,211.0,0.0,,1,,5785239000.0,18861.0,250
+501,39.0,1841.0,,,,,1880.0,B,CAYUGA,,,,,,DANIEL,,3042,,,,,,,HALL,,,,,,AUBURNSTATEPRISON,,,,,,M,,NY,,,,,"AUBURNSTATEPRISON,CAYUGA,NY",42.9353094,-76.5721672,18886.0,250
+502,54.0,1866.0,,,,,1920.0,B,AITKIN,,,,,,JAMESH,,20454,,,,,,,HALL,,,YCHECK,,,AITKIN,,,,,,M,,MN,,,,,"AITKIN,AITKIN,MN",46.5330129,-93.7102493,18869.0,251
+503,54.0,1866.0,,,,,1920.0,B,AITKIN,,,,,,JAMESH,,20455,,,,,,,HALL,,,YCHECK,,,FLEMING,,,,,,M,,MN,,,,,"FLEMING,AITKIN,MN",46.5330129,-93.7102493,18870.0,251
+504,8.0,1872.0,0.0,0.0,4.0,,1880.0,Black,,,,1001.0,,,WILLIAM,,1880 IPUMS 100% sample,,5.0,5.0,,1.0,,HARRIS,1,1,890,Canada,ATSCHOOL,Buffalo,1,0.0,4900.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,5912056000.0,19603.0,252
+505,8.0,1872.0,,,,,1880.0,B,ERIE,,,,,,WILLIAM,,2613,,,,,,,HARRIS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,19950.0,252
+506,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,HENRY,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,HARRIS,1,1,890,Canada,WAITER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,800.0,0.0,,15,,5909892000.0,19598.0,253
+507,30.0,1850.0,,,,,1880.0,B,ERIE,,,,,,HENRY,,3689,,,,,,,HARRIS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,19835.0,253
+508,34.0,1846.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,KATE,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,HARRIS,1,1,890,Canada,,Buffalo,1,0.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,5,,5912056000.0,19599.0,254
+509,34.0,1846.0,,,,,1880.0,B,ERIE,,,,,,KATE,,2611,,,,,,,HARRIS,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,19871.0,254
+510,29.0,1851.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,RICHARD,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,HARRIS,1,1,890,Canada,LABORER,Buffalo,1,0.0,1000.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,5912056000.0,19602.0,255
+511,29.0,1851.0,,,,,1880.0,B,ERIE,,,,,,RICHARD,,2612,,,,,,,HARRIS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,19916.0,255
+512,34.0,1866.0,0.0,0.0,4.0,,1900.0,Black,,,0.0,701.0,,,Annie,,1900 IPUMS 5% sample,,2.0,2.0,0.0,20.0,,Harris,20,1,,Canada,,Chicago,1,0.0,4410.0,99.0,80,F,99.0,IL,,0.0,1.0,,2,,17925001.0,19618.0,256
+513,34.0,1866.0,,,,,1900.0,B,COOK,,,,,,ANNIE,,5939,,,,,,,HARRIS,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,19764.0,256
+514,18.0,1862.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,MARY,,1880 IPUMS 100% sample,,4.0,5.0,,1.0,,HATTEN,1,1,890,Canada,COOK,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,1.0,,5,,5910458000.0,20302.0,257
+515,18.0,1862.0,,,,,1880.0,M,ERIE,,,,,,MARY,,2633,,,,,,,HATTEN,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,20306.0,257
+516,21.0,1859.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,THOMAS,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,HATTEN,1,1,890,Canada,WAITERINHOTEL,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,1.0,,5,,5910458000.0,20304.0,258
+517,21.0,1859.0,,,,,1880.0,M,ERIE,,,,,,THOMAS,,2634,,,,,,,HATTEN,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,20307.0,258
+518,10.0,1870.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JENNIEE.,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,HAVENS,1,1,,Canada,HOUSEWORK,Rome,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,0.0,,3,,6498557000.0,20353.0,259
+519,10.0,1870.0,,,,,1880.0,B,ONEIDA,,,,,,JENNIEE.,,2048,,,,,,,HAVENS,,,,,,1-WD;ROME,,,,,,F,,NY,,,,,"1-WD;ROME,ONEIDA,NY",43.2177473,-75.4567747,20355.0,259
+520,35.0,1835.0,0.0,0.0,1.0,,1870.0,Black,WAYNE,,,101.0,,,PHILIP,,1870 IPUMS 1% sample,,1.0,2.0,0.0,100.0,,HAWKINS,100,1,33801000,Canada,COOKONBOAT,DETROIT,1,1.0,1000.0,99.0,9,M,99.0,MI,,0.0,0.0,,3,42.331427000000005,-83.0457538,20380.0,260
+521,35.0,1835.0,,,,,1870.0,B,WAYNE,,,,,,PHILIP,,,,,,,,,HAWKINS,,,,,,4-WDDETROIT,,,,,,M,,MI,,,,,,,,20441.0,260
+522,30.0,1870.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,NealeG,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Hawkins,20,1,,Canada,concert(actress),Chicago,1,0.0,1000.0,99.0,80,F,99.0,IL,,0.0,1.0,,2,,17925001.0,20398.0,261
+523,30.0,1870.0,,,,,1900.0,B,COOK,,,,,,NEALEG,,5941,,,,,,,HAWKINS,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,20440.0,261
+524,55.0,1825.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,SARAHANN,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,HICKS,1,1,,Canada,LAUNDRESS,New York,1,1.0,1000.0,23.0,80,F,23.0,NY,,0.0,0.0,,3,,6247107000.0,21133.0,262
+525,55.0,1825.0,,,,,1880.0,B,NEWYORK,,,,,,SARAHANN,,2920,,,,,,,HICKS,,,,,,8-WD;NEWYORK,,,,,,F,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,21151.0,262
+526,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,WM.,,1880 IPUMS 100% sample,,14.0,1.0,,1.0,,HIGHWARDEN,1,1,,Canada,WAITER,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7418331000.0,21195.0,263
+527,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,WM.,,1880 IPUMS 100% sample,,14.0,1.0,,1.0,,HIGHWARDEN,1,1,,Canada,WAITER,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7461126000.0,21196.0,263
+528,27.0,1853.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHALLET,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,HINTON,1,1,890,Canada,SERVANT,Buffalo,1,1.0,5900.0,99.0,10,F,99.0,NY,,0.0,0.0,,3,,5911692000.0,21483.0,264
+529,27.0,1853.0,,,,,1880.0,B,ERIE,,,,,,CHALLET,,2614,,,,,,,HINTON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,21486.0,264
+530,8.0,1872.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,CLARA,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,HOGAN,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,0.0,,3,,5909874000.0,21589.0,265
+531,8.0,1872.0,,,,,1880.0,B,ERIE,,,,,,CLARA,,2615,,,,,,,HOGAN,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,21601.0,265
+532,38.0,1842.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JOSEPHENE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,HOLLOWAY,1,1,,Canada,,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,2,,8460718000.0,21715.0,266
+533,38.0,1842.0,,,,,1880.0,B,PHILADELPHIA,,,,,,JOSEPHENE,,2578,,,,,,,HOLLOWAY,,,,,,4-WDPHILADELPHIA,,,,,,F,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.961285100000005,-75.1410126,21717.0,266
+534,20.0,1860.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,HOMES,1,1,,Canada,KEEPINGHOUSE,Brooklyn New York,1,0.0,2100.0,1.0,50,F,1.0,NY,,0.0,0.0,,3,,6074634000.0,21846.0,267
+535,20.0,1860.0,,,,,1880.0,B,KINGS,,,,,,MARY,,3588,,,,,,,HOMES,,,,,,16-WD;BROOKLYN,,,,,,F,,NY,,,,,"16-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999998,21847.0,267
+536,40.0,1840.0,1.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,JOSEPHINE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,HOOKER,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,25.0,80,F,25.0,NY,,0.0,0.0,,3,,6287350000.0,21868.0,268
+537,40.0,1840.0,,,,,1880.0,M,NEWYORK,,,,,,JOSEPHINE,,2953,,,,,,,HOOKER,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,21870.0,268
+538,25.0,1855.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,SARAHB.,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,HOOKER,1,1,,Canada,ATHOME,New York,1,0.0,3100.0,99.0,80,F,99.0,NY,,0.0,0.0,,3,,6287350000.0,21869.0,269
+539,25.0,1855.0,,,,,1880.0,M,NEWYORK,,,,,,SARAHB.,,2954,,,,,,,HOOKER,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,21871.0,269
+542,55.0,1845.0,2.0,1.0,1.0,,1900.0,Black,,,0.0,101.0,,,Charles,,1900 IPUMS 5% sample,,1.0,5.0,0.0,20.0,,Howard,20,1,,Canada,hotelemployee,Chicago,1,0.0,1000.0,4.0,80,M,26.0,IL,,0.0,0.0,,5,,17751001.0,22103.0,271
+543,55.0,1845.0,,,,,1900.0,B,COOK,,,,,,CHARLES,,5291,,,,,,,HOWARD,,,,,,CHICAGO,,,,,,M,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,22169.0,271
+544,39.0,1841.0,2.0,1.0,1.0,,1880.0,Black,,,,101.0,,,EDWARD,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,HOWARD,1,1,,Canada,DRIVER,Newark,1,0.0,1000.0,0.0,10,M,6.0,NJ,,0.0,0.0,,4,,5516532000.0,22107.0,272
+545,39.0,1841.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,EDWARD,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,HOWARD,1,1,,Canada,TEAMSTER,Trenton,1,1.0,5900.0,99.0,7,M,99.0,NJ,,211.0,0.0,,1,,5591797000.0,22108.0,272
+546,25.0,1885.0,0.0,0.0,5.0,,1910.0,Black,,,5.0,1211.0,,,ANNIE,,1910 IPUMS 1% sample,,5.0,1.0,2.0,101.0,,HUDDLIN,102,1,,Canada,COOK,Bangor,1,2.0,5210.0,99.0,6,F,99.0,ME,,0.0,0.0,,6,,69646000.0,22306.0,273
+547,25.0,1885.0,,,,,1910.0,B,PENOBSCOT,,,,,,ANNIE,,10383,,,,,,,HUDDLIN,,,,,,BANGOR,,,,,,F,,ME,,,,,"BANGOR,PENOBSCOT,ME",44.8016128,-68.7712257,22307.0,273
+550,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JOHN,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,,JACKSON,1,9,,Canada,COOKINHOTEL,New York,1,9.0,5900.0,99.0,80,M,99.0,NY,,800.0,0.0,,19,,6315827000.0,23139.0,275
+551,25.0,1855.0,,,,,1880.0,B,NEWYORK,,,,,,JOHN,,2346,,,,,,,JACKSON,,,YCHECK,,,20-WD;NEWYORK,,,,,,M,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,23176.0,275
+552,22.0,1858.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,WILLIAMH.,,1880 IPUMS 100% sample,,15.0,1.0,,1.0,,JACKSON,1,1,,Canada,SERVANT,New York,1,9.0,5900.0,99.0,80,M,99.0,NY,,10.0,0.0,,15,,6309711000.0,23109.0,276
+553,22.0,1858.0,,,,,1880.0,M,NEWYORK,,,,,,WILLIAMH.,,2203,,,,,,,JACKSON,,,YCHECK,,,18-WD;NEWYORK,,,,,,M,,NY,,,,,"18-WD;NEWYORK,NEWYORK,NY",40.7516989,-73.98969609999997,23184.0,276
+554,32.0,1848.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,JACKSON,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,1.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,3,,5910579000.0,22984.0,277
+555,32.0,1848.0,,,,,1880.0,M,ERIE,,,,,,MARY,,2635,,,,,,,JACKSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,23394.0,277
+556,1.0,1879.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JAMESM.,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,JACKSON,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,0.0,,3,,5909952000.0,22979.0,278
+557,1.0,1879.0,,,,,1880.0,B,ERIE,,,,,,JAMESM.,,2616,,,,,,,JACKSON,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,23325.0,278
+558,42.0,1838.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JUNE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,JACKSON,1,1,890,Canada,HOUSEKEEPER,Buffalo,1,0.0,2100.0,19.0,10,F,19.0,NY,,0.0,0.0,,3,,5909710000.0,22982.0,279
+559,42.0,1838.0,,,,,1880.0,B,ERIE,,,,,,JUNE,,2617,,,,,,,JACKSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,23363.0,279
+560,50.0,1830.0,2.0,1.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,WILLIAMJ.,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,JACKSON,1,1,890,Canada,SAILOR,Buffalo,1,0.0,1000.0,1.0,10,M,17.0,NY,,0.0,0.0,,4,,5912657000.0,22988.0,280
+561,50.0,1830.0,,,,,1880.0,M,ERIE,,,,,,WILLIAMJ.,,2758,,,,,,,JACKSON,,,,,,5-WD;BUFFALO,,,,,,M,,NY,,,,,"5-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,23477.0,280
+562,25.0,1885.0,0.0,0.0,5.0,,1910.0,Black,,,3.0,1204.0,,,GERTRUDE,,1910 IPUMS 1% sample,,4.0,2.0,1.0,101.0,,JACKSON,102,1,,Canada,MAID,Pittsburgh,1,2.0,5500.0,99.0,50,F,99.0,PA,,0.0,0.0,,5,,163147000.0,23038.0,281
+563,25.0,1885.0,,,,,1910.0,B,ALLEGHENY,,,,,,GERTRUDE,,13874,,,,,,,JACKSON,,,,,,PITTSBURGH,,,,,,F,,PA,,,,,"PITTSBURGH,ALLEGHENY,PA",40.4406248,-79.9958864,23281.0,281
+564,50.0,1830.0,2.0,0.0,1.0,,1880.0,Black,,,,101.0,,,ISABELLA,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,JACKSON,1,1,,Canada,NURSE,Rochester,1,0.0,1000.0,24.0,9,F,29.0,NY,,0.0,0.0,,3,,6171912000.0,23048.0,282
+565,50.0,1830.0,,,,,1880.0,B,MONROE,,,,,,ISABELLA,,2519,,,,,,,JACKSON,,,,,,3-WD;ROCHESTER,,,,,,F,,NY,,,,,"3-WD;ROCHESTER,MONROE,NY",43.132601,-77.50625,23314.0,282
+568,7.0,1873.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,EMILYA.,,1880 IPUMS 100% sample,,5.0,7.0,,1.0,,JEFFERSON,1,1,890,Canada,ATSCHOOL,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,4.0,,7,,5935795000.0,23751.0,284
+569,7.0,1873.0,,,,,1880.0,M,ERIE,,,,,,EMILYA.,,2148,,,,,,,JEFFERSON,,,,,,13-WD;BUFFALO,,,,,,F,,NY,,,,,"13-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,23769.0,284
+570,9.0,1871.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,MANDY,,1880 IPUMS 100% sample,,4.0,7.0,,1.0,,JEFFERSON,1,1,890,Canada,ATSCHOOL,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,4.0,,7,,5935795000.0,23755.0,285
+571,9.0,1871.0,,,,,1880.0,M,ERIE,,,,,,MANDY,,2150,,,,,,,JEFFERSON,,,,,,13-WD;BUFFALO,,,,,,F,,NY,,,,,"13-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,23772.0,285
+572,47.0,1833.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JOHIAH.,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,JEFFREY,1,9,,Canada,COOKINHOTEL,Rochester,1,1.0,5900.0,99.0,9,M,99.0,NY,,0.0,0.0,,5,,6170205000.0,23789.0,286
+573,47.0,1833.0,,,,,1880.0,B,MONROE,,,,,,JOHIAH.,,2046,,,,,,,JEFFREY,,,,,,1-WD;ROCHESTER,,,,,,M,,NY,,,,,"1-WD;ROCHESTER,MONROE,NY",43.1554284,-77.6127132,23790.0,286
+576,21.0,1859.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,LUSCINDA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,JEMESON,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,5.0,10,F,5.0,NY,,0.0,0.0,,3,,5918408000.0,23804.0,288
+577,21.0,1859.0,,,,,1880.0,B,ERIE,,,,,,LUSCINDA,,2803,,,,,,,JEMESON,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,23806.0,288
+578,65.0,1815.0,3.0,1.0,1.0,,1880.0,Black,,,,101.0,,,HENRY,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,JOHNSON,1,1,,Canada,WHITEWASHER,Rochester,1,1.0,1000.0,1.0,9,M,23.0,NY,,0.0,0.0,,6,,6189602000.0,24384.0,289
+579,65.0,1815.0,,,,,1880.0,B,MONROE,,,,,,HENRY,,3603,,,,,,,JOHNSON,,,,,,16-WD;ROCHESTER,,,,,,M,,NY,,,,,"16-WD;ROCHESTER,MONROE,NY",43.2062604,-77.5135031,24894.0,289
+580,27.0,1853.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,JOHNSON,1,1,890,Canada,HOUSEKEEPER,Buffalo,1,0.0,2100.0,9.0,10,F,9.0,NY,,0.0,0.0,,3,,5909707000.0,24230.0,290
+581,27.0,1853.0,,,,,1880.0,B,ERIE,,,,,,MARY,,2619,,,,,,,JOHNSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,25059.0,290
+582,33.0,1847.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,MARTHA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,JOHNSON,1,1,,Canada,KEEPINGHOUSE,Binghamton,1,0.0,2100.0,4.0,6,F,4.0,NY,,0.0,0.0,,3,,5760082000.0,24444.0,291
+583,33.0,1847.0,,,,,1880.0,B,BROOME,,,,,,MARTHA,,2280,,,,,,,JOHNSON,,,,,,2-WD;BINGHAMTON,,,,,,F,,NY,,,,,"2-WD;BINGHAMTON,BROOME,NY",42.101095,-75.863479,25052.0,291
+584,29.0,1851.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,SARAH,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,JOHNSON,1,1,,Canada,KEEPSLODGERS,Boston,1,4.0,1000.0,99.0,30,F,99.0,MA,,0.0,0.0,,5,,3970656000.0,24491.0,292
+585,29.0,1851.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,SARAH,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,JOHNSON,1,1,,Canada,KEEPINGHOUSE,Boston,1,0.0,2100.0,4.0,30,F,4.0,MA,,0.0,0.0,,3,,3971224000.0,24492.0,292
+586,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,SARAH,,1880 IPUMS 100% sample,,12.0,1.0,,1.0,,JOHNSON,1,1,,Canada,SERVANT,New York,1,9.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,12,,6309945000.0,24493.0,293
+587,25.0,1855.0,,,,,1880.0,B,NEWYORK,,,,,,SARAH,,2357,,,,,,,JOHNSON,,,,,,21-WD;NEWYORK,,,,,,F,,NY,,,,,"21-WD;NEWYORK,NEWYORK,NY",41.0296644,-73.75807809999999,25136.0,293
+588,43.0,1857.0,,,,,1900.0,B,JACKSON,,,,,,GEORGE,,7389,,,,,,,JOHNSON,,,YCHECK,,,JACKSON,,,,,,M,,MI,,,,,"JACKSON,JACKSON,MI",42.245869,-84.4013462,24668.0,294
+589,43.0,1857.0,,,,,1900.0,B,SANILAC,,,,,,GEORGE,,10198,,,,,,,JOHNSON,,,YCHECK,,,WORTH,,,,,,M,,MI,,,,,"WORTH,SANILAC,MI",43.2242068,-82.5834947,24669.0,294
+592,0.0,1910.0,,,,,1910.0,M,DENVER,,,,,,JENNIE,,11997,,,,,,,JOHNSON,,,,,,DENVER,,,,,,F,,CO,,,,,"DENVER,DENVER,CO",39.7392358,-104.990251,24942.0,296
+593,0.0,1910.0,,,,,1910.0,B,DENVER,,,,,,JENNIE,,12009,,,,,,,JOHNSON,,,,,,DENVER,,,,,,F,,CO,,,,,"DENVER,DENVER,CO",39.7392358,-104.990251,24943.0,296
+594,19.0,1861.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,EMMA,,1880 IPUMS 100% sample,,4.0,7.0,,1.0,,JOHNSON,1,1,,Canada,,Lockport,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,7,,6487310000.0,24356.0,297
+595,19.0,1861.0,,,,,1880.0,B,NIAGARA,,,,,,EMMA,,2496,,,,,,,JOHNSON,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,24825.0,297
+596,25.0,1855.0,0.0,0.0,4.0,,1880.0,Black,,,,1001.0,,,JOHN,,1880 IPUMS 100% sample,,7.0,7.0,,1.0,,JOHNSON,1,1,,Canada,COACHMAN,Lockport,1,0.0,4900.0,99.0,6,M,99.0,NY,,0.0,0.0,,7,,6487310000.0,24414.0,298
+597,25.0,1855.0,,,,,1880.0,B,NIAGARA,,,,,,JOHN,,2497,,,,,,,JOHNSON,,,,,,3-WD;LOCKPORT,,,,,,M,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,24958.0,298
+598,26.0,1874.0,,,,,1900.0,B,WASHTENAW,,,,,,JOSEPH,,10213,,,,,,,JOHNSON,,,YCHECK,,,YPSILANTI,,,,,,M,,MI,,,,,"YPSILANTI,WASHTENAW,MI",42.2411499,-83.6129939,24673.0,299
+599,26.0,1874.0,,,,,1900.0,B,KENT,,,,,,JOSEPH,,4094,,,,,,,JOHNSON,,,YCHECK,,,GRANDRAPIDS,,,,,,M,,MI,,,,,"GRANDRAPIDS,KENT,MI",42.9633599,-85.6680863,24674.0,299
+600,16.0,1864.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,NELLIE,,1880 IPUMS 100% sample,,5.0,7.0,,1.0,,JOHNSON,1,1,,Canada,,Lockport,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,7,,6487310000.0,24467.0,300
+601,16.0,1864.0,,,,,1880.0,B,NIAGARA,,,,,,NELLIE,,2498,,,,,,,JOHNSON,,,,,,3-WD;LOCKPORT,,,,,,F,,NY,,,,,"3-WD;LOCKPORT,NIAGARA,NY",43.1285381,-78.6853141,25092.0,300
+602,9.0,1871.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,FRANKM.,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,JOHNSON,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,0.0,,3,,5909707000.0,24224.0,301
+603,9.0,1871.0,,,,,1880.0,B,ERIE,,,,,,FRANKM.,,2618,,,,,,,JOHNSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,24847.0,301
+604,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,JENIE,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,JOHNSON,1,1,890,Canada,,Buffalo,1,1.0,5310.0,99.0,10,F,99.0,NY,,0.0,0.0,,4,,5917633000.0,24225.0,302
+605,25.0,1855.0,,,,,1880.0,B,ERIE,,,,,,JENIE,,3720,,,,,,,JOHNSON,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,24937.0,302
+606,47.0,1833.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,MELINDA,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,JOHNSON,1,1,890,Canada,WASHING,Buffalo,1,0.0,1000.0,99.0,10,F,99.0,NY,,0.0,0.0,,1,,5918406000.0,24231.0,303
+607,47.0,1833.0,,,,,1880.0,B,ERIE,,,,,,MELINDA,,2805,,,,,,,JOHNSON,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,25079.0,303
+608,35.0,1835.0,0.0,0.0,1.0,,1870.0,White,,,,101.0,,,ROBTE,,1870 IPUMS 1% sample,,1.0,1.0,2.0,100.0,,JOHNSON,100,1,890,USA,CAPTAINUSA,Buffalo,1,4.0,1000.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,44560000.0,24233.0,304
+609,35.0,1835.0,,,,,1870.0,W,ERIE,,,,,,ROBTE,,1241,,,,,,,JOHNSON,,,,,,11-WDBUFFALO,,,,,,M,,NY,,,,,"11-WDBUFFALO,ERIE,NY",42.7342336,-78.6221357,25125.0,304
+610,28.0,1872.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Minnie,,1900 IPUMS 5% sample,,1.0,1.0,0.0,20.0,,Johnson,20,1,,Canada,Housework,Boston,1,0.0,1000.0,99.0,50,F,99.0,MA,,0.0,0.0,,1,,57880002.0,24463.0,305
+611,28.0,1872.0,,,,,1900.0,B,SUFFOLK,,,,,,MINNIE,,4571,,,,,,,JOHNSON,,,,,,BOSTON,,,,,,F,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,25084.0,305
+612,28.0,1872.0,1.0,1.0,1.0,,1900.0,Black,,,0.0,101.0,,,WmH,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Johnson,19,1,,Canada,laborerbuilding,Philadephia,1,0.0,1000.0,0.0,80,M,0.0,PA,,0.0,0.0,,3,,154442001.0,24528.0,306
+613,28.0,1872.0,,,,,1900.0,B,PHILADELPHIA,,,,,,WMH,,6663,,,,,,,JOHNSON,,,,,,PHILADELPHIA,,,,,,M,,PA,,,,,"PHILADELPHIA,PHILADELPHIA,PA",39.9525839,-75.1652215,25210.0,306
+614,39.0,1841.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,WMS.,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,JOHNSON,1,1,,Canada,SHOVELMAKER,New York,1,0.0,1000.0,99.0,80,M,99.0,NY,,0.0,1.0,,3,,6356092000.0,24530.0,307
+615,39.0,1841.0,,,,,1880.0,B,NEWYORK,,,,,,WMS.,,2347,,,,,,,JOHNSON,,,,,,20-WD;NEWYORK,,,,,,M,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,25211.0,307
+618,26.0,1854.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ANNIE,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,JONES,1,9,,Canada,KEEPINGHOUSE,Philadephia,1,2.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,6,,8476933000.0,25723.0,309
+619,26.0,1854.0,,,,,1880.0,M,PHILADELPHIA,,,,,,ANNIE,,3748,,,,,,,JONES,,,,,,8-WDPHILADELPHIA,,,,,,F,,PA,,,,,"8-WDPHILADELPHIA,PHILADELPHIA,PA",39.917507,-75.1463333,25823.0,309
+620,35.0,1845.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,ELIZA,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,JONES,1,1,890,Canada,COOK,Buffalo,1,0.0,1000.0,7.0,10,F,7.0,NY,,0.0,0.0,,2,,5909787000.0,25534.0,310
+621,35.0,1845.0,,,,,1880.0,B,ERIE,,,,,,ELIZA,,2620,,,,,,,JONES,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,25869.0,310
+624,21.0,1859.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ELIZABETH,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,JONES,1,1,,Canada,WORKSONPANTS,Brooklyn New York,1,0.0,3100.0,99.0,50,F,99.0,NY,,0.0,2.0,,5,,6074088000.0,25581.0,312
+625,21.0,1859.0,,,,,1880.0,B,KINGS,,,,,,ELIZABETH,,3590,,,,,,,JONES,,,,,,16-WD;BROOKLYN,,,,,,F,,NY,,,,,"16-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999998,25872.0,312
+626,20.0,1860.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,MARYE.,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,JONES,1,1,,Canada,,Lynn,1,0.0,3100.0,99.0,7,F,99.0,MA,,0.0,4.0,,7,,3779670000.0,25642.0,313
+627,20.0,1860.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,MARYE.,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,JONES,1,1,,Canada,SERVANT,Lynn,1,0.0,3100.0,99.0,7,F,99.0,MA,,0.0,4.0,,7,,3781343000.0,25643.0,313
+628,7.0,1873.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,HELEN,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,JONES,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,0.0,,2,,5909787000.0,25535.0,314
+629,7.0,1873.0,,,,,1880.0,B,ERIE,,,,,,HELEN,,3690,,,,,,,JONES,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,25910.0,314
+630,31.0,1839.0,0.0,0.0,5.0,,1870.0,Black,,,,1201.0,,,RACHEL,,1870 IPUMS 1% sample,,4.0,1.0,2.0,100.0,,JONES,100,1,890,Canada,DSERV,Buffalo,1,4.0,5300.0,99.0,10,F,99.0,NY,,0.0,0.0,,5,,44560000.0,25537.0,315
+631,31.0,1839.0,,,,,1870.0,B,ERIE,,,,,,RACHEL,,1240,,,,,,,JONES,,,,,,11-WDBUFFALO,,,,,,F,,NY,,,,,"11-WDBUFFALO,ERIE,NY",42.7342336,-78.6221357,26010.0,315
+632,11.0,1869.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,1031.0,,,ROBERT,,1880 IPUMS 100% sample,,5.0,3.0,,1.0,,JONES,1,1,,Canada,,Chicago,1,3.0,4810.0,99.0,50,M,99.0,IL,,0.0,0.0,,6,,1375881000.0,25654.0,316
+633,11.0,1869.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ROBERT,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,JONES,1,3,,Canada,ATSCHOOL,Chicago,1,3.0,3100.0,99.0,50,M,99.0,IL,,0.0,2.0,,8,,1367282000.0,25709.0,316
+634,35.0,1875.0,0.0,0.0,5.0,,1910.0,Black,,,14.0,1203.0,,,RICHARD,,1910 IPUMS 1% sample,,6.0,1.0,2.0,100.0,,JONES,100,1,,USA,WAITER,Boston,1,9.0,5320.0,99.0,60,M,99.0,MA,,10.0,0.0,,15,,79453000.0,25653.0,317
+635,35.0,1875.0,,,,,1910.0,B,MIDDLESEX,,,,,,RICHARD,,11320,,,,,,,JONES,,,,,,CAMBRIDGE,,,,,,M,,MA,,,,,"CAMBRIDGE,MIDDLESEX,MA",42.3736158,-71.10973349999999,26017.0,317
+636,26.0,1854.0,4.0,1.0,2.0,,1880.0,Black,,,,201.0,,,AJELINE,,1880 IPUMS 100% sample,,2.0,10.0,,1.0,,JONES,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,2.0,6,F,9.0,NY,,0.0,2.0,,10,,5783718000.0,25557.0,318
+637,26.0,1854.0,,,,,1880.0,B,CAYUGA,,,,,,AJELINE,,2267,,,,,,,JONES,,,,,,2-WD;AUBURN,,,,,,F,,NY,,,,,"2-WD;AUBURN,CAYUGA,NY",42.9315049,-76.5679421,25801.0,318
+638,42.0,1838.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ANNA,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,JONES,1,1,,Canada,DOMESTIC,Binghamton,1,1.0,5900.0,99.0,6,F,99.0,NY,,0.0,0.0,,3,,5759700000.0,25562.0,319
+639,42.0,1838.0,,,,,1880.0,B,BROOME,,,,,,ANNA,,1969,,,,,,,JONES,,,,,,1-WD;BINGHAMTON,,,,,,F,,NY,,,,,"1-WD;BINGHAMTON,BROOME,NY",42.1348907,-75.9088634,25816.0,319
+640,9.0,1871.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,CARRIEL.,,1880 IPUMS 100% sample,,6.0,7.0,,1.0,,JONES,1,1,,USA,ATSCHOOL,Lynn,1,0.0,3100.0,99.0,7,F,99.0,MA,,0.0,4.0,,7,,3779670000.0,25574.0,320
+641,9.0,1871.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,CARRIEL.,,1880 IPUMS 100% sample,,6.0,7.0,,1.0,,JONES,1,1,,USA,ATSCHOOL,Lynn,1,0.0,3100.0,99.0,7,F,99.0,MA,,0.0,4.0,,7,,3781343000.0,25575.0,320
+642,28.0,1852.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,KATE,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,JOSEPH,1,9,,Canada,,New York,1,1.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,3,,6215837000.0,26142.0,321
+643,28.0,1852.0,,,,,1880.0,B,NEWYORK,,,,,,KATE,,2837,,,,,,,JOSEPH,,,,,,6-WD;NEWYORK,,,,,,F,,NY,,,,,"6-WD;NEWYORK,NEWYORK,NY",40.7293335,-73.4773669,26148.0,321
+646,18.0,1862.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ANDERSONA.,,1880 IPUMS 100% sample,,4.0,4.0,,1.0,,KEMP,1,1,,Canada,PORTER,New York,1,0.0,3100.0,99.0,80,M,99.0,NY,,0.0,1.0,,4,,6268603000.0,26437.0,323
+647,18.0,1862.0,,,,,1880.0,B,NEWYORK,,,,,,ANDERSONA.,,2192,,,,,,,KEMP,,,,,,16-WD;NEWYORK,,,,,,M,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,26449.0,323
+648,44.0,1836.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JAMES,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,KENNEDY,1,1,,Canada,HUCKSTER,Philadephia,1,0.0,1000.0,99.0,70,M,99.0,PA,,0.0,0.0,,2,,8465243000.0,26474.0,324
+649,44.0,1836.0,,,,,1880.0,B,PHILADELPHIA,,,,,,JAMES,,2745,,,,,,,KENNEDY,,,,,,5-WDPHILADELPHIA,,,,,,M,,PA,,,,,"5-WDPHILADELPHIA,PHILADELPHIA,PA",39.9467208,-75.1455708,26486.0,324
+650,25.0,1855.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARIAN,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,KENNEDY,1,1,,Canada,,Brooklyn New York,1,0.0,2100.0,99.0,50,F,99.0,NY,,0.0,0.0,,2,,6075697000.0,26476.0,325
+651,25.0,1855.0,,,,,1880.0,B,KINGS,,,,,,MARIAN,,3591,,,,,,,KENNEDY,,,,,,16-WD;BROOKLYN,,,,,,F,,NY,,,,,"16-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,26490.0,325
+654,50.0,1830.0,1.0,0.0,4.0,,1880.0,Black,,,,501.0,,,JANE,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,LATHRON,1,1,,Canada,WASHWOMAN,Watertown,1,0.0,4210.0,36.0,6,F,36.0,NY,,0.0,0.0,,5,,5996834000.0,27374.0,327
+655,50.0,1830.0,,,,,1880.0,B,JEFFERSON,,,,,,JANE,,2552,,,,,,,LATHRON,,,,,,3-WD;WATERTOWN,,,,,,F,,NY,,,,,"3-WD;WATERTOWN,JEFFERSON,NY",43.9699772,-75.98644499999999,27375.0,327
+656,29.0,1851.0,2.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ANNIE,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,LEE,1,1,,Canada,WASHER,New York,1,1.0,2100.0,9.0,80,F,10.0,NY,,0.0,0.0,,5,,6286953000.0,27701.0,328
+657,29.0,1851.0,,,,,1880.0,B,NEWYORK,,,,,,ANNIE,,2949,,,,,,,LEE,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,27778.0,328
+658,29.0,1851.0,0.0,0.0,3.0,,1880.0,Black,,,,303.0,,,MARY,,1880 IPUMS 100% sample,,3.0,4.0,,1.0,,LEE,1,1,,Canada,KEEPINGHOUSE,New York,1,1.0,3300.0,99.0,80,F,99.0,NY,,0.0,1.0,,5,,6287471000.0,27730.0,329
+659,29.0,1851.0,,,,,1880.0,B,NEWYORK,,,,,,MARY,,2950,,,,,,,LEE,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,27820.0,329
+660,30.0,1850.0,0.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,CHARLES,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,LEE,1,1,,Canada,WAITER,Chicago,1,0.0,1000.0,99.0,50,M,99.0,IL,,0.0,6.0,,6,,1368090000.0,27705.0,330
+661,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLES,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,LEE,1,1,,USA,COOKINHOTEL,Chicago,1,9.0,5900.0,99.0,50,M,99.0,IL,,801.0,0.0,,11,,1370177000.0,27706.0,330
+662,39.0,1841.0,1.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,HENRY,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,LEOANSTON,1,1,,Canada,BARBER,Galveston,1,0.0,1000.0,10.0,6,M,10.0,TX,,0.0,0.0,,3,,9430787000.0,27919.0,331
+663,39.0,1841.0,,,,,1880.0,M,GALVESTON,,,,,,HENRY,,2911,,,,,,,LEOANSTON,,,,,,8-WD;GALVESTON,,,,,,M,,TX,,,,,"8-WD;GALVESTON,GALVESTON,TX",29.268037,-94.828468,27921.0,331
+664,56.0,1844.0,0.0,0.0,5.0,,1900.0,Black,,,5.0,1202.0,,,Charles,,1900 IPUMS 5% sample,,4.0,1.0,1.0,20.0,,Leonhard,19,1,,Canada,Druggist,New Orleans,1,4.0,5310.0,99.0,20,M,99.0,LA,,0.0,0.0,,6,,42810002.0,27966.0,332
+665,56.0,1844.0,,,,,1900.0,B,ORLEANS,,,,,,CHARLES,,7084,,,,,,,LEONHARD,,,,,,NEWORLEANS,,,,,,M,,LA,,,,,"NEWORLEANS,ORLEANS,LA",29.9510658,-90.0715323,27967.0,332
+666,23.0,1877.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1204.0,,,William,,1900 IPUMS 5% sample,,3.0,1.0,0.0,20.0,,Lewis,20,1,890,Canada,daylabor,Buffalo,1,2.0,5500.0,99.0,30,M,99.0,NY,,0.0,0.0,,4,,91652001.0,28095.0,333
+667,23.0,1877.0,,,,,1900.0,B,ERIE,,,,,,WILLIAM,,7538,,,,,,,LEWIS,,,,,,BUFFALO,,,,,,M,,NY,,,,,"BUFFALO,ERIE,NY",42.8864468,-78.8783689,28334.0,333
+668,49.0,1851.0,0.0,0.0,3.0,,1900.0,Black,,,0.0,301.0,,,Francis,,1900 IPUMS 5% sample,,3.0,4.0,0.0,20.0,,Lewis,20,1,,Canada,Dressmaker,Chicago,1,0.0,3100.0,99.0,80,F,99.0,IL,,0.0,0.0,,4,,17787001.0,28109.0,334
+669,49.0,1851.0,,,,,1900.0,B,COOK,,,,,,FRANCIS,,5962,,,,,,,LEWIS,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000002,28249.0,334
+670,38.0,1842.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,JOHND,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,LEWIS,1,1,,Canada,LAWYER,Philadephia,1,1.0,5900.0,99.0,70,M,99.0,PA,,0.0,0.0,,3,,8465946000.0,28125.0,335
+671,38.0,1842.0,,,,,1880.0,M,PHILADELPHIA,,,,,,JOHND,,2747,,,,,,,LEWIS,,,,,,5-WDPHILADELPHIA,,,,,,M,,PA,,,,,"5-WDPHILADELPHIA,PHILADELPHIA,PA",39.9467208,-75.1455708,28278.0,335
+672,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,LEWIS,1,1,,Canada,DOMESTICSERVANT,Philadephia,1,2.0,5900.0,99.0,70,F,99.0,PA,,0.0,0.0,,5,,8504727000.0,28135.0,336
+673,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,MARY,,2166,,,,,,,LEWIS,,,,,,15-WDPHILADELPHIA,,,,,,F,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,28300.0,336
+674,32.0,1848.0,3.0,1.0,1.0,,1880.0,Black,,,,101.0,,,PETERN.,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,LEWIS,1,1,,Canada,PORTER,Brooklyn New York,1,0.0,1000.0,2.0,50,M,6.0,NY,,0.0,0.0,,5,,6068040000.0,28141.0,337
+675,32.0,1848.0,,,,,1880.0,B,KINGS,,,,,,PETERN.,,3592,,,,,,,LEWIS,,,,,,16-WD;BROOKLYN,,,,,,M,,NY,,,,,"16-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999998,28314.0,337
+676,29.0,1851.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,SARAHM,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,LEWIS,1,1,,Canada,LAUNDRESS,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6262166000.0,28151.0,338
+677,29.0,1851.0,,,,,1880.0,B,NEWYORK,,,,,,SARAHM,,2177,,,,,,,LEWIS,,,,,,15-WD;NEWYORK,,,,,,F,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,28325.0,338
+678,22.0,1858.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,HENRY,,1880 IPUMS 100% sample,,13.0,1.0,,1.0,,LIGHTBODY,1,1,,USA,WAITER,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7418331000.0,28363.0,339
+679,22.0,1858.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,HENRY,,1880 IPUMS 100% sample,,13.0,1.0,,1.0,,LIGHTBODY,1,1,,USA,,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7461126000.0,28364.0,339
+680,25.0,1855.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,AGNES,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,LIGHTFOOT,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,3,,5782855000.0,28367.0,340
+681,25.0,1855.0,,,,,1880.0,M,CAYUGA,,,,,,AGNES,,3039,,,,,,,LIGHTFOOT,,,YQUIRK,,,AUBURN,,,,,,F,,NY,,,,,"AUBURN,CAYUGA,NY",42.9317335,-76.56605290000002,28374.0,340
+682,25.0,1855.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,701.0,,,FRANK,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,LIGHTFOOT,1,1,,Canada,BARBER,Auburn,1,0.0,4410.0,99.0,6,M,99.0,NY,,0.0,1.0,,3,,5782855000.0,28368.0,341
+683,25.0,1855.0,,,,,1880.0,M,CAYUGA,,,,,,FRANK,,3040,,,,,,,LIGHTFOOT,,,YQUIRK,,,AUBURN,,,,,,M,,NY,,,,,"AUBURN,CAYUGA,NY",42.9317335,-76.56605290000002,28375.0,341
+684,33.0,1847.0,0.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,GEORGE,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,LIGHTFOOT,1,1,,Canada,TEAMSTER,Auburn,1,0.0,1000.0,99.0,6,M,99.0,NY,,0.0,1.0,,3,,5782855000.0,28369.0,342
+685,33.0,1847.0,,,,,1880.0,M,CAYUGA,,,,,,GEORGE,,3041,,,,,,,LIGHTFOOT,,,,,,AUBURN,,,,,,M,,NY,,,,,"AUBURN,CAYUGA,NY",42.9317335,-76.56605290000002,28384.0,342
+686,23.0,1857.0,1.0,1.0,2.0,,1880.0,Black,,,,201.0,,,GEORGIEA.,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,LIGHTFOOT,1,1,,Canada,KEEPINGHOUSE,Rochester,1,0.0,2100.0,1.0,9,F,1.0,NY,,0.0,0.0,,3,,6187536000.0,28370.0,343
+687,23.0,1857.0,,,,,1880.0,B,MONROE,,,,,,GEORGIEA.,,2160,,,,,,,LIGHTFOOT,,,,,,14-WD;ROCHESTER,,,,,,F,,NY,,,,,"14-WD;ROCHESTER,MONROE,NY",43.20569879999999,-77.49564529999998,28385.0,343
+688,33.0,1847.0,1.0,1.0,1.0,,1880.0,Black,,,,101.0,,,JOHNS.,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,LIGHTFOOT,1,1,,Canada,WORKSINSHOEFACTY.,Rochester,1,0.0,1000.0,1.0,9,M,1.0,NY,,0.0,0.0,,3,,6187536000.0,28372.0,344
+689,33.0,1847.0,,,,,1880.0,B,MONROE,,,,,,JOHNS.,,2161,,,,,,,LIGHTFOOT,,,,,,14-WD;ROCHESTER,,,,,,M,,NY,,,,,"14-WD;ROCHESTER,MONROE,NY",43.20569879999999,-77.49564529999999,28391.0,344
+690,22.0,1858.0,0.0,0.0,3.0,,1880.0,Black,,,,303.0,,,ANNAE.,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,LIVINGSTON,1,1,,Canada,LAUNDRESS,New York,1,1.0,3300.0,99.0,80,F,99.0,NY,,0.0,0.0,,3,,6330387000.0,28531.0,345
+691,22.0,1858.0,,,,,1880.0,B,NEWYORK,,,,,,ANNAE.,,2193,,,,,,,LIVINGSTON,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,28534.0,345
+692,50.0,1830.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,SARAH,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,LOGAN,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,1000.0,28.0,10,F,28.0,NY,,0.0,0.0,,4,,5924748000.0,28596.0,346
+693,50.0,1830.0,,,,,1880.0,B,ERIE,,,,,,SARAH,,2873,,,,,,,LOGAN,,,,,,7-WD;BUFFALO,,,,,,F,,NY,,,,,"7-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,28628.0,346
+694,34.0,1866.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Phebe,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Lowe,20,1,,Canada,GeneralHousework,Ypsilanti,1,0.0,1000.0,99.0,5,F,99.0,MI,,0.0,1.0,,3,,64972008.0,28803.0,347
+695,34.0,1866.0,,,,,1900.0,B,WASHTENAW,,,,,,PHEBE,,4346,,,,,,,LOWE,,,,,,YPSILANTI,,,,,,F,,MI,,,,,"YPSILANTI,WASHTENAW,MI",42.2411499,-83.6129939,28807.0,347
+696,42.0,1858.0,2.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,EdgarV,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Lucas,19,1,,Canada,chef,New York,1,0.0,1000.0,9.0,90,M,12.0,NY,,0.0,0.0,,4,,117500001.0,28878.0,348
+697,42.0,1858.0,,,,,1900.0,B,NEWYORK,,,,,,EDGARV,,4770,,,,,,,LUCAS,,,,,,MANHATTAN,,,,,,M,,NY,,,,,"MANHATTAN,NEWYORK,NY",40.7830603,-73.9712488,28913.0,348
+698,44.0,1856.0,2.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,James,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Madden,19,1,,Canada,tailorclerk,Chicago,1,0.0,1000.0,10.0,80,M,13.0,IL,,0.0,0.0,,4,,28171002.0,29226.0,349
+699,44.0,1856.0,,,,,1900.0,B,COOK,,,,,,JAMES,,6597,,,,,,,MADDEN,,,,,,CHICAGO,,,,,,M,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,29234.0,349
+700,7.0,1873.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ANNA,,1880 IPUMS 100% sample,,12.0,1.0,,1.0,,MAHANEY,1,9,890,Canada,,Buffalo,1,9.0,5900.0,99.0,10,F,99.0,NY,,800.0,0.0,,13,,5907196000.0,29286.0,350
+701,7.0,1873.0,,,,,1880.0,M,ERIE,,,,,,ANNA,,2285,,,,,,,MAHANEY,,,,,,2-WD;BUFFALO,,,,,,F,,NY,,,,,"2-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,29287.0,350
+702,34.0,1846.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,LYDIA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,MATHIEW,1,1,,Canada,,Philadephia,1,0.0,2100.0,19.0,70,F,19.0,PA,,0.0,0.0,,3,,8469311000.0,29981.0,351
+703,34.0,1846.0,,,,,1880.0,B,PHILADELPHIA,,,,,,LYDIA,,2856,,,,,,,MATHIEW,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,29983.0,351
+704,48.0,1852.0,2.0,0.0,1.0,,1900.0,Black,,,1.0,101.0,,,James,,1900 IPUMS 5% sample,,1.0,5.0,0.0,20.0,,Mayhew,20,1,,Canada,Waiter,New York,1,1.0,1000.0,11.0,90,M,16.0,NY,,0.0,0.0,,6,,113856001.0,30120.0,352
+705,48.0,1852.0,,,,,1900.0,B,NEWYORK,,,,,,JAMES,,5670,,,,,,,MAYHEW,,,,,,MANHATTAN,,,,,,M,,NY,,,,,"MANHATTAN,NEWYORK,NY",40.7830603,-73.9712488,30126.0,352
+706,42.0,1838.0,4.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,THOMAS,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,MCCARTHY,1,1,,Canada,BARBER,San Antonio,1,0.0,1000.0,16.0,6,M,21.0,TX,,0.0,0.0,,6,,9332544000.0,30208.0,353
+707,42.0,1838.0,,,,,1880.0,M,BEXAR,,,,,,THOMAS,,2054,,,,,,,MCCARTHY,,,,,,1-WD;SANANTONIO,,,,,,M,,TX,,,,,"1-WD;SANANTONIO,BEXAR,TX",29.5499442,-98.4900489,30218.0,353
+708,10.0,1870.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,VIRGINIA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,MCDONALD,1,1,,Canada,ATHOME,New Orleans,1,1.0,3100.0,99.0,20,F,99.0,LA,,0.0,0.0,,3,,3236495000.0,30440.0,354
+709,10.0,1870.0,,,,,1880.0,M,NEWORLEANS,,,,,,VIRGINIA,,2024,,,,,,,MCDONALD,,,,,,1-WD;NEWORLEANS,,,,,,F,,LA,,,,,"1-WD;NEWORLEANS,NEWORLEANS,LA",29.9593636,-90.0714433,30469.0,354
+710,28.0,1882.0,0.0,0.0,5.0,,1910.0,Black,,,14.0,1203.0,,,GEORGE,,1910 IPUMS 1% sample,,10.0,1.0,2.0,100.0,,MCDUGAL,100,1,,Canada,PORTER,Boston,1,9.0,5320.0,99.0,60,M,99.0,MA,,10.0,0.0,,15,,79453000.0,30501.0,355
+711,28.0,1882.0,,,,,1910.0,B,SUFFOLK,,,,,,GEORGE,,10768,,,,,,,MCDUGAL,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,30502.0,355
+712,28.0,1852.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,LEBITIE,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,MILLER,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,1.0,2100.0,10.0,10,F,10.0,NY,,0.0,0.0,,4,,5917633000.0,31345.0,356
+713,28.0,1852.0,,,,,1880.0,B,ERIE,,,,,,LEBITIE,,2806,,,,,,,MILLER,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,31483.0,356
+714,35.0,1865.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1211.0,,,Daisy,,1900 IPUMS 5% sample,,4.0,1.0,1.0,20.0,,Miller,19,1,,Canada,Cook,Chicago,1,1.0,5210.0,99.0,80,F,99.0,IL,,0.0,0.0,,4,,28705001.0,31358.0,357
+715,35.0,1865.0,,,,,1900.0,B,COOK,,,,,,DAISY,,6631,,,,,,,MILLER,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,31444.0,357
+716,53.0,1827.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MARYA.,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,MILLS,1,1,,Canada,,New York,1,1.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,5,,6286953000.0,31550.0,358
+717,53.0,1827.0,,,,,1880.0,B,NEWYORK,,,,,,MARYA.,,2951,,,,,,,MILLS,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,31567.0,358
+718,27.0,1853.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JOS.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,MITCHELL,1,1,,Canada,LABORER,Philadephia,1,1.0,5900.0,99.0,70,M,99.0,PA,,212.0,0.0,,1,,8505901000.0,31769.0,359
+719,27.0,1853.0,,,,,1880.0,B,PHILADELPHIA,,,,,,JOS,,2167,,,,,,,MITCHELL,,,,,,15-WDPHILADELPHIA,,,,,,M,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,31843.0,359
+720,38.0,1842.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,MITCHELL,1,1,,Canada,KEEPSHOUSE,New York,1,0.0,2100.0,25.0,80,F,25.0,NY,,0.0,0.0,,3,,6356252000.0,31773.0,360
+721,38.0,1842.0,,,,,1880.0,B,NEWYORK,,,,,,MARY,,2348,,,,,,,MITCHELL,,,,,,20-WD;NEWYORK,,,,,,F,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,31851.0,360
+722,35.0,1845.0,2.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,ADRIAN,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,MONTIER,1,2,,Canada,CLERKINRESTAURANT,Philadephia,2,0.0,1000.0,7.0,70,M,9.0,PA,,0.0,0.0,,6,,8472093000.0,31997.0,361
+723,35.0,1845.0,,,,,1880.0,M,PHILADELPHIA,,,,,,ADRIAN,,2860,,,,,,,MONTIER,,,,,,7-WDPHILADELPHIA,,,,,,M,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,32000.0,361
+724,40.0,1860.0,0.0,0.0,1.0,,1900.0,Black,,,7.0,101.0,,,Laura,,1900 IPUMS 5% sample,,1.0,1.0,2.0,20.0,,Moore,20,1,,Canada,LodgingHouse,New York,1,7.0,1000.0,99.0,90,F,99.0,NY,,0.0,0.0,,8,,119972001.0,32096.0,362
+725,40.0,1860.0,,,,,1900.0,B,NEWYORK,,,,,,LAURA,,9309,,,,,,,MOORE,,,,,,MANHATTAN,,,,,,F,,NY,,,,,"MANHATTAN,NEWYORK,NY",40.7830603,-73.9712488,32213.0,362
+726,23.0,1857.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,THOMAS,,1880 IPUMS 100% sample,,23.0,1.0,,1.0,,MORGAN,1,1,890,Canada,TABLEWAITER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,801.0,0.0,,35,,5906201000.0,32305.0,363
+727,23.0,1857.0,,,,,1880.0,B,ERIE,,,,,,THOMAS,,2283,,,,,,,MORGAN,,,,,,2-WD;BUFFALO,,,,,,M,,NY,,,,,"2-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,32364.0,363
+728,32.0,1848.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JAMES,,1880 IPUMS 100% sample,,27.0,1.0,,1.0,,MORRIS,1,1,,Canada,SERVANT,San Antonio,1,9.0,5900.0,99.0,6,M,99.0,TX,,801.0,0.0,,33,,9334087000.0,32412.0,364
+729,32.0,1848.0,,,,,1880.0,B,BEXAR,,,,,,JAMES,,2525,,,,,,,MORRIS,,,,,,3-WD;SANANTONIO,,,,,,M,,TX,,,,,"3-WD;SANANTONIO,BEXAR,TX",29.4263622,-98.4869728,32485.0,364
+730,26.0,1854.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JOHN,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,MORRIS,1,1,,Canada,SAILOR,New York,1,0.0,1000.0,7.0,80,M,7.0,NY,,0.0,0.0,,4,,6246844000.0,32415.0,365
+731,26.0,1854.0,,,,,1880.0,B,NEWYORK,,,,,,JOHN,,2921,,,,,,,MORRIS,,,,,,8-WD;NEWYORK,,,,,,M,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,32493.0,365
+732,40.0,1840.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JULIA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,MORRIS,1,1,,Canada,LAUNDRESS,Brooklyn New York,1,0.0,2100.0,99.0,50,F,99.0,NY,,0.0,0.0,,2,,6008468000.0,32416.0,366
+733,40.0,1840.0,,,,,1880.0,B,KINGS,,,,,,JULIA,,2600,,,,,,,MORRIS,,,,,,4-WD;BROOKLYN,,,,,,F,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,32503.0,366
+734,30.0,1850.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,MORRIS,1,1,,Canada,PORTER,Brooklyn New York,1,0.0,1000.0,99.0,50,M,99.0,NY,,0.0,0.0,,2,,6008468000.0,32426.0,367
+735,30.0,1850.0,,,,,1880.0,B,KINGS,,,,,,WILLIAM,,2601,,,,,,,MORRIS,,,,,,4-WD;BROOKLYN,,,,,,M,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,32519.0,367
+736,20.0,1860.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,LIZZIE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,MORRIS,1,9,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,2,,5787679000.0,32448.0,368
+737,20.0,1860.0,,,,,1880.0,B,CAYUGA,,,,,,LIZZIE,,3755,,,,,,,MORRIS,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,32504.0,368
+738,21.0,1859.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,HANNAH,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,MOSBY,1,1,,Canada,SERVANT,New York,1,1.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,4,,6383713000.0,32666.0,369
+739,21.0,1859.0,,,,,1880.0,B,NEWYORK,,,,,,HANNAH,,2363,,,,,,,MOSBY,,,,,,22-WD;NEWYORK,,,,,,F,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,32669.0,369
+740,16.0,1864.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,AARON,,1880 IPUMS 100% sample,,4.0,4.0,,1.0,,MOSRELL,1,1,,Canada,ATHOME,Lockport,1,1.0,3100.0,99.0,6,M,99.0,NY,,0.0,1.0,,5,,6486405000.0,32730.0,370
+741,16.0,1864.0,,,,,1880.0,B,NIAGARA,,,,,,AARON,,2017,,,,,,,MOSRELL,,,,,,1-WD;LOCKPORT,,,,,,M,,NY,,,,,"1-WD;LOCKPORT,NIAGARA,NY",43.098766,-79.049355,32733.0,370
+742,22.0,1858.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,ANNIE,,1880 IPUMS 100% sample,,24.0,1.0,,1.0,,MULLANE,1,1,,Ireland,SERVANT,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7418331000.0,32852.0,371
+743,22.0,1858.0,0.0,0.0,5.0,,1880.0,White,,,,1230.0,,,ANNIE,,1880 IPUMS 100% sample,,24.0,1.0,,1.0,,MULLANE,1,1,,Ireland,SERVANT,Cincinnati,1,9.0,5900.0,99.0,20,F,99.0,OH,,801.0,0.0,,24,,7461126000.0,32853.0,371
+744,39.0,1871.0,0.0,0.0,5.0,,1910.0,Black,,,6.0,1215.0,,,MABELM,,1910 IPUMS 1% sample,,7.0,1.0,1.0,100.0,,MUNSON,100,1,,Canada,SERV,Chicago,1,1.0,5210.0,99.0,90,F,99.0,IL,,0.0,0.0,,7,,35631000.0,32931.0,372
+745,39.0,1871.0,,,,,1910.0,B,COOK,,,,,,MABELM,,11646,,,,,,,MUNSON,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,32932.0,372
+746,29.0,1851.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,MURPHY,1,9,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6245228000.0,32990.0,373
+747,29.0,1851.0,,,,,1880.0,M,NEWYORK,,,,,,MARY,,2928,,,,,,,MURPHY,,,,,,8-WD;NEWYORK,,,,,,F,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,33009.0,373
+748,36.0,1844.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JOHN,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,MUSSIE,1,1,,Canada,SEAMAN,New York,1,3.0,1000.0,99.0,80,M,99.0,NY,,0.0,0.0,,5,,6215835000.0,33093.0,374
+749,36.0,1844.0,,,,,1880.0,B,NEWYORK,,,,,,JOHN,,2838,,,,,,,MUSSIE,,,,,,6-WD;NEWYORK,,,,,,M,,NY,,,,,"6-WD;NEWYORK,NEWYORK,NY",40.7293335,-73.4773669,33095.0,374
+750,46.0,1834.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,AGNES,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,MUTRI,1,1,,Canada,DRESSMAKER,New York,1,0.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,1,,6261372000.0,33098.0,375
+751,46.0,1834.0,,,,,1880.0,B,NEWYORK,,,,,,AGNES,,2178,,,,,,,MUTRI,,,,,,15-WD;NEWYORK,,,,,,F,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,33099.0,375
+752,27.0,1853.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,GEORGE,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,NEAL,1,1,,Canada,LABORER,Philadephia,1,2.0,1000.0,9.0,70,M,9.0,PA,,0.0,0.0,,5,,8468534000.0,33222.0,376
+753,27.0,1853.0,,,,,1880.0,B,PHILADELPHIA,,,,,,GEORGE,,2857,,,,,,,NEAL,,,,,,7-WDPHILADELPHIA,,,,,,M,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,33230.0,376
+754,33.0,1867.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1211.0,,,Maud,,1900 IPUMS 5% sample,,4.0,1.0,1.0,20.0,,Nelson,20,1,,Canada,Servant,Brookline,1,1.0,5210.0,99.0,1,F,99.0,MA,,0.0,0.0,,4,,55130015.0,33310.0,377
+755,33.0,1867.0,,,,,1900.0,B,NORFOLK,,,,,,MAUD,,8434,,,,,,,NELSON,,,,,,BROOKLINE,,,,,,F,,MA,,,,,"BROOKLINE,NORFOLK,MA",42.3317642,-71.1211635,33362.0,377
+756,43.0,1837.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,PUNULLA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,NEWTON,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,99.0,6,F,99.0,NY,,0.0,0.0,,2,,5787741000.0,33499.0,378
+757,43.0,1837.0,,,,,1880.0,B,CAYUGA,,,,,,PUNULLA,,3756,,,,,,,NEWTON,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,33516.0,378
+758,40.0,1840.0,2.0,1.0,1.0,,1880.0,Black,,,,101.0,,,JOSEPHB.,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,NOIL,1,1,,Canada,SAILOR,New York,1,0.0,1000.0,4.0,80,M,9.0,NY,,0.0,0.0,,4,,6331165000.0,33637.0,379
+759,40.0,1840.0,,,,,1880.0,B,NEWYORK,,,,,,JOSEPHB.,,2194,,,,,,,NOIL,,,,,,16-WD;NEWYORK,,,,,,M,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,33640.0,379
+760,50.0,1830.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ANN,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,OAKES,1,3,,Canada,DOMESTICSERVT.,New Orleans,1,4.0,5900.0,99.0,20,F,99.0,LA,,0.0,0.0,,7,,3238851000.0,33829.0,380
+761,50.0,1830.0,,,,,1880.0,B,NEWORLEANS,,,,,,ANN,,2320,,,,,,,OAKES,,,,,,2-WD;NEWORLEANS,,,,,,F,,LA,,,,,"2-WD;NEWORLEANS,NEWORLEANS,LA",29.9426564,-90.070389,33830.0,380
+764,20.0,1860.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,DAVID,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,PARKER,1,1,890,Canada,PORTER,Buffalo,1,1.0,5900.0,99.0,10,M,99.0,NY,,801.0,0.0,,1,,5910095000.0,34431.0,382
+765,20.0,1860.0,,,,,1880.0,B,ERIE,,,,,,DAVID,,3691,,,,,,,PARKER,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,34502.0,382
+768,16.0,1864.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,PHILIP,,1880 IPUMS 100% sample,,5.0,11.0,,1.0,,PECK,1,1,890,Canada,,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,8.0,,11,,5911941000.0,34941.0,384
+769,16.0,1864.0,,,,,1880.0,B,ERIE,,,,,,PHILIP,,2621,,,,,,,PECK,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,34947.0,384
+772,33.0,1847.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ISABELLA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,PETERSON,1,9,,Canada,,Brooklyn New York,1,1.0,2100.0,99.0,50,F,99.0,NY,,0.0,0.0,,3,,6044327000.0,35330.0,386
+773,33.0,1847.0,,,,,1880.0,M,KINGS,,,,,,ISABELLA,,2107,,,,,,,PETERSON,,,,,,11-WD;BROOKLYN,,,,,,F,,NY,,,,,"11-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,35357.0,386
+774,29.0,1841.0,0.0,0.0,5.0,,1870.0,White,,,,1201.0,,,FE,,1870 IPUMS 1% sample,,2.0,1.0,2.0,100.0,,PIERCE,100,1,890,USA,1STLIEUTENANTUSA,Buffalo,1,4.0,5300.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,44560000.0,35619.0,387
+775,29.0,1841.0,,,,,1870.0,W,ERIE,,,,,,FE,,1242,,,,,,,PIERCE,,,,,,11-WDBUFFALO,,,,,,M,,NY,,,,,"11-WDBUFFALO,ERIE,NY",42.7342336,-78.6221357,35623.0,387
+776,20.0,1880.0,0.0,0.0,5.0,,1900.0,Black,,,2.0,1202.0,,,Robert,,1900 IPUMS 5% sample,,3.0,1.0,0.0,20.0,,Pine,20,1,,Canada,porterrr,Jersey City,1,1.0,5310.0,99.0,20,M,99.0,NJ,,0.0,0.0,,3,,84982001.0,35672.0,388
+777,20.0,1880.0,,,,,1900.0,B,HUDSON,,,,,,ROBERT,,7399,,,,,,,PINE,,,,,,JERSEYCITY,,,,,,M,,NJ,,,,,"JERSEYCITY,HUDSON,NJ",40.7281575,-74.0776417,35676.0,388
+778,22.0,1848.0,,,,,1870.0,W,ALBANY,,,,,,Rose,,997,,,,,,,Plante,,,,,,3-WDCOHOES,,,,,,F,,NY,,,,,"3-WDCOHOES,ALBANY,NY",42.761464,-73.6972,35752.0,389
+779,22.0,1848.0,,,,,1870.0,M,ALBANY,,,,,,ROSE,,1778,,,,,,,PLANTE,,,,,,3-WDCOHOES,,,,,,F,,NY,,,,,"3-WDCOHOES,ALBANY,NY",42.761464,-73.6972,35753.0,389
+780,40.0,1840.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JOHN,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,PLUMMER,1,1,,Canada,LABORER,New Orleans,1,0.0,1000.0,99.0,20,M,99.0,LA,,0.0,0.0,,2,,3284855000.0,35795.0,390
+781,40.0,1840.0,,,,,1880.0,B,NEWORLEANS,,,,,,JOHN,,2200,,,,,,,PLUMMER,,,,,,17-WD;NEWORLEANS,,,,,,M,,LA,,,,,"17-WD;NEWORLEANS,NEWORLEANS,LA",29.983756800000002,-90.0662865,35803.0,390
+782,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ALBERT,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,PORTER,1,1,,Canada,PORTERINHOTEL,Grand Rapids,1,9.0,5900.0,99.0,7,M,99.0,MI,,801.0,0.0,,55,,4241635000.0,35987.0,391
+783,22.0,1858.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,1031.0,,,ALBERT,,1880 IPUMS 100% sample,,9.0,9.0,,1.0,,PORTER,1,1,,Canada,LABORER,Grand Rapids,1,0.0,4810.0,99.0,7,M,99.0,MI,,0.0,0.0,,9,,4244747000.0,35988.0,391
+784,22.0,1858.0,2.0,2.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,PRICE,1,1,,Canada,KEEPHOUSE,Philadephia,1,0.0,2100.0,2.0,70,F,3.0,PA,,0.0,0.0,,4,,8461774000.0,36277.0,392
+785,22.0,1858.0,,,,,1880.0,B,PHILADELPHIA,,,,,,MARY,,2579,,,,,,,PRICE,,,,,,4-WDPHILADELPHIA,,,,,,F,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.96128510000001,-75.1410126,36324.0,392
+786,54.0,1826.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,LAURA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,PRICE,1,1,890,Canada,HOUSEWORK,Buffalo,1,0.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,2,,5934193000.0,36261.0,393
+787,54.0,1826.0,,,,,1880.0,B,ERIE,,,,,,LAURA,,2128,,,,,,,PRICE,,,,,,12-WD;BUFFALO,,,,,,F,,NY,,,,,"12-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,36321.0,393
+788,25.0,1855.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,FANNY,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,PURNELL,1,1,,Canada,KEEPINGHOUSE,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,2,,8460694000.0,36479.0,394
+789,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,FANNY,,2580,,,,,,,PURNELL,,,,,,4-WDPHILADELPHIA,,,,,,F,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.96128510000001,-75.1410126,36489.0,394
+790,18.0,1862.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,ANNA,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,RANDOLPH,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,1.0,,3,,5909853000.0,36665.0,395
+791,18.0,1862.0,,,,,1880.0,B,ERIE,,,,,,ANNA,,2622,,,,,,,RANDOLPH,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,36674.0,395
+792,45.0,1835.0,4.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,WM.T.,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,READING,1,1,,Canada,COOK,New York,1,1.0,1000.0,5.0,80,M,13.0,NY,,0.0,0.0,,7,,6260984000.0,36799.0,396
+793,45.0,1835.0,,,,,1880.0,M,NEWYORK,,,,,,WMT,,2183,,,,,,,READING,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,36801.0,396
+794,28.0,1872.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1211.0,,,Lizzie,,1900 IPUMS 5% sample,,4.0,1.0,1.0,20.0,,Reed,19,1,,Canada,HouseWork,Niagara Falls,1,1.0,5210.0,99.0,6,F,99.0,NY,,0.0,0.0,,4,,126430008.0,36918.0,397
+795,28.0,1872.0,,,,,1900.0,B,NIAGARA,,,,,,LIZZIE,,4179,,,,,,,REED,,,,,,NIAGARAFALLS,,,,,,F,,NY,,,,,"NIAGARAFALLS,NIAGARA,NY",43.0962143,-79.03773879999999,36947.0,397
+796,59.0,1821.0,2.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ANNA,,1880 IPUMS 100% sample,,2.0,13.0,,1.0,,REILEY,1,1,,Canada,KEEPINGHOUSE,Philadephia,1,0.0,2100.0,30.0,70,F,38.0,PA,,0.0,0.0,,13,,8473582000.0,37018.0,398
+797,59.0,1821.0,,,,,1880.0,M,PHILADELPHIA,,,,,,ANNA,,2861,,,,,,,REILEY,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,37030.0,398
+798,29.0,1871.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,JamesH,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Rex,19,1,,Canada,SaloonKeeper,Toledo,1,0.0,1000.0,99.0,10,M,99.0,OH,,0.0,0.0,,2,,141615002.0,37083.0,399
+799,29.0,1871.0,,,,,1900.0,B,LUCAS,,,,,,JAMESH,,7159,,,,,,,REX,,,,,,TOLEDO,,,,,,M,,OH,,,,,"TOLEDO,LUCAS,OH",41.6528052,-83.53786740000001,37085.0,399
+802,21.0,1859.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ANNIE,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,,RICHARDSON,1,1,890,Canada,SERVANT,Buffalo,1,1.0,5900.0,99.0,10,F,99.0,NY,,0.0,0.0,,7,,5931795000.0,37236.0,401
+803,21.0,1859.0,,,,,1880.0,B,ERIE,,,,,,ANNIE,,2108,,,,,,,RICHARDSON,,,,,,11-WD;BUFFALO,,,,,,F,,NY,,,,,"11-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,37316.0,401
+804,28.0,1852.0,2.0,0.0,3.0,,1880.0,Black,,,,301.0,,,BESSIE,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,RICHARDSON,1,1,890,Canada,LAUNDRESS,Buffalo,1,0.0,3100.0,7.0,10,F,9.0,NY,,0.0,0.0,,4,,5924748000.0,37237.0,402
+805,28.0,1852.0,,,,,1880.0,B,ERIE,,,,,,BESSIE,,2874,,,,,,,RICHARDSON,,,,,,7-WD;BUFFALO,,,,,,F,,NY,,,,,"7-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,37322.0,402
+806,31.0,1849.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ALBERT,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,RICHARDSON,1,1,,Canada,LABORER,Auburn,1,1.0,5900.0,99.0,6,M,99.0,NY,,211.0,0.0,,1,,5785604000.0,37242.0,403
+807,31.0,1849.0,,,,,1880.0,B,CAYUGA,,,,,,ALBERT,,3043,,,,,,,RICHARDSON,,,,,,AUBURNSTATEPRISON,,,,,,M,,NY,,,,,"AUBURNSTATEPRISON,CAYUGA,NY",42.9353094,-76.5721672,37315.0,403
+808,17.0,1863.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,HATTIE,,1880 IPUMS 100% sample,,4.0,6.0,,1.0,,RICHARDSON,1,1,,Canada,,Lockport,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,6,,6488390000.0,37251.0,404
+809,17.0,1863.0,,,,,1880.0,B,NIAGARA,,,,,,HATTIE,,2687,,,,,,,RICHARDSON,,,,,,4-WD;LOCKPORT,,,,,,F,,NY,,,,,"4-WD;LOCKPORT,NIAGARA,NY",43.19361110000001,-78.67337459999999,37348.0,404
+810,45.0,1835.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,J.W.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,RICHARDSON,1,1,,Canada,COOK,San Antonio,1,0.0,1000.0,99.0,6,M,99.0,TX,,0.0,0.0,,1,,9332086000.0,37253.0,405
+811,45.0,1835.0,,,,,1880.0,B,BEXAR,,,,,,JW,,2053,,,,,,,RICHARDSON,,,,,,1-WD;SANANTONIO,,,,,,M,,TX,,,,,"1-WD;SANANTONIO,BEXAR,TX",29.5499442,-98.4900489,37362.0,405
+812,12.0,1868.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ELLIS,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,RILEY,1,9,890,Canada,SERVANT,Buffalo,1,3.0,5900.0,99.0,10,M,99.0,NY,,0.0,0.0,,5,,5933678000.0,37571.0,406
+813,12.0,1868.0,,,,,1880.0,M,ERIE,,,,,,ELLIS,,2110,,,,,,,RILEY,,,,,,11-WD;BUFFALO,,,,,,M,,NY,,,,,"11-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,37580.0,406
+814,51.0,1849.0,0.0,0.0,5.0,,1900.0,Black,,,4.0,1203.0,,,Jerry,,1900 IPUMS 5% sample,,2.0,1.0,0.0,20.0,,Ringwood,19,1,,Canada,Teamster,Lynn,1,3.0,5320.0,99.0,8,M,99.0,MA,,0.0,0.0,,5,,50711002.0,37611.0,407
+815,51.0,1849.0,,,,,1900.0,B,ESSEX,,,,,,JERRY,,6398,,,,,,,RINGWOOD,,,,,,LYNN,,,,,,M,,MA,,,,,"LYNN,ESSEX,MA",42.466763,-70.9494938,37615.0,407
+816,7.0,1873.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JAMES,,1880 IPUMS 100% sample,,5.0,7.0,,1.0,,ROBINSON,1,1,890,Canada,ATSCHOOL,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,4.0,,7,,5918611000.0,37941.0,408
+817,7.0,1873.0,,,,,1880.0,B,ERIE,,,,,,JAMES,,2807,,,,,,,ROBINSON,,,,,,6-WD;BUFFALO,,,,,,M,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,38158.0,408
+818,35.0,1845.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JAMES,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,ROBINSON,1,1,,Canada,BARBER,Auburn,1,1.0,5900.0,99.0,6,M,99.0,NY,,211.0,0.0,,1,,5785577000.0,37994.0,409
+819,35.0,1845.0,,,,,1880.0,B,CAYUGA,,,,,,JAMES,,3044,,,,,,,ROBINSON,,,,,,AUBURNSTATEPRISON,,,,,,M,,NY,,,,,"AUBURNSTATEPRISON,CAYUGA,NY",42.9353094,-76.5721672,38156.0,409
+820,19.0,1861.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,MARY,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,ROBINSON,1,1,890,Canada,COOK,Buffalo,1,1.0,5310.0,99.0,10,F,99.0,NY,,0.0,0.0,,4,,5909854000.0,37943.0,410
+821,19.0,1861.0,,,,,1880.0,B,ERIE,,,,,,MARY,,2623,,,,,,,ROBINSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,38185.0,410
+822,27.0,1873.0,0.0,0.0,4.0,,1900.0,Black,,,1.0,1031.0,,,Alfred,,1900 IPUMS 5% sample,,3.0,3.0,0.0,20.0,,Robinson,20,1,,Canada,waiterhotel,Boston,1,1.0,4810.0,99.0,50,M,99.0,MA,,0.0,0.0,,4,,57862001.0,37957.0,411
+823,27.0,1873.0,,,,,1900.0,B,SUFFOLK,,,,,,ALFRED,,4600,,,,,,,ROBINSON,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,38088.0,411
+824,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,THOS.D.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,ROBINSON,1,1,890,Canada,WAITER,Buffalo,1,1.0,5310.0,99.0,10,M,99.0,NY,,801.0,0.0,,1,,5910156000.0,37945.0,412
+825,22.0,1858.0,,,,,1880.0,B,ERIE,,,,,,THOSD,,2624,,,,,,,ROBINSON,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,38215.0,412
+826,24.0,1856.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,CHAANNA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,ROBINSON,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6312641000.0,37969.0,413
+827,24.0,1856.0,,,,,1880.0,B,NEWYORK,,,,,,CHAANNA,,3599,,,,,,,ROBINSON,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,38107.0,413
+828,50.0,1830.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,MARY,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,RODGERS,1,1,,Canada,LAUNDRESS,New York,1,0.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,1,,6381431000.0,38292.0,414
+829,50.0,1830.0,,,,,1880.0,B,NEWYORK,,,,,,MARY,,2364,,,,,,,RODGERS,,,,,,22-WD;NEWYORK,,,,,,F,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,38303.0,414
+830,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,GEORGE,,1880 IPUMS 100% sample,,18.0,1.0,,1.0,,ROSE,1,1,,USA,PASTRYCOOK,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7418331000.0,38478.0,415
+831,19.0,1861.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,GEORGE,,1880 IPUMS 100% sample,,18.0,1.0,,1.0,,ROSE,1,1,,USA,PASTRYCOOK,Cincinnati,1,9.0,5900.0,99.0,20,M,99.0,OH,,801.0,0.0,,24,,7461126000.0,38479.0,415
+832,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,RUSSELL,1,1,,Canada,COACHMAN,Philadephia,1,1.0,5900.0,99.0,70,M,99.0,PA,,211.0,0.0,,1,,8578858000.0,38785.0,416
+833,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,WILLIAM,,2378,,,,,,,RUSSELL,,,,,,26-WDPHILADELPHIA,,,,,,M,,PA,,,,,"26-WDPHILADELPHIA,PHILADELPHIA,PA",39.953010600000006,-75.1618055,38814.0,416
+834,26.0,1854.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,AGNES,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,SADDLER,1,1,,Canada,HOUSEWORK,Philadephia,1,0.0,2100.0,99.0,70,F,99.0,PA,,0.0,0.0,,2,,8461659000.0,38857.0,417
+835,26.0,1854.0,,,,,1880.0,M,PHILADELPHIA,,,,,,AGNES,,2583,,,,,,,SADDLER,,,,,,4-WDPHILADELPHIA,,,,,,F,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.96128510000001,-75.1410126,38861.0,417
+836,16.0,1864.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,HATTIE,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,SANLTERS,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,F,99.0,NY,,0.0,4.0,,7,,5927511000.0,39039.0,418
+837,16.0,1864.0,,,,,1880.0,B,ERIE,,,,,,HATTIE,,2906,,,,,,,SANLTERS,,,,,,8-WD;BUFFALO,,,,,,F,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,39042.0,418
+838,28.0,1892.0,,,,,1920.0,B,KING,,,,,,EVA,,20518,,,,,,,SAXTON,,,,,,SEATTLE,,,,,,F,,WA,,,,,"SEATTLE,KING,WA",47.6062095,-122.33207079999998,39156.0,419
+839,28.0,1892.0,,,,,1920.0,M,KING,,,,,,EVA,,20522,,,,,,,SAXTON,,,,,,SEATTLE,,,,,,F,,WA,,,,,"SEATTLE,KING,WA",47.6062095,-122.33207079999998,39157.0,419
+840,13.0,1867.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,WILLIAMH.,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,SAYLOR,1,9,,Canada,ATHOME,Brooklyn New York,1,0.0,3100.0,99.0,50,M,99.0,NY,,0.0,4.0,,7,,6117573000.0,39167.0,420
+841,13.0,1867.0,,,,,1880.0,B,KINGS,,,,,,WILLIAMH.,,2376,,,,,,,SAYLOR,,,,,,24-WD;BROOKLYN,,,,,,M,,NY,,,,,"24-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,39168.0,420
+842,36.0,1874.0,0.0,0.0,1.0,,1910.0,Black,,,1.0,101.0,,,THOMAS,,1910 IPUMS 1% sample,,1.0,2.0,0.0,101.0,,SCOT,102,1,,Canada,DRIVER,New York,1,1.0,1000.0,99.0,90,M,99.0,NY,,0.0,0.0,,3,,126780000.0,39274.0,421
+843,36.0,1874.0,,,,,1910.0,B,NEWYORK,,,,,,THOMAS,,10986,,,,,,,SCOT,,,,,,BRONX,,,,,,M,,NY,,,,,"BRONX,NEWYORK,NY",40.8447819,-73.86482679999999,39277.0,421
+844,23.0,1857.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JAMES,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,SCOTT,1,1,,Canada,WAITER,New York,1,0.0,1000.0,11.0,80,M,11.0,NY,,0.0,0.0,,3,,6383579000.0,39370.0,422
+845,23.0,1857.0,,,,,1880.0,B,NEWYORK,,,,,,JAMES,,2365,,,,,,,SCOTT,,,,,,22-WD;NEWYORK,,,,,,M,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,39481.0,422
+846,32.0,1868.0,1.0,1.0,1.0,,1900.0,Black,,,0.0,101.0,,,William,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Scott,20,1,,Canada,Janitor,Chicago,1,0.0,1000.0,2.0,80,M,2.0,IL,,0.0,0.0,,3,,17982001.0,39394.0,423
+847,32.0,1868.0,,,,,1900.0,B,COOK,,,,,,WILLIAM,,5979,,,,,,,SCOTT,,,,,,CHICAGO,,,,,,M,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000001,39544.0,423
+848,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MARY,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,,SCOTT,1,1,,Canada,SERVANT,Brooklyn New York,1,1.0,5900.0,99.0,50,F,99.0,NY,,0.0,0.0,,7,,6091611000.0,39381.0,424
+849,22.0,1858.0,,,,,1880.0,B,KINGS,,,,,,MARY,,2210,,,,,,,SCOTT,,,,,,19-WD;BROOKLYN,,,,,,F,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999998,39516.0,424
+850,26.0,1854.0,2.0,2.0,1.0,,1880.0,Black,,,,101.0,,,LOUIS,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,SCOTT,1,1,,Canada,PORTERINSTORE,Brooklyn New York,1,0.0,1000.0,0.0,50,M,1.0,NY,,0.0,0.0,,5,,6116087000.0,39377.0,425
+851,26.0,1854.0,,,,,1880.0,B,KINGS,,,,,,LOUIS,,2370,,,,,,,SCOTT,,,,,,23-WD;BROOKLYN,,,,,,M,,NY,,,,,"23-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,39507.0,425
+852,26.0,1854.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,MAHALEY,,1880 IPUMS 100% sample,,8.0,2.0,,1.0,,SEARS,1,9,890,Canada,COOK,Buffalo,1,9.0,5900.0,99.0,10,F,99.0,NY,,800.0,0.0,,13,,5907196000.0,39582.0,426
+853,26.0,1854.0,,,,,1880.0,M,ERIE,,,,,,MAHALEY,,2286,,,,,,,SEARS,,,,,,2-WD;BUFFALO,,,,,,F,,NY,,,,,"2-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,39587.0,426
+856,22.0,1858.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,CLEMMINT,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,SHANNON,1,1,,Canada,WAITER,Brooklyn New York,1,0.0,3100.0,99.0,50,M,99.0,NY,,0.0,3.0,,5,,6008469000.0,39807.0,428
+857,22.0,1858.0,,,,,1880.0,B,KINGS,,,,,,CLEMMINT,,2602,,,,,,,SHANNON,,,,,,4-WD;BROOKLYN,,,,,,M,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,39812.0,428
+858,14.0,1866.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JOSEPH,,1880 IPUMS 100% sample,,4.0,5.0,,1.0,,SHANNON,1,1,,Canada,ATSCHOOL,Brooklyn New York,1,0.0,3100.0,99.0,50,M,99.0,NY,,0.0,3.0,,5,,6008469000.0,39808.0,429
+859,14.0,1866.0,,,,,1880.0,B,KINGS,,,,,,JOSEPH,,2603,,,,,,,SHANNON,,,,,,4-WD;BROOKLYN,,,,,,M,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,39813.0,429
+860,10.0,1870.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,MARY,,1880 IPUMS 100% sample,,5.0,5.0,,1.0,,SHANNON,1,1,,Canada,ATSCHOOL,Brooklyn New York,1,0.0,3100.0,99.0,50,F,99.0,NY,,0.0,3.0,,5,,6008469000.0,39809.0,430
+861,10.0,1870.0,,,,,1880.0,B,KINGS,,,,,,MARY,,2604,,,,,,,SHANNON,,,,,,4-WD;BROOKLYN,,,,,,F,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,39814.0,430
+862,35.0,1845.0,4.0,0.0,1.0,,1880.0,Black,,,,101.0,,,RACHEL,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,SHANNON,1,1,,Canada,LAUNDRESS,Brooklyn New York,1,0.0,1000.0,10.0,50,F,22.0,NY,,0.0,0.0,,5,,6008469000.0,39810.0,431
+863,35.0,1845.0,,,,,1880.0,B,KINGS,,,,,,RACHEL,,2605,,,,,,,SHANNON,,,,,,4-WD;BROOKLYN,,,,,,F,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,39815.0,431
+864,16.0,1864.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,WILLIAM,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,SHANNON,1,1,,Canada,ATSCHOOL,Brooklyn New York,1,0.0,3100.0,99.0,50,M,99.0,NY,,0.0,3.0,,5,,6008469000.0,39811.0,432
+865,16.0,1864.0,,,,,1880.0,B,KINGS,,,,,,WILLIAM,,2606,,,,,,,SHANNON,,,,,,4-WD;BROOKLYN,,,,,,M,,NY,,,,,"4-WD;BROOKLYN,KINGS,NY",40.6278313,-73.9596097,39816.0,432
+866,48.0,1832.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,701.0,,,G.W.,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,SHELBY,1,1,,Canada,CIGARMAKER,New Orleans,1,0.0,4410.0,99.0,20,M,99.0,LA,,0.0,4.0,,5,,3261005000.0,39920.0,433
+867,48.0,1832.0,,,,,1880.0,M,NEWORLEANS,,,,,,GW,,2892,,,,,,,SHELBY,,,,,,7-WD;NEWORLEANS,,,,,,M,,LA,,,,,"7-WD;NEWORLEANS,NEWORLEANS,LA",29.9769268,-90.0676696,39923.0,433
+868,58.0,1822.0,4.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,501.0,,,MARY,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,SHELBY,1,1,,Canada,KEEPINGHOUSE,New Orleans,1,0.0,4210.0,12.0,20,F,48.0,LA,,0.0,0.0,,5,,3261005000.0,39921.0,434
+869,58.0,1822.0,,,,,1880.0,M,NEWORLEANS,,,,,,MARY,,2893,,,,,,,SHELBY,,,,,,7-WD;NEWORLEANS,,,,,,F,,LA,,,,,"7-WD;NEWORLEANS,NEWORLEANS,LA",29.9769268,-90.0676696,39926.0,434
+870,50.0,1830.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,DAVIDE.,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,SHEPARD,1,1,,Canada,CARPENTER,Brooklyn New York,1,0.0,1000.0,6.0,50,M,6.0,NY,,0.0,0.0,,4,,6090696000.0,39943.0,435
+871,50.0,1830.0,,,,,1880.0,B,KINGS,,,,,,DAVIDE.,,2211,,,,,,,SHEPARD,,,,,,19-WD;BROOKLYN,,,,,,M,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,39950.0,435
+872,40.0,1860.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Milton,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Ship,20,1,,Canada,Laborer,Boston,1,0.0,1000.0,99.0,50,M,99.0,MA,,0.0,0.0,,2,,57389001.0,40052.0,436
+873,40.0,1860.0,,,,,1900.0,B,SUFFOLK,,,,,,MILTON,,8070,,,,,,,SHIP,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,40053.0,436
+874,19.0,1861.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,SARAH,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,SIMS,1,1,890,Canada,SERVANT,Buffalo,1,1.0,5900.0,99.0,10,F,99.0,NY,,0.0,0.0,,5,,5934942000.0,40506.0,437
+875,19.0,1861.0,,,,,1880.0,B,ERIE,,,,,,SARAH,,2129,,,,,,,SIMS,,,,,,12-WD;BUFFALO,,,,,,F,,NY,,,,,"12-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,40551.0,437
+876,15.0,1865.0,0.0,0.0,5.0,,1880.0,Black,,,,1301.0,,,FANNIE,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SMILEY,1,1,,Canada,ATSCHOOL,Philadephia,1,1.0,5620.0,99.0,70,F,99.0,PA,,501.0,0.0,,1,,8509588000.0,40833.0,438
+877,15.0,1865.0,,,,,1880.0,B,PHILADELPHIA,,,,,,FANNIE,,2168,,,,,,,SMILEY,,,,,,15-WDPHILADELPHIA,,,,,,F,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,40841.0,438
+878,18.0,1862.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JOHNF.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SMILEY,1,1,,Canada,WAITER,Philadephia,1,1.0,5900.0,99.0,70,M,99.0,PA,,920.0,0.0,,1,,8562343000.0,40834.0,439
+879,18.0,1862.0,,,,,1880.0,B,PHILADELPHIA,,,,,,JOHNF,,2374,,,,,,,SMILEY,,,,,,24-WDPHILADELPHIA,,,,,,M,,PA,,,,,"24-WDPHILADELPHIA,PHILADELPHIA,PA",39.9515211,-75.1798731,40842.0,439
+880,26.0,1874.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,George,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Smith,20,1,,Canada,HotelPorter,Rochester,1,0.0,1000.0,99.0,10,M,99.0,NY,,0.0,0.0,,2,,104225001.0,41174.0,440
+881,26.0,1874.0,,,,,1900.0,B,MONROE,,,,,,GEORGE,,4671,,,,,,,SMITH,,,,,,ROCHESTER,,,,,,M,,NY,,,,,"ROCHESTER,MONROE,NY",43.1565779,-77.6088465,41665.0,440
+884,40.0,1840.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,SMITH,1,1,,Canada,KEEPSHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6220524000.0,41265.0,442
+885,40.0,1840.0,,,,,1880.0,B,NEWYORK,,,,,,MARY,,2158,,,,,,,SMITH,,,,,,14-WD;NEWYORK,,,,,,F,,NY,,,,,"14-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,41837.0,442
+886,27.0,1853.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,THOMAS,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,SMITH,1,1,890,Canada,SAILOR,Buffalo,1,6.0,5900.0,99.0,10,M,99.0,NY,,0.0,0.0,,8,,5925518000.0,41047.0,443
+887,27.0,1853.0,,,,,1880.0,B,ERIE,,,,,,THOMAS,,2907,,,,,,,SMITH,,,,,,8-WD;BUFFALO,,,,,,M,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,41938.0,443
+888,40.0,1840.0,4.0,0.0,2.0,,1880.0,Black,,,,201.0,,,CATHARINE,,1880 IPUMS 100% sample,,2.0,7.0,,1.0,,SMITH,1,1,890,Canada,HOUSEKEEPER,Buffalo,1,0.0,2100.0,6.0,10,F,14.0,NY,,0.0,0.0,,7,,5909869000.0,41042.0,444
+889,40.0,1840.0,,,,,1880.0,B,ERIE,,,,,,CATHARINE,,2625,,,,,,,SMITH,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,41569.0,444
+890,39.0,1841.0,0.0,0.0,5.0,,1880.0,Black,,,,1301.0,,,WM.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SMITH,1,1,,Canada,DRIVER,Philadephia,1,1.0,5620.0,99.0,70,M,99.0,PA,,212.0,0.0,,1,,8506711000.0,41341.0,445
+891,39.0,1841.0,,,,,1880.0,B,PHILADELPHIA,,,,,,WM,,2170,,,,,,,SMITH,,,,,,15-WDPHILADELPHIA,,,,,,M,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,41983.0,445
+892,24.0,1876.0,0.0,0.0,5.0,,1900.0,Black,,,5.0,1216.0,,,WalterA,,1900 IPUMS 5% sample,,6.0,1.0,4.0,20.0,,Smith,19,1,890,Canada,Coachman,Buffalo,1,4.0,5210.0,99.0,30,M,99.0,NY,,0.0,0.0,,6,,93344010.0,41048.0,446
+893,24.0,1876.0,,,,,1900.0,B,ERIE,,,,,,WALTERA,,5740,,,,,,,SMITH,,,,,,BUFFALO,,,,,,M,,NY,,,,,"BUFFALO,ERIE,NY",42.8864468,-78.8783689,41954.0,446
+894,55.0,1825.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CATHRINE,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,SMITH,1,1,,Canada,LAUNDRESS,Brooklyn New York,1,3.0,5900.0,99.0,50,F,99.0,NY,,0.0,0.0,,6,,6103673000.0,41122.0,447
+895,55.0,1825.0,,,,,1880.0,B,KINGS,,,,,,CATHRINE,,2353,,,,,,,SMITH,,,,,,21-WD;BROOKLYN,,,,,,F,,NY,,,,,"21-WD;BROOKLYN,KINGS,NY",40.6095271,-73.9195405,41572.0,447
+896,55.0,1825.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,DORA,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SMITH,1,1,,Canada,LAUNDRESS,New York,1,0.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,1,,6221314000.0,41138.0,448
+897,55.0,1825.0,,,,,1880.0,B,NEWYORK,,,,,,DORA,,2157,,,,,,,SMITH,,,,,,14-WD;NEWYORK,,,,,,F,,NY,,,,,"14-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,41602.0,448
+898,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1301.0,,,JERRY,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SMITH,1,1,,Canada,LABORER,Philadephia,1,1.0,5620.0,99.0,70,M,99.0,PA,,212.0,0.0,,1,,8506682000.0,41213.0,449
+899,25.0,1855.0,,,,,1880.0,B,PHILADELPHIA,,,,,,JERRY,,2169,,,,,,,SMITH,,,,,,15-WDPHILADELPHIA,,,,,,M,,PA,,,,,"15-WDPHILADELPHIA,PHILADELPHIA,PA",39.9503749,-75.1669269,41748.0,449
+900,19.0,1881.0,0.0,0.0,5.0,,1900.0,Black,,,3.0,1202.0,,,Minnie,,1900 IPUMS 5% sample,,4.0,1.0,0.0,20.0,,Smith,20,1,,Canada,Prostitute,Indianapolis,1,2.0,5310.0,99.0,10,F,99.0,IN,,0.0,0.0,,4,,34835003.0,41284.0,450
+901,19.0,1881.0,,,,,1900.0,B,MARION,,,,,,MINNIE,,7655,,,,,,,SMITH,,,,,,INDIANAPOLIS,,,,,,F,,IN,,,,,"INDIANAPOLIS,MARION,IN",39.768403,-86.158068,41850.0,450
+902,23.0,1857.0,1.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ZILLA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,SMITH,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,5.0,6,F,5.0,NY,,0.0,0.0,,3,,5787700000.0,41342.0,451
+903,23.0,1857.0,,,,,1880.0,B,CAYUGA,,,,,,ZILLA,,3757,,,,,,,SMITH,,,YCHECK,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,41505.0,451
+904,20.0,1860.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,LENA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,SMITH,1,9,,Canada,,Philadephia,1,1.0,3100.0,99.0,70,F,99.0,PA,,0.0,0.0,,3,,8470923000.0,41430.0,452
+905,20.0,1860.0,,,,,1880.0,M,PHILADELPHIA,,,,,,LENA,,2862,,,,,,,SMITH,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,41803.0,452
+906,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,SARA,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,SMITH,1,9,,Canada,SEWING,New York,1,9.0,5900.0,99.0,80,F,99.0,NY,,800.0,0.0,,12,,6246843000.0,41439.0,453
+907,25.0,1855.0,,,,,1880.0,B,NEWYORK,,,,,,SARA,,2922,,,,,,,SMITH,,,,,,8-WD;NEWYORK,,,,,,F,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,41921.0,453
+908,31.0,1849.0,4.0,3.0,1.0,,1880.0,Black,,,,101.0,,,RICHARDS.,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,SMITHERS,1,1,,Canada,BARBER,Philadephia,1,3.0,1000.0,0.0,70,M,6.0,PA,,0.0,0.0,,9,,8561777000.0,41993.0,454
+909,31.0,1849.0,,,,,1880.0,B,PHILADELPHIA,,,,,,RICHARDS,,2375,,,,,,,SMITHERS,,,,,,24-WDPHILADELPHIA,,,,,,M,,PA,,,,,"24-WDPHILADELPHIA,PHILADELPHIA,PA",39.9515211,-75.1798731,41996.0,454
+910,52.0,1828.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,MARGARET,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,SORELY,1,1,,Canada,LAUNDRESS,New York,1,0.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,1,,6330667000.0,42136.0,455
+911,52.0,1828.0,,,,,1880.0,B,NEWYORK,,,,,,MARGARET,,3600,,,,,,,SORELY,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,42137.0,455
+912,18.0,1862.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1202.0,,,BELLA,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,SOUSAND,1,1,,Canada,HAIRDRESSER,Philadephia,1,1.0,5310.0,99.0,70,F,99.0,PA,,0.0,0.0,,5,,8470028000.0,42145.0,456
+913,18.0,1862.0,,,,,1880.0,M,PHILADELPHIA,,,,,,BELLA,,2863,,,,,,,SOUSAND,,,,,,7-WDPHILADELPHIA,,,,,,F,,PA,,,,,"7-WDPHILADELPHIA,PHILADELPHIA,PA",39.9774316,-75.15853,42146.0,456
+914,32.0,1878.0,0.0,0.0,1.0,,1910.0,Mulatto(BlackandWhite),,,1.0,101.0,,,EMMAE,,1910 IPUMS 1% sample,,1.0,1.0,1.0,101.0,,SPRIGGS,102,1,,Canada,DRESSMKR,Boston,1,1.0,1000.0,99.0,60,F,99.0,MA,,0.0,0.0,,2,,79011000.0,42299.0,457
+915,32.0,1878.0,,,,,1910.0,M,SUFFOLK,,,,,,EMMAE,,10521,,,,,,,SPRIGGS,,,,,,BOSTON,,,,,,F,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,42306.0,457
+916,27.0,1853.0,2.0,2.0,2.0,,1880.0,Black,,,,201.0,,,LUCCY,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,STANFIELD,1,1,,Canada,KEEPINGHOUSE,Ogdensburg,1,0.0,2100.0,1.0,6,F,2.0,NY,,0.0,0.0,,4,,6689863000.0,42403.0,458
+917,27.0,1853.0,,,,,1880.0,B,STLAWRENCE,,,,,,LUCCY,,3713,,,,,,,STANFIELD,,,,,,4-WD;OGDENSBURG,,,,,,F,,NY,,,,,"4-WD;OGDENSBURG,STLAWRENCE,NY",44.7174654,-75.45068990000001,42406.0,458
+918,10.0,1870.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,THOMAS,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,STANLEY,1,1,890,Canada,ATHOME,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,0.0,,3,,5927507000.0,42419.0,459
+919,10.0,1870.0,,,,,1880.0,B,ERIE,,,,,,THOMAS,,2908,,,,,,,STANLEY,,,,,,8-WD;BUFFALO,,,,,,M,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,42427.0,459
+920,30.0,1850.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,DEAN,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,STANLY,1,1,890,Canada,TEAMSTER,Buffalo,1,0.0,1000.0,99.0,10,M,99.0,NY,,0.0,0.0,,2,,5925976000.0,42430.0,460
+921,30.0,1850.0,,,,,1880.0,B,ERIE,,,,,,DEAN,,2909,,,,,,,STANLY,,,YQUIRK,,,8-WD;BUFFALO,,,,,,M,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,42432.0,460
+922,30.0,1850.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,MARY,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,STANLY,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,2,,5925976000.0,42431.0,461
+923,30.0,1850.0,,,,,1880.0,B,ERIE,,,,,,MARY,,2910,,,,,,,STANLY,,,YQUIRK,,,8-WD;BUFFALO,,,,,,F,,NY,,,,,"8-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,42433.0,461
+924,30.0,1850.0,1.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,ISAAC.,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,STEVENSEN,1,1,,Canada,SAILOR,Philadephia,1,0.0,1000.0,7.0,70,M,7.0,PA,,0.0,0.0,,3,,8450995000.0,42754.0,462
+925,30.0,1850.0,,,,,1880.0,M,PHILADELPHIA,,,,,,ISAAC,,2239,,,,,,,STEVENSEN,,,,,,2-WDPHILADELPHIA,,,,,,M,,PA,,,,,"2-WDPHILADELPHIA,PHILADELPHIA,PA",39.9588699,-75.151686,42757.0,462
+926,25.0,1855.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MORT,,1880 IPUMS 100% sample,,6.0,1.0,,1.0,,STEWARD,1,1,890,Canada,BARBER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,800.0,0.0,,15,,5909892000.0,42800.0,463
+927,25.0,1855.0,,,,,1880.0,B,ERIE,,,,,,MORT,,2626,,,,,,,STEWARD,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,42828.0,463
+928,50.0,1830.0,3.0,0.0,1.0,,1880.0,Black,,,,101.0,,,HARRIET,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,STEWARD,1,1,,Canada,LAUNDRESS,New York,1,0.0,1000.0,9.0,80,F,17.0,NY,,0.0,0.0,,4,,6291754000.0,42805.0,464
+929,50.0,1830.0,,,,,1880.0,B,NEWYORK,,,,,,HARRIET,,2952,,,,,,,STEWARD,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,42821.0,464
+930,27.0,1853.0,1.0,1.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,LAURA,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,STEWARD,1,1,,Canada,KEEPINGHOUSE,Rochester,1,0.0,2100.0,2.0,9,F,2.0,NY,,0.0,0.0,,3,,6171625000.0,42807.0,465
+931,27.0,1853.0,,,,,1880.0,M,MONROE,,,,,,LAURA,,2520,,,,,,,STEWARD,,,,,,3-WD;ROCHESTER,,,,,,F,,NY,,,,,"3-WD;ROCHESTER,MONROE,NY",43.132601,-77.50625,42825.0,465
+934,28.0,1852.0,1.0,1.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,STEWART,1,1,,Canada,LABORER,Auburn,1,0.0,1000.0,0.0,6,M,0.0,NY,,0.0,0.0,,3,,5787627000.0,42909.0,467
+935,28.0,1852.0,2.0,2.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,STEWART,1,9,,USA,STEWARTFIRECO.,Rochester,1,1.0,1000.0,0.0,9,M,3.0,NY,,0.0,0.0,,5,,6170205000.0,42952.0,467
+936,28.0,1852.0,1.0,1.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,STEWART,1,1,,Canada,LABORER,Auburn,1,0.0,1000.0,0.0,6,M,0.0,NY,,0.0,0.0,,3,,5787627000.0,42909.0,468
+937,28.0,1852.0,,,,,1880.0,B,CAYUGA,,,,,,WILLIAM,,3760,,,,,,,STEWART,,,,,,9-WD;AUBURN,,,,,,M,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,43036.0,468
+938,28.0,1852.0,2.0,2.0,1.0,,1880.0,Black,,,,101.0,,,WILLIAM,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,STEWART,1,9,,USA,STEWARTFIRECO.,Rochester,1,1.0,1000.0,0.0,9,M,3.0,NY,,0.0,0.0,,5,,6170205000.0,42952.0,469
+939,28.0,1852.0,,,,,1880.0,B,CAYUGA,,,,,,WILLIAM,,3760,,,,,,,STEWART,,,,,,9-WD;AUBURN,,,,,,M,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,43036.0,469
+940,26.0,1854.0,3.0,2.0,2.0,,1880.0,Black,,,,201.0,,,ELIZA,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,STEWART,1,9,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,1.0,6,F,5.0,NY,,0.0,0.0,,5,,5787662000.0,42945.0,470
+941,26.0,1854.0,,,,,1880.0,B,CAYUGA,,,,,,ELIZA,,3759,,,,,,,STEWART,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,42975.0,470
+942,29.0,1841.0,0.0,0.0,1.0,,1870.0,Black,,,,101.0,,,JOHN,,1870 IPUMS 1% sample,,1.0,3.0,0.0,101.0,,STOKLEY,102,1,,Canada,TRUCKMAN,New York,1,0.0,1000.0,99.0,70,M,99.0,NY,,0.0,1.0,,3,,47626000.0,43113.0,471
+943,29.0,1841.0,,,,,1870.0,B,NEWYORK,,,,,,JOHN,,1579,,,,,,,STOKLEY,,,,,,14-WD2-ED,,,,,,M,,NY,,,,,"14-WD2-ED,NEWYORK,NY",42.7342336,-78.6221357,43115.0,471
+944,18.0,1862.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,GEORGEP.,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,STRUTHIRS,1,1,890,Canada,CLERKINOFFICE,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,2.0,,4,,5913001000.0,43277.0,472
+945,18.0,1862.0,,,,,1880.0,B,ERIE,,,,,,GEORGEP.,,2756,,,,,,,STRUTHIRS,,,,,,5-WD;BUFFALO,,,,,,M,,NY,,,,,"5-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,43279.0,472
+946,40.0,1840.0,3.0,0.0,1.0,,1880.0,Black,,,,101.0,,,LUCY,,1880 IPUMS 100% sample,,1.0,4.0,,1.0,,STRUTHIRS,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,1000.0,6.0,10,F,18.0,NY,,0.0,0.0,,4,,5913001000.0,43278.0,473
+947,40.0,1840.0,,,,,1880.0,B,ERIE,,,,,,LUCY,,2757,,,,,,,STRUTHIRS,,,,,,5-WD;BUFFALO,,,,,,F,,NY,,,,,"5-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,43280.0,473
+948,32.0,1848.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,MINNIE,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,STUART,1,1,,Canada,SERVANT,New York,1,3.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,5,,6288517000.0,43291.0,474
+949,32.0,1848.0,,,,,1880.0,M,NEWYORK,,,,,,MINNIE,,2955,,,,,,,STUART,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,43311.0,474
+950,34.0,1846.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,MATILDIA,,1880 IPUMS 100% sample,,2.0,1.0,,1.0,,SWAN,1,1,,Canada,KEEPINGHOUSE,New York,1,1.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6241543000.0,43483.0,475
+951,34.0,1846.0,,,,,1880.0,B,NEWYORK,,,,,,MATILDIA,,2923,,,,,,,SWAN,,,,,,8-WD;NEWYORK,,,,,,F,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,43487.0,475
+954,50.0,1830.0,3.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,GEORGE,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,TAYLOR,1,1,,Canada,CLOTHINGHOUSE,Brooklyn New York,1,1.0,1000.0,11.0,50,M,17.0,NY,,0.0,0.0,,6,,6000538000.0,43880.0,477
+955,50.0,1830.0,,,,,1880.0,M,KINGS,,,,,,GEORGE,,1970,,,,,,,TAYLOR,,,,,,1-WD;BROOKLYN,,,,,,M,,NY,,,,,"1-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,44073.0,477
+956,36.0,1844.0,3.0,1.0,1.0,,1880.0,Black,,,,101.0,,,MATILDA,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,TAYLOR,1,1,,Canada,WASHWOMAN,Watertown,1,0.0,1000.0,4.0,6,F,9.0,NY,,0.0,0.0,,5,,5996834000.0,43908.0,478
+957,36.0,1844.0,,,,,1880.0,B,JEFFERSON,,,,,,MATILDA,,2555,,,,,,,TAYLOR,,,,,,3-WD;WATERTOWN,,,,,,F,,NY,,,,,"3-WD;WATERTOWN,JEFFERSON,NY",43.9699772,-75.98644499999999,44149.0,478
+958,9.0,1871.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,LOUISA,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,TAYLOR,1,1,,Canada,,Watertown,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,2.0,,5,,5996834000.0,43900.0,479
+959,9.0,1871.0,,,,,1880.0,B,JEFFERSON,,,,,,LOUISA,,2554,,,,,,,TAYLOR,,,,,,3-WD;WATERTOWN,,,,,,F,,NY,,,,,"3-WD;WATERTOWN,JEFFERSON,NY",43.9699772,-75.98644499999999,44128.0,479
+960,31.0,1849.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,ZACARIAH,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,TAYLOR,1,9,,Canada,MASONSTORE,Watertown,1,0.0,1000.0,8.0,6,M,8.0,NY,,0.0,0.0,,3,,5996729000.0,43981.0,480
+961,31.0,1849.0,,,,,1880.0,B,JEFFERSON,,,,,,ZACARIAH,,2556,,,,,,,TAYLOR,,,,,,3-WD;WATERTOWN,,,,,,M,,NY,,,,,"3-WD;WATERTOWN,JEFFERSON,NY",43.9699772,-75.98644499999997,44197.0,480
+962,23.0,1857.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,ANNJ.,,1880 IPUMS 100% sample,,9.0,1.0,,1.0,,TAYLOR,1,9,,Canada,SERVANT,New York,1,1.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,9,,6470005000.0,43959.0,481
+963,23.0,1857.0,,,,,1880.0,M,NEWYORK,,,,,,ANNJ.,,2372,,,,,,,TAYLOR,,,,,,23-WD;NEWYORK,,,,,,F,,NY,,,,,"23-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,44022.0,481
+964,42.0,1838.0,8.0,2.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,HIRAMS.,,1880 IPUMS 100% sample,,1.0,10.0,,1.0,,THOMAS,1,1,,Canada,WAITER,New York,1,1.0,1000.0,1.0,80,M,16.0,NY,,0.0,0.0,,11,,6262467000.0,44429.0,482
+965,42.0,1838.0,,,,,1880.0,M,NEWYORK,,,,,,HIRAMS.,,2184,,,,,,,THOMAS,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,44577.0,482
+966,25.0,1885.0,1.0,0.0,1.0,,1910.0,Black,,,0.0,101.0,,,WILLIAM,,1910 IPUMS 1% sample,,1.0,3.0,0.0,100.0,,THOMAS,100,1,,Canada,LAB,Indianapolis,1,0.0,1000.0,14.0,20,M,14.0,IN,,0.0,0.0,,3,,47215000.0,44453.0,483
+967,25.0,1885.0,,,,,1910.0,B,MARION,,,,,,WILLIAM,,12963,,,,,,,THOMAS,,,,,,INDIANAPOLIS,,,,,,M,,IN,,,,,"INDIANAPOLIS,MARION,IN",39.768403,-86.158068,44648.0,483
+970,36.0,1844.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1202.0,,,AGNES,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,THOMPSON,1,1,,Canada,SERVANT,New York,1,1.0,5310.0,99.0,80,F,99.0,NY,,0.0,0.0,,5,,6287471000.0,44743.0,485
+971,36.0,1844.0,,,,,1880.0,M,NEWYORK,,,,,,AGNES,,2956,,,,,,,THOMPSON,,,,,,9-WD;NEWYORK,,,,,,F,,NY,,,,,"9-WD;NEWYORK,NEWYORK,NY",42.797627,-77.815201,44866.0,485
+972,24.0,1856.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,AGNES,,1880 IPUMS 100% sample,,10.0,1.0,,1.0,,THOMPSON,1,1,,Canada,SERVANT,New York,1,4.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,10,,6316877000.0,44744.0,486
+973,24.0,1856.0,,,,,1880.0,B,NEWYORK,,,,,,AGNES,,2358,,,,,,,THOMPSON,,,,,,21-WD;NEWYORK,,,,,,F,,NY,,,,,"21-WD;NEWYORK,NEWYORK,NY",41.0296644,-73.75807809999999,44867.0,486
+974,25.0,1855.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,SARAH,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,THOMPSON,1,1,,Canada,COOK,New York,1,0.0,1000.0,99.0,80,F,99.0,NY,,0.0,0.0,,1,,6337652000.0,44803.0,487
+975,25.0,1855.0,,,,,1880.0,B,NEWYORK,,,,,,SARAH,,2349,,,,,,,THOMPSON,,,,,,20-WD;NEWYORK,,,,,,F,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999999,45018.0,487
+976,46.0,1834.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,LUSCINDA,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,THOMPSON,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,1000.0,21.0,10,F,21.0,NY,,0.0,0.0,,2,,5918317000.0,44729.0,488
+977,46.0,1834.0,,,,,1880.0,B,ERIE,,,,,,LUSCINDA,,2808,,,,,,,THOMPSON,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,44980.0,488
+978,22.0,1858.0,1.0,1.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,MARGAR.,,1880 IPUMS 100% sample,,2.0,3.0,,1.0,,THOMPSON,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,2.0,10,F,2.0,NY,,0.0,0.0,,3,,5910474000.0,44730.0,489
+979,22.0,1858.0,,,,,1880.0,M,ERIE,,,,,,MARGAR,,2636,,,,,,,THOMPSON,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,44982.0,489
+980,51.0,1849.0,2.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,ElizabethL,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Thompson,20,1,,Canada,Laundress,Portland,1,0.0,1000.0,16.0,8,F,17.0,ME,,0.0,0.0,,3,,44145017.0,44762.0,490
+981,51.0,1849.0,,,,,1900.0,B,CUMBERLAND,,,,,,ELIZABETHL,,4224,,,,,,,THOMPSON,,,,,,PORTLAND,,,,,,F,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.6590993,-70.2568189,44903.0,490
+982,39.0,1861.0,0.0,0.0,1.0,,1900.0,Black,,,3.0,101.0,,,Jessie,,1900 IPUMS 5% sample,,1.0,1.0,1.0,20.0,,Thompson,20,1,,Canada,,Denver,1,3.0,1000.0,99.0,10,F,99.0,CO,,0.0,0.0,,4,,7063002.0,44780.0,491
+983,39.0,1861.0,,,,,1900.0,B,ARAPAHOE,,,,,,JESSIE,,6892,,,,,,,THOMPSON,,,,,,DENVER,,,,,,F,,CO,,,,,"DENVER,ARAPAHOE,CO",39.66620620000001,-104.8922257,44950.0,491
+984,24.0,1856.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,PHILIPE.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,THOMPSON,1,1,,Canada,COOK,Auburn,1,1.0,5900.0,99.0,6,M,99.0,NY,,211.0,0.0,,1,,5785725000.0,44799.0,492
+985,24.0,1856.0,,,,,1880.0,B,CAYUGA,,,,,,PHILIPE.,,3045,,,,,,,THOMPSON,,,,,,AUBURNSTATEPRISON,,,,,,M,,NY,,,,,"AUBURNSTATEPRISON,CAYUGA,NY",42.9353094,-76.5721672,45009.0,492
+986,32.0,1868.0,2.0,2.0,1.0,,1900.0,Black,,,3.0,101.0,,,William,,1900 IPUMS 5% sample,,1.0,4.0,0.0,20.0,,Tolbert,20,3,,Canada,DayLaborer,Ypsilanti,1,3.0,1000.0,0.0,5,M,3.0,MI,,0.0,0.0,,7,,64972011.0,45316.0,493
+987,32.0,1868.0,,,,,1900.0,B,WASHTENAW,,,,,,WILLIAM,,4371,,,,,,,TOLBERT,,,,,,YPSILANTI,,,,,,M,,MI,,,,,"YPSILANTI,WASHTENAW,MI",42.2411499,-83.6129939,45321.0,493
+988,59.0,1821.0,1.0,0.0,1.0,,1880.0,Black,,,,101.0,,,HENRY,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,TOMPKINS,1,1,,Canada,PAINTER,New York,1,0.0,1000.0,35.0,80,M,35.0,NY,,0.0,0.0,,3,,6248770000.0,45399.0,494
+989,59.0,1821.0,,,,,1880.0,B,NEWYORK,,,,,,HENRY,,2179,,,,,,,TOMPKINS,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,45403.0,494
+990,55.0,1825.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,HARRIET,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,TRIPPLET,1,9,890,Canada,COOK,Buffalo,1,3.0,5900.0,99.0,10,F,99.0,NY,,0.0,0.0,,5,,5933678000.0,45570.0,495
+991,55.0,1825.0,,,,,1880.0,M,ERIE,,,,,,HARRIET,,2111,,,,,,,TRIPPLET,,,,,,11-WD;BUFFALO,,,,,,F,,NY,,,,,"11-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,45571.0,495
+992,17.0,1863.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,IDA,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,TURNER,1,9,,Canada,SERVANT,Cambridge,1,2.0,5900.0,99.0,8,F,99.0,MA,,0.0,0.0,,4,,3875423000.0,45734.0,496
+993,17.0,1863.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,IDA,,1880 IPUMS 100% sample,,8.0,13.0,,1.0,,TURNER,1,9,,Canada,DOMESTIC,Cambridge,1,0.0,3100.0,99.0,8,F,99.0,MA,,0.0,7.0,,13,,3875540000.0,45735.0,496
+994,18.0,1862.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,ELIZABETH,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,TURPIN,1,1,,Canada,HOME,Newburgh,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,2.0,,5,,6566617000.0,45810.0,497
+995,18.0,1862.0,,,,,1880.0,M,ORANGE,,,,,,ELIZABETH,,2025,,,,,,,TURPIN,,,,,,1-WD;NEWBURGH,,,,,,F,,NY,,,,,"1-WD;NEWBURGH,ORANGE,NY",41.507155,-74.04340400000001,45814.0,497
+996,54.0,1846.0,0.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,Fred,,1900 IPUMS 5% sample,,1.0,1.0,0.0,20.0,,Tyler,20,1,,Canada,paintercarriage,Lynn,1,0.0,1000.0,99.0,8,M,99.0,MA,,0.0,0.0,,1,,50747005.0,45835.0,498
+997,54.0,1846.0,,,,,1900.0,B,ESSEX,,,,,,FRED,,6407,,,,,,,TYLER,,,,,,LYNN,,,,,,M,,MA,,,,,"LYNN,ESSEX,MA",42.466763,-70.9494938,45873.0,498
+998,38.0,1872.0,5.0,1.0,1.0,,1910.0,Black,,,0.0,101.0,,,JAMESA,,1910 IPUMS 1% sample,,1.0,8.0,0.0,100.0,,TYLER,100,1,,Canada,GARDENER,Newton,1,0.0,1000.0,4.0,7,M,12.0,MA,,0.0,1.0,,8,,77219000.0,45841.0,499
+999,38.0,1872.0,,,,,1910.0,B,MIDDLESEX,,,,,,JAMESA,,13642,,,,,,,TYLER,,,,,,NEWTON,,,,,,M,,MA,,,,,"NEWTON,MIDDLESEX,MA",42.3370413,-71.2092214,45882.0,499
+1000,8.0,1872.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,JOHN,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,TYLER,1,1,,USA,ATSCHOOL,Lynn,1,0.0,3100.0,99.0,7,M,99.0,MA,,0.0,2.0,,4,,3779668000.0,45843.0,500
+1001,8.0,1872.0,0.0,0.0,4.0,,1880.0,Mulatto(BlackandWhite),,,,901.0,,,JOHN,,1880 IPUMS 100% sample,,4.0,4.0,,1.0,,TYLER,1,1,,USA,ATSCHOOL,Lynn,1,0.0,4100.0,99.0,7,M,99.0,MA,,0.0,0.0,,4,,3781342000.0,45844.0,500
+1002,26.0,1854.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,RACHAEL,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,VANCE,1,1,890,Canada,LAUNDRESS,Buffalo,1,0.0,1000.0,99.0,10,F,99.0,NY,,0.0,0.0,,1,,5909953000.0,46015.0,501
+1003,26.0,1854.0,,,,,1880.0,B,ERIE,,,,,,RACHAEL,,2627,,,,,,,VANCE,,,,,,4-WD;BUFFALO,,,,,,F,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,46028.0,501
+1004,21.0,1859.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,GEORGE,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,WALKER,1,1,890,Canada,WAITER,Buffalo,1,1.0,5900.0,99.0,10,M,99.0,NY,,801.0,0.0,,1,,5932580000.0,46521.0,502
+1005,21.0,1859.0,,,,,1880.0,M,ERIE,,,,,,GEORGE,,2112,,,,,,,WALKER,,,,,,11-WD;BUFFALO,,,,,,M,,NY,,,,,"11-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,46593.0,502
+1006,10.0,1870.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JOSEPHH.,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,WALKER,1,2,,Canada,GOESTOSCHOOL,Binghamton,2,0.0,3100.0,99.0,6,M,99.0,NY,,0.0,0.0,,3,,5759967000.0,46546.0,503
+1007,10.0,1870.0,,,,,1880.0,B,BROOME,,,,,,JOSEPHH.,,2281,,,,,,,WALKER,,,,,,2-WD;BINGHAMTON,,,,,,M,,NY,,,,,"2-WD;BINGHAMTON,BROOME,NY",42.101095,-75.863479,46614.0,503
+1008,23.0,1857.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLESA.,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,WARD,1,9,,Canada,SERVANT,New York,1,8.0,5900.0,99.0,80,M,99.0,NY,,0.0,0.0,,11,,6262775000.0,46920.0,504
+1009,23.0,1857.0,,,,,1880.0,B,NEWYORK,,,,,,CHARLESA.,,2180,,,,,,,WARD,,,,,,15-WD;NEWYORK,,,,,,M,,NY,,,,,"15-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,46934.0,504
+1010,37.0,1843.0,0.0,0.0,1.0,,1880.0,Black,,,,101.0,,,JAMES,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,WARN,1,1,,Canada,BAKER,Auburn,1,0.0,1000.0,99.0,6,M,99.0,NY,,0.0,0.0,,2,,5784185000.0,46975.0,505
+1011,37.0,1843.0,,,,,1880.0,B,CAYUGA,,,,,,JAMES,,2426,,,,,,,WARN,,,,,,3-WD;AUBURN,,,,,,M,,NY,,,,,"3-WD;AUBURN,CAYUGA,NY",42.923568,-76.580812,46976.0,505
+1012,42.0,1858.0,0.0,0.0,5.0,,1900.0,Black,,,2.0,1204.0,,,Mamie,,1900 IPUMS 5% sample,,3.0,1.0,0.0,20.0,,Warner,20,1,,Canada,Cook,Chicago,1,1.0,5500.0,99.0,80,F,99.0,IL,,0.0,0.0,,3,,18145002.0,46979.0,506
+1013,42.0,1858.0,,,,,1900.0,B,COOK,,,,,,MAMIE,,6865,,,,,,,WARNER,,,,,,CHICAGO,,,,,,F,,IL,,,,,"CHICAGO,COOK,IL",41.8781136,-87.62979820000002,47011.0,506
+1016,40.0,1840.0,0.0,0.0,4.0,,1880.0,Black,,,,801.0,,,JOHN,,1880 IPUMS 100% sample,,5.0,4.0,,1.0,,WARREN,1,1,,Canada,NOOCCUPATION,Auburn,1,1.0,4430.0,99.0,6,M,99.0,NY,,0.0,1.0,,5,,5783451000.0,47041.0,508
+1017,40.0,1840.0,,,,,1880.0,B,CAYUGA,,,,,,JOHN,,2270,,,,,,,WARREN,,,,,,2-WD;AUBURN,,,,,,M,,NY,,,,,"2-WD;AUBURN,CAYUGA,NY",42.9315049,-76.5679421,47066.0,508
+1018,39.0,1841.0,0.0,0.0,4.0,,1880.0,Black,,,,801.0,,,JOHN,,1880 IPUMS 100% sample,,7.0,10.0,,1.0,,WARREN,1,1,,Canada,NOOCCUPATION,Auburn,1,0.0,4430.0,99.0,6,M,99.0,NY,,0.0,1.0,,10,,5783718000.0,47042.0,509
+1019,39.0,1841.0,,,,,1880.0,B,CAYUGA,,,,,,JOHN,,2271,,,,,,,WARREN,,,,,,2-WD;AUBURN,,,,,,M,,NY,,,,,"2-WD;AUBURN,CAYUGA,NY",42.9315049,-76.5679421,47067.0,509
+1020,22.0,1858.0,0.0,0.0,4.0,,1880.0,Black,,,,801.0,,,JAMES,,1880 IPUMS 100% sample,,8.0,10.0,,1.0,,WARREN,1,1,,Canada,WORKSINMACHINESHOP,Auburn,1,0.0,4430.0,99.0,6,M,99.0,NY,,0.0,1.0,,10,,5783718000.0,47039.0,510
+1021,22.0,1858.0,,,,,1880.0,B,CAYUGA,,,,,,JAMES,,2269,,,,,,,WARREN,,,,,,2-WD;AUBURN,,,,,,M,,NY,,,,,"2-WD;AUBURN,CAYUGA,NY",42.9315049,-76.5679421,47062.0,510
+1024,0.0,1880.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,MARY,,1880 IPUMS 100% sample,,5.0,5.0,,1.0,,WASHINGTON,1,1,,Canada,,Rochester,1,0.0,3100.0,99.0,9,F,99.0,NY,,0.0,2.0,,5,,6172194000.0,47183.0,512
+1025,,1880.0,,,,,1880.0,M,MONROE,,,,,,MARY,,2521,,,,,,,WASHINGTON,,,,,,3-WD;ROCHESTER,,,,,,F,,NY,,,,,"3-WD;ROCHESTER,MONROE,NY",43.132601,-77.50625,47303.0,512
+1026,26.0,1854.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ANNE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WASHINGTON,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,2,,5918410000.0,47151.0,513
+1027,26.0,1854.0,,,,,1880.0,B,ERIE,,,,,,ANNE,,2809,,,,,,,WASHINGTON,,,,,,6-WD;BUFFALO,,,,,,F,,NY,,,,,"6-WD;BUFFALO,ERIE,NY",43.006433,-78.7009011,47250.0,513
+1028,30.0,1850.0,2.0,2.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ELISABETHA.,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,WATERS,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,0.0,80,F,4.0,NY,,0.0,0.0,,4,,6244571000.0,47355.0,514
+1029,30.0,1850.0,,,,,1880.0,M,NEWYORK,,,,,,ELISABETHA.,,2929,,,,,,,WATERS,,,,,,8-WD;NEWYORK,,,,,,F,,NY,,,,,"8-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,47377.0,514
+1030,75.0,1825.0,2.0,0.0,4.0,,1900.0,Black,,,0.0,501.0,,,Henry,,1900 IPUMS 5% sample,,3.0,4.0,0.0,20.0,,Webb,20,1,,Canada,AtHome,Boston,1,0.0,4210.0,31.0,50,M,36.0,MA,,0.0,0.0,,4,,57854001.0,47569.0,515
+1031,75.0,1825.0,,,,,1900.0,B,SUFFOLK,,,,,,HENRY,,4622,,,,,,,WEBB,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,47604.0,515
+1032,37.0,1843.0,3.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,GEORGE,,1880 IPUMS 100% sample,,1.0,6.0,,1.0,,WELLS,1,1,,Canada,DRAYMAN,New Orleans,1,1.0,1000.0,5.0,20,M,11.0,LA,,0.0,1.0,,7,,3240662000.0,47750.0,516
+1033,37.0,1843.0,,,,,1880.0,M,NEWORLEANS,,,,,,GEORGE,,2321,,,,,,,WELLS,,,,,,2-WD;NEWORLEANS,,,,,,M,,LA,,,,,"2-WD;NEWORLEANS,NEWORLEANS,LA",29.9426564,-90.070389,47771.0,516
+1036,24.0,1856.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,ANNA,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WHITBECK,1,1,890,Canada,KEEPINGHOUSE,Buffalo,1,0.0,2100.0,99.0,10,F,99.0,NY,,0.0,0.0,,2,,5922900000.0,48018.0,518
+1037,24.0,1856.0,,,,,1880.0,B,ERIE,,,,,,ANNA,,2875,,,,,,,WHITBECK,,,,,,7-WD;BUFFALO,,,,,,F,,NY,,,,,"7-WD;BUFFALO,ERIE,NY",42.7342336,-78.6221357,48020.0,518
+1038,80.0,1830.0,0.0,0.0,5.0,,1910.0,Mulatto(BlackandWhite),,,2.0,1202.0,,,MOSES,,1910 IPUMS 1% sample,,2.0,1.0,1.0,100.0,,WILLARD,100,2,,Canada,COOK,Troy,1,2.0,5310.0,99.0,9,M,99.0,NY,,0.0,0.0,,3,,135555000.0,48486.0,519
+1039,80.0,1830.0,,,,,1910.0,M,RENSSELAER,,,,,,MOSES,,14441,,,,,,,WILLARD,,,,,,TROY,,,,,,M,,NY,,,,,"TROY,RENSSELAER,NY",42.7284117,-73.69178509999999,48492.0,519
+1040,11.0,1869.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,CHARLES,,1880 IPUMS 100% sample,,3.0,3.0,,1.0,,WILLIAMS,1,1,890,Canada,,Buffalo,1,0.0,3100.0,99.0,10,M,99.0,NY,,0.0,0.0,,3,,5910680000.0,48736.0,520
+1041,11.0,1869.0,,,,,1880.0,M,ERIE,,,,,,CHARLES,,2637,,,,,,,WILLIAMS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,49126.0,520
+1044,34.0,1846.0,2.0,1.0,2.0,,1880.0,Black,,,,201.0,,,LUCINDA,,1880 IPUMS 100% sample,,2.0,5.0,,1.0,,WILLIAMS,1,1,,Canada,KEEPINGHOUSE,Auburn,1,0.0,2100.0,3.0,6,F,6.0,NY,,0.0,0.0,,5,,5787687000.0,48883.0,522
+1045,34.0,1846.0,,,,,1880.0,B,CAYUGA,,,,,,LUCINDA,,3761,,,,,,,WILLIAMS,,,,,,9-WD;AUBURN,,,,,,F,,NY,,,,,"9-WD;AUBURN,CAYUGA,NY",42.9438003,-76.54353990000001,49306.0,522
+1046,49.0,1831.0,1.0,1.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,PETER,,1880 IPUMS 100% sample,,1.0,3.0,,1.0,,WILLIAMS,1,1,890,Canada,LABORER,Buffalo,1,0.0,1000.0,3.0,10,M,3.0,NY,,0.0,0.0,,3,,5910576000.0,48741.0,523
+1047,49.0,1831.0,,,,,1880.0,M,ERIE,,,,,,PETER,,2638,,,,,,,WILLIAMS,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,49354.0,523
+1048,3.0,1907.0,,,,,1910.0,B,WAYNE,,,,,,NELSON,,12385,,,,,,,WILLIAMS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,49350.0,524
+1049,3.0,1907.0,,,,,1910.0,M,WAYNE,,,,,,NELSON,,12623,,,,,,,WILLIAMS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.33142700000001,-83.0457538,49351.0,524
+1050,32.0,1878.0,0.0,0.0,5.0,,1910.0,Black,,,11.0,1203.0,,,FRANK,,1910 IPUMS 1% sample,,9.0,2.0,2.0,101.0,,WILLIAMS,102,1,,Canada,LAB,Cleveland,1,5.0,5320.0,99.0,50,M,99.0,OH,,0.0,0.0,,13,,147101000.0,48831.0,525
+1051,32.0,1878.0,,,,,1910.0,B,CUYAHOGA,,,,,,FRANK,,11769,,,,,,,WILLIAMS,,,,,,CLEVELAND,,,,,,M,,OH,,,,,"CLEVELAND,CUYAHOGA,OH",41.49932,-81.6943605,49183.0,525
+1052,67.0,1833.0,1.0,0.0,1.0,,1900.0,Black,,,0.0,101.0,,,AnnaM,,1900 IPUMS 5% sample,,1.0,2.0,0.0,20.0,,Williams,19,1,,Canada,N.g.,Washington,1,0.0,1000.0,35.0,20,F,35.0,DC,,0.0,0.0,,2,,12276002.0,48787.0,526
+1053,67.0,1833.0,,,,,1900.0,B,WASHINGTON,,,,,,ANNAM,,10086,,,,,,,WILLIAMS,,,,,,WASHINGTON,,,,,,F,,DC,,,,,"WASHINGTON,WASHINGTON,DC",38.896938,-77.0334345,49096.0,526
+1054,32.0,1848.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ANNIE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WILLIAMS,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6334425000.0,48789.0,527
+1055,32.0,1848.0,,,,,1880.0,M,NEWYORK,,,,,,ANNIE,,3602,,,,,,,WILLIAMS,,,,,,16-WD;NEWYORK,,,,,,F,,NY,,,,,"16-WD;NEWYORK,NEWYORK,NY",40.719605,-73.984504,49099.0,527
+1056,26.0,1854.0,2.0,2.0,2.0,,1880.0,Black,,,,201.0,,,FRANCES,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,WILLIAMS,1,1,,Canada,KEEPSHOUSE,Brooklyn New York,1,0.0,2100.0,1.0,50,F,4.0,NY,,0.0,0.0,,4,,6089985000.0,48830.0,528
+1057,26.0,1854.0,,,,,1880.0,B,KINGS,,,,,,FRANCES,,2212,,,,,,,WILLIAMS,,,,,,19-WD;BROOKLYN,,,,,,F,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,49180.0,528
+1058,23.0,1857.0,0.0,0.0,2.0,,1880.0,Black,,,,201.0,,,JENNIE,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WILLIAMS,1,1,,Canada,KEEPINGHOUSE,New York,1,0.0,2100.0,99.0,80,F,99.0,NY,,0.0,0.0,,2,,6316043000.0,48864.0,529
+1059,23.0,1857.0,,,,,1880.0,B,NEWYORK,,,,,,JENNIE,,2350,,,,,,,WILLIAMS,,,,,,20-WD;NEWYORK,,,,,,F,,NY,,,,,"20-WD;NEWYORK,NEWYORK,NY",40.700709,-73.79717409999998,49260.0,529
+1060,23.0,1857.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,JOSEPH,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,WILLIAMS,1,1,,Canada,PRINTER,Philadephia,1,2.0,5900.0,99.0,70,M,99.0,PA,,0.0,0.0,,4,,8461814000.0,48875.0,530
+1061,23.0,1857.0,,,,,1880.0,M,PHILADELPHIA,,,,,,JOSEPH,,2584,,,,,,,WILLIAMS,,,,,,4-WDPHILADELPHIA,,,,,,M,,PA,,,,,"4-WDPHILADELPHIA,PHILADELPHIA,PA",39.96128510000001,-75.1410126,49278.0,530
+1062,21.0,1879.0,0.0,0.0,5.0,,1900.0,Black,,,4.0,1211.0,,,Maggie,,1900 IPUMS 5% sample,,5.0,1.0,1.0,20.0,,Willis,20,1,,Canada,Servant,Portland,1,1.0,5210.0,99.0,8,F,99.0,ME,,0.0,0.0,,5,,44139001.0,49478.0,531
+1063,21.0,1879.0,,,,,1900.0,B,CUMBERLAND,,,,,,MAGGIE,,4226,,,,,,,WILLIS,,,,,,PORTLAND,,,,,,F,,ME,,,,,"PORTLAND,CUMBERLAND,ME",43.6590993,-70.2568189,49503.0,531
+1068,28.0,1852.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,DAVID,,1880 IPUMS 100% sample,,18.0,1.0,,1.0,,WILSON,1,1,,USA,BARBER,Toledo,1,9.0,5900.0,99.0,8,M,99.0,OH,,221.0,0.0,,32,,7552093000.0,49638.0,534
+1069,28.0,1852.0,,,,,1880.0,B,LUCAS,,,,,,DAVID,,3653,,,,,,,WILSON,,,,,,3-WD;TOLEDO,,,,,,M,,OH,,,,,"3-WD;TOLEDO,LUCAS,OH",41.6382246,-83.6066132,49791.0,534
+1070,35.0,1865.0,0.0,0.0,5.0,,1900.0,Black,,,2.0,1211.0,,,Margaret,,1900 IPUMS 5% sample,,3.0,1.0,1.0,20.0,,Wilson,20,1,,Canada,housemaid,Brookline,1,1.0,5210.0,99.0,1,F,99.0,MA,,0.0,0.0,,3,,55116016.0,49681.0,535
+1071,35.0,1865.0,,,,,1900.0,B,NORFOLK,,,,,,MARGARET,,8437,,,,,,,WILSON,,,,,,BROOKLINE,,,,,,F,,MA,,,,,"BROOKLINE,NORFOLK,MA",42.3317642,-71.1211635,49867.0,535
+1072,29.0,1851.0,6.0,2.0,1.0,,1880.0,Black,,,,101.0,,,KIMPO,,1880 IPUMS 100% sample,,1.0,8.0,,1.0,,WISE,1,1,,Canada,COOK,New Orleans,1,0.0,1000.0,0.0,20,M,13.0,LA,,0.0,0.0,,8,,3260822000.0,50004.0,536
+1073,29.0,1851.0,,,,,1880.0,B,NEWORLEANS,,,,,,KIMPO,,2890,,,,,,,WISE,,,,,,7-WD;NEWORLEANS,,,,,,M,,LA,,,,,"7-WD;NEWORLEANS,NEWORLEANS,LA",29.9769268,-90.0676696,50039.0,536
+1074,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ISIAH,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,WOODEN,1,1,,Canada,CO.E.25THINFTRY-SOLDIER,San Antonio,1,1.0,5900.0,99.0,6,M,99.0,TX,,600.0,0.0,,1,,9334855000.0,50183.0,537
+1075,30.0,1850.0,,,,,1880.0,B,BEXAR,,,,,,ISIAH,,2526,,,,,,,WOODEN,,,,,,3-WD;SANANTONIO,,,,,,M,,TX,,,,,"3-WD;SANANTONIO,BEXAR,TX",29.4263622,-98.4869728,50185.0,537
+1076,24.0,1856.0,0.0,0.0,5.0,,1880.0,Mulatto(BlackandWhite),,,,1230.0,,,OLIVA,,1880 IPUMS 100% sample,,7.0,1.0,,1.0,,WOODS,1,1,,Canada,SERVANT,New York,1,2.0,5900.0,99.0,80,F,99.0,NY,,0.0,0.0,,7,,6397647000.0,50228.0,538
+1077,24.0,1856.0,,,,,1880.0,M,NEWYORK,,,,,,OLIVA,,2367,,,,,,,WOODS,,,,,,22-WD;NEWYORK,,,,,,F,,NY,,,,,"22-WD;NEWYORK,NEWYORK,NY",40.7044542,-74.01734609999998,50261.0,538
+1078,23.0,1857.0,0.0,0.0,3.0,,1880.0,Black,,,,301.0,,,JOS.,,1880 IPUMS 100% sample,,3.0,7.0,,1.0,,WOODSON,1,1,,Canada,LABORER,Milwaukee,1,1.0,3100.0,99.0,10,M,99.0,WI,,0.0,4.0,,8,,10295829000.0,50268.0,539
+1079,23.0,1857.0,,,,,1880.0,B,MILWAUKEE,,,,,,JOS,,2700,,,,,,,WOODSON,,,,,,4-WD;MILWAUKEE,,,,,,M,,WI,,,,,"4-WD;MILWAUKEE,MILWAUKEE,WI",43.149168,-88.00134200000002,50277.0,539
+1080,34.0,1866.0,0.0,0.0,1.0,,1900.0,Black,,,5.0,101.0,,,Charles,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Workman,20,1,890,Canada,Waiter(Hotel),Buffalo,1,5.0,1000.0,99.0,30,M,99.0,NY,,0.0,0.0,,8,,91714004.0,50313.0,540
+1081,34.0,1866.0,,,,,1900.0,B,ERIE,,,,,,CHARLES,,7865,,,,,,,WORKMAN,,,,,,BUFFALO,,,,,,M,,NY,,,,,"BUFFALO,ERIE,NY",42.8864468,-78.8783689,50316.0,540
+1082,35.0,1865.0,1.0,1.0,1.0,,1900.0,Black,,,0.0,101.0,,,John,,1900 IPUMS 5% sample,,1.0,3.0,0.0,20.0,,Wright,20,1,,Canada,Hostler,Boston,1,0.0,1000.0,1.0,50,M,1.0,MA,,0.0,0.0,,3,,56578002.0,50419.0,541
+1083,35.0,1865.0,,,,,1900.0,B,SUFFOLK,,,,,,JOHN,,6725,,,,,,,WRIGHT,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,50505.0,541
+1086,38.0,1832.0,4.0,1.0,1.0,,1870.0,Mulatto(BlackandWhite),,,,101.0,,,JEREMIAH,,1870 IPUMS 1% sample,,1.0,6.0,0.0,100.0,,WRIGHT,100,1,,Canada,CLOTHESCLEANER,New Haven,1,0.0,1000.0,0.0,8,M,17.0,CT,,0.0,0.0,,6,,5458000.0,50418.0,543
+1087,38.0,1832.0,,,,,1870.0,M,NEWHAVEN,,,,,,JEREMIAH,,,,,,,,,WRIGHT,,,,,,3-WDNEWHAVEN,,,,,,M,,CT,,,,,,,,50500.0,543
+1088,24.0,1856.0,2.0,2.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,LELIA,,1880 IPUMS 100% sample,,2.0,4.0,,1.0,,WRIGHT,1,1,,Canada,KEEPHOUSE,Boston,1,0.0,2100.0,0.0,30,F,0.0,MA,,0.0,0.0,,4,,3949968000.0,50423.0,544
+1089,24.0,1856.0,,,,,1880.0,M,SUFFOLK,,,,,,LELIA,,3777,,,,,,,WRIGHT,,,,,,BOSTON;1-WD,,,,,,F,,MA,,,,,"BOSTON;1-WD,SUFFOLK,MA",42.3616218,-71.0608683,50513.0,544
+1090,3.0,1877.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,VICTORIA,,1880 IPUMS 100% sample,,5.0,6.0,,1.0,,WRIGHT,1,1,,Canada,,Elmira,1,0.0,3100.0,99.0,6,F,99.0,NY,,0.0,3.0,,6,,5818306000.0,50437.0,545
+1091,3.0,1877.0,,,,,1880.0,M,CHEMUNG,,,,,,VICTORIA,,3631,,,,,,,WRIGHT,,,,,,3-WD;ELMIRA,,,,,,F,,NY,,,,,"3-WD;ELMIRA,CHEMUNG,NY",42.090974,-76.80613000000001,50545.0,545
+1092,25.0,1855.0,0.0,0.0,2.0,,1880.0,Mulatto(BlackandWhite),,,,201.0,,,ALICEM.,,1880 IPUMS 100% sample,,2.0,2.0,,1.0,,WRIGHT,1,3,,Canada,KEEPHOUSE,Boston,1,0.0,2100.0,99.0,30,F,99.0,MA,,0.0,0.0,,2,,3949969000.0,50454.0,546
+1093,25.0,1855.0,,,,,1880.0,M,SUFFOLK,,,,,,ALICEM,,3148,,,,,,,WRIGHT,,,,,,BOSTON;1-WD,,,,,,F,,MA,,,,,"BOSTON;1-WD,SUFFOLK,MA",42.3616218,-71.0608683,50461.0,546
+1094,26.0,1854.0,0.0,0.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,JAMESH.,,1880 IPUMS 100% sample,,1.0,2.0,,1.0,,WRIGHT,1,3,,Canada,HOSTLER,Boston,1,0.0,1000.0,99.0,30,M,99.0,MA,,0.0,0.0,,2,,3949969000.0,50456.0,547
+1095,26.0,1854.0,,,,,1880.0,M,SUFFOLK,,,,,,JAMESH,,3149,,,,,,,WRIGHT,,,,,,BOSTON;1-WD,,,,,,M,,MA,,,,,"BOSTON;1-WD,SUFFOLK,MA",42.3616218,-71.0608683,50497.0,547
+1096,12.0,1868.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,DELLA,,1880 IPUMS 100% sample,,4.0,1.0,,1.0,,WRITE,1,1,,Canada,ATHOME,East Saginaw,1,4.0,5900.0,99.0,6,F,99.0,MI,,0.0,0.0,,5,,4345900000.0,50556.0,548
+1097,12.0,1868.0,,,,,1880.0,B,SAGINAW,,,,,,DELLA,,2306,,,,,,,WRITE,,,,,,2-WD;ESAGINAW,,,,,,F,,MI,,,,,"2-WD;ESAGINAW,SAGINAW,MI",43.4450079,-83.9619709,50559.0,548
+1098,54.0,1826.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ELIZA,,1880 IPUMS 100% sample,,3.0,1.0,,1.0,,WRITE,1,1,,Canada,DOMESTIC,East Saginaw,1,4.0,5900.0,99.0,6,F,99.0,MI,,0.0,0.0,,5,,4345900000.0,50557.0,549
+1099,54.0,1826.0,,,,,1880.0,B,SAGINAW,,,,,,ELIZA,,2307,,,,,,,WRITE,,,,,,2-WD;ESAGINAW,,,,,,F,,MI,,,,,"2-WD;ESAGINAW,SAGINAW,MI",43.4450079,-83.9619709,50560.0,549
+1100,22.0,1858.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JASPER,,1880 IPUMS 100% sample,,5.0,1.0,,1.0,,WRITE,1,1,,Canada,LABORER,East Saginaw,1,4.0,5900.0,99.0,6,M,99.0,MI,,0.0,0.0,,5,,4345900000.0,50558.0,550
+1101,22.0,1858.0,,,,,1880.0,B,SAGINAW,,,,,,JASPER,,2308,,,,,,,WRITE,,,,,,2-WD;ESAGINAW,,,,,,M,,MI,,,,,"2-WD;ESAGINAW,SAGINAW,MI",43.4450079,-83.9619709,50561.0,550
+1102,29.0,1851.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,JAMES,,1880 IPUMS 100% sample,,20.0,1.0,,1.0,,YOUNG,1,1,,Canada,STEWARD,New York,1,9.0,5900.0,99.0,80,M,99.0,NY,,800.0,0.0,,36,,6219202000.0,50703.0,551
+1103,29.0,1851.0,,,,,1880.0,B,NEWYORK,,,,,,JAMES,,2840,,,,,,,YOUNG,,,,,,6-WD;NEWYORK,,,,,,M,,NY,,,,,"6-WD;NEWYORK,NEWYORK,NY",40.7293335,-73.4773669,50769.0,551
+1104,28.0,1852.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLES,,1880 IPUMS 100% sample,,28.0,1.0,,1.0,,YOUNG,1,1,,Canada,COOK,New York,1,9.0,5900.0,99.0,80,M,99.0,NY,,800.0,0.0,,36,,6219202000.0,50679.0,552
+1105,28.0,1852.0,,,,,1880.0,B,NEWYORK,,,,,,CHARLES,,2839,,,,,,,YOUNG,,,,,,6-WD;NEWYORK,,,,,,M,,NY,,,,,"6-WD;NEWYORK,NEWYORK,NY",40.7293335,-73.4773669,50754.0,552
+1106,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ROBERT,,1880 IPUMS 100% sample,,8.0,1.0,,1.0,,YOUNG,1,1,890,Canada,WAITER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,800.0,0.0,,15,,5909892000.0,50676.0,553
+1107,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,ROBERT,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,YOUNG,1,1,890,Canada,WAITER,Buffalo,1,1.0,5310.0,99.0,10,M,99.0,NY,,801.0,0.0,,1,,5910158000.0,50677.0,553
+1108,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,ROBERT,,1880 IPUMS 100% sample,,8.0,1.0,,1.0,,YOUNG,1,1,890,Canada,WAITER,Buffalo,1,9.0,5900.0,99.0,10,M,99.0,NY,,800.0,0.0,,15,,5909892000.0,50676.0,554
+1109,30.0,1850.0,,,,,1880.0,B,ERIE,,,,,,ROBERT,,2628,,,,,,,YOUNG,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,50792.0,554
+1110,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1202.0,,,ROBERT,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,YOUNG,1,1,890,Canada,WAITER,Buffalo,1,1.0,5310.0,99.0,10,M,99.0,NY,,801.0,0.0,,1,,5910158000.0,50677.0,555
+1111,30.0,1850.0,,,,,1880.0,B,ERIE,,,,,,ROBERT,,2628,,,,,,,YOUNG,,,,,,4-WD;BUFFALO,,,,,,M,,NY,,,,,"4-WD;BUFFALO,ERIE,NY",42.9023245,-78.6337563,50792.0,555
+1112,30.0,1850.0,0.0,0.0,5.0,,1880.0,Black,,,,1230.0,,,CHARLESF.,,1880 IPUMS 100% sample,,1.0,1.0,,1.0,,YOUNG,1,1,,Canada,LABORER,Boston,1,1.0,5900.0,99.0,30,M,99.0,MA,,260.0,0.0,,1,,3994449000.0,50683.0,556
+1113,30.0,1850.0,,,,,1880.0,B,SUFFOLK,,,,,,CHARLESF,,3775,,,,,,,YOUNG,,,,,,BOSTON,,,,,,M,,MA,,,,,"BOSTON,SUFFOLK,MA",42.3600825,-71.0588801,50755.0,556
+1114,33.0,1847.0,3.0,2.0,1.0,,1880.0,Mulatto(BlackandWhite),,,,101.0,,,HENRYA.,,1880 IPUMS 100% sample,,1.0,5.0,,1.0,,YOUNG,1,1,,Canada,COACHMAN,Brooklyn New York,1,0.0,1000.0,1.0,50,M,5.0,NY,,0.0,0.0,,5,,6090789000.0,50702.0,557
+1115,33.0,1847.0,,,,,1880.0,M,KINGS,,,,,,HENRYA.,,2213,,,,,,,YOUNG,,,,,,19-WD;BROOKLYN,,,,,,M,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,50768.0,557
+1116,5.0,1875.0,0.0,0.0,3.0,,1880.0,Mulatto(BlackandWhite),,,,301.0,,,RICHARD,,1880 IPUMS 100% sample,,3.0,5.0,,1.0,,YOUNG,1,1,,Canada,,Brooklyn New York,1,0.0,3100.0,99.0,50,M,99.0,NY,,0.0,2.0,,5,,6090789000.0,50718.0,558
+1117,5.0,1875.0,,,,,1880.0,M,KINGS,,,,,,RICHARD,,2214,,,,,,,YOUNG,,,,,,19-WD;BROOKLYN,,,,,,M,,NY,,,,,"19-WD;BROOKLYN,KINGS,NY",40.7270982,-73.93684429999999,50791.0,558

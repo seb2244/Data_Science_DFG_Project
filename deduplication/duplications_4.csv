@@ -1,0 +1,13 @@
+,Age,CalculatedBirthYear,Cannot Read,Cannot Write,Cause of Death,Census Year Match,Census.Year,Color..Race.or.Ethnicity,County_x,Date Mustered Out,Date of Death,Enlistment Date,Enlistment Place,First Name Match,First.Name,Household Joint ID,ID,Joint ID for Matched Records,LIVING W FEMALE FAMILY?,LIVING W FEMALE NONFAMILY?,LIVING W MALE FAMILY?,LIVING W MALE NONFAMILY?,Last Name MATCH,Last.Name,MARITAL,NOTE these only apply to narrative answers,Notable_x,PLACEOFBIRTH_x,PROFESSION_x,Place_x,RELIGION_x,ROLL or Sheet#,Rank (Military),Relation to Head of Household,STREET,Sex_x,Sick,State/Province_x,Total of Matches,WARD,Year of Immigration to Canada if an Immigrant,Year of this Record,address,lat_x,long_x,unique_id,dup_pair
+0,35.0,1826.0,,,,,1861.0,,London,,,,,,N,,,,,,,,,Brown,,464.0,,USA,,District Five,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,5794.0,0
+1,35.0,1826.0,,,,,1861.0,,London,,,,,,N,,,,464.0,,,,,Brown,,,,USA,,District Five,Wesleyan Methodist,,,,,F,,Ontario,,,,,,,,6103.0,0
+2,46.0,1815.0,,,,,1861.0,,London,,,,,,E,,,,,,,,,Epperson,,464.0,,USA,laborer,District Five,Roman Catholic,,,,,M,,Ontario,,,,,,,,14105.0,1
+3,46.0,1815.0,,,,,1861.0,,London,,,,,,E,,,,464.0,,,,,Epperson,,,,USA,laborer,District Five,Roman Catholic,,,,,M,,Ontario,,,,,,,,14108.0,1
+4,0.0,1910.0,,,,,1910.0,M,DENVER,,,,,,JENNIE,,11997.0,,,,,,,JOHNSON,,,,,,DENVER,,,,,,F,,CO,,,,,"DENVER,DENVER,CO",39.739235799999996,-104.990251,24942.0,2
+5,0.0,1910.0,,,,,1910.0,B,DENVER,,,,,,JENNIE,,12009.0,,,,,,,JOHNSON,,,,,,DENVER,,,,,,F,,CO,,,,,"DENVER,DENVER,CO",39.739235799999996,-104.990251,24943.0,2
+6,22.0,1848.0,,,,,1870.0,W,ALBANY,,,,,,Rose,,997.0,,,,,,,Plante,,,,,,3-WDCOHOES,,,,,,F,,NY,,,,,"3-WDCOHOES,ALBANY,NY",42.761464000000004,-73.6972,35752.0,3
+7,22.0,1848.0,,,,,1870.0,M,ALBANY,,,,,,ROSE,,1778.0,,,,,,,PLANTE,,,,,,3-WDCOHOES,,,,,,F,,NY,,,,,"3-WDCOHOES,ALBANY,NY",42.761464000000004,-73.6972,35753.0,3
+8,28.0,1892.0,,,,,1920.0,B,KING,,,,,,EVA,,20518.0,,,,,,,SAXTON,,,,,,SEATTLE,,,,,,F,,WA,,,,,"SEATTLE,KING,WA",47.6062095,-122.33207079999998,39156.0,4
+9,28.0,1892.0,,,,,1920.0,M,KING,,,,,,EVA,,20522.0,,,,,,,SAXTON,,,,,,SEATTLE,,,,,,F,,WA,,,,,"SEATTLE,KING,WA",47.6062095,-122.33207079999998,39157.0,4
+10,3.0,1907.0,,,,,1910.0,B,WAYNE,,,,,,NELSON,,12385.0,,,,,,,WILLIAMS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,49350.0,5
+11,3.0,1907.0,,,,,1910.0,M,WAYNE,,,,,,NELSON,,12623.0,,,,,,,WILLIAMS,,,,,,DETROIT,,,,,,M,,MI,,,,,"DETROIT,WAYNE,MI",42.331427000000005,-83.0457538,49351.0,5
