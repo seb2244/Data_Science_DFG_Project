@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599447327359.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "368160A8",
+    "lastKnownWriteTime" : 1599447395,
+    "last_content_update" : 1599447395771,
+    "path" : "~/Desktop/DSI_DFG_Working/OCRDataProcessor/R/prc_helpers.R",
+    "project_path" : "R/prc_helpers.R",
+    "properties" : {
+        "cursorPosition" : "11,25",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

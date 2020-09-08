@@ -1,0 +1,39 @@
+#' Get OCR Data
+#'
+#' @return preprocessed OCR data
+#' @export
+get_ocr_data <- function() {
+
+  cols_to_select <- c('LASTNAME',
+                      'FIRSTNAME',
+                      'REGIMENT',
+                      'BIRTHPLACE',
+                      'DATE OF ENLISTMENT',
+                      'PLACE OF ENLISTMENT',
+                      'AGE',
+                      'OCCUPATION',
+                      'NOTES',
+                      'CAUSE OF DEATH',
+                      'DATE OF DEATH',
+                      'PLACE OF DEATH',
+                      'PLACE OF BURIAL',
+                      'SOURCE',
+                      'ORDER NUMBER')
+  
+  prep_ocr_data() %>% 
+    select(all_of(cols_to_select)) %>% 
+    filter(!is.na(LASTNAME) & LASTNAME != '' & LASTNAME != '\f')
+}
+
+#' Prepare OCR Data
+#' 
+#' This function prepares data from OCR.
+#'
+#' @param package package name
+#'
+#' @return OCR dataframe
+#' @export
+prep_ocr_data <- function(package = 'OCRDataProcessor') {
+  file <- system.file('ocr_data/Rough version of all Tom Brooks.csv', package = package)
+  read_csv(file)
+}

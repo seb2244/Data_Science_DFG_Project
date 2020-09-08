@@ -1,0 +1,30 @@
+"0","df %>% "
+"0","  prc_last_name() %>% "
+"0","  prc_first_name() %>% "
+"0","  prc_regiment() %>% "
+"0","  prc_birthplace() %>% "
+"0","  prc_occupation() %>% "
+"0","  clean_notes() %>% "
+"0","  prc_date_of_death()"
+"2","528 parsing failures.
+row col expected      actual
+ 20  -- a number Ephrian Ist
+ 25  -- a number John       
+ 29  -- a number Austin Sth 
+ 46  -- a number James lst  
+ 50  -- a number John       
+... ... ........ ...........
+See problems(...) for more details.
+"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"

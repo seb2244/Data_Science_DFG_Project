@@ -1,0 +1,47 @@
+---
+title: "01-Process New Data"
+author: Gary Nguyen
+---
+
+### 1. Set Up
+
+```{r install_and_load_packages}
+if(!require(tidyverse, quietly = TRUE)) install.packages('tidyverse')
+if(!require(here, quietly = TRUE)) install.packages('here')
+if(!require(glue, quietly = TRUE)) install.packages('glue')
+if(!require(purrr, quietly = TRUE)) install.packages('purrr')
+if(!require(toOrdinal, quietly = TRUE)) install.packages('toOrdinal')
+if(!require(tm, quietly = TRUE)) install.packages('tm')
+
+pkg <- c('tidyverse',
+         'here',
+         'glue',
+         'purrr',
+         'zeallot',
+         'toOrdinal',
+         'tm')
+invisible(lapply(pkg, library, character.only = TRUE))
+
+devtools::load_all()
+```
+
+### 2. Load Data
+
+```{r load_data, warning=FALSE, message=FALSE}
+df <- get_ocr_data()
+```
+
+### 3. Process Data
+
+```{r process}
+df %>% 
+  prc_last_name() %>% 
+  prc_first_name() %>% 
+  prc_regiment() %>% 
+  prc_birthplace() %>% 
+  prc_occupation() %>% 
+  clean_notes() %>% 
+  prc_date_of_death() %>% 
+  write_csv(file.path(here::here(), 'dev/tmp_09072020.csv'))
+```
+

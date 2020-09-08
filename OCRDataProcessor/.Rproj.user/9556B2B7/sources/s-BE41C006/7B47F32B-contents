@@ -1,0 +1,127 @@
+---
+title: "01-Process New Data"
+author: Gary Nguyen
+---
+
+### 1. Set Up
+
+```{r install_and_load_packages}
+if(!require(tidyverse, quietly = TRUE)) install.packages('tidyverse')
+if(!require(here, quietly = TRUE)) install.packages('here')
+if(!require(glue, quietly = TRUE)) install.packages('glue')
+if(!require(purrr, quietly = TRUE)) install.packages('purrr')
+if(!require(toOrdinal, quietly = TRUE)) install.packages('toOrdinal')
+if(!require(tm, quietly = TRUE)) install.packages('tm')
+
+pkg <- c('tidyverse',
+         'here',
+         'glue',
+         'purrr',
+         'zeallot',
+         'toOrdinal',
+         'tm')
+invisible(lapply(pkg, library, character.only = TRUE))
+```
+
+```{r set_working_dir}
+setwd('/Users/nguyenh/Desktop/Gary DFG Project/9_new_data')
+```
+
+### 2. Load Data
+
+```{r load_data}
+df <- readr::read_csv('Rough version of all Tom Brooks.csv')
+```
+
+### 3. Process Data
+
+```{r proj_vars}
+cols_to_select <- c('LASTNAME',
+                    'FIRSTNAME',
+                    'REGIMENT',
+                    'BIRTHPLACE',
+                    'DATE OF ENLISTMENT',
+                    'PLACE OF ENLISTMENT',
+                    'AGE',
+                    'OCCUPATION',
+                    'NOTES',
+                    'CAUSE OF DEATH',
+                    'DATE OF DEATH',
+                    'PLACE OF DEATH',
+                    'PLACE OF BURIAL',
+                    'SOURCE',
+                    'ORDER NUMBER')
+
+regiment_regex <- c('Mass Inf',
+                    'Mass Cav',
+                    'Col Inf',
+                    'Mass',
+                    'USCT',
+                    'USCC',
+                    'USCHA',
+                    'U.S. Navy',
+                    'U S  Navy',
+                    'Contract Surg',
+                    'U S C T',
+                    'Uscr',
+                    'AMHUSCY',
+                    'TAA USE',
+                    'ASHISCT',
+                    'SS USC',
+                    'USCY',
+                    'USET',
+                    'AXGUSCE',
+                    'UScT') %>% 
+  paste(collapse = '|')
+
+cause_of_death <- c('KIA',
+                    'Disease',
+                    'Pneumonia',
+                    'Diarrhea')
+
+occupation <- c('farmer',
+                'bounty',
+                'sailor',
+                'waiter',
+                'laborer',
+                'jaborer')
+```
+
+```{r}
+get_all_but_first <- function(x) {
+  if (length(x) == 1) {
+    NA
+  } else {
+    out <- x[2:length(x)]
+    out <- out[out != '']
+    paste(out, collapse = ' ') %>% 
+      str_squish() %>% 
+      removePunctuation()
+  }
+}
+
+df %>% 
+  select(all_of(cols_to_select)) %>% 
+  filter(!is.na(LASTNAME) & LASTNAME != '' & LASTNAME != '\f') %>% 
+  # Get Last Name
+  # For first split, split LASTNAME by either , or .
+  mutate(SPLIT = str_split(LASTNAME, ',|\\.'),
+         LASTNAME = map(SPLIT, 1)) %>%
+  mutate(SPLIT = sapply(SPLIT, get_all_but_first),
+         REGIMENT_SUFFIX = str_extract(SPLIT, regiment_regex),
+         SPLIT2 = str_split(SPLIT, regiment_regex),
+         FIRST_NAME_AND_REG_PREFIX = map(SPLIT2, 1),
+         SPLIT3 = str_split(FIRST_NAME_AND_REG_PREFIX, '[:digit:]'),
+         ADD_FIRST_NAME = map(SPLIT3, 1),
+         FIRSTNAME = if_else(is.na(FIRSTNAME), ADD_FIRST_NAME, FIRSTNAME)) %>% 
+  select(-ADD_FIRST_NAME) %>% 
+  mutate(REGIMENT_PREFIX_NUM = parse_number(FIRST_NAME_AND_REG_PREFIX),
+         REGIMENT_PREFIX_TH = toOrdinal(REGIMENT_PREFIX_NUM)) %>% 
+  select(-REGIMENT_PREFIX_NUM) %>% 
+  mutate(ADD_REGIMENT = paste0(REGIMENT_PREFIX_TH, ' ', REGIMENT_SUFFIX)) %>% 
+  select(-REGIMENT_PREFIX_TH, -REGIMENT_SUFFIX) %>% 
+  mutate(REGIMENT = if_else(is.na(REGIMENT), ADD_REGIMENT, REGIMENT)) %>% 
+  select(-ADD_REGIMENT) %>% 
+  select(-SPLIT, -SPLIT2, -SPLIT3, -FIRST_NAME_AND_REG_PREFIX)
+```
+
