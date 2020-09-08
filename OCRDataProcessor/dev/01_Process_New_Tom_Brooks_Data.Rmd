@@ -42,6 +42,6 @@ df %>%
   prc_occupation() %>% 
   clean_notes() %>% 
   prc_date_of_death() %>% 
-  write_csv(file.path(here::here(), 'dev/tmp.csv'))
+  write_csv(file.path(here::here(), 'dev/tmp_09072020.csv'))
 ```
 
