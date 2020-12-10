@@ -1,0 +1,134 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This script assigns gender using the the male/female proportions in ipums data from the gender package. 
+
+
+```{r}
+library(gender)
+library(genderdata)
+```
+```{r}
+# example
+gender("leslie", method = "ipums", years = c(1789, 1900))
+```
+
+```{r}
+library(readxl)
+master <- read_excel("current_master_11_17_20.xlsx")
+```
+```{r}
+subset = master
+subset = subset[c("First.Name", "Sex")]
+
+firstnames = subset["First.Name"][[1]]
+sexes = subset["Sex"][[1]]
+
+library(stringr)
+# get rid of special characters
+firstnames = str_replace_all(firstnames, "[^[:alnum:]]", " ")
+```
+
+```{r}
+cutoff = .95
+
+# enforces cutoff, could also put additional conditions in here
+gender.predict <- function(pred){
+  if(dim(pred)[1] != 0){
+    if(pred["proportion_female"][[1]] > cutoff | pred["proportion_female"][[1]] < 1-cutoff){
+      return(TRUE)
+    }
+    else{
+      return(FALSE)
+    }
+  }
+  else{
+    return(FALSE)
+  }
+}
+```
+
+```{r}
+for(i in 1:nrow(subset)){
+  # only determine sex for those which don't already have it
+  if(!is.na(sexes[i])){
+    next
+  }
+  
+  # if firstname is nan, skip 
+  firstname = firstnames[i]
+  if(is.na(firstname)){
+    next
+  }
+  
+  # we don't want it matching initials
+  if(nchar(firstname) < 3){
+    next
+  }
+  
+  # make prediction
+  pred = gender(firstname, method = "ipums", years = c(1789, 1900))
+  
+  # if first prediction exists and satisfies cutoff, we're done
+  if(dim(pred)[1] != 0){
+    
+  }
+  
+  # else, try again by splitting into first and middle (eg William Francis -> William)
+  else if(sapply(strsplit(firstname, " "), length) > 1){
+    firstname = strsplit(firstname, " ")[[1]][1]
+    if(nchar(firstname) > 3){
+      pred = gender(firstname, method = "ipums", years = c(1789, 1900))
+    }
+  }
+  
+  # else, try to see if it's a case of a first name and middle initial in one (eg WILLIAMF -> William)
+  else{
+    firstname = substr(firstname, 1, nchar(firstname) - 1)
+    if(nchar(firstname) > 3){
+      pred = gender(firstname, method = "ipums", years = c(1789, 1900))
+    }
+  }
+  
+  # if we found a prediction which satisifies cutoff, add to df
+  if(gender.predict(pred)){
+    subset[i, "Sex"] = pred["gender"]
+  }
+  
+}
+```
+
+```{r}
+# gender pred outputs as "male" or "female", this fxn changes it to "M" and "F"
+gender <- function(word){
+  if(!is.na(word)){
+  if(word!= "M" & word != "F"){
+    if(word == "male"){
+      return("M")
+    } else if(word == "female"){
+      return("F")
+    }else{
+      return(word)
+      print(word)
+    }
+  }else{
+    return(word)
+  }}
+    else{
+      return(0*Inf)
+    }
+}
+```
+
+```{r}
+master$Sex = lapply(subset$Sex, gender)
+master$Sex <- vapply(master$Sex, paste, collapse = ", ", character(1L))
+```
+```{r}
+library(writexl)
+write_xlsx(master, "/Users/seb2244/Desktop/migration_project/current_master_12_9_20.xlsx")
+```
+
+
