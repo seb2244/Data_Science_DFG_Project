@@ -1,0 +1,469 @@
+,CalculatedBirthYear,ID,Census.Year,State/Province,County,Place,Last.Name,First.Name,Age,Sex,Color..Race.or.Ethnicity,lat,long,address,MARITAL,Unnamed: 15,WARD,ROLL or Sheet#,PROFESSION,Notable,STREET,PLACEOFBIRTH,RELIGION,NOTE these only apply to narrative answers,Unnamed: 24,LIVING W MALE FAMILY?,LIVING W FEMALE FAMILY?,LIVING W MALE NONFAMILY?,LIVING W FEMALE NONFAMILY?,Cannot Read,Cannot Write,Sick,Relation to Head of Household,Year of Immigration to Canada if an Immigrant,Date of Death,Cause of Death,Rank (Military),Enlistment Date,Enlistment Place,Date Mustered Out,Year of this Record,Unnamed: 41,Unnamed: 42,Last Name MATCH,First Name Match,Census Year Match,Unnamed: 46,Total of Matches,matched_pair
+2465,1819,,1861,Ontario,Essex,Windsor,Burk ,William,42,M,Black,,,,,,,34.0,storekeeper,YYY WDSR,,UC,Wesleyan Methodist,Noonan 104,,,,,,,,,,,,,,,,,,,,,,,,,0
+2467,1819,Matson,1881,Ontario,Essex,Anderdon,Burke,William,62,M,African,,,,M,,,,Farmer,YY WDSR,-,US,Meth NC [sic],,,,,,,,,,,,,,,,,,,,,,,,,,0
+8260,1835,,1861,Ontario,Essex,Windsor,Johnson,Elizabeth,26,F,Mulatto(BlackandWhite),42.03149,-83.0364,,,,,28.0,,YY WDSR,,USA,Baptist,Noonan 99,,,,,,,,,,,,,,,,,,,,,,,,,1
+8771,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Johnston,Elizabeth,25,,M,,,,,,,16.0,,,,USA,Church of England,205,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,1
+3718,1823,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,STARK,ROBERT,47,M,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,BARBER,33828000,9,USA,1,1,9,2.0,1.0,100.0,9.0,3.0,2,8,1.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,2
+3719,1823,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,STARKS,ROBERT,57,M,Black,42.331427,-83.0457538,10.0,1,10.0,0.0,4.0,BARBER,4422107000,10,USA,1,1,,,1.0,1.0,6.0,4.0,0,17,7.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,2
+3730,1823,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,LOUISA,57,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,KEEPINGHOUSE,4422106000,10,USA,1,1,,,6.0,1.0,6.0,2.0,0,26,22.0,0.0,,4.0,4220.0,601.0,,,,,,,,,,,3
+3509,1822,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,LOUISA,48,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,DSERV,33828000,9,USA,1,1,9,2.0,6.0,100.0,9.0,2.0,0,28,22.0,0.0,,4.0,4220.0,601.0,,,,,,,,,,,3
+6499,1831,,1861,Ontario,London,District Two,Davidson,Charles,30,,B,,,,,,,9.0,,,,USA,Methodist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,4
+6500,1831,,1861,Ontario,London,District Two,Davis,Charles,30,,B,,,,,,,65.0,peddler,,,USA,Wesleyan Methodist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,4
+17602,1849,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,WILLIAM,31,M,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,COOK,4422106000,10,Canada,1,1,,,1.0,1.0,6.0,2.0,2,4,1.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,5
+16983,1848,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,WILLIAM,22,M,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,DSERV,33828000,9,Canada,1,1,9,2.0,7.0,100.0,9.0,0.0,0,99,99.0,2.0,,4.0,4430.0,801.0,,,,,,,,,,,5
+26452,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,MARY,22,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,ATHOME,4422106000,10,Canada,1,1,,,3.0,1.0,6.0,0.0,0,99,99.0,2.0,,4.0,4430.0,801.0,,,,,,,,,,,6
+26455,1858,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,MARY,12,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,ATS,33828000,9,Canada,1,1,9,2.0,9.0,100.0,9.0,0.0,0,99,99.0,0.0,,4.0,4900.0,1001.0,,,,,,,,,,,6
+35237,1869,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,STARK,MARY,1,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,ATH,33828000,9,USA,1,1,9,2.0,5.0,100.0,9.0,0.0,0,99,99.0,2.0,,3.0,3000.0,301.0,,,,,,,,,,,7
+35238,1869,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,STARKS,MARY,11,F,Black,42.331427,-83.0457538,10.0,1,10.0,0.0,4.0,ATSCHOOL,4422107000,10,USA,1,1,,,5.0,1.0,6.0,0.0,0,99,99.0,3.0,,3.0,3100.0,301.0,,,,,,,,,,,7
+17119,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rutha,12,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,8
+17120,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rutha,12,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,8
+17120,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rutha,12,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,9
+17119,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rutha,12,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,9
+172,1791,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Mary,70,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,10
+173,1791,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Mary,70,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,10
+173,1791,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Mary,70,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,11
+172,1791,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Mary,70,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,11
+17561,1849,,1861,Ontario,London,District Six,Smith,Mary,12,,B,,,,,,,127.0,,,,UC,?,466,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,12
+18673,1850,,1861,Ontario,London,District Nine,Smith,Mary,11,,B,,,,,,,61.0,,,,UC,Baptist,469,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,12
+18673,1850,,1861,Ontario,London,District Nine,Smith,Mary,11,,B,,,,,,,61.0,,,,UC,Baptist,469,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,13
+17561,1849,,1861,Ontario,London,District Six,Smith,Mary,12,,B,,,,,,,127.0,,,,UC,?,466,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,13
+349,1798,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Charles,63,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,14
+350,1798,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Charles,63,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,14
+350,1798,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Charles,63,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,15
+349,1798,,1861,Ontario,Kent,Township of Chatham and Gore,Burley,Charles,63,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,15
+6402,1830,,1861,Ontario,Wellington,Guelph,Williams,John,31,M,black,,,,,,,,laborer,YY WDSR,-,UC,Church of England,Noonan 382; family structure match to Jesse,,,,,,,Y,Y,,,,,,,,,,,,,,,,,16
+6755,1831,,1861,Ontario,Kingston,Victoria Ward,Williams,John,30,,B,,,,,,,163.0,laborer,,,USA,Wesleyan Methodist,460,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,16
+6755,1831,,1861,Ontario,Kingston,Victoria Ward,Williams,John,30,,B,,,,,,,163.0,laborer,,,USA,Wesleyan Methodist,460,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,17
+6402,1830,,1861,Ontario,Wellington,Guelph,Williams,John,31,M,black,,,,,,,,laborer,YY WDSR,-,UC,Church of England,Noonan 382; family structure match to Jesse,,,,,,,Y,Y,,,,,,,,,,,,,,,,,17
+16443,1848,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,13,,M,,,,,,,337.0,laborer,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,18
+17153,1849,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,12,,M,,,,,,,337.0,,,,LC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,18
+17153,1849,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,12,,M,,,,,,,337.0,,,,LC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,19
+16443,1848,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,13,,M,,,,,,,337.0,laborer,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,19
+19765,1852,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,9,,M,,,,,,,337.0,,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,20
+21527,1854,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,7,,M,,,,,,,337.0,,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,20
+21527,1854,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,7,,M,,,,,,,337.0,,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,21
+19765,1852,,1861,Ontario,Kingston,Frontenac Ward,Christmas,James,9,,M,,,,,,,337.0,,,,UC,Church of England,458,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,21
+552,1801,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Anthony,60,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,22
+553,1801,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Anthony,60,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,22
+553,1801,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Anthony,60,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,23
+552,1801,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Anthony,60,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,23
+627,1803,,1861,Ontario,Hamilton,St. George's Ward,Emery,R,58,M,B,,,,,,,26.0,cook,,,WIN,Christian Church,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,24
+628,1803,,1861,Ontario,Hamilton,St. George's Ward,Emery,R,58,M,B,,,,,,,,cook,,,WIN,Christian Church,,,26.0,447.0,,,,,,,,,,,,,,,,,,,,,,24
+628,1803,,1861,Ontario,Hamilton,St. George's Ward,Emery,R,58,M,B,,,,,,,,cook,,,WIN,Christian Church,,,26.0,447.0,,,,,,,,,,,,,,,,,,,,,,25
+627,1803,,1861,Ontario,Hamilton,St. George's Ward,Emery,R,58,M,B,,,,,,,26.0,cook,,,WIN,Christian Church,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,25
+873,1806,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Mary,55,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,26
+874,1806,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Mary,55,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,26
+874,1806,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Mary,55,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,27
+873,1806,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Mary,55,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,27
+989,1808,,1861,Ontario,Hamilton,St. Andrew's Ward,Meads,H,53,F,B,,,,,,,396.0,,,,USA,Baptist,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,28
+990,1808,,1861,Ontario,Hamilton,St. Andrew's Ward,Meads,H,53,F,B,,,,,,,,,,,USA,Baptist,,,396.0,446.0,,,,,,,,,,,,,,,,,,,,,,28
+990,1808,,1861,Ontario,Hamilton,St. Andrew's Ward,Meads,H,53,F,B,,,,,,,,,,,USA,Baptist,,,396.0,446.0,,,,,,,,,,,,,,,,,,,,,,29
+989,1808,,1861,Ontario,Hamilton,St. Andrew's Ward,Meads,H,53,F,B,,,,,,,396.0,,,,USA,Baptist,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,29
+11889,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Mary,19,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,30
+11890,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Mary,19,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,30
+11890,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Mary,19,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,31
+11889,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Mary,19,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,31
+1317,1811,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Sr,50,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,32
+1318,1811,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Sr,50,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,32
+1318,1811,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Sr,50,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,33
+1317,1811,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Sr,50,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,33
+1346,1811,,1861,Ontario,London,District Five,Gray,A,50,M,B,,,,,,,9.0,barber,,,USA,Baptist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,34
+1347,1811,,1861,Ontario,London,London District 1,Gray,A,50,M,black,,,,,,,9.0,barber,Y CHECK,,USA,Baptist,Noonan 463,,,,,,,,,,,,,,,,,,,,,,,,,34
+1347,1811,,1861,Ontario,London,London District 1,Gray,A,50,M,black,,,,,,,9.0,barber,Y CHECK,,USA,Baptist,Noonan 463,,,,,,,,,,,,,,,,,,,,,,,,,35
+1346,1811,,1861,Ontario,London,District Five,Gray,A,50,M,B,,,,,,,9.0,barber,,,USA,Baptist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,35
+12203,1842,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,JOHN,38,M,Mulatto(BlackandWhite),42.331427,-83.0457538,7.0,1,10.0,0.0,0.0,LUMBERMAN,4419910000,10,Canada,1,1,,,1.0,1.0,7.0,4.0,1,16,3.0,1.0,,1.0,1000.0,101.0,,,,,,,,,,,36
+13621,1844,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,JOHN,36,M,Black,42.331427,-83.0457538,4.0,1,10.0,0.0,0.0,BARBER,4435551000,10,Canada,1,1,,,1.0,1.0,4.0,3.0,3,3,0.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,36
+13621,1844,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,JOHN,36,M,Black,42.331427,-83.0457538,4.0,1,10.0,0.0,0.0,BARBER,4435551000,10,Canada,1,1,,,1.0,1.0,4.0,3.0,3,3,0.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,37
+12203,1842,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,JOHN,38,M,Mulatto(BlackandWhite),42.331427,-83.0457538,7.0,1,10.0,0.0,0.0,LUMBERMAN,4419910000,10,Canada,1,1,,,1.0,1.0,7.0,4.0,1,16,3.0,1.0,,1.0,1000.0,101.0,,,,,,,,,,,37
+26704,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Thomas,2,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,38
+26705,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Thomas,2,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,38
+26705,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Thomas,2,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,39
+26704,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Thomas,2,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,39
+1815,1815,,1861,Ontario,Hamilton,St. Andrew's Ward,Colbert,P A,46,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,40
+1816,1815,,1861,Ontario,Hamilton,St. Andrew's Ward,Colbert,P A,46,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,40
+1816,1815,,1861,Ontario,Hamilton,St. Andrew's Ward,Colbert,P A,46,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,41
+1815,1815,,1861,Ontario,Hamilton,St. Andrew's Ward,Colbert,P A,46,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,41
+1836,1815,,1861,Ontario,London,District Five,Epperson,E,46,M,,,,,,,,,laborer,,,USA,Roman Catholic,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,42
+1837,1815,,1861,Ontario,London,District Five,Epperson,E,46,M,,,,,,,,,laborer,,,USA,Roman Catholic,,,,464.0,,,,,,,,,,,,,,,,,,,,,,42
+1837,1815,,1861,Ontario,London,District Five,Epperson,E,46,M,,,,,,,,,laborer,,,USA,Roman Catholic,,,,464.0,,,,,,,,,,,,,,,,,,,,,,43
+1836,1815,,1861,Ontario,London,District Five,Epperson,E,46,M,,,,,,,,,laborer,,,USA,Roman Catholic,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,43
+2092,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Sr,45,,B,,,,,,,7.0,farmer,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,44
+2093,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Sr,45,,B,,,,,,,,farmer,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,44
+2093,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Sr,45,,B,,,,,,,,farmer,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,45
+2092,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Sr,45,,B,,,,,,,7.0,farmer,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,45
+2102,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,Sarah A B,45,,B,,,,,,,6.0,,,,USA,Episcopal Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,46
+2103,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,Sarah A B,45,,B,,,,,,,,,,,USA,Episcopal Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,46
+2103,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,Sarah A B,45,,B,,,,,,,,,,,USA,Episcopal Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,47
+2102,1816,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,Sarah A B,45,,B,,,,,,,6.0,,,,USA,Episcopal Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,47
+23889,1856,,1861,Ontario,Hamilton,St. George's Ward,Jordon,Beverly,5,M,M,,,,,,,81.0,,,,UC,Church of England,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,48
+23890,1856,,1861,Ontario,Hamilton,St. George's Ward,Jordon,Beverly,5,M,M,,,,,,,,,,,UC,Church of England,,,81.0,450.0,,,,,,,,,,,,,,,,,,,,,,48
+23890,1856,,1861,Ontario,Hamilton,St. George's Ward,Jordon,Beverly,5,M,M,,,,,,,,,,,UC,Church of England,,,81.0,450.0,,,,,,,,,,,,,,,,,,,,,,49
+23889,1856,,1861,Ontario,Hamilton,St. George's Ward,Jordon,Beverly,5,M,M,,,,,,,81.0,,,,UC,Church of England,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,49
+2296,1818,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Maria,43,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,50
+2297,1818,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Maria,43,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,50
+2297,1818,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Maria,43,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,51
+2296,1818,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Maria,43,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,51
+2435,1818,,1861,Ontario,Hamilton,St. George's Ward,Wells,W,43,M,M,,,,,,,109.0,carpenter,,,USA,Baptist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,52
+2436,1818,,1861,Ontario,Hamilton,St. George's Ward,Wells,W,43,M,M,,,,,,,,carpenter,,,USA,Baptist,,,109.0,450.0,,,,,,,,,,,,,,,,,,,,,,52
+2436,1818,,1861,Ontario,Hamilton,St. George's Ward,Wells,W,43,M,M,,,,,,,,carpenter,,,USA,Baptist,,,109.0,450.0,,,,,,,,,,,,,,,,,,,,,,53
+2435,1818,,1861,Ontario,Hamilton,St. George's Ward,Wells,W,43,M,M,,,,,,,109.0,carpenter,,,USA,Baptist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,53
+2596,1820,,1861,Ontario,Hamilton,St. George's Ward,Ballard,J,41,M,B,,,,,,,8.0,shoemaker,,,PA,Church of England,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,54
+2597,1820,,1861,Ontario,Hamilton,St. George's Ward,Ballard,J,41,M,B,,,,,,,,shoemaker,,,PA,Church of England,,,8.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,54
+2597,1820,,1861,Ontario,Hamilton,St. George's Ward,Ballard,J,41,M,B,,,,,,,,shoemaker,,,PA,Church of England,,,8.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,55
+2596,1820,,1861,Ontario,Hamilton,St. George's Ward,Ballard,J,41,M,B,,,,,,,8.0,shoemaker,,,PA,Church of England,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,55
+3064,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lydia,40,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,56
+3065,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lydia,40,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,56
+3065,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lydia,40,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,57
+3064,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lydia,40,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,57
+3130,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,James,40,,B,,,,,,,6.0,laborer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,58
+3131,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,James,40,,B,,,,,,,,laborer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,58
+3131,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,James,40,,B,,,,,,,,laborer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,59
+3130,1821,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,James,40,,B,,,,,,,6.0,laborer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,59
+3137,1821,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,W,40,M,B,,,,,,,79.0,,,,USA,none,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,60
+3138,1821,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,W,40,M,B,,,,,,,,,,,USA,none,,,79.0,454.0,,,,,,,,,,,,,,,,,,,,,,60
+3138,1821,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,W,40,M,B,,,,,,,,,,,USA,none,,,79.0,454.0,,,,,,,,,,,,,,,,,,,,,,61
+3137,1821,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,W,40,M,B,,,,,,,79.0,,,,USA,none,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,61
+3201,1821,,1861,Ontario,London,District Five,Payne,Susan,40,,,,,,,,,,seamstress,,,KY,Baptist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,62
+3202,1821,,1861,Ontario,London,District Five,Payne,Susan,40,,,,,,,,,,seamstress,,,KY,Baptist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,62
+3202,1821,,1861,Ontario,London,District Five,Payne,Susan,40,,,,,,,,,,seamstress,,,KY,Baptist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,63
+3201,1821,,1861,Ontario,London,District Five,Payne,Susan,40,,,,,,,,,,seamstress,,,KY,Baptist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,63
+3390,1822,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,H,39,M,B,,,,,,,375.0,engineer,,,MO,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,64
+3391,1822,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,H,39,M,B,,,,,,,,engineer,,,MO,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,64
+3391,1822,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,H,39,M,B,,,,,,,,engineer,,,MO,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,65
+3390,1822,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,H,39,M,B,,,,,,,375.0,engineer,,,MO,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,65
+3437,1822,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,William B,39,,B,,,,,,,6.0,farmer,,,USA,Episcopal Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,66
+3438,1822,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,William B,39,,B,,,,,,,,farmer,,,USA,Episcopal Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,66
+3438,1822,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,William B,39,,B,,,,,,,,farmer,,,USA,Episcopal Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,67
+3437,1822,,1861,Ontario,Kent,Township of Chatham and Gore,Nelson,William B,39,,B,,,,,,,6.0,farmer,,,USA,Episcopal Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,67
+15787,1847,,1861,Ontario,London,District One,Cooper,Jane,14,,B,,,,,,,29.0,,,,CW,Church of Scotland,462,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,68
+15788,1847,,1861,Ontario,London,District One,Cooper,Jane,14,,B,,,,,,,43.0,,,,CAN,Wesleyan Methodist,462,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,68
+15788,1847,,1861,Ontario,London,District One,Cooper,Jane,14,,B,,,,,,,43.0,,,,CAN,Wesleyan Methodist,462,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,69
+15787,1847,,1861,Ontario,London,District One,Cooper,Jane,14,,B,,,,,,,29.0,,,,CW,Church of Scotland,462,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,69
+3638,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Oliver,38,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,70
+3639,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Oliver,38,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,70
+3639,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Oliver,38,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,71
+3638,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Oliver,38,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,71
+3716,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Mary,38,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,72
+3717,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Mary,38,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,72
+3717,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Mary,38,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,73
+3716,1823,,1861,Ontario,Kent,Township of Chatham and Gore,Snowden,Mary,38,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,73
+3740,1823,,1861,Ontario,Hamilton,St. George's Ward,Wells,Sarah J,38,F,W,,,,,,,109.0,,,,USA,Baptist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,74
+3741,1823,,1861,Ontario,Hamilton,St. George's Ward,Wells,Sarah J,38,F,W,,,,,,,,,,,USA,Baptist,,,109.0,450.0,,,,,,,,,,,,,,,,,,,,,,74
+3741,1823,,1861,Ontario,Hamilton,St. George's Ward,Wells,Sarah J,38,F,W,,,,,,,,,,,USA,Baptist,,,109.0,450.0,,,,,,,,,,,,,,,,,,,,,,75
+3740,1823,,1861,Ontario,Hamilton,St. George's Ward,Wells,Sarah J,38,F,W,,,,,,,109.0,,,,USA,Baptist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,75
+4445,1825,,1861,Ontario,Hamilton,St. George's Ward,Terman,B W,36,F,B,,,,,,,505.0,stonecutter,,,UC,Baptist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,76
+4446,1825,,1861,Ontario,Hamilton,St. George's Ward,Terman,B W,36,F,B,,,,,,,,stonecutter,,,UC,Baptist,,,505.0,448.0,,,,,,,,,,,,,,,,,,,,,,76
+4446,1825,,1861,Ontario,Hamilton,St. George's Ward,Terman,B W,36,F,B,,,,,,,,stonecutter,,,UC,Baptist,,,505.0,448.0,,,,,,,,,,,,,,,,,,,,,,77
+4445,1825,,1861,Ontario,Hamilton,St. George's Ward,Terman,B W,36,F,B,,,,,,,505.0,stonecutter,,,UC,Baptist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,77
+4524,1826,,1861,Ontario,Hamilton,St. Andrew's Ward,Brown,E,35,F,B,,,,,,,306.0,,,,USA,Baptist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,78
+4525,1826,,1861,Ontario,Hamilton,St. Andrew's Ward,Brown,E,35,F,B,,,,,,,,,,,USA,Baptist,,,306.0,445.0,,,,,,,,,,,,,,,,,,,,,,78
+4525,1826,,1861,Ontario,Hamilton,St. Andrew's Ward,Brown,E,35,F,B,,,,,,,,,,,USA,Baptist,,,306.0,445.0,,,,,,,,,,,,,,,,,,,,,,79
+4524,1826,,1861,Ontario,Hamilton,St. Andrew's Ward,Brown,E,35,F,B,,,,,,,306.0,,,,USA,Baptist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,79
+4529,1826,,1861,Ontario,London,District Five,Brown,N,35,F,,,,,,,,,,,,USA,Wesleyan Methodist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,80
+4530,1826,,1861,Ontario,London,District Five,Brown,N,35,F,,,,,,,,,,,,USA,Wesleyan Methodist,,,,464.0,,,,,,,,,,,,,,,,,,,,,,80
+4530,1826,,1861,Ontario,London,District Five,Brown,N,35,F,,,,,,,,,,,,USA,Wesleyan Methodist,,,,464.0,,,,,,,,,,,,,,,,,,,,,,81
+4529,1826,,1861,Ontario,London,District Five,Brown,N,35,F,,,,,,,,,,,,USA,Wesleyan Methodist,464,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,81
+21307,1853,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,THURMAN,MARY,27,F,Black,42.331427,-83.0457538,1.0,1,10.0,0.0,0.0,COOK,4416800000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,82
+22180,1854,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,THURMAN,MARY,26,F,Black,42.331427,-83.0457538,9.0,1,10.0,0.0,1.0,LAUNDRESS,4416299000,10,Canada,1,1,,,3.0,1.0,8.0,0.0,0,99,99.0,6.0,,3.0,3100.0,301.0,,,,,,,,,,,82
+22180,1854,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,THURMAN,MARY,26,F,Black,42.331427,-83.0457538,9.0,1,10.0,0.0,1.0,LAUNDRESS,4416299000,10,Canada,1,1,,,3.0,1.0,8.0,0.0,0,99,99.0,6.0,,3.0,3100.0,301.0,,,,,,,,,,,83
+21307,1853,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,THURMAN,MARY,27,F,Black,42.331427,-83.0457538,1.0,1,10.0,0.0,0.0,COOK,4416800000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,83
+4939,1827,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Lydia Ann,34,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,84
+4940,1827,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Lydia Ann,34,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,84
+4940,1827,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Lydia Ann,34,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,85
+4939,1827,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Lydia Ann,34,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,85
+5549,1829,,1861,Ontario,Hamilton,St. George's Ward,Gordon,W R,32,M,B,,,,,,,25.0,waiter,,,MD,Roman Catholic,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,86
+5550,1829,,1861,Ontario,Hamilton,St. George's Ward,Gordon,W R,32,M,B,,,,,,,,waiter,,,MD,Roman Catholic,,,25.0,447.0,,,,,,,,,,,,,,,,,,,,,,86
+5550,1829,,1861,Ontario,Hamilton,St. George's Ward,Gordon,W R,32,M,B,,,,,,,,waiter,,,MD,Roman Catholic,,,25.0,447.0,,,,,,,,,,,,,,,,,,,,,,87
+5549,1829,,1861,Ontario,Hamilton,St. George's Ward,Gordon,W R,32,M,B,,,,,,,25.0,waiter,,,MD,Roman Catholic,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,87
+5565,1829,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Harriett,32,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,88
+5566,1829,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Harriett,32,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,88
+5566,1829,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Harriett,32,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,89
+5565,1829,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Harriett,32,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,89
+5584,1829,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W H,32,M,M,,,,,,,155.0,tailor,,,USA,Roman Catholic,444,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,90
+5585,1829,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W H,32,M,M,,,,,,,,tailor,,,USA,Roman Catholic,,,155.0,444.0,,,,,,,,,,,,,,,,,,,,,,90
+5585,1829,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W H,32,M,M,,,,,,,,tailor,,,USA,Roman Catholic,,,155.0,444.0,,,,,,,,,,,,,,,,,,,,,,91
+5584,1829,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W H,32,M,M,,,,,,,155.0,tailor,,,USA,Roman Catholic,444,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,91
+5658,1829,,1861,Ontario,Hamilton,St. George's Ward,Page,Sarah,32,M,B,,,,,,,483.0,,,,CAN,Baptist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,92
+5659,1829,,1861,Ontario,Hamilton,St. George's Ward,Page,Sarah,32,M,B,,,,,,,,,,,CAN,Baptist,,,483.0,448.0,,,,,,,,,,,,,,,,,,,,,,92
+5659,1829,,1861,Ontario,Hamilton,St. George's Ward,Page,Sarah,32,M,B,,,,,,,,,,,CAN,Baptist,,,483.0,448.0,,,,,,,,,,,,,,,,,,,,,,93
+5658,1829,,1861,Ontario,Hamilton,St. George's Ward,Page,Sarah,32,M,B,,,,,,,483.0,,,,CAN,Baptist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,93
+5788,1830,,1861,Ontario,Hamilton,St. George's Ward,Ballard,A E,31,F,B,,,,,,,8.0,,,,WIN,Church of England,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,94
+5789,1830,,1861,Ontario,Hamilton,St. George's Ward,Ballard,A E,31,F,B,,,,,,,,,,,WIN,Church of England,,,8.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,94
+5789,1830,,1861,Ontario,Hamilton,St. George's Ward,Ballard,A E,31,F,B,,,,,,,,,,,WIN,Church of England,,,8.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,95
+5788,1830,,1861,Ontario,Hamilton,St. George's Ward,Ballard,A E,31,F,B,,,,,,,8.0,,,,WIN,Church of England,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,95
+9908,1839,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Andrew,22,M,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,96
+9909,1839,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Andrew,22,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,96
+9909,1839,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Andrew,22,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,97
+9908,1839,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Andrew,22,M,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,97
+8634,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Margaret,25,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,98
+8635,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Margaret,25,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,98
+8635,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Margaret,25,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,99
+8634,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Margaret,25,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,99
+6459,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Moses,30,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,100
+6460,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Moses,30,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,100
+6460,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Moses,30,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,101
+6459,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Moses,30,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,101
+6464,1831,,1861,Ontario,Hamilton,St. George's Ward,Burk,B,30,M,B,,,,,,,27.0,waiter,,,KY,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,102
+6465,1831,,1861,Ontario,Hamilton,St. George's Ward,Burk,B,30,M,B,,,,,,,,waiter,,,KY,Baptist,,,27.0,447.0,,,,,,,,,,,,,,,,,,,,,,102
+6465,1831,,1861,Ontario,Hamilton,St. George's Ward,Burk,B,30,M,B,,,,,,,,waiter,,,KY,Baptist,,,27.0,447.0,,,,,,,,,,,,,,,,,,,,,,103
+6464,1831,,1861,Ontario,Hamilton,St. George's Ward,Burk,B,30,M,B,,,,,,,27.0,waiter,,,KY,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,103
+6513,1831,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,30,M,B,,,,,,,308.0,stone mason,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,104
+6514,1831,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,30,M,B,,,,,,,,stone mason,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,104
+6514,1831,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,30,M,B,,,,,,,,stone mason,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,105
+6513,1831,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,30,M,B,,,,,,,308.0,stone mason,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,105
+24589,1857,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,4,M,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,106
+24590,1857,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,4,M,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,106
+24590,1857,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,4,M,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,107
+24589,1857,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,R,4,M,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,107
+6668,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,James,30,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,108
+6669,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,James,30,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,108
+6669,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,James,30,,B,,,,,,,,farmer,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,109
+6668,1831,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,James,30,,B,,,,,,,6.0,farmer,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,109
+19473,1851,,1861,Ontario,Hamilton,St. George's Ward,Stanton,George,10,,M,,,,,,,231.0,,,,UC,Episcopal Methodist,451,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,110
+21275,1853,,1861,Ontario,Hamilton,St. George's Ward,Stanton,George,8,,M,,,,,,,231.0,,,,UC,Episcopal Methodist,451,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,110
+21275,1853,,1861,Ontario,Hamilton,St. George's Ward,Stanton,George,8,,M,,,,,,,231.0,,,,UC,Episcopal Methodist,451,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,111
+19473,1851,,1861,Ontario,Hamilton,St. George's Ward,Stanton,George,10,,M,,,,,,,231.0,,,,UC,Episcopal Methodist,451,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,111
+7290,1833,,1861,Ontario,Hamilton,St. Andrew's Ward,Cooper,C,28,M,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,112
+7291,1833,,1861,Ontario,Hamilton,St. Andrew's Ward,Cooper,C,28,M,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,112
+7291,1833,,1861,Ontario,Hamilton,St. Andrew's Ward,Cooper,C,28,M,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,113
+7290,1833,,1861,Ontario,Hamilton,St. Andrew's Ward,Cooper,C,28,M,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,113
+7582,1834,,1861,Ontario,Hamilton,St. George's Ward,Atkinson,H,27,M,B,,,,,,,134.0,porter,,,KY,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,114
+7583,1834,,1861,Ontario,Hamilton,St. George's Ward,Atkinson,H,27,M,B,,,,,,,,porter,,,KY,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,114
+7583,1834,,1861,Ontario,Hamilton,St. George's Ward,Atkinson,H,27,M,B,,,,,,,,porter,,,KY,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,115
+7582,1834,,1861,Ontario,Hamilton,St. George's Ward,Atkinson,H,27,M,B,,,,,,,134.0,porter,,,KY,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,115
+7589,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Barnum,W E,27,M,B,,,,,,,373.0,laborer,,,MD,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,116
+7590,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Barnum,W E,27,M,B,,,,,,,,laborer,,,MD,Wesleyan Methodist,,,373.0,445.0,,,,,,,,,,,,,,,,,,,,,,116
+7590,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Barnum,W E,27,M,B,,,,,,,,laborer,,,MD,Wesleyan Methodist,,,373.0,445.0,,,,,,,,,,,,,,,,,,,,,,117
+7589,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Barnum,W E,27,M,B,,,,,,,373.0,laborer,,,MD,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,117
+7733,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,V,27,F,B,,,,,,,375.0,,,,CW,Episcopal Methodist,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,118
+7734,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,V,27,F,B,,,,,,,,,,,CW,Episcopal Methodist,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,118
+7734,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,V,27,F,B,,,,,,,,,,,CW,Episcopal Methodist,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,119
+7733,1834,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,V,27,F,B,,,,,,,375.0,,,,CW,Episcopal Methodist,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,119
+7966,1835,,1861,Ontario,Hamilton,St. George's Ward,Alexander,Maria,26,M,M,,,,,,,105.0,,,,SCO,Episcopal Methodist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,120
+7967,1835,,1861,Ontario,Hamilton,St. George's Ward,Alexander,Maria,26,M,M,,,,,,,,,,,SCO,Episcopal Methodist,,,105.0,450.0,,,,,,,,,,,,,,,,,0.0,,100.0,,,120
+7967,1835,,1861,Ontario,Hamilton,St. George's Ward,Alexander,Maria,26,M,M,,,,,,,,,,,SCO,Episcopal Methodist,,,105.0,450.0,,,,,,,,,,,,,,,,,0.0,,100.0,,,121
+7966,1835,,1861,Ontario,Hamilton,St. George's Ward,Alexander,Maria,26,M,M,,,,,,,105.0,,,,SCO,Episcopal Methodist,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,121
+8275,1835,,1861,Ontario,Hamilton,St. George's Ward,Jones,B,26,M,B,,,,,,,134.0,butcher,,,VA,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,122
+8276,1835,,1861,Ontario,Hamilton,St. George's Ward,Jones,B,26,M,B,,,,,,,,butcher,,,VA,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,,,,,,122
+8276,1835,,1861,Ontario,Hamilton,St. George's Ward,Jones,B,26,M,B,,,,,,,,butcher,,,VA,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,,,,,,123
+8275,1835,,1861,Ontario,Hamilton,St. George's Ward,Jones,B,26,M,B,,,,,,,134.0,butcher,,,VA,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,123
+8896,1836,,1861,Ontario,Hamilton,St. Andrew's Ward,Stockton,W,25,M,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,124
+8897,1836,,1861,Ontario,Hamilton,St. Andrew's Ward,Stockton,W,25,M,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,124
+8897,1836,,1861,Ontario,Hamilton,St. Andrew's Ward,Stockton,W,25,M,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,125
+8896,1836,,1861,Ontario,Hamilton,St. Andrew's Ward,Stockton,W,25,M,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,125
+8958,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Baden,E,24,F,B,,,,,,,307.0,,,,UC,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,126
+8959,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Baden,E,24,F,B,,,,,,,,,,,UC,Wesleyan Methodist,,,307.0,445.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,126
+8959,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Baden,E,24,F,B,,,,,,,,,,,UC,Wesleyan Methodist,,,307.0,445.0,,,,,,,,,,,,,,,,,0.0,,0.0,,,127
+8958,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Baden,E,24,F,B,,,,,,,307.0,,,,UC,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,127
+9048,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,J,24,F,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,128
+9049,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,J,24,F,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,128
+9049,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,J,24,F,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,129
+9048,1837,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,J,24,F,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,129
+9279,1837,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,Gemima,24,,B,,,,,,,6.0,,,,USA,Protestant,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,130
+9280,1837,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,Gemima,24,,B,,,,,,,,,,,USA,Protestant,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,130
+9280,1837,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,Gemima,24,,B,,,,,,,,,,,USA,Protestant,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,131
+9279,1837,,1861,Ontario,Kent,Township of Chatham and Gore,Rider,Gemima,24,,B,,,,,,,6.0,,,,USA,Protestant,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,131
+9500,1838,,1861,Ontario,Hamilton,St. George's Ward,Eatress,H,23,F,B,,,,,,,273.0,,,,UC,Episcopal Methodist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,132
+9501,1838,,1861,Ontario,Hamilton,St. George's Ward,Eatress,H,23,F,B,,,,,,,,,,,UC,Episcopal Methodist,,,273.0,448.0,,,,,,,,,,,,,,,,,,,,,,132
+9501,1838,,1861,Ontario,Hamilton,St. George's Ward,Eatress,H,23,F,B,,,,,,,,,,,UC,Episcopal Methodist,,,273.0,448.0,,,,,,,,,,,,,,,,,,,,,,133
+9500,1838,,1861,Ontario,Hamilton,St. George's Ward,Eatress,H,23,F,B,,,,,,,273.0,,,,UC,Episcopal Methodist,448,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,133
+9737,1838,,1861,Ontario,Hamilton,St. Andrew's Ward,Robison,T,23,M,B,,,,,,,374.0,,,,CW,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,134
+9738,1838,,1861,Ontario,Hamilton,St. Andrew's Ward,Robison,T,23,M,B,,,,,,,,,,,CW,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,134
+9738,1838,,1861,Ontario,Hamilton,St. Andrew's Ward,Robison,T,23,M,B,,,,,,,,,,,CW,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,135
+9737,1838,,1861,Ontario,Hamilton,St. Andrew's Ward,Robison,T,23,M,B,,,,,,,374.0,,,,CW,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,135
+9977,1839,,1861,Ontario,Hamilton,St. George's Ward,Gault,A,22,M,B,,,,,,,134.0,,,,USA,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,136
+9978,1839,,1861,Ontario,Hamilton,St. George's Ward,Gault,A,22,M,B,,,,,,,,,,,USA,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,,,,,,136
+9978,1839,,1861,Ontario,Hamilton,St. George's Ward,Gault,A,22,M,B,,,,,,,,,,,USA,Baptist,,,134.0,447.0,,,,,,,,,,,,,,,,,,,,,,137
+9977,1839,,1861,Ontario,Hamilton,St. George's Ward,Gault,A,22,M,B,,,,,,,134.0,,,,USA,Baptist,447,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,137
+10023,1839,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,S,22,F,M,,,,,,,79.0,,,,USA,Episcopal Methodist,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,138
+10024,1839,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,S,22,F,M,,,,,,,,,,,USA,Episcopal Methodist,,,79.0,454.0,,,,,,,,,,,,,,,,,,,,,,138
+10024,1839,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,S,22,F,M,,,,,,,,,,,USA,Episcopal Methodist,,,79.0,454.0,,,,,,,,,,,,,,,,,,,,,,139
+10023,1839,,1861,Ontario,Hamilton,St. Mary's Ward,Harrison,S,22,F,M,,,,,,,79.0,,,,USA,Episcopal Methodist,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,139
+10701,1840,,1864,CanadaWest,Essex,Windsor,JOHNSON,JOSHUA,24,M,C,42.03149,-83.0364,,M,,1.0,409.0,LABORER,YY WDSR CHECK,CPITT'SCHURCH,CANADAWEST,BAPTIST,,,,,,,,,,,,,,,,,,,,,,,,,,140
+11498,1841,Matson,1851,Canada West (Ontario),Welland County,Willoughby,Johnson,Joshua,10,M,,,,,-,,,,[Blank],YYY,-,Canada,E Methodist,,,,,,,,,,,,,,,,,,,,,,,,,,140
+11498,1841,Matson,1851,Canada West (Ontario),Welland County,Willoughby,Johnson,Joshua,10,M,,,,,-,,,,[Blank],YYY,-,Canada,E Methodist,,,,,,,,,,,,,,,,,,,,,,,,,,141
+10701,1840,,1864,CanadaWest,Essex,Windsor,JOHNSON,JOSHUA,24,M,C,42.03149,-83.0364,,M,,1.0,409.0,LABORER,YY WDSR CHECK,CPITT'SCHURCH,CANADAWEST,BAPTIST,,,,,,,,,,,,,,,,,,,,,,,,,,141
+24890,1857,,1864,CanadaWest,Essex,Windsor,LAWRENCE,JAMES,7,M,C,42.03149,-83.0364,,S,,2.0,1182.0,(GHSIMS),,GOYEAUE,WISCONSIN,BAPTIST,,,,,,,,,,,,,,,,,,,,,,,,,,142
+25999,1858,,1864,CanadaWest,Essex,Windsor,LAWRENCE,JAMES,6,M,C,42.03149,-83.0364,,S,,2.0,1178.0,(BLANK),YY WDSR,MCDOUGALLW,WISCONSIN,METHODIST,,,,,,,,,,,,,,,,,,,,,,,,,,142
+25999,1858,,1864,CanadaWest,Essex,Windsor,LAWRENCE,JAMES,6,M,C,42.03149,-83.0364,,S,,2.0,1178.0,(BLANK),YY WDSR,MCDOUGALLW,WISCONSIN,METHODIST,,,,,,,,,,,,,,,,,,,,,,,,,,143
+24890,1857,,1864,CanadaWest,Essex,Windsor,LAWRENCE,JAMES,7,M,C,42.03149,-83.0364,,S,,2.0,1182.0,(GHSIMS),,GOYEAUE,WISCONSIN,BAPTIST,,,,,,,,,,,,,,,,,,,,,,,,,,143
+10104,1839,,1861,Ontario,Hamilton,St. George's Ward,Myers,Mary Ann,22,M,B,,,,,,,81.0,dressmaker,,,ENG,Church of England,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,144
+10105,1839,,1861,Ontario,Hamilton,St. George's Ward,Myers,Mary Ann,22,M,B,,,,,,,,dressmaker,,,ENG,Church of England,,,81.0,450.0,,,,,,,,,,,,,,,,,,,,,,144
+10105,1839,,1861,Ontario,Hamilton,St. George's Ward,Myers,Mary Ann,22,M,B,,,,,,,,dressmaker,,,ENG,Church of England,,,81.0,450.0,,,,,,,,,,,,,,,,,,,,,,145
+10104,1839,,1861,Ontario,Hamilton,St. George's Ward,Myers,Mary Ann,22,M,B,,,,,,,81.0,dressmaker,,,ENG,Church of England,450,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,145
+10822,1840,,1861,Ontario,Hamilton,St. George's Ward,Meads,John H,21,M,B,,,,,,,570.0,cook,,,USA,Roman Catholic,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,146
+10823,1840,,1861,Ontario,Hamilton,St. George's Ward,Meads,John H,21,M,B,,,,,,,,cook,,,USA,Roman Catholic,,,570.0,449.0,,,,,,,,,,,,,,,,,,,,,,146
+10823,1840,,1861,Ontario,Hamilton,St. George's Ward,Meads,John H,21,M,B,,,,,,,,cook,,,USA,Roman Catholic,,,570.0,449.0,,,,,,,,,,,,,,,,,,,,,,147
+10822,1840,,1861,Ontario,Hamilton,St. George's Ward,Meads,John H,21,M,B,,,,,,,570.0,cook,,,USA,Roman Catholic,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,147
+11141,1840,,1861,Ontario,Hamilton,St. Andrew's Ward,Webb,E,21,M,M,,,,,,,201.0,servant,,,USA,Baptist,444,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,148
+11142,1840,,1861,Ontario,Hamilton,St. Andrew's Ward,Webb,E,21,M,M,,,,,,,,servant,,,USA,Baptist,,,201.0,444.0,,,,,,,,,,,,,,,,,,,,,,148
+11142,1840,,1861,Ontario,Hamilton,St. Andrew's Ward,Webb,E,21,M,M,,,,,,,,servant,,,USA,Baptist,,,201.0,444.0,,,,,,,,,,,,,,,,,,,,,,149
+11141,1840,,1861,Ontario,Hamilton,St. Andrew's Ward,Webb,E,21,M,M,,,,,,,201.0,servant,,,USA,Baptist,444,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,149
+11610,1841,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,H,20,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,150
+11611,1841,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,H,20,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,150
+11611,1841,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,H,20,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,151
+11610,1841,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,H,20,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,151
+12176,1842,,1861,Ontario,Hamilton,St. Mary's Ward,Jackson,J,19,F,M,,,,,,,264.0,,,,UC,Baptist,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,152
+12177,1842,,1861,Ontario,Hamilton,St. Mary's Ward,Jackson,J,19,F,M,,,,,,,,,,,UC,Baptist,,,264.0,454.0,,,,,,,,,,,,,,,,,,,,,,152
+12177,1842,,1861,Ontario,Hamilton,St. Mary's Ward,Jackson,J,19,F,M,,,,,,,,,,,UC,Baptist,,,264.0,454.0,,,,,,,,,,,,,,,,,,,,,,153
+12176,1842,,1861,Ontario,Hamilton,St. Mary's Ward,Jackson,J,19,F,M,,,,,,,264.0,,,,UC,Baptist,454,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,153
+12314,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Thomas,19,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,154
+12315,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Thomas,19,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,154
+12315,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Thomas,19,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,155
+12314,1842,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Thomas,19,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,155
+13074,1843,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,R,18,F,B,,,,,,,375.0,laborer,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,156
+13075,1843,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,R,18,F,B,,,,,,,,laborer,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,156
+13075,1843,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,R,18,F,B,,,,,,,,laborer,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,157
+13074,1843,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,R,18,F,B,,,,,,,375.0,laborer,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,157
+13714,1844,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Julia,17,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,158
+13715,1844,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Julia,17,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,158
+13715,1844,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Julia,17,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,159
+13714,1844,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Julia,17,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,159
+14068,1845,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rachel,16,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,160
+14069,1845,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rachel,16,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,160
+14069,1845,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rachel,16,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,161
+14068,1845,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Rachel,16,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,161
+15063,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Melinda,15,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,162
+15064,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Melinda,15,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,162
+15064,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Melinda,15,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,163
+15063,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Melinda,15,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,163
+15392,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Jeremiah,15,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,164
+15393,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Jeremiah,15,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,164
+15393,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Jeremiah,15,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,165
+15392,1846,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Jeremiah,15,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,165
+15449,1846,,1861,Ontario,Hamilton,St. Andrew's Ward,Phillips,M,15,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,166
+15450,1846,,1861,Ontario,Hamilton,St. Andrew's Ward,Phillips,M,15,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,166
+15450,1846,,1861,Ontario,Hamilton,St. Andrew's Ward,Phillips,M,15,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,167
+15449,1846,,1861,Ontario,Hamilton,St. Andrew's Ward,Phillips,M,15,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,167
+17113,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Albert,12,M,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,168
+17114,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Albert,12,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,168
+17114,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Albert,12,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,169
+17113,1849,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Albert,12,M,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,169
+18443,1850,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,B,11,F,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,170
+18444,1850,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,B,11,F,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,170
+18444,1850,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,B,11,F,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,171
+18443,1850,,1861,Ontario,Hamilton,St. Andrew's Ward,Munro,B,11,F,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,171
+18967,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Francis A,10,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,172
+18968,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Francis A,10,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,172
+18968,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Francis A,10,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,173
+18967,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Francis A,10,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,173
+18971,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Jr,10,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,174
+18972,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Jr,10,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,174
+18972,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Jr,10,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,175
+18971,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,John Jr,10,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,175
+18981,1851,,1861,Ontario,Hamilton,St. Andrew's Ward,Burnell,J A,10,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,176
+18982,1851,,1861,Ontario,Hamilton,St. Andrew's Ward,Burnell,J A,10,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,176
+18982,1851,,1861,Ontario,Hamilton,St. Andrew's Ward,Burnell,J A,10,F,B,,,,,,,,,,,MD,Episcopal Methodist,,,374.0,445.0,,,,,,,,,,,,,,,,,,,,,,177
+18981,1851,,1861,Ontario,Hamilton,St. Andrew's Ward,Burnell,J A,10,F,B,,,,,,,374.0,,,,MD,Episcopal Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,177
+19156,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Susanna,10,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,178
+19157,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Susanna,10,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,178
+19157,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Susanna,10,,B,,,,,,,,,,,USA,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,179
+19156,1851,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Susanna,10,,B,,,,,,,6.0,,,,USA,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,179
+19822,1852,,1861,Ontario,Hamilton,St. George's Ward,Davis,Eliza E,9,F,B,,,,,,,552.0,,,,MD,Wesleyan Methodist,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,180
+19823,1852,,1861,Ontario,Hamilton,St. George's Ward,Davis,Eliza E,9,F,B,,,,,,,,,,,MD,Wesleyan Methodist,,,552.0,449.0,,,,,,,,,,,,,,,,,,,,,,180
+19823,1852,,1861,Ontario,Hamilton,St. George's Ward,Davis,Eliza E,9,F,B,,,,,,,,,,,MD,Wesleyan Methodist,,,552.0,449.0,,,,,,,,,,,,,,,,,,,,,,181
+19822,1852,,1861,Ontario,Hamilton,St. George's Ward,Davis,Eliza E,9,F,B,,,,,,,552.0,,,,MD,Wesleyan Methodist,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,181
+20067,1852,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,LOYD,28,M,Black,42.331427,-83.0457538,9.0,1,10.0,0.0,0.0,WAITER,4422266000,10,Canada,1,1,,,8.0,1.0,9.0,0.0,0,99,99.0,0.0,,4.0,4300.0,401.0,,,,,,,,,,,182
+21798,1854,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,LOYD,26,M,Black,42.331427,-83.0457538,1.0,1,10.0,801.0,1.0,WAITER-HOTEL,4414705000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5900.0,1230.0,,,,,,,,,,,182
+21798,1854,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,LOYD,26,M,Black,42.331427,-83.0457538,1.0,1,10.0,801.0,1.0,WAITER-HOTEL,4414705000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5900.0,1230.0,,,,,,,,,,,183
+20067,1852,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,JOHNSON,LOYD,28,M,Black,42.331427,-83.0457538,9.0,1,10.0,0.0,0.0,WAITER,4422266000,10,Canada,1,1,,,8.0,1.0,9.0,0.0,0,99,99.0,0.0,,4.0,4300.0,401.0,,,,,,,,,,,183
+20665,1853,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lemuel,8,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,184
+20666,1853,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lemuel,8,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,184
+20666,1853,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lemuel,8,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,185
+20665,1853,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Lemuel,8,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,185
+21481,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Shadwick,7,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,186
+21482,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Shadwick,7,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,186
+21482,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Shadwick,7,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,187
+21481,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Shadwick,7,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,187
+21910,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Andrew,7,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,188
+21911,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Andrew,7,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,188
+21911,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Andrew,7,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,189
+21910,1854,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Andrew,7,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,189
+22368,1855,,1861,Ontario,Hamilton,St. Andrew's Ward,Bernard,S,6,M,B,,,,,,,307.0,,,,UC,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,190
+22369,1855,,1861,Ontario,Hamilton,St. Andrew's Ward,Bernard,S,6,M,B,,,,,,,,,,,UC,Wesleyan Methodist,,,307.0,445.0,,,,,,,,,,,,,,,,,,,,,,190
+22369,1855,,1861,Ontario,Hamilton,St. Andrew's Ward,Bernard,S,6,M,B,,,,,,,,,,,UC,Wesleyan Methodist,,,307.0,445.0,,,,,,,,,,,,,,,,,,,,,,191
+22368,1855,,1861,Ontario,Hamilton,St. Andrew's Ward,Bernard,S,6,M,B,,,,,,,307.0,,,,UC,Wesleyan Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,191
+22704,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Sarah,6,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,192
+22705,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Sarah,6,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,192
+22705,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Sarah,6,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,193
+22704,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Sarah,6,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,193
+22952,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Lucetta,6,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,194
+22953,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Lucetta,6,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,194
+22953,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Lucetta,6,,B,,,,,,,,,,,USA,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,195
+22952,1855,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Lucetta,6,,B,,,,,,,7.0,,,,USA,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,195
+23513,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Ann V,5,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,196
+23514,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Ann V,5,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,196
+23514,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Ann V,5,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,197
+23513,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Ann V,5,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,197
+23765,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Mary E,5,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,198
+23766,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Mary E,5,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,198
+23766,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Mary E,5,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,199
+23765,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Mary E,5,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,199
+23813,1856,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,J,5,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,200
+23814,1856,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,J,5,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,200
+23814,1856,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,J,5,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,201
+23813,1856,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,J,5,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,201
+23995,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Jr,5,,B,,,,,,,7.0,,,,Can,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,202
+23996,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Jr,5,,B,,,,,,,,,,,Can,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,202
+23996,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Jr,5,,B,,,,,,,,,,,Can,Methodist,,,7.0,201.0,,,,,,,,,,,,,,,,,,,,,,203
+23995,1856,,1861,Ontario,Kent,Township of Chatham and Gore,Milburn,Abraham Jr,5,,B,,,,,,,7.0,,,,Can,Methodist,201,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,203
+24440,1857,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Helen L,4,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,204
+24441,1857,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Helen L,4,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,204
+24441,1857,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Helen L,4,,B,,,,,,,,,,,USA,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,205
+24440,1857,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Helen L,4,,B,,,,,,,6.0,,,,USA,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,205
+25505,1858,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Simon,3,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,206
+25506,1858,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Simon,3,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,206
+25506,1858,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Simon,3,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,207
+25505,1858,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Simon,3,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,207
+25653,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,M,3,F,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,208
+25654,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,M,3,F,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,208
+25654,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,M,3,F,B,,,,,,,,,,,MD,Methodist,,,308.0,445.0,,,,,,,,,,,,,,,,,,,,,,209
+25653,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Dorsey,M,3,F,B,,,,,,,308.0,,,,MD,Methodist,445,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,209
+25874,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,M,3,F,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,210
+25875,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,M,3,F,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,210
+25875,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,M,3,F,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,211
+25874,1858,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,M,3,F,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,211
+26119,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,MOORE,RICHARD,22,M,Black,42.331427,-83.0457538,5.0,1,10.0,0.0,0.0,COOKONBOAT,4417560000,10,Canada,1,1,,,3.0,1.0,5.0,0.0,0,99,99.0,3.0,,3.0,3100.0,301.0,,,,,,,,,,,212
+26120,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,MOORE,RICHARD,22,M,Black,42.331427,-83.0457538,2.0,1,10.0,0.0,0.0,COOK,4422719000,10,Canada,1,1,,,1.0,1.0,2.0,0.0,0,99,99.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,212
+26120,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,MOORE,RICHARD,22,M,Black,42.331427,-83.0457538,2.0,1,10.0,0.0,0.0,COOK,4422719000,10,Canada,1,1,,,1.0,1.0,2.0,0.0,0,99,99.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,213
+26119,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,MOORE,RICHARD,22,M,Black,42.331427,-83.0457538,5.0,1,10.0,0.0,0.0,COOKONBOAT,4417560000,10,Canada,1,1,,,3.0,1.0,5.0,0.0,0,99,99.0,3.0,,3.0,3100.0,301.0,,,,,,,,,,,213
+26973,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Emma,2,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,214
+26974,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Emma,2,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,214
+26974,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Emma,2,,B,,,,,,,,,,,Can,Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,215
+26973,1859,,1861,Ontario,Kent,Township of Chatham and Gore,Hardy,Emma,2,,B,,,,,,,6.0,,,,Can,Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,215
+27199,1859,,1861,Ontario,Hamilton,St. George's Ward,Meads,J G,2,F,M,,,,,,,570.0,,,,UC,Roman Catholic,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,216
+27200,1859,,1861,Ontario,Hamilton,St. George's Ward,Meads,J G,2,F,M,,,,,,,,,,,UC,Roman Catholic,,,570.0,449.0,,,,,,,,,,,,,,,,,,,,,,216
+27200,1859,,1861,Ontario,Hamilton,St. George's Ward,Meads,J G,2,F,M,,,,,,,,,,,UC,Roman Catholic,,,570.0,449.0,,,,,,,,,,,,,,,,,,,,,,217
+27199,1859,,1861,Ontario,Hamilton,St. George's Ward,Meads,J G,2,F,M,,,,,,,570.0,,,,UC,Roman Catholic,449,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,217
+27698,1860,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Harriett J,1,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,218
+27699,1860,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Harriett J,1,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,218
+27699,1860,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Harriett J,1,,B,,,,,,,,,,,Can,Wesleyan Methodist,,,6.0,200.0,,,,,,,,,,,,,,,,,,,,,,219
+27698,1860,,1861,Ontario,Kent,Township of Chatham and Gore,Brown,Harriett J,1,,B,,,,,,,6.0,,,,Can,Wesleyan Methodist,200,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,219
+28116,1860,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W,1,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,220
+28117,1860,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W,1,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,220
+28117,1860,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W,1,M,B,,,,,,,,,,,CW,Episcopal,,,375.0,446.0,,,,,,,,,,,,,,,,,,,,,,221
+28116,1860,,1861,Ontario,Hamilton,St. Andrew's Ward,Howard,W,1,M,B,,,,,,,375.0,,,,CW,Episcopal,446,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,221
+29289,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,LAWSON,LUCY,19,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,DOMESTICSERVANT,4430571000,10,Canada,1,1,,,4.0,1.0,6.0,0.0,0,99,99.0,4.0,,3.0,3100.0,301.0,,,,,,,,,,,222
+30963,1863,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,LAWSON,LUCY,17,F,Black,42.331427,-83.0457538,5.0,1,10.0,0.0,1.0,,4421790000,10,Canada,1,1,,,5.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5900.0,1230.0,,,,,,,,,,,222
+30963,1863,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,LAWSON,LUCY,17,F,Black,42.331427,-83.0457538,5.0,1,10.0,0.0,1.0,,4421790000,10,Canada,1,1,,,5.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5900.0,1230.0,,,,,,,,,,,223
+29289,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,LAWSON,LUCY,19,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,DOMESTICSERVANT,4430571000,10,Canada,1,1,,,4.0,1.0,6.0,0.0,0,99,99.0,4.0,,3.0,3100.0,301.0,,,,,,,,,,,223
+29618,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,WATSON,EDWARD,19,M,Mulatto(BlackandWhite),42.331427,-83.0457538,1.0,1,10.0,801.0,1.0,HOTELBELLBOY,4415705000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5210.0,1211.0,,,,,,,,,,,224
+29619,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,WATSON,EDWARD,19,M,Mulatto(BlackandWhite),42.331427,-83.0457538,5.0,1,10.0,0.0,0.0,WAITERINHOTEL,4417621000,10,Canada,1,1,,,3.0,1.0,5.0,0.0,0,99,99.0,0.0,,4.0,4900.0,1001.0,,,,,,,,,,,224
+29619,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,WATSON,EDWARD,19,M,Mulatto(BlackandWhite),42.331427,-83.0457538,5.0,1,10.0,0.0,0.0,WAITERINHOTEL,4417621000,10,Canada,1,1,,,3.0,1.0,5.0,0.0,0,99,99.0,0.0,,4.0,4900.0,1001.0,,,,,,,,,,,225
+29618,1861,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,WATSON,EDWARD,19,M,Mulatto(BlackandWhite),42.331427,-83.0457538,1.0,1,10.0,801.0,1.0,HOTELBELLBOY,4415705000,10,Canada,1,1,,,1.0,1.0,1.0,0.0,0,99,99.0,0.0,,5.0,5210.0,1211.0,,,,,,,,,,,225
+6500,1831,,1861,Ontario,London,District Two,Davis,Charles,30,,B,,,,,,,65.0,peddler,,,USA,Wesleyan Methodist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,226
+6499,1831,,1861,Ontario,London,District Two,Davidson,Charles,30,,B,,,,,,,9.0,,,,USA,Methodist,463,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,226
+2467,1819,Matson,1881,Ontario,Essex,Anderdon,Burke,William,62,M,African,,,,M,,,,Farmer,YY WDSR,-,US,Meth NC [sic],,,,,,,,,,,,,,,,,,,,,,,,,,227
+2465,1819,,1861,Ontario,Essex,Windsor,Burk ,William,42,M,Black,,,,,,,34.0,storekeeper,YYY WDSR,,UC,Wesleyan Methodist,Noonan 104,,,,,,,,,,,,,,,,,,,,,,,,,227
+3509,1822,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,LOUISA,48,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,DSERV,33828000,9,USA,1,1,9,2.0,6.0,100.0,9.0,2.0,0,28,22.0,0.0,,4.0,4220.0,601.0,,,,,,,,,,,228
+3730,1823,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,LOUISA,57,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,KEEPINGHOUSE,4422106000,10,USA,1,1,,,6.0,1.0,6.0,2.0,0,26,22.0,0.0,,4.0,4220.0,601.0,,,,,,,,,,,228
+3719,1823,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,STARKS,ROBERT,57,M,Black,42.331427,-83.0457538,10.0,1,10.0,0.0,4.0,BARBER,4422107000,10,USA,1,1,,,1.0,1.0,6.0,4.0,0,17,7.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,229
+3718,1823,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,STARK,ROBERT,47,M,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,BARBER,33828000,9,USA,1,1,9,2.0,1.0,100.0,9.0,3.0,2,8,1.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,229
+8771,1836,,1861,Ontario,Kent,Township of Chatham and Gore,Johnston,Elizabeth,25,,M,,,,,,,16.0,,,,USA,Church of England,205,Noonan ,,,,,,,,,,,,,,,,,,,,,,,,230
+8260,1835,,1861,Ontario,Essex,Windsor,Johnson,Elizabeth,26,F,Mulatto(BlackandWhite),42.03149,-83.0364,,,,,28.0,,YY WDSR,,USA,Baptist,Noonan 99,,,,,,,,,,,,,,,,,,,,,,,,,230
+35238,1869,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,STARKS,MARY,11,F,Black,42.331427,-83.0457538,10.0,1,10.0,0.0,4.0,ATSCHOOL,4422107000,10,USA,1,1,,,5.0,1.0,6.0,0.0,0,99,99.0,3.0,,3.0,3100.0,301.0,,,,,,,,,,,231
+35237,1869,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,STARK,MARY,1,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,ATH,33828000,9,USA,1,1,9,2.0,5.0,100.0,9.0,0.0,0,99,99.0,2.0,,3.0,3000.0,301.0,,,,,,,,,,,231
+16983,1848,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,WILLIAM,22,M,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,DSERV,33828000,9,Canada,1,1,9,2.0,7.0,100.0,9.0,0.0,0,99,99.0,2.0,,4.0,4430.0,801.0,,,,,,,,,,,232
+17602,1849,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,WILLIAM,31,M,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,COOK,4422106000,10,Canada,1,1,,,1.0,1.0,6.0,2.0,2,4,1.0,0.0,,1.0,1000.0,101.0,,,,,,,,,,,232
+26455,1858,1870 IPUMS 1% sample,1870,MI,WAYNE,DETROIT,TOMPSON,MARY,12,F,Black,42.331427,-83.0457538,9.0,100,10.0,0.0,0.0,ATS,33828000,9,Canada,1,1,9,2.0,9.0,100.0,9.0,0.0,0,99,99.0,0.0,,4.0,4900.0,1001.0,,,,,,,,,,,233
+26452,1858,1880 IPUMS 100% sample,1880,MI,WAYNE,DETROIT,TOMLINSON,MARY,22,F,Black,42.331427,-83.0457538,6.0,1,10.0,0.0,0.0,ATHOME,4422106000,10,Canada,1,1,,,3.0,1.0,6.0,0.0,0,99,99.0,2.0,,4.0,4430.0,801.0,,,,,,,,,,,233
