@@ -1,0 +1,81 @@
+---
+title: "Untitled"
+author: "Joseph Pacifico"
+date: "1/15/2021"
+output: html_document
+---
+
+
+
+
+```{r}
+
+library(tidyverse)
+library(xlsx)
+
+preprocess <- read.csv("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\preprocessfinal1_06_2021.csv")
+
+
+preprocess$City_Place <- paste(preprocess$City, preprocess$Place)
+
+preprocess <- preprocess %>% mutate(City_Place = gsub('NA', "", City_Place))
+
+
+#unique(preprocess$State.Province)
+
+```
+
+```{r}
+
+excel <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\preprocessLATLONGFIX.xlsx", sheetName='finalLATLONG', rowIndex = 1:31, colIndex=6:9)
+
+excel
+```
+
+
+
+```{r}
+
+test <- left_join(preprocess, excel, by = c("State.Province" ="State.Province", "City_Place" = "City.Place" ))
+
+
+test %>% select(Township, State.Province, County, City, Place, Latitude..generated., Longitude..generated., City_Place ) 
+
+
+filter( test, State.Province == "NY") %>%  select(State.Province,City_Place,Latitude..generated. ,Longitude..generated. )
+
+```
+
+
+
+# give LAT LONG for the preprocess to Ericka
+#export to csv 
+```{r}
+
+#write.csv(test, file = "preprocessfinal1_16_2021.csv")
+
+
+```
+
+```{r}
+
+master <- read.csv("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\current_master_12_9_20CSV.csv")
+
+master %>% select(State.Province, Place, lat, long)
+
+```
+
+
+
+
+
+```{r}
+
+unique(data$State.Province)
+
+
+
+```
+
+
+
