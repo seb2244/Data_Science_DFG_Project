@@ -1,0 +1,2186 @@
+---
+title: "preprocesstomaster"
+author: "Joseph Pacifico"
+date: "10/28/2020"
+output: html_document
+---
+
+
+
+```{r}
+library(tidyverse)
+library(readr)
+```
+
+
+
+==============================================================
+```{r}
+#notes
+#WAmarriage_bridges$Given.Name <- sapply(strsplit(as.character(WAmarriage_bridges$Name), " "), head, 1)
+
+#WAmarriage_bridges$MiddleName <- sapply(strsplit(as.character(WAmarriage_bridges$Name), " "), head, 2)
+
+#https://stackoverflow.com/questions/47576458/extract-last-name-from-a-full-name-using-r
+
+#WAmarriage_bridges <- extract(WAmarriage_bridges, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+#WAmarriage_bridges$Surname <- str_extract(WAmarriage_bridges$Name, '[^ ]+$') #extract everything after the last space
+#\\s is a space, \\S is any non space, ? is less-greedy
+
+#WAmarriage_bridges$Given.Name <- sub("^(\\S*\\s+\\S+).*", "\\1", WAmarriage_bridges$Name)
+
+#WAmarriage_bridges$Given.Name <- paste(WAmarriage_bridges$Given.Name, WAmarriage_bridges$MiddleName )
+#WAmarriage_bridges$Given.Name <- paste(WAmarriage_bridges$Given.Name, WAmarriage_bridges$MiddleName, sep=" ")
+
+#^ start of string, (.*) any 0+ chars, as many as possible (up to the end of string).
+#https://stackoverflow.com/questions/41263946/remove-text-after-the-second-space
+
+#The pattern to be matched here is .* (zero or more of any character) followed by \\d{4} (four consecutive numerals, which we capture by enclosing in parentheses), followed by zero or more characters.
+
+#sub replaces the matched pattern with the value in the second argument. In this case, \\1 indicates that we want to replace the whole matched pattern with the first captured substring (i.e. the four consecutive numerals).
+
+#Here regex is greedy, so it will bypass early matches of \\d{4}, consuming them with .*. Only the last sequence of four consecutive numerals is captured.
+
+#via https://stackoverflow.com/questions/28622174/extract-last-4-digit-number-from-a-series-in-r-using-stringr
+```
+
+#getting together the datasets that have full name already split into given name and surname 
+
+#new data wallace 
+```{r}
+
+#packages needed
+library(xlsx)
+library(tidyverse)
+library(stringr)
+library(tidyr)
+
+#takes specific rows from excel sheet
+wallace <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 4:12, colIndex = 1:25)
+#wallace <- wallace %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place', "STREET" = "Street.Address" ))
+wallace
+```
+
+
+
+#new data WAbirth_index1931
+```{r}
+
+WAbirth_index1931 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 24:31, colIndex = 1:14)
+WAbirth_index1931 <- WAbirth_index1931 %>% plyr::rename(c("NA." = "unique_id"))
+WAbirth_index1931$Birth.Year <- as.double(sub('.*(\\d{4}).*', '\\1', WAbirth_index1931$Date.of.Birth)) #to extract birth year from date of birth
+
+WAbirth_index1931
+```
+
+
+#join2 = Wallace + WAbirth_index1931 
+```{r}
+
+join2 <- full_join(wallace, WAbirth_index1931)
+join2$Age <- as.integer(as.character(join2$Age))
+join2
+
+```
+
+
+#new data census1940
+```{r}
+
+census1940 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 46:48, colIndex = 1:58)
+census1940 <- census1940 %>% plyr::rename(c("NA." = "unique_id", "Estimated.Birth.Year" = "Birth.Year", "Birthplace" = "Birth.Place"))
+
+
+
+census1940
+```
+
+#join2 + census1940
+```{r}
+
+join2 <- full_join(join2, census1940)
+join2
+
+```
+
+#new data census1920
+```{r}
+census1920 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 50:58, colIndex = 1:35)
+census1920 <- census1920 %>% plyr::rename(c("NA." = "unique_id", "Estimated.Birth.Year" = "Birth.Year", "Sex" = "Gender", "Birthplace" = "Birth.Place", "Father.s.Birthplace" = "Father.s.Birth.Place", "Mother.s.Birthplace" = "Mother.s.Birth.Place"))
+
+#
+census1920
+```
+
+#join2 + census1920
+```{r}
+join2 <- full_join(join2, census1920)
+join2
+
+```
+
+
+
+#new data census1910
+```{r}
+census1910 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 60:65, colIndex = 1:20)
+census1910 <- census1910 %>% plyr::rename(c("NA." = "unique_id", "Estimated.Birth.Year" = "Birth.Year", "Birthplace" = "Birth.Place", "Father.s.Birthplace" = "Father.s.Birth.Place", "Mother.s.Birthplace" = "Mother.s.Birth.Place" ))
+
+#
+census1910
+```
+
+
+
+#join2 + census1910
+```{r}
+join2 <- join2 %>% plyr::rename(c("Father.s.Birthplace" = "Father.s.Birth.Place", "Mother.s.Birthplace" = "Mother.s.Birth.Place"))
+join2 <- full_join(join2, census1910)
+
+join2
+
+```
+
+
+
+
+
+# getting all datasets with full name  
+
+
+
+#new data WAmarriage_bridges
+```{r}
+#add in next data source to join1
+
+WAmarriage_bridges <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 14:20, colIndex = 1:26)
+
+#correct name code 
+WAmarriage_bridges <- extract(WAmarriage_bridges, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAmarriage_bridges$MiddleName <- sapply(strsplit(as.character(WAmarriage_bridges$Surname), " "), head, 1)
+
+WAmarriage_bridges$Given.Name <- paste(WAmarriage_bridges$Given.Name, WAmarriage_bridges$MiddleName)
+
+WAmarriage_bridges$Surname <- sapply(strsplit(as.character(WAmarriage_bridges$Surname), " "), tail, 1)
+
+WAmarriage_bridges$Given.Name <- ifelse(WAmarriage_bridges$Surname %in% WAmarriage_bridges$MiddleName, sapply(strsplit(as.character(WAmarriage_bridges$Given.Name), " "), head, 1), WAmarriage_bridges$Given.Name)
+#correct name code
+
+#column rename
+WAmarriage_bridges <- WAmarriage_bridges %>% plyr::rename(c("Birth.Date" = "Birth.Year", "Father" = "Father.s.Name", "Mother" = "Mother.s.Name"))
+
+WAmarriage_bridges
+
+
+
+```
+
+
+
+
+#new data USCitydirectoryPierre
+```{r}
+
+
+USCitydirectoryPierre <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 33:35, colIndex = 1:12)
+
+
+
+
+#USCitydirectoryPierre <- USCitydirectoryPierre %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+USCitydirectoryPierre <- extract(USCitydirectoryPierre, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+USCitydirectoryPierre$MiddleName <- sapply(strsplit(as.character(USCitydirectoryPierre$Surname), " "), head, 1)
+
+USCitydirectoryPierre$Given.Name <- paste(USCitydirectoryPierre$Given.Name, USCitydirectoryPierre$MiddleName)
+
+USCitydirectoryPierre$Surname <- sapply(strsplit(as.character(USCitydirectoryPierre$Surname), " "), tail, 1)
+
+USCitydirectoryPierre$Given.Name <- ifelse(USCitydirectoryPierre$Surname %in% USCitydirectoryPierre$MiddleName, sapply(strsplit(as.character(USCitydirectoryPierre$Given.Name), " "), head, 1), USCitydirectoryPierre$Given.Name)
+#correct name code
+
+USCitydirectoryPierre <- USCitydirectoryPierre %>% plyr::rename(c("NA." = "unique_id", "Father" = "Father.s.Name", "Mother" = "Mother.s.Name"))
+
+USCitydirectoryPierre
+
+
+```
+
+#join1 = WAmarriage_bridges + USCitydirectoryPierre
+```{r}
+
+
+join1 <- full_join(WAmarriage_bridges, USCitydirectoryPierre)
+
+join1
+
+
+```
+
+
+
+
+#new data WAtacomaCityDirectory
+```{r}
+
+
+WAtacomaCityDirectory <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 37:39, colIndex = 1:12)
+
+WAtacomaCityDirectory <- WAtacomaCityDirectory %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAtacomaCityDirectory <- extract(WAtacomaCityDirectory, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAtacomaCityDirectory$MiddleName <- sapply(strsplit(as.character(WAtacomaCityDirectory$Surname), " "), head, 1)
+
+WAtacomaCityDirectory$Given.Name <- paste(WAtacomaCityDirectory$Given.Name, WAtacomaCityDirectory$MiddleName)
+
+WAtacomaCityDirectory$Surname <- sapply(strsplit(as.character(WAtacomaCityDirectory$Surname), " "), tail, 1)
+
+WAtacomaCityDirectory$Given.Name <- ifelse(WAtacomaCityDirectory$Surname %in% WAtacomaCityDirectory$MiddleName, sapply(strsplit(as.character(WAtacomaCityDirectory$Given.Name), " "), head, 1), WAtacomaCityDirectory$Given.Name)
+#correct name code
+
+#
+WAtacomaCityDirectory
+```
+
+#join1 + WAtacomaCityDirectory
+```{r}
+
+join1 <- full_join(join1, WAtacomaCityDirectory)
+
+join1
+
+```
+
+
+#new data WAtacomaCityDirectory1920
+```{r}
+
+
+WAtacomaCityDirectory1920 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 40:42, colIndex = 1:12)
+
+WAtacomaCityDirectory1920 <- WAtacomaCityDirectory1920 %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAtacomaCityDirectory1920 <- extract(WAtacomaCityDirectory1920, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAtacomaCityDirectory1920$MiddleName <- sapply(strsplit(as.character(WAtacomaCityDirectory1920$Surname), " "), head, 1)
+
+WAtacomaCityDirectory1920$Given.Name <- paste(WAtacomaCityDirectory1920$Given.Name, WAtacomaCityDirectory1920$MiddleName)
+
+WAtacomaCityDirectory1920$Surname <- sapply(strsplit(as.character(WAtacomaCityDirectory1920$Surname), " "), tail, 1)
+
+WAtacomaCityDirectory1920$Given.Name <- ifelse(WAtacomaCityDirectory1920$Surname %in% WAtacomaCityDirectory1920$MiddleName, sapply(strsplit(as.character(WAtacomaCityDirectory1920$Given.Name), " "), head, 1), WAtacomaCityDirectory1920$Given.Name)
+#correct name code
+
+#
+WAtacomaCityDirectory1920
+
+```
+
+#join1 + WAtacomaCityDirectory1920
+```{r}
+
+join1 <- full_join(join1, WAtacomaCityDirectory1920)
+join1
+```
+
+
+
+#new data WAdeathCertificate
+```{r}
+
+WAdeathCertificate <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 43:44, colIndex = 1:18)
+
+
+#changing Estimated.Birth.Year to Birth.Year and matching format, extracts only number of year
+WAdeathCertificate$Estimated.Birth.Year. <- as.integer(stringr::str_extract(WAdeathCertificate$Estimated.Birth.Year., "\\d+")) 
+
+#correct name code 
+WAdeathCertificate <- extract(WAdeathCertificate, Name., c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAdeathCertificate$MiddleName <- sapply(strsplit(as.character(WAdeathCertificate$Surname), " "), head, 1)
+
+WAdeathCertificate$Given.Name <- paste(WAdeathCertificate$Given.Name, WAdeathCertificate$MiddleName)
+
+WAdeathCertificate$Surname <- sapply(strsplit(as.character(WAdeathCertificate$Surname), " "), tail, 1)
+
+WAdeathCertificate$Given.Name <- ifelse(WAdeathCertificate$Surname %in% WAdeathCertificate$MiddleName, sapply(strsplit(as.character(WAdeathCertificate$Given.Name), " "), head, 1), WAdeathCertificate$Given.Name)
+#correct name code
+
+WAdeathCertificate <- WAdeathCertificate %>% plyr::rename(c("NA." = "unique_id", "Estimated.Birth.Year." = "Birth.Year", "Gender." = "Gender", "Marital.status." = "Marital.status", "Age." = "Age", "Death.Date." = "Death.Date", "Father." = "Father.s.Name", "Mother." = "Mother.s.Name", "Spouse." = "Spouse" )) #remove the "." in column names for left_join
+
+#
+WAdeathCertificate
+
+```
+
+#join1 + WAdeathCertificate
+```{r}
+
+join1 <- full_join(join1, WAdeathCertificate)
+join1
+```
+
+
+
+#new data WAmarriageRecords
+```{r}
+
+WAmarriageRecords <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 67:69, colIndex = 1:22)
+
+WAmarriageRecords <- WAmarriageRecords %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAmarriageRecords <- extract(WAmarriageRecords, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAmarriageRecords$MiddleName <- sapply(strsplit(as.character(WAmarriageRecords$Surname), " "), head, 1)
+
+WAmarriageRecords$Given.Name <- paste(WAmarriageRecords$Given.Name, WAmarriageRecords$MiddleName)
+
+WAmarriageRecords$Surname <- sapply(strsplit(as.character(WAmarriageRecords$Surname), " "), tail, 1)
+
+WAmarriageRecords$Given.Name <- ifelse(WAmarriageRecords$Surname %in% WAmarriageRecords$MiddleName, sapply(strsplit(as.character(WAmarriageRecords$Given.Name), " "), head, 1), WAmarriageRecords$Given.Name)
+#correct name code
+
+
+#
+WAmarriageRecords
+```
+
+#join1 + WAmarriageRecords
+```{r}
+
+join1 <- full_join(join1, WAmarriageRecords)
+
+join1
+```
+
+
+
+#new data WAmarriageRecords2
+```{r}
+
+WAmarriageRecords2 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 70:72, colIndex = 1:23)
+
+WAmarriageRecords2 <- WAmarriageRecords2 %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAmarriageRecords2 <- extract(WAmarriageRecords2, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAmarriageRecords2$MiddleName <- sapply(strsplit(as.character(WAmarriageRecords2$Surname), " "), head, 1)
+
+WAmarriageRecords2$Given.Name <- paste(WAmarriageRecords2$Given.Name, WAmarriageRecords2$MiddleName)
+
+WAmarriageRecords2$Surname <- sapply(strsplit(as.character(WAmarriageRecords2$Surname), " "), tail, 1)
+
+WAmarriageRecords2$Given.Name <- ifelse(WAmarriageRecords2$Surname %in% WAmarriageRecords2$MiddleName, sapply(strsplit(as.character(WAmarriageRecords2$Given.Name), " "), head, 1), WAmarriageRecords2$Given.Name)
+#correct name code
+
+
+
+#
+WAmarriageRecords2
+```
+
+#join1 + WAmarriageRecords2
+```{r}
+
+join1 <- full_join(join1, WAmarriageRecords2)
+join1
+```
+
+
+
+
+#new data WAtacomaCityDirectory1939
+```{r}
+
+WAtacomaCityDirectory1939 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 86:88, colIndex = 1:10)
+
+WAtacomaCityDirectory1939 <- WAtacomaCityDirectory1939 %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAtacomaCityDirectory1939 <- extract(WAtacomaCityDirectory1939, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAtacomaCityDirectory1939$MiddleName <- sapply(strsplit(as.character(WAtacomaCityDirectory1939$Surname), " "), head, 1)
+
+WAtacomaCityDirectory1939$Given.Name <- paste(WAtacomaCityDirectory1939$Given.Name, WAtacomaCityDirectory1939$MiddleName)
+
+WAtacomaCityDirectory1939$Surname <- sapply(strsplit(as.character(WAtacomaCityDirectory1939$Surname), " "), tail, 1)
+
+WAtacomaCityDirectory1939$Given.Name <- ifelse(WAtacomaCityDirectory1939$Surname %in% WAtacomaCityDirectory1939$MiddleName, sapply(strsplit(as.character(WAtacomaCityDirectory1939$Given.Name), " "), head, 1), WAtacomaCityDirectory1939$Given.Name)
+#correct name code
+
+
+#
+WAtacomaCityDirectory1939
+```
+
+#join1 + WAtacomaCityDirectory1939
+```{r}
+
+join1 <- full_join(join1, WAtacomaCityDirectory1939)
+join1
+```
+
+
+#new data WAtacomaCityDirectory1936
+```{r}
+
+WAtacomaCityDirectory1936 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 90:92, colIndex = 1:10)
+
+WAtacomaCityDirectory1936 <- WAtacomaCityDirectory1936 %>% plyr::rename(c("NA." = "unique_id"))
+
+#correct name code 
+WAtacomaCityDirectory1936 <- extract(WAtacomaCityDirectory1936, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+WAtacomaCityDirectory1936$MiddleName <- sapply(strsplit(as.character(WAtacomaCityDirectory1936$Surname), " "), head, 1)
+
+WAtacomaCityDirectory1936$Given.Name <- paste(WAtacomaCityDirectory1936$Given.Name, WAtacomaCityDirectory1936$MiddleName)
+
+WAtacomaCityDirectory1936$Surname <- sapply(strsplit(as.character(WAtacomaCityDirectory1936$Surname), " "), tail, 1)
+
+WAtacomaCityDirectory1936$Given.Name <- ifelse(WAtacomaCityDirectory1936$Surname %in% WAtacomaCityDirectory1936$MiddleName, sapply(strsplit(as.character(WAtacomaCityDirectory1936$Given.Name), " "), head, 1), WAtacomaCityDirectory1936$Given.Name)
+#correct name code
+
+
+#
+WAtacomaCityDirectory1936
+```
+
+#join1 + WAtacomaCityDirectory1936
+```{r}
+join1 <- join1 %>% plyr::rename(c("Death.Place." = "Death.Place"))
+join1 <- full_join(join1, WAtacomaCityDirectory1936)
+join1
+```
+
+
+
+
+```{r}
+
+join2
+```
+
+#final_join = join1 + join2
+```{r}
+final_join <- full_join(join1, join2)
+final_join
+```
+
+
+
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+```
+
+
+```{r}
+#export to csv
+#write.csv(x=final_join, file="preprocessfinal7.csv")
+
+```
+
+=============================================================
+
+=============================================================
+
+
+=============================================================
+
+
+
+
+
+
+
+
+=============================================================
+#start of new file add of "Tom Brooks DONE"
+=============================================================
+
+#new data tombrooksdone
+```{r}
+tombrooksdone <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Tom Brooks DONE.xlsx", "Gary cleanup of Tom Brooks as o", colIndex = 1:15)
+
+tombrooksdone[tombrooksdone == 'n/a'] <- NA #converts n/a to NA
+tombrooksdone <- tombrooksdone %>% plyr::rename(c("LASTNAME" = "Surname", "FIRSTNAME" = "Given.Name", "BIRTHPLACE" = "Birth.Place", "AGE" = "Age", "OCCUPATION" = "Occupation", "DATE_OF_DEATH" = "Death.Date", "PLACE.OF.DEATH" = "Death.Place", "SOURCE" = "Source", "PLACE.OF.BURIAL" = "Place.of.Burial"))
+tombrooksdone$Age <- as.integer(as.character(tombrooksdone$Age))#convert Age to int for join
+tombrooksdone$Race <- "Black"
+tombrooksdone$Gender <- "Male"
+
+
+#
+tombrooksdone
+```
+
+
+#final_join + tombrooksdone 
+```{r}
+final_join$Death.Date <- as.factor(final_join$Death.Date)#convert from date to factor for the full_join
+final_join <- full_join(final_join, tombrooksdone)
+final_join
+
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+```
+
+- remove Birthplace from 1920census
+- check where as.integer(age) throughout script, add as.character
+- remove dependency on preprocessfinal3 with new unique_id code
+
+
+
+
+
+=============================================================
+#start of new file add of "Arenson edit to Reid Master USCT"
+=============================================================
+
+
+#new data infantryreidmaster
+```{r}
+infantryreidmaster <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Arenson edit to Reid Master USCT file(1).xls", "Infantry", rowIndex = 1:574, colIndex = 1:17)
+infantryreidmaster$Age <- as.integer(as.character(infantryreidmaster$Age))#changes Age from factor to integer
+infantryreidmaster <- infantryreidmaster %>% plyr::rename(c("Birthplace" = "Birth.Place", "Regiment" = "REGIMENT"))
+infantryreidmaster$Race <- "Black"
+infantryreidmaster$Gender <- "Male"
+infantryreidmaster$Source <- "Reid USCT"
+
+#correct name code 
+infantryreidmaster$Surname <- sapply(strsplit(as.character(infantryreidmaster$Full.Name), ","), head, 1)
+
+infantryreidmaster$Given.Name <- sapply(strsplit(as.character(infantryreidmaster$Full.Name), ","), tail, 1)
+#correct name code
+
+#Died can be split into Death.Date (Month, Day, Year) and Death.Place.(City, State)
+infantryreidmaster$Death.Date <- sapply(strsplit(as.character(infantryreidmaster$Died), " "), head, 1)
+
+infantryreidmaster$Death.Place <- sapply(strsplit(as.character(infantryreidmaster$Died), " "), tail, 2)
+
+infantryreidmaster$Death.Place <- as.character(infantryreidmaster$Death.Place)
+#Died can be split into Death.Date (Month, Day, Year) and Death.Place.(City, State)
+
+#
+infantryreidmaster
+```
+
+
+#final_join + infantryreidmaster
+```{r}
+final_join <- full_join(final_join, infantryreidmaster)
+final_join
+#check being joined on Rank, occupation, birth.place, age, regiment
+
+
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+```
+
+
+
+#new data blackregiments
+```{r}
+blackregiments <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Arenson edit to Reid Master USCT file(1).xls", "BlackRegiments- DONE with Reid ", rowIndex = 1:69, colIndex = 1:15)
+blackregiments$Age <- as.integer(as.character(blackregiments$Age))#changes Age from factor to integer for full_join
+blackregiments$Certificate <- as.character(blackregiments$Certificate) #changes certificate from double to character for full_join
+blackregiments$Race <- "Black"
+blackregiments$Gender <- "Male"
+
+blackregiments <- blackregiments %>% plyr::rename(c("Regiment" = "REGIMENT", "Birthplace" = "Birth.Place"))
+blackregiments$Source <- "Reid USCT" #add source variable for Reid USCT data
+#correct name code 
+blackregiments$Surname <- sapply(strsplit(as.character(blackregiments$Full.Name), ","), head, 1)
+
+blackregiments$Given.Name <- sapply(strsplit(as.character(blackregiments$Full.Name), ","), tail, 1)
+#correct name code
+
+#
+blackregiments
+
+```
+
+
+#final_join + blackregiments
+```{r}
+final_join <- full_join(final_join, blackregiments)
+final_join
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+
+
+#new data artilleryreidmaster
+```{r}
+artilleryreidmaster <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Arenson edit to Reid Master USCT file(1).xls", sheetName="Artillery - DONE with Reid pull", rowIndex=1:21, colIndex = 1:15)
+
+artilleryreidmaster <- artilleryreidmaster %>% plyr::rename(c("Regiment" = "REGIMENT", "Birthplace" = "Birth.Place"))
+
+artilleryreidmaster$Age <- as.integer(as.character(artilleryreidmaster$Age))#changes Age from factor to integer for full_join
+artilleryreidmaster$Regt. <- as.factor(artilleryreidmaster$Regt.) #changes Regt. from double to factor for full_join
+artilleryreidmaster$Source <- "Reid USCT"
+artilleryreidmaster$Race <- "Black"
+artilleryreidmaster$Gender <- "Male"
+#correct name code 
+artilleryreidmaster$Surname <- sapply(strsplit(as.character(artilleryreidmaster$Full.Name), ","), head, 1)
+
+artilleryreidmaster$Given.Name <- sapply(strsplit(as.character(artilleryreidmaster$Full.Name), ","), tail, 1)
+#correct name code
+
+
+
+#
+artilleryreidmaster
+```
+
+#final_join + artilleryreidmaster
+```{r}
+final_join$Regt. <- as.factor(final_join$Regt.)
+final_join <- full_join(final_join, artilleryreidmaster)
+
+final_join
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data cavalryreidmaster
+```{r}
+cavalryreidmaster <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Arenson edit to Reid Master USCT file(1).xls", sheetName="Cavalry - DONE with Reid pull", colIndex = 1:15)
+
+
+cavalryreidmaster <- cavalryreidmaster %>% plyr::rename(c("Regiment" = "REGIMENT", "Birthplace" = "Birth.Place"))
+
+cavalryreidmaster$Age <- as.integer(as.character(cavalryreidmaster$Age))#changes Age from factor to integer for full_join
+cavalryreidmaster$Regt. <- as.factor(cavalryreidmaster$Regt.) #changes Regt. from double to factor for full_join
+cavalryreidmaster$Source <- "Reid USCT"
+cavalryreidmaster$Race <- "Black"
+cavalryreidmaster$Gender <- "Male"
+#correct name code 
+cavalryreidmaster$Surname <- sapply(strsplit(as.character(cavalryreidmaster$Full.Name), ","), head, 1)
+
+cavalryreidmaster$Given.Name <- sapply(strsplit(as.character(cavalryreidmaster$Full.Name), ","), tail, 1)
+#correct name code
+
+
+#
+cavalryreidmaster
+```
+
+
+
+#final_join + cavalryreidmaster
+```{r}
+
+final_join <- full_join(final_join, cavalryreidmaster)
+final_join <- final_join %>% plyr::rename(c('State' = 'State.Province'))
+
+final_join
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+
+=============================================================
+#start of new file add of "Need to be Formatted for Master List(2)"
+=============================================================
+
+#gather data that has Surname and Given.Name 
+
+#new data census1860
+```{r}
+census1860 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex =1:9, colIndex = 1:24)
+
+census1860 <- census1860 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", 'State' = 'State.Province', 'Married.Within.Year' = 'Married.within.the.Year'))
+
+census1860$Age <- as.integer(as.character(census1860$Age))#changes Age from factor to integer for full_join
+
+
+#
+census1860
+```
+
+#final_join + census1860
+```{r}
+
+final_join <- full_join(final_join, census1860)
+final_join
+
+```
+#check final_join for duplicate columns 
+```{r}
+# 5 columns not full_joined, double-check
+final_join[,(ncol(final_join)-4):ncol(final_join)] # refers to the 5 last columns
+
+#rename  Real.Estate.Value (other) to Value.of.Home (final_join) 
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1870
+```{r}
+census1870 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex =10:17, colIndex = 1:29)
+
+census1870 <- census1870 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", 'State' = 'State.Province'))
+
+census1870$Age <- as.integer(as.character(census1870$Age))#changes Age from factor to integer for full_join
+
+
+#
+census1870
+```
+
+
+#final_join + census1870
+```{r}
+final_join <- full_join(final_join, census1870)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 6 columns not full_joined, double-check
+final_join[,(ncol(final_join)-5):ncol(final_join)] # refers to the 6 last columns
+
+#rename  Real.Estate.Value (other) to Value.of.Home (final_join) 
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1870
+```{r}
+census1870 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 27:34, colIndex = 1:30)
+
+census1870 <- census1870 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", 'State' = 'State.Province'))
+
+census1870$Age <- as.integer(as.character(census1870$Age))#changes Age from factor to integer for full_join
+
+
+
+
+#
+census1870
+```
+
+
+#final_join + census1870
+```{r}
+final_join <- full_join(final_join, census1870)
+final_join
+```
+# no added columns still 131
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1910
+```{r}
+census1910 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 35:42, colIndex = 1:21)
+
+census1910 <- census1910 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1910$Age <- as.integer(as.character(census1910$Age))#changes Age from factor to integer for full_join
+
+
+
+
+#
+census1910
+```
+
+#final_join + census1910
+```{r}
+final_join <- full_join(final_join, census1910)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 2 columns not full_joined, double-check
+final_join[,(ncol(final_join)-1):ncol(final_join)] # refers to the 2 last columns
+
+# corrected, updated columns at 131
+```
+
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1880
+```{r}
+census1880 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 44:67, colIndex = 1:35)
+
+census1880 <- census1880 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1880$Age <- as.integer(as.character(census1880$Age))#changes Age from factor to integer for full_join
+
+
+
+#
+census1880
+```
+
+
+
+
+#final_join + census1880
+```{r}
+final_join$Birth.Year <- as.factor(final_join$Birth.Year)
+final_join <- full_join(final_join, census1880)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 9 columns not full_joined, double-check
+final_join[,(ncol(final_join)-8):ncol(final_join)] # refers to the 9 last columns
+
+
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#export the data 
+```{r}
+
+#final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
+#export to csv
+#write.csv(x=final_join, file="preprocessfinal11_12_2020.csv")
+
+
+
+```
+
+
+
+
+
+#new data census1870
+```{r}
+census1870 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 68:72, colIndex = 1:29)
+
+census1870 <- census1870 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year"))
+
+census1870$Age <- as.integer(as.character(census1870$Age))#changes Age from factor to integer for full_join
+
+
+
+#
+census1870
+```
+
+#final_join + census1870
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1870)
+final_join
+```
+
+#no new columns , corrected new columns 140
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1900
+```{r}
+census1900 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 74:87, colIndex = 1:40)
+
+census1900 <- census1900 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1900$Age <- as.integer(as.character(census1900$Age))#changes Age from factor to integer for full_join
+census1900$Attended.School <- as.character(census1900$Attended.School)
+
+
+#
+census1900
+```
+
+#final_join + census1900
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1900)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 7 columns not full_joined, double-check
+final_join[,(ncol(final_join)-6):ncol(final_join)] # refers to the 7 last columns
+
+#corrected, new running total is 147 columns 
+```
+
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data birthrecord1882
+```{r}
+birthrecord1882 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 89:93, colIndex = 1:16)
+
+birthrecord1882 <- birthrecord1882 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+#correct name code
+birthrecord1882 <- extract(birthrecord1882, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+birthrecord1882$MiddleName <- sapply(strsplit(as.character(birthrecord1882$Surname), " "), head, 1)
+
+birthrecord1882$Given.Name <- paste(birthrecord1882$Given.Name, birthrecord1882$MiddleName)
+
+birthrecord1882$Surname <- sapply(strsplit(as.character(birthrecord1882$Surname), " "), tail, 1)
+
+birthrecord1882$Given.Name <- ifelse(birthrecord1882$Surname %in% birthrecord1882$MiddleName, sapply(strsplit(as.character(birthrecord1882$Given.Name), " "), head, 1), birthrecord1882$Given.Name)
+#correct name code
+
+#
+birthrecord1882
+```
+
+#final_join + birthrecord1882
+```{r}
+#final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, birthrecord1882)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 3 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+#no new columns, running total still 147
+
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1880
+```{r}
+census1880 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 94:104, colIndex = 1:37)
+
+census1880 <- census1880 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1880$Age <- as.integer(as.character(census1880$Age))#changes Age from factor to integer for full_join
+census1880$Birth.Year <- sapply(strsplit(as.character(census1880$Birth.Year), " "), tail, 1)
+census1880$Birth.Year <- as.double(census1880$Birth.Year)
+#
+census1880
+```
+
+#final_join + census1880
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1880)
+final_join
+```
+
+
+
+#check final_join for duplicate columns 
+```{r}
+# 3 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+#corrected, no new columns added, running total still 147
+
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data census1870
+```{r}
+census1870 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 106:119, colIndex = 1:29)
+
+census1870 <- census1870 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1870$Age <- as.integer(as.character(census1870$Age))#changes Age from factor to integer for full_join
+census1870$Birth.Year <- sapply(strsplit(as.character(census1870$Birth.Year), " "), tail, 1)
+census1870$Birth.Year <- as.double(census1870$Birth.Year)
+
+#
+census1870
+```
+
+#final_join + census1870
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1870)
+final_join
+```
+
+
+
+#check final_join for duplicate columns 
+```{r}
+# 3 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+# corrected, running total of columns still 147
+
+```
+
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+
+#new data census1880
+```{r}
+census1880 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-Format starting Nov 5", rowIndex= 121:140, colIndex = 1:37)
+
+census1880 <- census1880 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1880$Age <- as.integer(as.character(census1880$Age))#changes Age from factor to integer for full_join
+census1880$Birth.Year <- sapply(strsplit(as.character(census1880$Birth.Year), " "), tail, 1)
+census1880$Birth.Year <- as.double(census1880$Birth.Year)
+
+#
+census1880
+```
+
+#final_join + census1880
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1880)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 3 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+#no new columns added, runnning total still 147
+
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+=====================================================================
+=======================================# New to-format Nov 10 
+=====================================================================
+
+
+
+#new data census1861
+```{r}
+census1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New to-format Nov 10 ", rowIndex= 20:30, colIndex = 1:62)
+
+census1861 <- census1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1861$Age <- as.integer(as.character(census1861$Age))#changes Age from factor to integer for full_join
+census1861$Birth.Year <- sapply(strsplit(as.character(census1861$Birth.Year), " "), tail, 1)
+census1861$Birth.Year <- as.double(census1861$Birth.Year)
+
+#
+census1861
+```
+
+#final_join + census1861
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1861)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 42 columns not full_joined, double-check
+final_join[,(ncol(final_join)-41):ncol(final_join)] # refers to the 42 last columns
+
+# corrected, new running total of 189 columns 
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+=====================================================================
+=======================================# New to-format Nov 13 
+=====================================================================
+
+
+
+#new data census1861
+```{r}
+census1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New starting Nov 13", rowIndex= 1:11, colIndex = 1:62)
+
+census1861 <- census1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+census1861$Age <- as.integer(as.character(census1861$Age))#changes Age from factor to integer for full_join
+census1861$Birth.Year <- sapply(strsplit(as.character(census1861$Birth.Year), " "), tail, 1)
+census1861$Birth.Year <- as.double(census1861$Birth.Year)
+
+#
+census1861
+```
+
+#final_join + census1861
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, census1861)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 42 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-41):ncol(final_join)] # refers to the 42 last columns
+
+# corrected, no new columns added, runnning total of 189 columns 
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data deathrecord1871
+```{r}
+deathrecord1871 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(2).xlsx", sheetName="New starting Nov 13", rowIndex= 12:14, colIndex = 1:19)
+
+deathrecord1871 <- deathrecord1871 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+deathrecord1871$Age <- as.integer(as.character(deathrecord1871$Age))#changes Age from factor to integer for full_join
+#deathrecord1871$Birth.Year <- sapply(strsplit(as.character(deathrecord1871$Birth.Year), " "), tail, 1)
+deathrecord1871$Birth.Year <- as.double(deathrecord1871$Birth.Year)
+
+#correct name code
+deathrecord1871 <- extract(deathrecord1871, Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+deathrecord1871$MiddleName <- sapply(strsplit(as.character(deathrecord1871$Surname), " "), head, 1)
+
+deathrecord1871$Given.Name <- paste(deathrecord1871$Given.Name, deathrecord1871$MiddleName)
+
+deathrecord1871$Surname <- sapply(strsplit(as.character(deathrecord1871$Surname), " "), tail, 1)
+
+deathrecord1871$Given.Name <- ifelse(deathrecord1871$Surname %in% deathrecord1871$MiddleName, sapply(strsplit(as.character(deathrecord1871$Given.Name), " "), head, 1), deathrecord1871$Given.Name)
+#correct name code
+
+
+
+
+#
+deathrecord1871
+```
+
+#final_join + deathrecord1871
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, deathrecord1871)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 1 columns not full_joined, double-check
+final_join[,(ncol(final_join)-1):ncol(final_join)] # refers to the 2 last columns
+
+#corrected, new running total of columns is 190
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+#export the data 
+```{r}
+#final_join$Death.Place <- as.character(final_join$Death.Place)
+#final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
+#export to csv
+#write.csv(x=final_join, file="preprocessfinal11_17_2020.csv")
+
+
+
+```
+
+
+
+
+#new data ocrcanada1861
+```{r}
+detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+ocrcanada1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\1861 Canada cleaned OCR for selected Ontario.xlsx", sheet="Start of Kent County", startRow = 47,rows= 47:342, cols = 1:14)
+
+colnames(ocrcanada1861) <- c('Census.Year',	'Province',	'County',	'Township',	'Last name',	'First name',	'Sex',	'Age',	'Birthplace',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+#pick row before range you want rows=47:342 if I want range 48:342
+ocrcanada1861 <- ocrcanada1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+ocrcanada1861$Age <- as.integer(as.character(ocrcanada1861$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+ocrcanada1861$Source <- "Noonan 1861 Canadian Census"
+
+
+#
+ocrcanada1861
+```
+
+
+#final_join + ocrcanada1861
+```{r}
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, ocrcanada1861)
+final_join
+```
+#check final_join for duplicate columns 
+```{r}
+# 3 columns not full_joined, double-check
+final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+#corrected, new running total of columns is 193
+
+```
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+#new data ocrcanada1861
+
+#detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+ocrcanada1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\1861 Canada cleaned OCR for selected Ontario.xlsx", sheet="Start of Kent County", startRow = 372,rows= 372:416, cols = 1:7)
+
+#colnames(ocrcanada1861) <- c('Census.Year',	'Province',	'County',	'Township',	'Last name',	'First name',	'Sex',	'Age',	'Birthplace',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+#pick row before range you want rows=47:342 if I want range 48:342
+ocrcanada1861 <- ocrcanada1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province'))
+
+#ocrcanada1861$Age <- as.integer(as.character(ocrcanada1861$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+
+
+#correct name code
+ocrcanada1861 <- extract(ocrcanada1861, Name, c("Surname", "Given.Name"), "([^ ]+) (.*)")
+#correct name code
+
+
+#
+ocrcanada1861
+
+
+#final_join + ocrcanada1861
+
+final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, ocrcanada1861)
+final_join
+
+#check final_join for duplicate columns 
+
+# 3 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-2):ncol(final_join)] # refers to the 3 last columns
+
+
+
+#update unique_id
+
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+
+#new data ocrcanada1861
+
+#detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+ocrcanada1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\1861 Canada cleaned OCR for selected Ontario.xlsx", sheet="Start of Kent County", startRow = 419,rows= 419:463, cols = 1:7)
+
+#colnames(ocrcanada1861) <- c('Census.Year',	'Province',	'County',	'Township',	'Last name',	'First name',	'Sex',	'Age',	'Birthplace',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+#pick row before range you want rows=47:342 if I want range 48:342
+ocrcanada1861 <- ocrcanada1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province'))
+
+#ocrcanada1861$Age <- as.integer(as.character(ocrcanada1861$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+
+
+#correct name code
+ocrcanada1861 <- extract(ocrcanada1861, Name, c("Surname", "Given.Name"), "([^ ]+) (.*)")
+#correct name code
+
+
+#
+ocrcanada1861
+
+
+#problems
+- Age variable as a double
+- Census.Year duplicate 
+
+
+
+
+#new data ocrcanada1861
+```{r}
+#detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+ocrcanada1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\1861 Canada cleaned OCR for selected Ontario.xlsx", sheet="Ottawa and Toronto", startRow = 19,rows= 20:85, cols = 1:17)
+
+#
+#pick row before range you want rows=47:342 if I want range 48:342
+ocrcanada1861 <- ocrcanada1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place'))
+
+ocrcanada1861$Age <- as.integer(as.character(ocrcanada1861$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+
+colnames(ocrcanada1861) <- c('Census.Year',	'State.Province',	'County',	'Township',	'Surname',	'Given.Name',	'Gender',	'Age',	'Birth.Place',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+ocrcanada1861$Source <- "Noonan 1861 Canadian Census"
+#
+ocrcanada1861
+```
+
+
+#final_join + ocrcanada1861
+```{r}
+
+#final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, ocrcanada1861)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 7 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-6):ncol(final_join)] # refers to the 7 last columns
+
+
+#corrected final columns is 193
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#new data ocrcanada1861
+```{r}
+#detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+ocrcanada1861 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\1861 Canada cleaned OCR for selected Ontario.xlsx", sheet="Ottawa and Toronto", startRow = 87,rows= 87:358, cols = 1:15)
+
+#
+#pick row before range you want rows=47:342 if I want range 48:342
+ocrcanada1861 <- ocrcanada1861 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place', 'First.name' = 'Given.Name', 'Last.name' = 'Surname'))
+
+ocrcanada1861$Age <- as.integer(as.character(ocrcanada1861$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+
+#colnames(ocrcanada1861) <- c('Census.Year',	'State.Province',	'County',	'Township',	'Surname',	'Given.Name',	'Gender',	'Age',	'Birth.Place',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+ocrcanada1861$Source <- "Noonan 1861 Canadian Census"
+#
+ocrcanada1861
+```
+#final_join + ocrcanada1861
+```{r}
+final_join <- final_join %>% plyr::rename(c('Sheet' = 'Sheet.Number', 'Noonan Page Number' = 'Noonan.Page.Number'))
+#final_join$Birth.Year <- as.double(final_join$Birth.Year)
+final_join <- full_join(final_join, ocrcanada1861)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 2 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-1):ncol(final_join)] # refers to the 2 last columns
+
+# corrected new runing total is still 193
+
+```
+
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+# dropping NA columns for master full_join 
+```{r}
+
+
+#str(final_join)
+
+```
+
+```{r}
+
+# delete columns that are just NA vectors 
+final_join <- final_join[,colSums(is.na(final_join))<nrow(final_join)]
+final_join 
+```
+
+
+```{r}
+
+# to see which columns have an actual value or is just NAs
+final_join %>% summarise_all(funs(sum(!is.na(.))))
+
+#https://stackoverflow.com/questions/50357668/count-number-of-non-na-values-for-every-column-in-a-dataframe
+```
+
+```{r}
+# looking at "Child" entries
+unique(final_join$Child)
+filter(final_join, Child == "Calvin Austin Talbot")
+
+```
+
+
+#===============================
+# End of part 1 data merge
+#===============================
+
+
+
+
+
+
+
+
+
+#===============================
+# master column delete
+#===============================
+
+
+```{r}
+# delete some columns for master data
+final_join <- final_join %>% select(-one_of(c('Widowers', 'Widowers',
+'Brick..Stone..Frame..Log	','Number.of.Stories', 	
+'Number.of.Families.Occupying', 'Horses', 'Cows', 'Livestock.Value.in.Dollars', 'Quantity.of.Land.Attached', 'Name.of.Business', 'Capital.Invested', 'Farm.or.House','Real.Estate.Value', 	'Personal.Estate.Value', 'Native.Tongue', 'Home.Owned.or.Rented', 	'Home.Free.or.Mortgaged', 'House.Owned.or.Rented', 'Value.of.Home', 'Attended.School.or.College', 'Highest.Grade.Completed', 	'Residence.City.in.1935', 	'Live.on.Farm', 	'Employed.for.Pay	', 'Public.Emergency.Work	', 'Seeking.Work', 	'Employment.History	', 'Employment.Details', 	'Duration.of.Unemployment', 	'Class.of.Worker', 	'Employment.Code', 	'Weeks.Worked.in.1939	', 'Income', 	'Income.Other.Sources' )))
+
+```
+
+#===============================
+# master column delete
+#===============================
+
+
+
+
+```{r}
+
+# extract Child names to add as new rows
+uniq <- unique(final_join$Child)
+uniq <- uniq[2:4]
+uniq <- filter(final_join, Child %in% uniq ) %>% select(one_of(c('Child', 'Source', 'Census.Year')))
+uniq <- uniq %>% rename(c('Full.Name' = 'Child'))
+
+#correct name code
+uniq <- extract(uniq, Full.Name, c("Given.Name", "Surname"), "([^ ]+) (.*)")
+
+uniq$MiddleName <- sapply(strsplit(as.character(uniq$Surname), " "), head, 1)
+
+uniq$Given.Name <- paste(uniq$Given.Name, uniq$MiddleName)
+
+uniq$Surname <- sapply(strsplit(as.character(uniq$Surname), " "), tail, 1)
+
+uniq$Given.Name <- ifelse(uniq$Surname %in% uniq$MiddleName, sapply(strsplit(as.character(uniq$Given.Name), " "), head, 1), uniq$Given.Name)
+#correct name code
+uniq$Source <- paste(uniq$Source, "(Child)", sep="" )
+uniq <- uniq %>% distinct(.keep_all = TRUE)
+# extract Child names to add as new rows
+
+
+
+#
+uniq
+```
+
+
+# making a notes column 
+# to add into NOTES
+```{r NEW columns to put into Notes.Other.Information}
+
+notestest <- final_join 
+#notestest <- notestest %>% select(Notes.Other.Information, Naturalization.Year)
+
+# step 1 select the columns for notes: 
+notestest <- notestest %>% 
+  select(Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, 	
+                                   Child
+                                   ) 
+
+Result <- notestest
+
+# Step 2 get rid of values that are NA
+#replace(Result, Result[grepl('NA', Result$new_var), ], NA )
+Result <- Result %>% 
+  mutate_all(~str_replace_na(., "")) 
+
+#Result %>% 
+  #mutate_all(~str_replace_na(., "")) %>% 
+  #mutate(Cause.of.Death = na_if(Cause.of.Death, 'Cause.of.Death:NA'))
+
+Result %>% unite(Notes.Other.Information,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, sep = "|", na.rm=TRUE)
+
+# step 2 change the columns to column name: column value
+Result[] <- Map(paste, names(Result), notestest, sep = ':')
+
+#as.data.frame(replace(Result$Marriage.Date, endsWith(Result$Marriage.Date, "NA"), NA)) %>% magrittr::set_colnames(c("Marriage.Date"))
+
+# step 3 remove values from columns that are NA
+Result <- data.frame(lapply(Result, function(x) {
+                  replace(x, grep(":NA", x), NA)
+              }))
+
+
+
+# step 4 paste the columns into one generic notes column 
+Result <- Result %>% unite(Notes.Other.Information,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place,
+                           Child,
+                           sep = "|", na.rm=TRUE)
+
+# https://stackoverflow.com/questions/41684421/pasting-the-column-name-to-each-value-of-a-dataframe-in-r
+
+# step 3: https://stackoverflow.com/questions/29271549/replace-all-occurrences-of-a-string-in-a-data-frame
+
+```
+
+https://stackoverflow.com/questions/13673894/suppress-nas-in-paste
+https://stackoverflow.com/questions/41684421/pasting-the-column-name-to-each-value-of-a-dataframe-in-r
+
+
+# making a notes column part 2
+# add notes column to preprocess1 export file
+```{r}
+# add notes column to preprocess1 export file 
+
+# step 1: remove columns used in notes from final_join 
+final_join <- final_join %>% 
+  select(!c(Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, 
+            Child) )
+
+# step 2 add in the Notes column to final_join from before
+final_join$Notes.Other.Information <- Result$Notes.Other.Information
+final_join
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+#export the data 
+```{r}
+#final_join$Death.Place <- as.character(final_join$Death.Place)
+#final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
+#export to csv
+write.csv(x=final_join, file="preprocess1final2_16_2021.csv")
+
+
+
+```
+
+exporting 2551 rows and 78 columns with revised notes column ^^^^^
+
+
+#(CAN DISREGARD) OLD METHOD FOR NOTES COLUMN put these columns together for master data
+final_join <- final_join %>% unite(new_var,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place,
+                                   Father.s.Name, 	
+                                   Mother.s.Name, sep = " ") %>%
+  mutate(new_var = gsub('NA', "", new_var)) %>% 
+  mutate(new_var = gsub('_', "", new_var)) %>%
+  unite(Notes.Other.Information, NOTES, Other.Information)  %>%
+  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>%
+  mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>%
+  unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
+
+#https://stackoverflow.com/questions/39997273/r-combine-several-gsub-function-in-a-pipe
+
+#https://stackoverflow.com/questions/15877388/print-one-column-of-data-frame-with-row-names
+
+
+final_join
+
+
+```{r}
+#filter(uniq, Given.Name == 'Samuel D' )
+#filter(final_join, Given.Name == 'Samuel D' )
+
+```
+
+
+
+```{r}
+# full_join child data to final_join 
+#full_join(final_join, uniq) %>% filter(Given.Name =='Samuel D' )
+#merge(df1, df2, by = "col1", all = TRUE)
+
+```
+
+
+
+# to do:
+
+
+# windosr data from Matson file
+# OCR the pdfs. 
+# find a way to objective 1
+- OK, it seems that Matson file is a bit of a problem — it mixes the 825 Black people in 1864 census overall (which is about 3500 and mostly white). 
+
+Matson had many useful matches — his total lines in that are 3831 - but I wonder if those 300ish match lines aren’t already in the master. 
+
+So… I think I would probably skip that Matson file overall, and/or check the matches (anything in the file not from 1864) before we pull in the whole. That should get the extra Addisons but leave thing we don’t need behind. 
+
+Does that cover it, or are there more questions? 
+
+Any sense of how many of the columns are mostly empty?
+
+
+# highlight to delete columns, create a preprocess backup
+We should definitely keep all data in a preprocess backup, but for merging to the master, if you want to highlight the columns that will get deleted, I can look through and make a final call before they go to the master. 
+
+
+
+# OCR data that are not cleaned in python, full_join it 
+file 1861 Canada Cleaned OCR for selected Ontario   
+sheet Hamilton, London, Waterloo
+all rows added 
+
+file 1861 Canada Cleaned OCR for selected Ontario
+sheet Start of Kent County
+rows added 48:341
+rows to be cleaned 345:2592
+
+file 1861 Canada Cleaned OCR for selected Ontario
+sheet Ottawa and Toronto
+rows added 20:358
+rows to be cleaned 359:1536
+
+file 1861 Canada Cleaned OCR for selected Ontario
+sheet Windsor
+rows added 0
+rows to be cleaned 8:1000
+
+
+#new data windsorcensus1864
+```{r}
+#detach("package:xlsx", unload=TRUE)
+#options(java.parameters = "-Xmx16000m")
+#library(xlsx)
+library(openxlsx)
+windsorcensus1864 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Windsor 1864 Census -- Coloured Entries - tracing rebuilt from Matson.xlsx", sheet="Sheet1", startRow = 1,rows= 1:3832, cols = 1:42)
+
+#
+#pick row before range you want rows=47:342 if I want range 48:342
+windsorcensus1864 <- windsorcensus1864 %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place', 'First.name' = 'Given.Name', 'Last.name' = 'Surname', 'State/Province' = 'State.Province', 'SOURCE' = 'Source', 'LAST.NAME' = 'Surname', 'FIRST.NAME' = 'Given.Name', 'PROFESSION' = 'Occupation', 'STREET' = 'Street','PLACE.OF.BIRTH' = 'Birth.Place', 'RELIGION' = 'Religion', 'AGE' = 'Age', 'Calculated.Birth.Year' = 'Birth.Year', 'MALE/FEMALE' = 'Gender', 'Race.or.Tribe' = 'Race', 'COLORED,.MULATTO,.or.INDIAN' = 'Race2', 'NOTES.from.Matson' = 'NOTES', 'Date.of.Death' = 'Death.Date', 'Rank.(Military)' = 'Rank', 'Enlistment.Date' = 'DATE.OF.ENLISTMENT', 'Enlistment.Place' = 'PLACE.OF.ENLISTMENT', 'Relation.to.Head.of.Household' = 'Relation.to.Head.of.House', 'Going.To.School' = 'Attended.School'  )) 
+
+
+windsorcensus1864 <- tidyr::unite(windsorcensus1864, 'Race', 'Race', 'Race2')
+
+#windsorcensus1864$Age <- as.integer(as.character(windsorcensus1864$Age))#changes Age from factor to integer for full_join
+#ocrcanada1861$Birth.Year <- sapply(strsplit(as.character(ocrcanada1861$Birth.Year), " "), tail, 1)
+#ocrcanada1861$Birth.Year <- as.double(ocrcanada1861$Birth.Year)
+
+
+#colnames(ocrcanada1861) <- c('Census.Year',	'State.Province',	'County',	'Township',	'Surname',	'Given.Name',	'Gender',	'Age',	'Birth.Place',	'Occupation',	'Religion',	'Race',	'Sheet', 'Noonan Page Number')
+
+
+# Race drop 'NA', convert Y to Black/Mulatto/Indian
+
+#unique(windsorcensus1864$Going.To.School) only NA and Y
+
+windsorcensus1864$Race <- gsub('NA', '', windsorcensus1864$Race)
+windsorcensus1864$Race <- gsub('_', '', windsorcensus1864$Race)
+windsorcensus1864$Race <- gsub('Y', 'Black/Mulatto/Indian', windsorcensus1864$Race)
+#
+windsorcensus1864
+```
+
+#final_join + windsorcensus1864
+```{r}
+#final_join <- final_join %>% plyr::rename(c('Sheet' = 'Sheet.Number', 'Noonan Page Number' = 'Noonan.Page.Number'))
+final_join$Birth.Year <- as.character(final_join$Birth.Year)
+final_join$Age <- as.character(final_join$Age)
+
+final_join <- full_join(final_join, windsorcensus1864)
+final_join
+```
+
+#check final_join for duplicate columns 
+```{r}
+# 16 columns not full_joined, double-check
+#final_join[,(ncol(final_join)-16):ncol(final_join)] # refers to the 17 last columns
+#unique(final_join$Attended.School)
+#[1] NA    "No"  "yes" "Yes" "6"   "1"   "9"   "5"   "Y"
+# corrected new running total is still 208
+
+```
+
+#update unique_id
+```{r}
+#adds unique_id to new data inputs
+
+final_join <- final_join %>%
+  select(-one_of('unique_id')) #drops old unqiue_id
+
+final_join <- final_join %>% mutate(unique_id = 60734 + 1:n()) %>% select(unique_id, everything()) #numerates new data rows for unique_id
+
+final_join$unique_id <- as.integer(final_join$unique_id) #converts to int from double
+final_join
+
+```
+
+
+#export the data 
+```{r}
+#final_join$Death.Place <- as.character(final_join$Death.Place)
+#final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
+#export to csv
+#write.csv(x=final_join, file="preprocessfinal11_19_2020.csv")
+
+
+
+```
+
+```{r}
+
+master1 <- read.xlsx('D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\current_master_11_17_20.xlsx')
+
+
+group_by(master1, source) %>% filter('Windsor Public Library.docx' %in% source)
+
+master1[grep('Windsor', master1$source), ]
+```
+
+```{r}
+
+#group_by(final_join, Surname) %>% filter('windsor' %in% source)
+
+final_join[grep('1864', final_join$Source), ]
+
+
+```
+
+```{r}
+# mention of windosr 1864 data in the master, 1174 rows
+filter(master1, County == 'Essex')
+filter(master1, Place == 'Windsor')
+
+```
+```{r}
+# mention of Addison family in the master, only 8 rows
+filter(master1, Last.Name == 'Addison')
+
+```
+```{r}
+# mention of 1864 in the census year, 1705 rows 
+filter(master1, Census.Year == '1864')
+
+```
+
+
+```{r}
+
+filter(final_join, Surname == 'Addison')
+
+```
+
+
