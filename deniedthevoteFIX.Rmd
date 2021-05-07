@@ -1,0 +1,521 @@
+---
+title: "deniedthevoteFIX"
+author: "Joseph Pacifico"
+date: "1/6/2021"
+output: html_document
+---
+
+setwd("D:/Libraries 1/Documents/QMSS/Data For Good/Tableau")
+
+```{r}
+library(tidyverse)
+library(xlsx)
+#library(xlsx)
+#library(openxlsx)
+
+setwd("D:/Libraries 1/Documents/QMSS/Data For Good/Tableau")
+denied <- openxlsx::read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\1870 denied the vote data.xlsx", sheet="usa_00003", startRow = 1,rows= 1:125990, cols = 1:32)
+
+# to match codebook codes format
+denied$CITY <- sprintf("%04d", as.numeric(denied$CITY)) # 4 zeros
+denied$STATEICP <- sprintf("%02d", as.numeric(denied$STATEICP)) # 2
+
+denied$RACED <- sprintf("%03d", as.numeric(denied$RACED)) # 3
+denied$RACED <- as.character(denied$RACED)
+
+denied$BPLD <-  sprintf("%05d", as.numeric(denied$BPLD)) # 5 zeros
+denied$BPLD <- as.character(denied$BPLD)
+# to match codebook codes format
+
+denied$REGION <- as.character(denied$REGION)
+denied$CITY <- as.character(denied$CITY)
+denied$STATEICP <- as.character(denied$STATEICP)
+denied$RACESINGD <- as.character(denied$RACESINGD)
+
+
+denied
+
+```
+
+
+
+
+# regionFIXED 2 zeros
+```{r}
+
+region <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'division', rowIndex= 1:13, colIndex = 1:2) 
+region <- region %>% plyr::rename(c('REGION.Census.region.and.division' = 'region', 'NA.' = 'regionlocation'))
+
+region <- as.data.frame(str_split_fixed(region$region, " ", 2)) %>% plyr::rename(c('V1' = 'regioncode', 'V2' = 'regionname')) %>% mutate(regionlocation = region$regionlocation)
+#region$regioncode <- as.double(region$regioncode)
+region
+
+```
+
+
+
+# cityFIXED 4 zeros
+```{r}
+
+city <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'city', rowIndex= 1:1172, colIndex = 1:2, colClasses='character')
+city <- city %>% plyr::rename(c('code' = 'citycode', 'cita' = 'citystate'))
+
+city$citycode <- sprintf("%04d", as.numeric(city$citycode))
+#city$citycode <- as.character(city$citycode)
+#city$cityboth <- paste(city$citycode, city$citystate, sep = " ")
+city
+
+
+#https://stackoverflow.com/questions/5812493/how-to-add-leading-zeros
+```
+
+
+
+
+
+
+
+1. https://stackoverflow.com/questions/61256777/replace-region-numbers-with-names
+2. https://stackoverflow.com/questions/7547597/dictionary-style-replace-multiple-items
+
+https://stackoverflow.com/questions/50224076/pass-variables-from-another-dataframe-in-a-case-when-statement-with-dplyr-in-r
+
+
+https://stackoverflow.com/questions/41671856/error-incompatible-size-when-mutating-in-dplyr
+
+# stateicpFIXED 2 zeros
+```{r}
+
+state <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'state', rowIndex= 1:56, colIndex = 1:2)
+state <- state %>% plyr::rename(c('STATEICP.State..ICPSR.code.' = 'stateicp'))
+state <- as.data.frame(str_split_fixed(state$stateicp, " ", 2)) %>% plyr::rename(c('V1' = 'statecode', 'V2' = 'statename'))
+
+state$statecode <- sprintf("%02d", as.numeric(state$statecode)) #adds zeroes to match the same format as in the codebook
+
+state
+
+#https://stackoverflow.com/questions/44488300/change-column-variable-string-from-1-to-01
+```
+
+
+# TEST (CAN DISREGARD) 
+```{r}
+
+
+
+test <- select(denied, YEAR, SAMPLE, SERIAL, CITY, REGION, STATEICP)
+test$CITY <- as.character(test$CITY)
+test$REGION <- as.character(test$REGION)
+test$STATEICP <- as.character(test$STATEICP)
+test
+
+```
+
+
+
+
+
+# racedFIXED 3 zeros
+```{r}
+
+raced <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'raced', rowIndex= 1:117, colIndex = 1)
+raced <- raced %>% plyr::rename(c('RACED.Race..detailed.version.' = 'raced'))
+
+
+raced <- as.data.frame(str_split_fixed(raced$raced, " ", 2)) %>% plyr::rename(c('V1' = 'racedcode', 'V2' = 'racedname'))
+
+#city$citycode <- as.character(city$citycode)
+#city$cityboth <- paste(city$citycode, city$citystate, sep = " ")
+
+
+
+raced2 <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'raced2', rowIndex= 1:131, colIndex = 1:2)
+raced2 <- raced2 %>% plyr::rename(c('raced2' = 'racedcode', 'NA.' = 'racedname'))
+
+raced2$racedcode <- as.character(raced2$racedcode)
+
+raced_final <- full_join(raced, raced2) %>% arrange(racedcode)
+
+raced_final <- na.omit(raced_final)
+raced_final
+```
+
+
+# bpldFIXED 5 zeros
+```{r}
+
+bpld <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'bpld', rowIndex= 1:38, colIndex = 1)
+bpld <- bpld %>% plyr::rename(c('BPLD.Birthplace..detailed.version...UNITED.STATES' = 'bpld'))
+
+
+bpld <- as.data.frame(str_split_fixed(bpld$bpld, " ", 2)) %>% plyr::rename(c('V1' = 'bpldcode', 'V2' = 'bpldname'))
+
+#city$citycode <- as.character(city$citycode)
+#city$cityboth <- paste(city$citycode, city$citystate, sep = " ")
+
+
+
+bpld2 <- xlsx::read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'bpld2', rowIndex= 1:535, colIndex = 1:2, colClasses='character')
+bpld2 <- bpld2 %>% plyr::rename(c('title' = 'bpldcode', 'NA.' = 'bpldname'))
+
+
+
+
+bpld2$bpldcode <- sprintf("%05d", as.numeric(bpld2$bpldcode)) #adds zeroes to match the same format as in the codebook
+
+
+bpld2$bpldcode <- as.character(bpld2$bpldcode)
+
+bpld_final <- full_join(bpld, bpld2) 
+
+bpld_final <- arrange(bpld_final, bpldcode) %>% slice(-c(1:33)) 
+bpld_final
+```
+# racesingdFIXED 
+```{r}
+
+racesingd <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'racesingd', rowIndex= 1:18, colIndex = 1)
+
+racesingd <- racesingd %>% plyr::rename(c('RACESINGD.Race..Single.race.identification..detailed.version.' = 'racesingd'))
+
+
+racesingd <- as.data.frame(str_split_fixed(racesingd$racesingd, " ", 2)) %>% plyr::rename(c('V1' = 'racesingdcode', 'V2' = 'racesingdname'))
+
+racesingd
+```
+
+
+
+# citizen 
+```{r}
+
+citizen <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\deniedthevoteCODEBOOKFIX.xlsx", sheetName = 'citizen', rowIndex= 1:8, colIndex = 1)
+
+citizen <- citizen %>% plyr::rename(c('CITIZEN.Citizenship.status' = 'citizen'))
+
+
+citizen <- as.data.frame(str_split_fixed(citizen$citizen, " ", 2)) %>% plyr::rename(c('V1' = 'citizencode', 'V2' = 'citizenstatus'))
+
+citizen
+```
+
+
+# TESTING VARIABLE MERGE (CAN DISREGARD) add in BPLD, RACED and RACESINGD CITIZEN to deniedEXPORT
+```{r}
+
+#RACED, RACESINGD, BPLD
+
+test <- select(denied, YEAR, SAMPLE, SERIAL, RACED, RACESINGD, BPLD, CITIZEN)
+
+
+test$RACED <- sprintf("%03d", as.numeric(test$RACED)) #adds zeroes to match the same format as in the codebook
+test$RACED <- as.character(test$RACED)
+
+test$BPLD <-  sprintf("%05d", as.numeric(test$BPLD)) #adds zeroes to match the same format as in the codebook
+test$BPLD <- as.character(test$BPLD)
+
+test$RACESINGD <- as.character(test$RACESINGD)
+
+test$CITIZEN <- as.character(test$CITIZEN)
+
+test <- left_join(test, raced_final, by = c("RACED" = "racedcode")) %>% 
+  left_join(racesingd, by = c("RACESINGD" = "racesingdcode")) %>% 
+  left_join(bpld_final, by = c("BPLD" = "bpldcode")) %>% 
+  left_join(citizen, by = c("CITIZEN" = "citizencode"))
+test
+```
+
+
+
+https://stackoverflow.com/questions/18279268/read-xlsx-and-colclasses
+
+
+
+```{r}
+denied$REGION <- as.character(denied$REGION)
+denied$CITY <- as.character(denied$CITY)
+denied$STATEICP <- as.character(denied$STATEICP)
+denied$CITIZEN <- as.character(denied$CITIZEN)
+#https://stackoverflow.com/questions/61256777/replace-region-numbers-with-names
+```
+
+
+# add in BPLD, RACED and RACESINGD CITIZEN to deniedEXPORT
+```{r}
+
+
+deniedFIXEDexport <- left_join(denied, region, by = c("REGION" = "regioncode")) %>% 
+  left_join(city, by = c("CITY" = "citycode")) %>% 
+  left_join(state, by = c("STATEICP" = "statecode")) %>% 
+  left_join(raced_final, by = c("RACED" = "racedcode")) %>% 
+  left_join(racesingd, by = c("RACESINGD" = "racesingdcode")) %>% 
+  left_join(bpld_final, by = c("BPLD" = "bpldcode")) %>% 
+  left_join(citizen, by = c("CITIZEN" = "citizencode"))
+
+deniedFIXEDexport
+```
+
+
+
+
+# total re-coded variables
+regionname
+regionlocation
+citystate
+statename
+racedname
+racesingdname
+bpldname
+citizen
+
+```{r}
+
+select(deniedFIXEDexport, 
+       REGION,
+       regionname,
+       regionlocation,
+       CITY,
+       citystate,
+       STATEICP,
+       statename, 
+       BPLD,
+       bpldname,
+       RACED,
+       racedname,
+       RACESINGD, 
+       racesingdname, 
+       CITIZEN, 
+       citizenstatus
+       )
+
+
+#https://stackoverflow.com/questions/61256777/replace-region-numbers-with-names
+```
+
+
+```{r}
+
+unique(deniedFIXEDexport$citizenstatus)
+
+```
+
+
+
+
+
+
+
+#export the data to tableau
+```{r}
+
+#export to csv
+#write.csv(x=deniedFIXEDexport, file="1870 denied the vote dataFIXED.csv")
+
+
+```
+
+
+
+```{r}
+df4 <- read.csv("1870 denied the vote dataFIXED.csv")
+df4
+```
+
+
+
+
+
+ I assume even Excel could do the basic statistics of the total and by state — race, birthplace, age averages, to figure out what we have here.
+
+```{r}
+
+
+df5 <- df4 %>% 
+  select(SERIAL, REGION, STATEICP, CITY, COUNTYNHG, SEX, AGE, RACE, RACED, BPL, BPLD, CITIZEN, RACESING, RACESINGD, VOTE, regionname, regionlocation, citystate, statename, racedname, racesingdname, bpldname, citizenstatus )
+
+
+df5
+```
+
+
+# Age by State 
+```{r}
+age_state <- df5 %>% 
+  group_by(statename, SEX) %>%
+  summarize(avg_age = mean(AGE, na.rm=TRUE)) %>% 
+  mutate(Gender = case_when(SEX == 1 ~ "Male"))
+age_state
+
+#write.csv(age_state, file="age_state.csv")
+```
+
+- only males in the sample. 
+
+
+
+# Age by City
+```{r}
+age_city <- df5 %>% 
+  group_by(citystate, SEX) %>%
+  summarize(avg_age = mean(AGE, na.rm=TRUE)) %>% 
+  mutate(Gender = case_when(SEX == 1 ~ "Male"))
+
+age_city
+
+#write.csv(age_city, file="age_city.csv")
+```
+
+# how many in named cities vs not 
+```{r}
+
+named_city_totals <- df5 %>% 
+  group_by(citystate) %>%
+  summarize(total = n()) 
+
+named_city_totals
+#write.csv(named_city_totals, file="named_city_totals.csv")
+```
+
+# how many in named cities vs not 
+```{r}
+
+named_vs_not_city <- df5 %>% 
+  group_by(citystate) %>%
+  summarize(total = n()) %>%
+  mutate(named = case_when(
+    citystate == 'Not in identifiable city (or size group)' ~ 'Not in identifiable city (or size group)',
+    citystate != 'Not in identifiable city (or size group)'~ 'named city'
+  )) %>% 
+  group_by(named) %>% 
+  summarize(total_named = sum(total))
+
+named_vs_not_city
+#write.csv(named_vs_not_city, file="named_vs_not_city.csv")
+```
+
+# how many in named states vs not 
+```{r}
+
+named_state_totals <- df5 %>% 
+  group_by(statename) %>%
+  summarize(total = n()) 
+
+named_state_totals
+#write.csv(named_state_totals, file="named_state_totals.csv")
+```
+
+# how many in named states vs not 
+```{r}
+
+named_vs_not_state <- df5 %>% 
+  group_by(statename) %>%
+  summarize(total = n()) %>%
+  summarize(totals = sum(total))
+
+named_vs_not_state
+#write.csv(named_vs_not_state, file="named_vs_not_state.csv")
+```
+
+# Race by State
+```{r}
+df5$racedname <- factor(df5$racedname)
+
+race_state <- df5 %>% 
+  group_by(statename, racedname) %>%
+  summarize(total = n()) 
+
+race_state
+#write.csv(race_state, file="race_state.csv")
+```
+
+# Race by City
+```{r}
+
+race_city <- df5 %>% 
+  group_by(citystate, racedname) %>%
+  summarize(total = n()) 
+
+race_city
+#write.csv(race_city, file="race_city.csv")
+```
+
+
+
+# birthplace by city 
+```{r}
+
+birthplace_city <- df5 %>% 
+  group_by(citystate, bpldname) %>%
+  summarize(total = n()) 
+
+birthplace_city
+#write.csv(birthplace_city, file="birthplace_city.csv")
+```
+
+# birthplace by State 
+```{r}
+
+birthplace_state <- df5 %>% 
+  group_by(statename, bpldname) %>%
+  summarize(total = n()) 
+
+birthplace_state
+#write.csv(birthplace_state, file="birthplace_state.csv")
+```
+
+
+# race_totals
+```{r}
+
+race_totals <- df5 %>% 
+  group_by(RACED, racedname) %>%
+  summarize(total = n()) 
+
+race_totals
+#write.csv(race_totals, file="race_totals.csv")
+```
+
+
+# age_totals
+```{r}
+df5$SERIAL <- as.character(df5$SERIAL)
+
+
+
+age_totals <- df5 %>% 
+  select(SERIAL, AGE) %>% 
+  mutate(age_range = case_when(
+    AGE >= 21 & AGE <= 30 ~ "age21_30", 
+    AGE >= 31 & AGE <= 40 ~ "age31_40",
+    AGE >= 41 & AGE <= 50 ~ "age41_50",
+    AGE >= 51 & AGE <= 60 ~ "age51_60",
+    AGE >= 61 & AGE <= 70 ~ "age61_70",
+    AGE >= 71 & AGE <= 80 ~ "age71_80",
+    AGE >= 81 & AGE <= 90 ~ "age81_90",
+    AGE >= 91 & AGE <= 100 ~ "age91_100", 
+    AGE >= 101 & AGE <= 110 ~ "age101_110",
+    AGE >= 111 & AGE <= 120 ~ "age111_120"
+  )) %>% 
+  group_by(age_range) %>% 
+  #filter_all(any_vars(is.na(.))) 
+  summarize(total = n()) 
+  
+
+
+age_totals
+#write.csv(age_totals, file="age_totals.csv")
+```
+
+# birthplace totals 
+```{r}
+
+birthplace_totals <- df5 %>% 
+  group_by(bpldname) %>%
+  summarize(total = n()) 
+
+birthplace_totals
+#write.csv(birthplace_totals, file="birthplace_totals.csv")
+```
+
+
+

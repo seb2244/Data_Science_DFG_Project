@@ -1,0 +1,359 @@
+---
+title: "merge_preprocess_master"
+author: "Joseph Pacifico"
+date: "2/9/2021"
+output: html_document
+---
+
+
+
+```{r}
+# bring in master, merge preprocess file
+
+master <- openxlsx::read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\data\\current_master_2_12_21.xlsx", sheet = 1)
+
+master
+```
+
+master has 56,905 rows and 87 columns 
+
+
+
+preprocess has 2614 rows and 79 columns 
+```{r}
+# bring in individual preprocess files exported to csv
+preprocess <- read.csv('D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\preprocess2final2_16_2021.csv')
+
+preprocess$X <- NULL
+preprocess
+```
+
+```{r}
+library(tidyverse)
+
+as_tibble(preprocess$Notes.Other.Information)
+```
+
+# old master kick out variables 
+```{r}
+
+mastertest <- master 
+# old master kick out variables 
+mastertest <- mastertest %>% select(!c(Date.Mustered.Out,
+                        Age.Months,
+                        Directsur,
+                        Directfirst,
+                        Directocc,
+                        Whitef,
+                        Chinesem,
+                        Chinesef,
+                        Nativem,
+                        Nativef,
+                        Male.birth,
+                        Female.birth,
+                        Year.of.this.Record
+                        ))
+mastertest <- mastertest %>% 
+  plyr::rename(c("Rank.(Military)" = "Rank_Military", 
+                 "STREET" = "Street.Address",
+                 "Employment" = "Employment.History",
+                 "Relation.to.Head.of.Household" = "Relation.to.Head.of.House"))
+
+mastertest
+```
+- master 74 columns 56905 before leftjoin
+
+```{r}
+
+preprocesstest <- preprocess
+# preprocess kick out variables 
+preprocesstest <- preprocesstest %>% select(!c(
+                        Maiden.Name,
+                        Marriage.Age,
+                        Residence.Year,
+                        Marital.status,
+                        Cannot.Read..Write,
+                        Employment.History,
+                        Home.in.1861,
+                        Able.to.Read.and.Write,
+                        Middle.Name,
+                        Dwelling.Number,
+                        Able.to.Speak.English,
+                        Certificate,
+                        Number.of.Dwelling.in.Order.of.Visitation))
+
+preprocesstest <- preprocesstest %>%
+  plyr::rename(c("Surname" = "Last.Name",
+                 "Given.Name" = "First.Name",
+                 "Gender" = "Sex",
+                 "Source" = "source",
+                 "Birth.Place" = "PLACEOFBIRTH",
+                 "Birth.Year" = "CalculatedBirthYear",
+                 "Occupation" = "PROFESSION",
+                 "Death.Date" = "Date.of.Death",
+                 "DATE.OF.ENLISTMENT" = "Enlistment.Date",
+                 "PLACE.OF.ENLISTMENT" = "Enlistment.Place",
+                 "CAUSE.OF.DEATH" = "Cause.of.Death",
+                 "Rank" =  "Rank_Military",
+                 "Religion" = "RELIGION",
+                 #"Street.Address" = "STREET",
+                 #"Industry" = "PROFESSION",
+                 #"Relationship" = "Relation.to.Head.of.House",
+                 "State.Province" = "State/Province", 
+                 "Marital.Status" = "MARITAL",
+                 "Line.Number" = "Line", 
+                 "Page.number" = "Page"
+                 ))
+
+
+
+
+preprocesstest$Joint.ID.for.Matched.Records <- as.character(preprocesstest$Joint.ID.for.Matched.Records)
+
+preprocesstest$CalculatedBirthYear <- as.double(preprocesstest$CalculatedBirthYear)
+
+preprocesstest$Age <- as.character(preprocesstest$Age)
+
+mastertest$Date.of.Death <- as.character(mastertest$Date.of.Death)
+mastertest$Cause.of.Death <- as.character(mastertest$Cause.of.Death)
+mastertest$Rank_Military <- as.character(mastertest$Rank_Military)
+mastertest$Enlistment.Date <- as.character(mastertest$Enlistment.Date)
+mastertest$Enlistment.Place <- as.character(mastertest$Enlistment.Place)
+
+masternew <- full_join(mastertest, preprocesstest)
+masternew
+
+
+
+```
+- 109 columns and 59519 rows post left_join
+
+master has 56,905 rows and 74 columns 
+new master 59,519 rows, 109 columns 
+35 columns added 
+
+#check final_join for duplicate columns 
+```{r}
+# 35 columns not full_joined, double-check
+masterlast <- masternew[,(ncol(masternew)-34):ncol(masternew)] # refers to the 4 last columns
+masterlast
+```
+```{r}
+unique(mastertest$Relation.to.Head.of.House)
+unique(masterlast$Employment)
+```
+
+Relationship == Relation.to.Head.of.House x
+Industry == PROFESSION x
+Street == STREET x
+NOTES == Notes.Other.Information 
+Other.Information == Notes.Other.Information
+
+Naturalization.Year > to notes x
+Child > to notes x
+
+
+
+
+
+
+
+
+
+
+```{r}
+# unite Relationship == Relation.to.Head.of.House columns  
+masternew <- masternew %>% 
+  unite(Relation.to.Head.of.House,
+        Relationship,
+        Relation.to.Head.of.House,
+        sep = " ") %>% 
+  mutate(Relation.to.Head.of.House = gsub('NA', "", Relation.to.Head.of.House))
+
+select(masternew, Relation.to.Head.of.House)
+#unique(masternew$Relation.to.Head.of.House)
+```
+
+
+
+```{r}
+# unite Industry == PROFESSION columns 
+masternew <- masternew %>%
+  unite(PROFESSION,
+        PROFESSION,
+        Industry,
+        sep = " ") %>% 
+  mutate(PROFESSION = gsub('NA', "", PROFESSION))
+select(masternew, PROFESSION)
+#unique(masternew$new_var)
+```
+
+```{r}
+# unite Street == STREET columns 
+masternew <- masternew %>%
+  unite(Street.Address,
+        Street.Address,
+        Street,
+        sep = " ") %>% 
+  mutate(Street.Address = gsub('NA', "", Street.Address))
+select(masternew, Street.Address)
+#unique(masternew$new_var)
+```
+
+
+NOTES == Notes.Other.Information 
+Other.Information == Notes.Other.Information
+```{r}
+# unite NOTES & Other.Information columns 
+masternew <- masternew %>%
+  unite(Notes.Other.Information,
+        Notes.Other.Information,
+        NOTES,
+        Notes,
+        Other.Information,
+        sep = "|") %>% 
+  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information))
+
+
+masternew %>% select(Notes.Other.Information) %>% slice(57550)
+masternew %>% select(Notes.Other.Information) %>% slice(59508)
+
+#unique(masternew$new_var)
+```
+
+[1]   NA 1909 1864 1906 1900 1858 1898 1897 1870
+
+
+```{r}
+View(select(masternew, Notes.Other.Information))
+```
+
+
+# checking column values in master to see which are mostly empty 
+```{r}
+
+# to see which columns have an actual value or is just NAs
+masterlast %>% summarise_all(funs(sum(!is.na(.))))
+
+#https://stackoverflow.com/questions/50357668/count-number-of-non-na-values-for-every-column-in-a-dataframe
+```
+
+# columns to keep 
+Maiden.Name 3
+Father.s.Name 8
+Mother.s.Name 8
+Spouse 28
+Child 8
+City 35
+MiddleName 46
+Death.Place 71
+Industry 8
+Attended.School 29 
+House.Number 25
+Father.s.Birth.Place 73
+Mother.s.Birth.Place 76
+Street 35
+Relationship 53
+Immigration.Year 12
+Father.of.Foreign.Birth 17
+Mother.of.Foreign.Birth 17
+Employment 2
+Able.to.read 29
+Able.to.Write 29
+Family.Number 98
+Residence.Place 12
+
+To delete: 
+Marriage.Age 2 x
+Residence.Year 10 x
+Marital.status 1 x
+Dwelling.Number 74 x
+Cannot.Read..Write 2 x
+Able.to.Speak.English 32 x
+Certificate 31 x
+Number.of.Dwelling.in.Order.of.Visitation 18 x
+Home.in.1861 7 x
+Able.to.Read.and.Write 2 x
+
+# export the new master
+```{r}
+
+
+write.csv(x=masternew, file="current_master_02_17_21.csv")
+```
+
+
+135 columns 59521 rows BEFORE
+103 columns 59519 rows AFTER
+
+- add in current master 2-12.xlsx
+- check the last few added columsn 
+
+columns that are empty in master:
+Date.Mustered.Out 0 
+Age.Months 9 
+Directsur 0 
+Directfirst 0 
+Directocc 0 
+Whitef 10 
+Chinesem 0 
+Chinesef 0 
+Nativem 1
+Nativef 1 
+Male.birth 2
+Female.birth 3 
+Year.of.this.Record 0 
+Maiden.Name 3 
+Marriage.Age 2
+Residence.Year 10 
+Marital.status 1 
+Cannot.Read..Write 2
+Employment.History 2
+Home.in.1861 7 
+Able.to.Read.and.Write 2
+Middle.Name 1
+
+
+
+```{r}
+colnames(master)
+#unique(preprocess$MiddleName)
+```
+
+
+
+
+```{r}
+notestest <- preprocess 
+notestest <- notestest %>% unite(Notes.Other.Information1, 	
+Naturalization.Year, sep = " ") 
+
+notestest <- as.data.frame(paste(notestest$Notes.Other.Information, notestest$Notes.Other.Information1)) 
+
+notestest <- notestest %>% plyr::rename(c('paste(notestest$Notes.Other.Information, notestest$Notes.Other.Information1)' = 'new_var'))
+
+filter(notestest, "1863" %in% new_var)
+
+notestest[grepl('1863', notestest$new_var), ] # check to see naturalization year == 1863 appears in the new notes column 
+
+
+
+
+
+
+  mutate(new_var = gsub('NA', "", new_var)) %>% 
+  mutate(new_var = gsub('_', "", new_var))%>% 
+  #unite(Notes.Other.Information, NOTES, Other.Information)  %>%
+  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>% 
+  mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>% 
+  unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
+
+masternew %>% select(Notes.Other.Information)
+unique(preprocess$Naturalization.Year)
+```
+
+```{r}
+
+colnames(master)
+
+```

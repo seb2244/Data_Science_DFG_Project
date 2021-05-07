@@ -13,7 +13,7 @@ output: html_document
 ```{r}
 # bring in last preprocess file 
 library(tidyverse)
-data <- read.csv('D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\preprocessfinal12_08_2020.csv')
+data <- read.csv('D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\preprocess1final2_16_2021.csv')
 
 data$X <- NULL
 
@@ -1346,32 +1346,145 @@ final_join
 ```
 
 
+pre NOTES preprocess2 column : 2677 rows, 104 columns 
 
 
+#======================================================
+#fixing notes column for preprocess2
+#=======================================================
 
-
-#to put into Notes.Other.Information
-Birth.Month 
-Years.Married 
-Number.of.Children.Born
-Number.of.Children.Living
-Years.in.US
-Employment
-Employment.Field
-NOTES
-Alternate.Name
-Naturalization.Status
-Racial.or.Tribal.Origin
-Nationality
-Record.Number
-Date
-Male.Citizen.Over.21
-Household.Number
-Denied.Voting.Rights
-
+# making a notes column part 1
+# to add into NOTES
 ```{r NEW columns to put into Notes.Other.Information}
 
-final_join <- final_join %>% unite(new_var,  Birth.Month,
+notestest <- final_join 
+
+
+# step 1 select the columns for notes: 
+notestest <- notestest %>% 
+  select( Birth.Month,
+Years.Married ,	
+Number.of.Children.Born,
+Number.of.Children.Living,	
+Years.in.US,
+Employment.Field, 
+Alternate.Name, 
+Male.Citizen.Over.21 , 
+Record.Number, 
+Naturalization.Status,
+Racial.or.Tribal.Origin, 
+Nationality,  
+Birth.Month,
+Date, 
+Household.Number, 
+Denied.Voting.Rights, 		
+Marriage.Date,
+Marriage.Place,
+Child,
+Naturalization.Year) 
+
+Result <- notestest
+# step 2 change the columns to column name: column value
+Result[] <- Map(paste, names(Result), notestest, sep = ':')
+
+# step 3 remove values from columns that are NA
+Result <- data.frame(lapply(Result, function(x) {
+                  replace(x, grep(":NA", x), NA)
+              }))
+# step 4 paste the columns into one generic notes column 
+Result <- Result %>% unite(Notes.Other.Information2,
+                           Birth.Month,
+                           Years.Married,	
+                           Number.of.Children.Born,
+                           Number.of.Children.Living,	
+                          Years.in.US,
+                          Employment.Field, 
+                          Alternate.Name, 
+                          Male.Citizen.Over.21 , 
+                          Record.Number, 
+                          Naturalization.Status,
+                          Racial.or.Tribal.Origin, 
+                          Nationality,  
+                          Birth.Month,
+                          Date, 
+                          Household.Number, 
+                          Denied.Voting.Rights, 		
+                          Marriage.Date,
+                          Marriage.Place,
+                          Child,
+                          Naturalization.Year,sep = "|", na.rm=TRUE)
+
+Result %>% slice(2602) 
+
+# https://stackoverflow.com/questions/41684421/pasting-the-column-name-to-each-value-of-a-dataframe-in-r
+
+# step 3: https://stackoverflow.com/questions/29271549/replace-all-occurrences-of-a-string-in-a-data-frame
+
+```
+
+
+# making a notes column part 2
+# add notes column to preprocess1 export file
+```{r}
+# add notes column to preprocess1 export file 
+
+# step 1: remove columns used in notes from final_join 
+final_join <- final_join %>% 
+  select(!c(Birth.Month,
+                           Years.Married,	
+                           Number.of.Children.Born,
+                           Number.of.Children.Living,	
+                          Years.in.US,
+                          Employment.Field, 
+                          Alternate.Name, 
+                          Male.Citizen.Over.21 , 
+                          Record.Number, 
+                          Naturalization.Status,
+                          Racial.or.Tribal.Origin, 
+                          Nationality,  
+                          Birth.Month,
+                          Date, 
+                          Household.Number, 
+                          Denied.Voting.Rights, 		
+                          Marriage.Date,
+                          Marriage.Place,
+            Child, 
+            Naturalization.Year) )
+
+# step 2 add in the Notes column to final_join from before 
+final_join$Notes.Other.Information2 <- Result$Notes.Other.Information2
+
+
+```
+
+
+post NOTES preprocess2 column :2677 rows and 86 columns  
+
+# total preprocess1 and preprocess2 notes columns: 
+## NOTES preprocess 1
+Cause.of.Death,
+Years.Married,	
+Number.of.Children.Born,
+Number.of.Children.Living,
+Years.in.US,
+Respondent,
+Citizenship,
+Died,
+Eye...Hair.Colour,
+Place.of.Burial,
+Employment.Field,
+Male.Citizen.Over.21,
+Birth.Month,Street.Name,	
+Date.of.Birth,
+FHL.Film.Number.,	
+Reference.ID.,
+Birth.Date,
+Marriage.Date,
+Marriage.Place,
+
+
+## NOTES preprocess 2
+Birth.Month,
 Years.Married ,	
 Number.of.Children.Born,
 Number.of.Children.Living,	
@@ -1389,46 +1502,109 @@ Household.Number,
 Denied.Voting.Rights, 		
 Marriage.Date,
 Marriage.Place,	
-Father.s.Name, 	
-Mother.s.Name, sep = " ") %>% 
-  mutate(new_var = gsub('NA', "", new_var)) %>% 
-  mutate(new_var = gsub('_', "", new_var))%>% 
-  #unite(Notes.Other.Information, NOTES, Other.Information)  %>%
-  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>% 
-  mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>% 
-  unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
-
-final_join
-
-```
 
 
-#check final_join for duplicate columns 
 ```{r}
-# 6 columns not full_joined, double-check
-final_join[,(ncol(final_join)-5):ncol(final_join)] # refers to the 4 last columns
-#colnames(final_join[,(ncol(final_join)-8):ncol(final_join)])
-#corrected, new running total of columns is 100
+# checking new notes columns 
+
+final_join %>% select(Notes.Other.Information, Notes.Other.Information2)
 
 ```
 
-combine REGIMENT and Regt.
 
-into notes
-Burial.Place
+# combine Notes.Other.Information and Notes.Other.Information2
+```{r}
 
-# old to delete columns
-```{r OLD columns to drop}
+final_join$Notes.Other.Information3 <- paste(final_join$Notes.Other.Information, final_join$Notes.Other.Information2, sep='\\')
+
+select(final_join, Notes.Other.Information, Notes.Other.Information2, Notes.Other.Information3) %>% slice(1, 2602)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+#==============================================================
+# delete columns
+#===============================================================
+
+```{r}
+
+# pre column deletion column count of final_join 
+ncol(final_join)
+nrow(final_join)
+```
+2677 rows and 87 columns
+
+# preprocess1 to delete columns
+```{r OLD preprocess1 columns to drop}
 # delete some columns for master data
-final_join <- final_join %>% select(-one_of(c('Widowers', 'Widowers',
-'Brick..Stone..Frame..Log	','Number.of.Stories', 	
-'Number.of.Families.Occupying', 'Horses', 'Cows', 'Livestock.Value.in.Dollars', 'Quantity.of.Land.Attached', 'Name.of.Business', 'Capital.Invested', 'Farm.or.House','Real.Estate.Value', 	'Personal.Estate.Value', 'Native.Tongue', 'Home.Owned.or.Rented', 	'Home.Free.or.Mortgaged', 'House.Owned.or.Rented', 'Value.of.Home', 'Attended.School.or.College', 'Highest.Grade.Completed', 	'Residence.City.in.1935', 	'Live.on.Farm', 	'Employed.for.Pay	', 'Public.Emergency.Work	', 'Seeking.Work', 	'Employment.History	', 'Employment.Details', 	'Duration.of.Unemployment', 	'Class.of.Worker', 	'Employment.Code', 	'Weeks.Worked.in.1939	', 'Income', 	'Income.Other.Sources' )))
+final_join <- final_join %>% 
+  select(-one_of(c('Widowers',
+                   'Widowers',
+                   'Brick..Stone..Frame..Log	','Number.of.Stories', 	
+                   'Number.of.Families.Occupying',
+                   'Horses',
+                   'Cows',
+                   'Livestock.Value.in.Dollars',
+                   'Quantity.of.Land.Attached',
+                   'Name.of.Business',
+                   'Capital.Invested',
+                   'Farm.or.House',
+                   'Real.Estate.Value',
+                   'Personal.Estate.Value',
+                   'Native.Tongue',
+                   'Home.Owned.or.Rented',
+                   'Home.Free.or.Mortgaged',
+                   'House.Owned.or.Rented',
+                   'Value.of.Home',
+                   'Attended.School.or.College',
+                   'Highest.Grade.Completed',
+                   'Residence.City.in.1935', 
+                   'Live.on.Farm',
+                   'Employed.for.Pay	',
+                   'Public.Emergency.Work	',
+                   'Seeking.Work', 
+                   'Employment.History	',
+                   'Employment.Details',
+                   'Duration.of.Unemployment',
+                   'Class.of.Worker', 
+                   'Employment.Code', 
+                   'Weeks.Worked.in.1939	',
+                   'Income',
+                   'Income.Other.Sources',
+                   'Notes.Other.Information', #drop old notes col
+                   'Notes.Other.Information2'))) #drop old notes col
+
+```
+
+
+```{r}
+
+ncol(final_join)
+nrow(final_join)
+```
+
+2677 rows and 77 columns 
+
+
+```{r}
+# rename Notes.Other.Information3 to Notes.Other.Information
+final_join <- final_join %>% plyr::rename(c('Notes.Other.Information3' = 'Notes.Other.Information'))
 
 ```
 
 
 
-#old to delete columns 
+
+#preprocess 1 to delete columns 
 'Widowers',
 'Brick..Stone..Frame..Log	',
 'Number.of.Stories', 	
@@ -1464,9 +1640,55 @@ final_join <- final_join %>% select(-one_of(c('Widowers', 'Widowers',
 'Income.Other.Sources')))
 
 
+#==============================================================
+# delete columns
+#===============================================================
 
-# old 
-```{r OLD columns to add into Notes.Other.Information}
+
+
+
+
+
+
+
+
+
+
+
+# (CAN DISREGARD) old method to compile columns into NOTES column 
+final_join <- final_join %>% 
+  unite(new_var, Birth.Month,
+Years.Married ,	
+Number.of.Children.Born,
+Number.of.Children.Living,	
+Years.in.US,
+Employment.Field, 
+Alternate.Name, 
+Male.Citizen.Over.21 , 
+Record.Number, 
+Naturalization.Status,
+Racial.or.Tribal.Origin, 
+Nationality,  
+Birth.Month,
+Date, 
+Household.Number, 
+Denied.Voting.Rights, 		
+Marriage.Date,
+Marriage.Place,	
+Father.s.Name, 	
+Mother.s.Name, sep = " ") %>% 
+  mutate(new_var = gsub('NA', "", new_var)) %>% 
+  mutate(new_var = gsub('_', "", new_var))%>% 
+  #unite(Notes.Other.Information, NOTES, Other.Information)  %>%
+  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>% 
+  mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>% 
+  unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
+
+final_join
+# (CAN DISREGARD) old method to compile columns into NOTES column 
+
+
+# (CAN DISREGARD) old method of compiling columns into NOTES
 # put these columns together for master data
 final_join <- final_join %>% unite(new_var,  Cause.of.Death,
 Years.Married,	Number.of.Children.Born,Number.of.Children.Living,	Years.in.US,Respondent,Citizenship,Died,
@@ -1478,44 +1700,19 @@ Eye...Hair.Colour,Place.of.Burial,Employment.Field,Male.Citizen.Over.21 ,Birth.M
 
 
 final_join
-```
-
-# to merge together into one column called Notes.Other.Information
-Cause.of.Death,
-Years.Married,	
-Number.of.Children.Born,
-Number.of.Children.Living,	
-Years.in.US,
-Respondent,
-Citizenship,
-Died,
-Eye...Hair.Colour,
-Place.of.Burial,
-Employment.Field,
-Male.Citizen.Over.21 ,
-Birth.Month,Street.Name	,		
-Date.of.Birth,
-FHL.Film.Number.,	
-Reference.ID.,	
-Birth.Date,
-Marriage.Date,
-Marriage.Place,	
-Father.s.Name, 
-Mother.s.Name
-
-
-
-
-
+# (CAN DISREGARD) old method of compiling columns into NOTES
 
 ```{r}
 library(tidyverse)
 library(readr)
 ```
 
-
-
+#======================================================================
+#======================================================================
 # de duplication
+#======================================================================
+#======================================================================
+
 ```{r}
 master <- readxl::read_excel(path="D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\Tableau\\current_master_12_9_20.xlsx")
 #head(master)
@@ -1584,6 +1781,8 @@ final_join <- filter(final_join, !(unique_id %in% dupesunique))
 
 # https://stackoverflow.com/questions/5831794/opposite-of-in-exclude-rows-with-values-specified-in-a-vector
 ```
+
+
 ```{r}
 # check removal of duplicated entries 
 
@@ -1605,12 +1804,15 @@ final_join
 
 ```
 
+
+ready for export: 2614 rows 79 columns 
+
 #export the data 
 ```{r}
 #final_join$Death.Place <- as.character(final_join$Death.Place)
 #final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
 #export to csv
-write.csv(x=final_join, file="preprocessfinal1_27_2021.csv")
+write.csv(x=final_join, file="preprocess2final2_16_2021.csv")
 
 
 
@@ -1650,11 +1852,4 @@ file 1861 Canada Cleaned OCR for selected Ontario
 - sheet Windsor
 - rows added 0
 - rows to be cleaned 8:1000
-
-
-
-
-
-
-
 

@@ -12,61 +12,6 @@ library(tidyverse)
 library(readr)
 ```
 
-```{r}
-#master <- readxl::read_excel(path="D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\data\\current_master_2020-Oct-7.xlsx")
-#head(master)
-
-```
-```{r}
-#dim(master)
-```
-
-```{r}
-#colnames(master)
-```
-
-#clean the master col names 
-```{r}
-#colnames(master) <- c("unique_id", "source", "census_year", "state_province", "county", "place",  "household_joint_id", "joint_id_for_matched_records", "last_name", "first_name", "calculated_birth_year", "age", "sex", "color_race_or_ethnicity", "lat", "long", "address", "marital", "ward", "roll_or_sheet_number", "profession", "notable", "street", "place_of_birth", "religion", "note_these_only_apply_to_narrative_answers", "living_with_male_family", "living_with_female_family", "living_with_male_nonfamily", "living_with_female_nonfamily", "cannot_read", "cannot_write", "sick", "relation_to_head_of_household", "year_of_immigration_to_canada_if_an_immigrant", "date_of_death", "cause_of_death", "rank_military", "enlistment_date", "enlistment_place", "date_mustered_out", "year_of_this_record", "last_name_match", "first_name_match", "census_year_match", "total_of_matches")
-#head(master)
-```
-
-```{r}
-# new data preprocess
-#point to specific sheet
-
-#preprocess <- readxl::read_excel(path="D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\preprocess.xlsx", sheet=2)
-#head(preprocess)
-
-
-```
-
-
-```{r}
-#colnames(preprocess)
-#head(master)
-```
-
-
-preprocess %>% 
-  select("Source", "State", "County", "County", "City", "Household Joint ID", "Joint ID for Matched Records", "Surname", "Given Name", "Estimated Birth Year", "Age", "Gender", "Race", "Street Address", "Marital Status", "Occupation", "Dwelling Number", "Birthplace", "Able to Read and Write", "Veteran", "War") 
-
-
-
-preprocess$Source <- gsub(' census', '', preprocess$Source)
-head(preprocess)
-
-
-
-preprocess <- preprocess %>% 
-  select("unique_id", "Source", "State", "County", "County", "City", "Household Joint ID", "Joint ID for Matched Records", "Surname", "Given Name", "Estimated Birth Year", "Age", "Gender", "Race", "Street Address", "Marital Status", "Occupation", "Dwelling Number", "Birthplace", "Able to Read and Write", "Veteran", "War") 
-preprocess
-
-colnames(preprocess) <- c("census_year", "state_province", "county", "place", "household_join_id", "joint_id_for_matched_records", "last_name", "first_name", "calculated_birth_year", "age", "sex", "color_race_or_ethnicity", "address", "marital", "profession", "street", "place_of_birth", "cannot_read", "rank_military", "enlistment_place" )
-head(preprocess)
-
-
-
 
 
 ==============================================================
@@ -113,7 +58,7 @@ library(tidyr)
 
 #takes specific rows from excel sheet
 wallace <- read.xlsx("D:\\Libraries 1\\Documents\\QMSS\\Data For Good\\DataPreprocessingtoMaster\\Need to be Formatted for Master List(1).xlsx", "Sheet1", rowIndex = 4:12, colIndex = 1:25)
-
+#wallace <- wallace %>% plyr::rename(c("source" = "Source", "Birthplace" = "Birth.Place", "Notes" = "NOTES", "Estimated.Birth.Year" = "Birth.Year", 'Naturalization' = 'Naturalization.Status', 'Can.Read' = 'Able.to.read', 'Can.Write' = 'Able.to.Write', 'Can.Speak.English' = 'Able.to.Speak.English', 'Father' = 'Father.s.Name', 'Mother' = 'Mother.s.Name', 'Birth.Date' = 'Birth.Year', 'Death.Place' = 'Death.Place.', 'Sex' = 'Gender', 'First name'= 'Given.Name', 'Last name' = 'Surname', 'State' = 'State.Province', 'Province' = 'State.Province', 'State' = 'State.Province', 'Father.s.Birthplace' = 'Father.s.Birth.Place', 'Mother.s.Birthplace' = 'Mother.s.Birth.Place', "STREET" = "Street.Address" ))
 wallace
 ```
 
@@ -1785,6 +1730,16 @@ filter(final_join, Child == "Calvin Austin Talbot")
 ```
 
 
+#===============================
+# End of part 1 data merge
+#===============================
+
+
+
+
+
+
+
 
 
 #===============================
@@ -1799,6 +1754,14 @@ final_join <- final_join %>% select(-one_of(c('Widowers', 'Widowers',
 'Number.of.Families.Occupying', 'Horses', 'Cows', 'Livestock.Value.in.Dollars', 'Quantity.of.Land.Attached', 'Name.of.Business', 'Capital.Invested', 'Farm.or.House','Real.Estate.Value', 	'Personal.Estate.Value', 'Native.Tongue', 'Home.Owned.or.Rented', 	'Home.Free.or.Mortgaged', 'House.Owned.or.Rented', 'Value.of.Home', 'Attended.School.or.College', 'Highest.Grade.Completed', 	'Residence.City.in.1935', 	'Live.on.Farm', 	'Employed.for.Pay	', 'Public.Emergency.Work	', 'Seeking.Work', 	'Employment.History	', 'Employment.Details', 	'Duration.of.Unemployment', 	'Class.of.Worker', 	'Employment.Code', 	'Weeks.Worked.in.1939	', 'Income', 	'Income.Other.Sources' )))
 
 ```
+
+#===============================
+# master column delete
+#===============================
+
+
+
+
 ```{r}
 
 # extract Child names to add as new rows
@@ -1829,36 +1792,147 @@ uniq
 ```
 
 
+# making a notes column 
+# to add into NOTES
+```{r NEW columns to put into Notes.Other.Information}
 
+notestest <- final_join 
+#notestest <- notestest %>% select(Notes.Other.Information, Naturalization.Year)
+
+# step 1 select the columns for notes: 
+notestest <- notestest %>% 
+  select(Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, 	
+                                   Child
+                                   ) 
+
+Result <- notestest
+
+# Step 2 get rid of values that are NA
+#replace(Result, Result[grepl('NA', Result$new_var), ], NA )
+Result <- Result %>% 
+  mutate_all(~str_replace_na(., "")) 
+
+#Result %>% 
+  #mutate_all(~str_replace_na(., "")) %>% 
+  #mutate(Cause.of.Death = na_if(Cause.of.Death, 'Cause.of.Death:NA'))
+
+Result %>% unite(Notes.Other.Information,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, sep = "|", na.rm=TRUE)
+
+# step 2 change the columns to column name: column value
+Result[] <- Map(paste, names(Result), notestest, sep = ':')
+
+#as.data.frame(replace(Result$Marriage.Date, endsWith(Result$Marriage.Date, "NA"), NA)) %>% magrittr::set_colnames(c("Marriage.Date"))
+
+# step 3 remove values from columns that are NA
+Result <- data.frame(lapply(Result, function(x) {
+                  replace(x, grep(":NA", x), NA)
+              }))
+
+
+
+# step 4 paste the columns into one generic notes column 
+Result <- Result %>% unite(Notes.Other.Information,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place,
+                           Child,
+                           sep = "|", na.rm=TRUE)
+
+# https://stackoverflow.com/questions/41684421/pasting-the-column-name-to-each-value-of-a-dataframe-in-r
+
+# step 3: https://stackoverflow.com/questions/29271549/replace-all-occurrences-of-a-string-in-a-data-frame
+
+```
+
+https://stackoverflow.com/questions/13673894/suppress-nas-in-paste
+https://stackoverflow.com/questions/41684421/pasting-the-column-name-to-each-value-of-a-dataframe-in-r
+
+
+# making a notes column part 2
+# add notes column to preprocess1 export file
 ```{r}
-# put these columns together for master data
-final_join <- final_join %>% unite(new_var,  Cause.of.Death,
-Years.Married,	Number.of.Children.Born,Number.of.Children.Living,	Years.in.US,Respondent,Citizenship,Died,
-Eye...Hair.Colour,Place.of.Burial,Employment.Field,Male.Citizen.Over.21 ,Birth.Month,Street.Name	,		Date.of.Birth,FHL.Film.Number.,	Reference.ID.,	Birth.Date,Marriage.Date,Marriage.Place,	Father.s.Name, 	Mother.s.Name, sep = " ") %>% mutate(new_var = gsub('NA', "", new_var)) %>% mutate(new_var = gsub('_', "", new_var))%>% unite(Notes.Other.Information, NOTES, Other.Information)  %>% mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>% mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>% unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
+# add notes column to preprocess1 export file 
 
-#https://stackoverflow.com/questions/39997273/r-combine-several-gsub-function-in-a-pipe
+# step 1: remove columns used in notes from final_join 
+final_join <- final_join %>% 
+  select(!c(Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place, 
+            Child) )
 
-#https://stackoverflow.com/questions/15877388/print-one-column-of-data-frame-with-row-names
-
-
+# step 2 add in the Notes column to final_join from before
+final_join$Notes.Other.Information <- Result$Notes.Other.Information
 final_join
 ```
-
-```{r}
-#filter(uniq, Given.Name == 'Samuel D' )
-#filter(final_join, Given.Name == 'Samuel D' )
-
-```
-
-
-
-```{r}
-# full_join child data to final_join 
-#full_join(final_join, uniq) %>% filter(Given.Name =='Samuel D' )
-#merge(df1, df2, by = "col1", all = TRUE)
-
-```
-
 
 #update unique_id
 ```{r}
@@ -1879,11 +1953,68 @@ final_join
 #final_join$Death.Place <- as.character(final_join$Death.Place)
 #final_join <- data.frame(lapply(final_join, as.character), stringsAsFactors = FALSE)
 #export to csv
-#write.csv(x=final_join, file="preprocessfinal12_08_2020.csv")
+write.csv(x=final_join, file="preprocess1final2_16_2021.csv")
 
 
 
 ```
+
+exporting 2551 rows and 78 columns with revised notes column ^^^^^
+
+
+#(CAN DISREGARD) OLD METHOD FOR NOTES COLUMN put these columns together for master data
+final_join <- final_join %>% unite(new_var,  
+                                   Cause.of.Death,
+                                   Years.Married,	
+                                   Number.of.Children.Born,
+                                   Number.of.Children.Living,
+                                   Years.in.US,
+                                   Respondent,
+                                   Citizenship,
+                                   Died,
+                                   Eye...Hair.Colour,
+                                   Place.of.Burial,
+                                   Employment.Field,
+                                   Male.Citizen.Over.21,
+                                   Birth.Month,Street.Name,	
+                                   Date.of.Birth,
+                                   FHL.Film.Number.,	
+                                   Reference.ID.,
+                                   Birth.Date,
+                                   Marriage.Date,
+                                   Marriage.Place,
+                                   Father.s.Name, 	
+                                   Mother.s.Name, sep = " ") %>%
+  mutate(new_var = gsub('NA', "", new_var)) %>% 
+  mutate(new_var = gsub('_', "", new_var)) %>%
+  unite(Notes.Other.Information, NOTES, Other.Information)  %>%
+  mutate(Notes.Other.Information = gsub('NA', "", Notes.Other.Information)) %>%
+  mutate(Notes.Other.Information = gsub('_', "", Notes.Other.Information)) %>%
+  unite(Notes.Other.Information, Notes.Other.Information, new_var, sep = " ")
+
+#https://stackoverflow.com/questions/39997273/r-combine-several-gsub-function-in-a-pipe
+
+#https://stackoverflow.com/questions/15877388/print-one-column-of-data-frame-with-row-names
+
+
+final_join
+
+
+```{r}
+#filter(uniq, Given.Name == 'Samuel D' )
+#filter(final_join, Given.Name == 'Samuel D' )
+
+```
+
+
+
+```{r}
+# full_join child data to final_join 
+#full_join(final_join, uniq) %>% filter(Given.Name =='Samuel D' )
+#merge(df1, df2, by = "col1", all = TRUE)
+
+```
+
 
 
 # to do:
